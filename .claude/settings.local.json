@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "Bash(for i in {1..61})",
+      "Bash(do echo \"p.$i\")",
+      "Bash(done)",
+      "Bash(while read page)",
+      "Bash(do if ! grep -q \"\\[$page\\]\" \"G:\\My Drive\\Projects\\2025\\presidential\\02_extract\\extract_Jeannette_Jara.txt\")",
+      "Bash(then echo \"Missing: $page\")",
+      "Bash(fi)",
+      "Bash(do if ! grep -q \"\\[p\\.$i\\]\" \"G:\\My Drive\\Projects\\2025\\presidential\\02_extract\\extract_Jeannette_Jara.txt\")",
+      "Bash(then echo \"Missing: p.$i\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
