@@ -20,24 +20,28 @@ Con ayuda de Claude se creo comando y standard a seguir para extraer contenido d
 
 Estos se utilizaron con Claude Code para realizar iteraciones incrementales en la extraccion hasta llegar a una evaluacion de >8 en escala de 10 en la extraccion del programa.
 
-## Programas
-### Extraccion
+## Extraccion
 ```claude code
 1.execute command @claude\commands\plan_extractor.md considering candidate {candidate_here}, text presidential plan is @01_programas\ss_20250928\txt\Programa_{candidate_here}_ss_20250928.txt
 2.perfect, now perform the "análisis adicional de las páginas restantes" to complete the extraction according to standards 
 3.do a final check for missing items on the extract according to the standard and proceed with changes if any required
 ```
 
-### Refinamiento
+## Refinamiento
+### Create
 ```claude code
 1.ok now considering the files created at /02_extract create a file called extract_refinement_standard at folder
 /claude/standards which describes a common standard to present the information in /02_extract files in a normalized way. The
 standard should allow to specify all the contents of the files in /02_extract folder in a normalized way.
 2.do a final check for missing items on the standard proceed with changes if any required
 ```
-
+### Execute
 ```claude code
 1.execute command @claude\commands\extract_refinement.md considering candidate {candidate_here}, text presidential extract is @02_extract\extreact_{candidate_here}.txt
 2.do a final check for missing items on the refined extract according to the standard and proceed with changes if any required
 ```
+
+## Agents
+La creacion de agentes se hizo completamente utilizando Claude Opus 4.1, enfocandose en espectros politicos, casos de personas representativas y en formas de evaluacion de medidas y factibilidad de estas.
+
 
