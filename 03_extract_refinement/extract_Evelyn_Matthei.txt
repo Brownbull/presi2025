@@ -2,596 +2,339 @@
 ## Programa Presidencial 2026-2030 - Unión Demócrata Independiente
 ### "Un país donde cada esfuerzo valga la pena"
 ### Septiembre 2025
-
 ---
-
 ## VISION_AND_PRINCIPLES
-
 **Medida 1: Recuperar la tranquilidad y la confianza entre las personas desde orden y respeto a la ley [p.148]**
-
 **Medida 2: Construir una sociedad cohesionada donde la responsabilidad compartida permita que los niños crezcan sanos, los jóvenes se proyecten hacia el futuro y las familias puedan formarse y prosperar [p.222-225]**
-
 **Medida 3: Implementar proyecto de país fundado en el realismo, la responsabilidad, la experiencia y el largo plazo, desde una mirada reformista, transversal y mayoritaria [p.157-158]**
-
 ### Marco de Tres Horizontes Temporales
 **Medida 4: Garantizar una vida familiar sin miedo como urgencia inmediata [p.172]**
-
 **Medida 5: Asegurar una vida vivible para todos como necesidad fundamental [p.195]**
-
 **Medida 6: Hacer que el esfuerzo valga la pena como objetivo trascendente [p.219]**
-
 ### Principios de Gobierno
 **Medida 7: Establecer orden y seguridad como punto de partida para todo lo demás [p.174-184]**
-
 **Medida 8: Mantener Estado al servicio de las personas con institucionalidad que habilite, acompañe y no asfixie [p.202-205]**
-
 **Medida 9: Premiar el esfuerzo y no castigar la iniciativa, respetar la libertad pero también garantizar certezas [p.204-205]**
-
 ---
-
 ## SECURITY_AND_PUBLIC_ORDER
-
 ### Estrategia Integral de Seguridad
 **Medida 10: Implementar Estrategia Integral de Seguridad coordinando todas las instituciones del Estado: policías, FFAA, Gendarmería, Aduanas, SII, ANI, Ministerio Público y ministerios sectoriales [p.273-276]**
-
 **Medida 11: Realizar inversión histórica de US$2.500 millones para fortalecer dotación policial, equipamiento, tecnología y programas de prevención [p.439-442]**
-
 ### Fuerzas Policiales y de Seguridad
 **Medida 12: Aumentar en 10.000 la dotación de carabineros patrullando en las calles [p.561-563]**
-
 **Medida 13: Establecer presencia policial permanente en los 40 barrios más peligrosos tomados por el narco [p.564-566]**
-
 **Medida 14: Crear una fuerza especial de Gendarmería para cárceles de alta seguridad con entrenamiento especializado y sin posibilidad de sindicalización [p.504-508]**
-
 **Medida 15: Traspasar Gendarmería a depender del Ministerio de Seguridad [p.506-507]**
-
 ### Inteligencia y Tecnología
 **Medida 16: Desarrollar capacidad operativa en inteligencia 24/7 con mayor personal y mejor coordinación entre ANI, direcciones de inteligencia de FFAA, policías y servicios del Estado [p.449-452]**
-
 **Medida 17: Implementar Política Nacional de Inteligencia fortaleciendo a la ANI con más presupuesto, personal especializado y despliegue en todas las regiones [p.463-466]**
-
 **Medida 18: Instalar cámaras inteligentes con reconocimiento facial, pórticos de lectura de patentes, drones de largo alcance, tecnología satelital [p.473-477]**
-
 ### Sistema Penitenciario
 **Medida 19: Construir cinco nuevas cárceles, tres de alta seguridad, con diseños industriales modulares reduciendo plazos a tres años [p.495-498]**
-
 **Medida 20: Habilitar 32.000 nuevas plazas en recintos existentes y expulsar a 3.000 extranjeros condenados [p.497-498]**
-
 **Medida 21: Implementar sistema estricto de clasificación y redistribución de internos con regímenes de segregación reforzada para jefes criminales sin beneficios penitenciarios [p.499-503]**
-
 ### Control Fronterizo
 **Medida 22: Crear una Policía Militar Fronteriza entregando a las FFAA misión específica de protección fronteriza [p.524-528]**
-
 **Medida 23: Instalar barreras físicas, sensores y cámaras en principales rutas de ingreso clandestino [p.529-535]**
-
 **Medida 24: Construir dos centros de expulsión con tecnología biométrica [p.536-539]**
-
 **Medida 25: Eliminar privilegios a migrantes irregulares y aplicar sanciones a empleadores que los contraten [p.540-544]**
-
 ### Control Territorial
 **Medida 26: Implementar Sistema Nacional de Seguridad Rural para combatir crimen organizado, abigeato y violencia en zonas agrícolas [p.567-575]**
-
 **Medida 27: Ejecutar Estrategia Integral contra el Terrorismo en Macrozona Sur basada en cuatro pilares: prevenir, proteger, perseguir y preparar respuesta [p.576-583]**
-
 ### Reforma del Sistema de Justicia
 **Medida 28: Dividir gobierno judicial en tres organismos autónomos: nombramientos, administración de recursos y formación [p.636-639]**
-
 **Medida 29: Crear Servicio Nacional de Acceso a la Justicia y Defensoría de las Víctimas [p.640-641]**
-
 **Medida 30: Implementar nuevo Código Procesal Civil con procedimientos simplificados [p.642-643]**
-
 **Medida 31: Crear Tribunales de Ejecución de Penas y centro de monitoreo de medidas cautelares [p.647-648]**
-
 ### Medidas Anticorrupción
 **Medida 32: Realizar reforma profunda al Ministerio Público con Fiscalía Supraterritorial y Fiscalía de Asuntos Internos autónoma [p.608-613]**
-
 **Medida 33: Establecer equipos ECOH especializados en crimen organizado en todas las fiscalías regionales [p.615-621]**
-
 **Medida 34: Implementar protección a detectives, agentes encubiertos, testigos con identidad ficticia y anonimato de jueces [p.614-621]**
-
 ### Defensa
 **Medida 35: Aplicar plenamente ley N° 21.174 de financiamiento estratégico de la Defensa [p.659-661]**
-
 **Medida 36: Modernizar Servicio Militar y Soldado de Tropa Profesional [p.664-665]**
-
 **Medida 37: Desarrollar economía desde industria de defensa: FAMAE, ASMAR y ENAER [p.666-668]**
-
 ---
-
 ## ECONOMY_AND_EMPLOYMENT
-
 ### Metas de Crecimiento
 **Medida 38: Alcanzar meta de crecer al 4% anual para el cuarto año de gobierno [p.300, p.725]**
-
 **Medida 39: Crear 1.000.000 de empleos formales de calidad [p.305]**
-
 **Medida 40: Ser el gobierno del empleo [p.690]**
-
 ### Reforma del Sistema Tributario
 **Medida 41: Bajar inmediatamente impuesto corporativo al 23% (promedio OCDE) con meta de llegar al 18% en diez años [p.733-734]**
-
 **Medida 42: Rebajar impuesto a las Pymes al 10% [p.734]**
-
 **Medida 43: Regresar a régimen integrado de impuesto a la renta para incentivar ahorro y reinversión [p.735-736]**
-
 **Medida 44: Ofrecer contratos de invariabilidad tributaria de hasta 20 años para grandes inversiones [p.737-738]**
-
 ### Disciplina Fiscal
 **Medida 45: Recortar US$8 mil millones en gastos mal asignados en cuatro años [p.739]**
-
 **Medida 46: Retomar Presupuesto Base Cero para justificar cada gasto [p.740-741]**
-
 **Medida 47: Implementar crecimiento cero del empleo público, reducción 50% de cargos de confianza [p.742-744]**
-
 **Medida 48: Revisar 700 programas del Estado para eliminar duplicaciones [p.745-747]**
-
 ### Reforma Regulatoria
 **Medida 49: Eliminar la "permisología" con revisión total del sistema de permisos sectoriales [p.748-753]**
-
 **Medida 50: Crear Unidad en Presidencia para vías rápidas de proyectos de US$100 millones o más [p.755-759]**
-
 **Medida 51: Fortalecer SEA con autonomía y rigor técnico, reformar CMN [p.760-766]**
-
 ### Apoyo al Emprendimiento
 **Medida 52: Implementar "Pase Pyme": permiso provisorio de un año para nuevas empresas [p.768-770]**
-
 **Medida 53: Crear Hub de Inversiones en Innovación con nuevo marco legal para capital de riesgo [p.773-775]**
-
 **Medida 54: Permitir que AFP inviertan en fondos de venture capital [p.774-775]**
-
 ### Políticas de Empleo
 **Medida 55: Otorgar subsidio de $200.000 por seis meses a mujeres que consigan empleo formal [p.831-832]**
-
 **Medida 56: Avanzar hacia sala cuna universal modificando indicaciones del proyecto [p.826-828]**
-
 **Medida 57: Reformar SENCE alineando capacitación con demandas productivas [p.841-846]**
-
 **Medida 58: Implementar jornadas laborales anualizadas y por horas con acceso a seguridad social [p.833-840]**
-
 ### Transferencia Directa de Ingresos
 **Medida 59: Implementar impuesto negativo al ingreso o transferencias directas automáticas a personas de bajos ingresos con empleo formal [p.776-784]**
-
 ### Formalización del Mercado Laboral
 **Medida 60: Crear ventanilla única para inscripción laboral y tributaria [p.818-821]**
-
 **Medida 61: Condicionar permisos al pago de cotizaciones de trabajadores [p.820-821]**
-
 **Medida 62: Modificar políticas sociales para no incentivar informalidad [p.822-824]**
-
 ### Control del Fraude en Licencias Médicas
 **Medida 63: Limitar número de licencias por médico, usar IA para fiscalización [p.848-850]**
-
 **Medida 64: Aplicar sanciones penales para quienes compren licencias falsas [p.852-853]**
-
 **Medida 65: Crear Seguro por Incapacidad Laboral Temporal universal [p.854-855]**
-
 ---
-
 ## HEALTH
-
 ### Reforma de Atención Primaria
 **Medida 66: Implementar Programa APS te asiste organizando canales de atención presencial, remota y domicilio [p.1137-1143]**
-
 **Medida 67: Desarrollar telemedicina para agilizar consultas y referencias a especialistas [p.1147-1149]**
-
 **Medida 68: Ejecutar Plan de infraestructura: 100 proyectos construidos para 2030, 100 en construcción y 100 en diseño [p.1150-1152]**
-
 ### Infraestructura Hospitalaria
 **Medida 69: Implementar Plan 30-30-30 para 2030: terminar 30 nuevos hospitales, 30 en construcción y 30 en diseño [p.1154-1156]**
-
 **Medida 70: Publicar Índice Nacional de Desempeño trimestralmente [p.1157-1160]**
-
 **Medida 71: Coordinar exámenes en un solo día evitando suspensión de cirugías [p.1161-1166]**
-
 ### Estrategia Oncológica
 **Medida 72: Declarar alerta sanitaria oncológica desde día 1 [p.1168-1171]**
-
 **Medida 73: Extender horarios hasta 22:00 horas en pabellones oncológicos [p.1172-1176]**
-
 **Medida 74: Implementar mamógrafo móvil por provincia bajando edad recomendada a 40 años [p.1181-1183]**
-
 **Medida 75: Actualizar listado de medicamentos oncológicos incorporando 10 nuevos principios activos [p.1184-1187]**
-
 ### Acceso a Medicamentos
 **Medida 76: Implementar nueva cobertura AUGE/GES de medicamentos en 2026 [p.1195-1199]**
-
 **Medida 77: Modernizar CENABAST como servicio especializado en compra de medicamentos [p.1201-1203]**
-
 **Medida 78: Entregar medicamentos crónicos en farmacias de barrio o a domicilio [p.1204-1206]**
-
 ### Salud Mental
 **Medida 79: Aumentar progresivamente centros COSAM [p.1208-1209]**
-
 **Medida 80: Fortalecer telepsiquiatría y telepsicología vía Hospital Digital [p.1210-1212]**
-
 **Medida 81: Implementar pesquisa precoz en jardines y colegios con intervención inmediata [p.1213-1215]**
-
 ---
-
 ## EDUCATION
-
 ### Primera Infancia
 **Medida 82: Ampliar cobertura con participación privada en salas cuna y jardines infantiles [p.1240-1243]**
-
 **Medida 83: Nivelar aportes del Estado entre JUNJI, VTF e Integra [p.1242-1243]**
-
 **Medida 84: Disminuir deserción de educadores y técnicos de párvulos [p.1244-1245]**
-
 ### Metas de Aprendizaje
 **Medida 85: Lograr que 100% de niños aprendan a leer en primero básico [p.1247-1249]**
-
 **Medida 86: Asegurar manejo de operaciones básicas matemáticas antes de cuarto básico [p.1248-1249]**
-
 **Medida 87: Proporcionar apoyo personalizado mediante alianzas público-privadas [p.1250-1253]**
-
 ### Gestión Escolar
 **Medida 88: Modificar Ley SEP para uso más flexible de recursos [p.1254-1255]**
-
 **Medida 89: Crear escuelas de reingreso para que estudiantes terminen cuarto medio [p.1261-1262]**
-
 **Medida 90: Establecer centros de apoyo para estudiantes neurodivergentes y con NEE [p.1266-1270]**
-
 ### Seguridad Escolar
 **Medida 91: Fortalecer autonomía directiva en aplicación de protocolos de convivencia [p.1272-1273]**
-
 **Medida 92: Implementar programas de prevención de acoso y violencia escolar [p.1277-1279]**
-
 **Medida 93: Recuperar Liceos Emblemáticos y apoyo a escuelas en entornos criminales [p.1280-1281]**
-
 ### Elección Educacional
 **Medida 94: Modificar Sistema de Admisión Escolar permitiendo selección por mérito desde séptimo básico [p.1283-1285]**
-
 **Medida 95: Fortalecer red de Liceos Bicentenarios y colegios de alta exigencia [p.1286-1287]**
-
 ### Educación Pública
 **Medida 96: Reformar SLEP con autonomía en gestión de recursos y aprendizajes [p.1288-1295]**
-
 **Medida 97: Reducir burocracia y fortalecer autonomía de directores [p.1296-1299]**
-
 ### Educación Técnica
 **Medida 98: Crear red de liceos técnicos de excelencia con infraestructura moderna [p.1301-1303]**
-
 **Medida 99: Expandir modelo de administración delegada [p.1304-1305]**
-
 **Medida 100: Establecer Consejos de Inserción Laboral locales para prácticas y educación dual [p.1306-1307]**
-
 ### Educación Superior
 **Medida 101: Sustituir CAE por crédito blando sin intermediación bancaria [p.1310-1312]**
-
 **Medida 102: Mejorar vinculación con sector productivo especialmente en regiones [p.1308-1309]**
-
 ---
-
 ## HOUSING
-
 ### Metas Habitacionales
 **Medida 103: Entregar 400.000 nuevos accesos a viviendas redefiniendo vivienda de interés público hasta 4.500 UF [p.1337-1343]**
-
 **Medida 104: Realizar 400.000 mejoramientos entregando 100.000 soluciones por año [p.1353-1354]**
-
 ### Mecanismos de Acceso
 **Medida 105: Ofrecer créditos con Pie Cero para familias jóvenes [p.1345-1346]**
-
 **Medida 106: Implementar garantía estatal tipo Fogape para acceso a crédito hipotecario [p.1347-1349]**
-
 **Medida 107: Eximir transitoriamente IVA en primeras viviendas [p.1351-1352]**
-
 ### Política de Suelo
 **Medida 108: Crear Agencias de Ciudad para coordinar actores públicos [p.1359-1360]**
-
 **Medida 109: Priorizar terrenos públicos en desuso para proyectos habitacionales [p.1364-1371]**
-
 **Medida 110: Establecer línea especial de financiamiento para viviendas cerca de transporte público [p.1372-1377]**
-
 ### Desarrollo Urbano
 **Medida 111: Ejecutar 20 grandes obras urbanas y recuperación de barrios históricos [p.1378-1382]**
-
 **Medida 112: Crear subcentros con servicios básicos en barrios deteriorados [p.1379-1380]**
-
 ### Preparación para Emergencias
 **Medida 113: Establecer Consejo Nacional con equipos regionales y Fondo de Emergencias Habitacionales [p.1383-1388]**
-
 **Medida 114: Desarrollar planes comunales con voluntarios capacitados [p.1386-1388]**
-
 ### Asentamientos Informales
 **Medida 115: Prevenir nuevas ocupaciones mediante gestión de suelo y alertas tempranas [p.1389-1392]**
-
 **Medida 116: Mejorar condiciones en campamentos sin priorizarlos sobre vía formal [p.1390-1392]**
-
 ---
-
 ## SOCIAL_POLICIES
-
 ### Empoderamiento de la Mujer
 **Medida 117: Implementar Programa "Mujer camina tranquila" con cámaras, botones SOS e iluminación [p.1077-1078]**
-
 **Medida 118: Crear Red de Protección para víctimas de violencia con acompañamiento integral [p.1079-1081]**
-
 **Medida 119: Entregar brazalete de emergencia para mujeres en riesgo vital [p.1087-1089]**
-
 **Medida 120: Destinar 60% de cupos de viviendas bien ubicadas para mujeres con niños o adultos mayores [p.1111-1112]**
-
 ### Empleo Femenino
 **Medida 121: Proporcionar capacitación en trabajos mejor remunerados: minería, programación, IA, finanzas [p.1092-1094]**
-
 **Medida 122: Desarrollar programas CORFO para emprendimientos femeninos [p.1094-1096]**
-
 **Medida 123: Ofrecer mayor flexibilidad en jornadas laborales compatibles con maternidad [p.1103-1105]**
-
 ### Protección de Niños y Jóvenes
 **Medida 124: Crear Red de Parentalidad Local para acompañar crianza [p.1475-1478]**
-
 **Medida 125: Implementar Plan Segunda Oportunidad en todas las regiones [p.1481-1483]**
-
 **Medida 126: Fortalecer sistema de familias de acogida [p.1502-1505]**
-
 **Medida 127: Establecer Sistema de Alerta Territorial y Seguimiento Post-egreso hasta 21 años [p.1519-1522]**
-
 ### Cuidado de Adultos Mayores
 **Medida 128: Crear ventanilla única mayor para acceso centralizado a beneficios [p.1524-1525]**
-
 **Medida 129: Implementar Plan Nacional de Digitalización para personas mayores [p.1526]**
-
 **Medida 130: Desarrollar Sistema de Cuidados Paliativos integral [p.1529-1530]**
-
 **Medida 131: Adaptar subsidios de mejoramiento para accesibilidad [p.1527-1528]**
-
 ### Discapacidad e Inclusión
 **Medida 132: Implementar nueva etapa de Política Nacional de Cuidados [p.1532-1539]**
-
 **Medida 133: Ejecutar Plan Nacional de Accesibilidad coordinando entidades [p.1542-1545]**
-
 **Medida 134: Agilizar gestión de ayudas técnicas del SENADIS [p.1546-1547]**
-
 ### Reinserción Social
 **Medida 135: Desarrollar programas de acompañamiento postpenitenciario siguiendo modelo +R [p.1550-1554]**
-
 **Medida 136: Implementar foco especial en reinserción de mujeres [p.1555-1558]**
-
 **Medida 137: Coordinar bajo Ministerio de Seguridad [p.1559-1560]**
-
 ---
-
 ## STATE_MODERNIZATION
-
 ### Anticorrupción
 **Medida 138: Fortalecer Contraloría con más presupuesto y seguimiento de observaciones [p.1839-1842]**
-
 **Medida 139: Crear plataforma digital única para transparencia institucional [p.1843-1844]**
-
 **Medida 140: Inhabilitar de por vida para condenados por corrupción [p.1845-1849]**
-
 ### Administración Pública
 **Medida 141: Implementar Estatuto Administrativo único basado en mérito [p.1868-1870]**
-
 **Medida 142: Establecer Clave Única como identidad digital principal [p.1874-1877]**
-
 **Medida 143: Crear marco normativo contra conflictos de interés con "período de enfriamiento" [p.1878-1881]**
-
 ### Sistema Político
 **Medida 144: Establecer umbral electoral del 5% para escaños en Congreso [p.1892-1893]**
-
 **Medida 145: Requerir 0,5% del electorado regional para afiliación partidaria [p.1894-1896]**
-
 **Medida 146: Aplicar que parlamentarios que renuncien al partido pierdan el cargo [p.1895-1896]**
-
 ### Eficiencia Fiscal
 **Medida 147: Transformar ChileCompra como plataforma inteligente con IA para detección de riesgos [p.1919-1921]**
-
 **Medida 148: Crear plataforma digital para monitoreo en tiempo real de programas [p.1922-1925]**
-
 **Medida 149: Centralizar el pago de remuneraciones públicas [p.1926-1927]**
-
 ### Descentralización
 **Medida 150: Elaborar Planes Regionales de Desarrollo Estratégico 2026-2030 [p.1949-1951]**
-
 **Medida 151: Perfeccionar Ley de Financiamiento Urbano Compartido [p.1952-1954]**
-
 **Medida 152: Implementar Alta Dirección Pública Municipal [p.1955-1957]**
-
 **Medida 153: Reformar fondo común municipal premiando mejor gestión [p.1961-1964]**
-
 ### Estructura de Gobierno
 **Medida 154: Reducir ministerios al promedio OCDE (19) en tres meses [p.1979-1981]**
-
 **Medida 155: Consolidar Subsecretaría de Desarrollo Regional con del Interior [p.1965-1967]**
-
 ---
-
 ## INFRASTRUCTURE
-
 ### Tráfico y Movilidad
 **Medida 156: Implementar sistemas inteligentes de control de tránsito en capitales regionales [p.1416-1418]**
-
 **Medida 157: Crear Mapa Nacional de Conflictos Viales para priorizar obras [p.1418-1419]**
-
 **Medida 158: Establecer Fondo de Apoyo Regional para proyectos de alto impacto [p.1419-1420]**
-
 ### Transporte Público
 **Medida 159: Implementar flotas monitoreadas con botones de pánico y pagos digitales [p.1421-1422]**
-
 **Medida 160: Construir más líneas de Metro y trenes suburbanos en Santiago [p.1422-1423]**
-
 **Medida 161: Mejorar conectividad marítima y aérea en sur austral [p.1423-1424]**
-
 ### Seguridad Vial
 **Medida 162: Crear Centro Automatizado de Tratamiento de Infracciones para fiscalización [p.1425-1426]**
-
 **Medida 163: Implementar licencias y patentes digitales con validación biométrica [p.1426-1427]**
-
 **Medida 164: Establecer Registro Único de Movilidad integrando datos de vehículos y conductores [p.1427-1429]**
-
 ### Logística
 **Medida 165: Modernizar trenes de carga y crear estaciones multimodales [p.1430-1431]**
-
 **Medida 166: Desarrollar Puerto de Gran Escala en San Antonio [p.1431-1432]**
-
 ### Gestión Digital
 **Medida 167: Crear plataformas digitales únicas para trámites de licencias y permisos [p.1433-1434]**
-
 **Medida 168: Desarrollar Gemelo Digital Nacional de Transporte para planificación [p.1434-1435]**
-
 ### Conectividad Estratégica
 **Medida 169: Mejorar aeropuertos más seguros y modernizar pasos fronterizos [p.1437-1438]**
-
 ---
-
 ## ENVIRONMENT
-
 ### Metas Climáticas
 **Medida 170: Reducir a la mitad emisiones de carbono para 2035 y alcanzar carbono neutralidad en 2050 [p.1645-1648]**
-
 **Medida 171: Electrificar 100% del transporte público en 5-10 años según región [p.1649-1651]**
-
 ### Transición Industrial
 **Medida 172: Lograr recuperación ambiental de zonas industriales en 10 años [p.1632-1633]**
-
 **Medida 173: Implementar certificación "Zonas Circulares" para parques industriales [p.1634-1635]**
-
 **Medida 174: Promover reconversión tecnológica hacia tecnologías limpias [p.1639-1642]**
-
 ### Protección de Ecosistemas
 **Medida 175: Proteger y restaurar ecosistemas para seguridad hídrica [p.1654-1656]**
-
 **Medida 176: Aumentar participación de madera en construcción del 18% al 30% para 2030 [p.1657-1659]**
-
 **Medida 177: Implementar plan nacional de gestión de incendios para reducir eventos en 25% [p.1660-1662]**
-
 ### Resiliencia Urbana
 **Medida 178: Crear espacios públicos multifuncionales que absorban agua de lluvia [p.1664-1665]**
-
 **Medida 179: Promover techos y fachadas verdes para eficiencia energética [p.1669-1670]**
-
 **Medida 180: Fortalecer normativas para proteger humedales urbanos [p.1671-1672]**
-
 ### Economía Circular
 **Medida 181: Desarrollar mercado secundario para compost, biogás y biofertilizantes [p.1674-1675]**
-
 **Medida 182: Implementar plan nacional para clausurar basurales transformándolos en infraestructura verde [p.1676-1677]**
-
 ---
-
 ## FOREIGN_POLICY
-
 ### Principios Estratégicos
 **Medida 183: Mantener autonomía estratégica priorizando capacidad de decisión soberana [p.2002-2007]**
-
 **Medida 184: Sustentar política exterior en principios del derecho internacional [p.2015-2023]**
-
 **Medida 185: Diversificar vínculos políticos y comerciales sin subordinaciones [p.2017-2020]**
-
 ### Comercio y Economía
 **Medida 186: Implementar diversificación estratégica de mercados asegurando cumplimiento de acuerdos [p.2024-2027]**
-
 **Medida 187: Fortalecer desarrollo en ciencia e innovación [p.2026-2027]**
-
 ### Relaciones Regionales
 **Medida 188: Mantener relaciones de respeto con vecinos priorizando seguridad fronteriza y comercio [p.2028-2029]**
-
 **Medida 189: Desarrollar cooperación en seguridad contra crimen organizado transnacional [p.2030-2033]**
-
 **Medida 190: Evitar instrumentalización ideológica de organismos regionales [p.2033-2035]**
-
 ### Compromiso Multilateral
 **Medida 191: Mantener compromiso activo con sistema multilateral coordinando con países afines [p.2036-2039]**
-
 **Medida 192: Liderar lucha contra cambio climático buscando financiamiento y tecnología [p.2040-2042]**
-
 **Medida 193: Reforzar infraestructura antártica y cooperación científica [p.2042-2044]**
-
 ---
-
 ## INSTITUTIONAL_REFORMS
-
 ### Nuevas Instituciones
 **Medida 194: Crear Unidad de Cumplimiento (UNICOT) para crimen organizado [p.443-448]**
-
 **Medida 195: Establecer Policía Militar Fronteriza [p.524-528]**
-
 **Medida 196: Crear Servicio Nacional de Acceso a la Justicia [p.640-641]**
-
 **Medida 197: Establecer Defensoría de las Víctimas [p.640-641]**
-
 **Medida 198: Crear Agencias de Ciudad [p.1359-1360]**
-
 **Medida 199: Establecer Consejo de los Pueblos Indígenas [p.1723-1725]**
-
 ### Instituciones Reformadas
 **Medida 200: Reformar Ministerio Público con Fiscalía Supraterritorial [p.608-613]**
-
 **Medida 201: Dividir gobierno judicial en tres organismos [p.636-639]**
-
 **Medida 202: Traspasar SENCE bajo Ministerio de Economía [p.841-846]**
-
 **Medida 203: Transferir Gendarmería bajo Ministerio de Seguridad [p.506-507]**
-
 **Medida 204: Reformar SLEP con mayor autonomía [p.1288-1295]**
-
 ### Instituciones Eliminadas/Consolidadas
 **Medida 205: Reducir ministerios de 25 al promedio OCDE [p.1979-1981]**
-
 **Medida 206: Fusionar Ministerio del Deporte con Instituto Nacional [p.1593-1595]**
-
 **Medida 207: Consolidar subsecretarías regionales [p.1965-1967]**
-
 ---
-
 ## QUANTIFIED_COMMITMENTS
-
 ### Compromisos de Inversión
 **Medida 208: Invertir US$2.500 millones en seguridad [p.439]**
-
 **Medida 209: Recortar US$8 mil millones en gastos [p.739]**
-
 ### Metas Numéricas
 **Medida 210: Alcanzar 4% crecimiento anual [p.300, p.725]**
-
 **Medida 211: Crear 1.000.000 empleos nuevos [p.305]**
-
 **Medida 212: Aumentar 10.000 carabineros adicionales [p.561]**
-
 **Medida 213: Entregar 400.000 nuevas viviendas [p.1338]**
-
 **Medida 214: Realizar 400.000 mejoramientos habitacionales [p.1353]**
-
 **Medida 215: Lograr 100% lectura en primero básico [p.1247]**
-
 **Medida 216: Incrementar 50% producción salmón para 2030 [p.920]**
-
 **Medida 217: Forestar 25.000 hectáreas anuales [p.925]**
-
 ### Metas de Infraestructura
 **Medida 218: Construir 5 nuevas cárceles [p.495]**
-
 **Medida 219: Habilitar 32.000 nuevas plazas carcelarias [p.497]**
-
 **Medida 220: Construir 100 CESFAMs para 2030 [p.1151]**
-
 **Medida 221: Construir 30-30-30 hospitales para 2030 [p.1154]**
-
 **Medida 222: Ejecutar 20 grandes obras urbanas [p.1378]**
-
 ### Compromisos de Tiempo
 **Medida 223: Completar construcción cárceles en 3 años [p.496]**
-
 **Medida 224: Alcanzar metas de crecimiento en 4 años [p.300]**
-
 **Medida 225: Implementar nueva cobertura medicamentos en 2026 [p.1195]**
-
 **Medida 226: Completar objetivos de infraestructura sanitaria en 2030 [p.1151, p.1154]**
-
 **Medida 227: Reducir emisiones a la mitad en 2035 [p.1645]**
-
 **Medida 228: Alcanzar carbono neutralidad en 2050 [p.1645]**
-
 ---
-
 **DOCUMENTO FUENTE:** Programa Presidencial 2026-2030 - Evelyn Matthei, Unión Demócrata Independiente, 2025
 **TOTAL MEDIDAS EXTRAÍDAS:** 228 medidas específicas
 **COBERTURA:** Análisis comprehensivo de todo el programa presidencial
 **FECHA EXTRACCIÓN:** 28 de Septiembre de 2025
 **FECHA REFINAMIENTO:** 29 de Septiembre de 2025
-
 **REFINAMIENTOS REALIZADOS:**
 - Conversión de formato de encabezado a estándar "EXTRACTO COMPREHENSIVO"
 - Implementación de numeración secuencial "Medida X:" para todas las 228 medidas
@@ -600,7 +343,6 @@
 - Adición de metadatos de pie de página según estándar
 - Mejora de balance de contenido entre secciones
 - Cumplimiento del 100% de requisitos de citación
-
 **PROCESSING LOG:**
 - Initial extraction: 28 Sept 2025 - Content in bullet format
 - Standards review: 29 Sept 2025 - Score 7.8/10 identified format issues

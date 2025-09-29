@@ -2,473 +2,369 @@
 ## PROGRAMA DE GOBIERNO 2026-2030 - PARTIDO NACIONAL LIBERTARIO
 ### "DEFIENDE LA VERDAD"
 ### Septiembre 2025
-
 ---
-
 ## VISION_AND_PRINCIPLES
-
 ### Visión General
 **Compromiso irrenunciable con la verdad, justicia e imperio de la ley [p.29]**
 - Institucionalidad que no se ponga al servicio del mejor postor ni encubra abusos [p.29]
 - Construir un país desarrollado en el extremo sur del mundo [p.34]
 - Principios permanentes y eternos que pueden hacernos verdaderamente libres [p.35]
 - Recuperar la libertad que es herencia de los valientes [p.37]
-
 ### Modelo Económico Filosófico
 **Inspirado en la Escuela Austríaca de Economía [p.23]**
 - Método científico fundamentado en la praxeología [p.23]
 - Progreso lo crean las personas libres cuando se les permite trabajar, emprender, invertir y soñar sin trabas estatales [p.23]
 - El mercado es un orden espontáneo resultado de la libre interacción [p.23]
 - Función empresarial depende de entorno institucional que garantice estabilidad, respeto a la propiedad privada y seguridad jurídica [p.23]
-
 ### Visión de Estado
 **Estado austero, transparente y facilitador [p.25]**
 - Una economía con reglas simples, impuestos bajos, burocracia mínima y gasto eficiente [p.25]
 - El Estado no es dueño de tu trabajo, de tu empresa ni de tus sueños [p.25]
 - Reconstruir el pacto moral entre Estado y ciudadanos [p.25]
-
 ### Batalla Cultural
 **Combate por la preeminencia de los elementos culturales [p.11]**
 - Disputa por los elementos de una cultura a través de las instituciones y dispositivos culturales [p.11]
 - Buscamos recuperar la cultura manteniendo el foco en "la verdad, el bien, la belleza y la libertad" [p.11]
 - Contrarreste las amenazas a la democracia y a la paz internacional [p.9]
-
 ---
-
 ## SECURITY_AND_PUBLIC_ORDER
-
 ### Fortalecimiento Institucional
 **Medida 1: Fusión Ministerio de Seguridad y Defensa [p.48]**
 - Un solo órgano rector para seguridad ciudadana, protección orden interno y defensa nacional [p.48]
 - Inteligencia integrada y reacción unificada frente a amenazas complejas [p.48]
-
 ### Compromiso Político Contra el Crimen
 **Medida 2: Uso de todas las capacidades del Estado contra delincuencia organizada [p.72]**
 - Priorizar protección ciudadanos honestos y víctimas por sobre criminales [p.72]
 - Implementar métricas cuantificables para evaluar efectividad medidas de seguridad [p.72]
-
 **Medida 3: Implementación Teoría de Ventanas Rotas [p.72]**
 - Actuar sobre delincuencia desde sus mínimas manifestaciones [p.72]
 - Todos los delitos resultarán en tiempo carcelario y pérdida beneficios sociales [p.72]
 - Garantizar y mantener orden público y seguridad interior [p.72]
-
 **Medida 4: Fortalecimiento Seguridad Fronteriza [p.72]**
 - Presencia efectiva en frontera con capacidades estatales coordinadas [p.72]
 - Tecnología avanzada: vigilancia satelital, drones, cámaras, radares de detección [p.72]
 - Equipos interinstitucionales con policía, militares, aduanas, SAG, CONAF, SII [p.72]
-
 **Medida 5: Expansión Fuerza Policial [p.73]**
 - Aumento 6.000 Carabineros y 1.600 Detectives durante cuatro años [p.73]
 - Reintegración personal policial retirado [p.73]
 - Foco en prevención, orden, seguridad e investigación criminal [p.73]
-
 **Medida 6: Reforma Sistema Penitenciario [p.72]**
 - Construcción establecimientos penales suficientes para todos los criminales [p.72]
 - Separación presos por nivel de peligrosidad [p.72]
 - Reestructuración dependencias y funciones de Gendarmería de Chile [p.72]
-
 **Medida 7: Apoyo Militar Seguridad Interna [p.72]**
 - Misiones Fuerzas Armadas incluyen seguridad Externa e Interna [p.72]
 - Apoyo a policías en erradicación crimen organizado, inmigración ilegal, narcotráfico [p.72]
 - Producción inteligencia, control fronterizo, zonas estado de excepción constitucional [p.72]
-
 ---
-
 ## ECONOMY_AND_EMPLOYMENT
-
 ### PILAR 1: REFORMA TRIBUTARIA PRO-EMPRENDIMIENTO
-
 **Medida 8: 0% impuesto a utilidades reinvertidas [p.24]**
 - Si reinviertes en Chile, no pagarás impuestos [p.24]
 - Toda utilidad reinvertida pagará 0% de impuesto corporativo [p.24]
 - Solo cuando los dueños retiren utilidades se aplicará impuesto único del 15% [p.24]
 - Incluye: ampliación infraestructura, maquinaria, contratación trabajadores, I+D, crecimiento empresa [p.24]
-
 **Medida 9: Fin a la doble tributación interna [p.25]**
 - Sistema 100% integrado donde impuesto que paga empresa se acredita completamente al socio [p.25]
 - No se tributa dos veces por la misma utilidad [p.25]
 - Elimina incentivo a crear estructuras artificiales [p.26]
-
 **Medida 10: Depreciación instantánea voluntaria de inversiones [p.26]**
 - Toda inversión en I+D, maquinaria, infraestructura productiva, tecnología, digitalización se descuenta por completo en mismo año [p.26]
 - Acelera modernización del aparato productivo nacional [p.27]
-
 **Medida 11: Incentivo al capital propio (interés nocional) [p.27]**
 - Empresario podrá deducir monto equivalente a tasa de interés ficticia sobre capital propio [p.27]
 - Corrige sesgo estructural que favorece endeudamiento excesivo [p.27]
-
 **Medida 12: Eliminación de impuestos que frenan crecimiento [p.28]**
 - Fin al impuesto a ganancias bursátiles [p.28]
 - Traspaso libre de impuestos en empresas familiares [p.28]
 - Eliminación del impuesto territorial (contribuciones) [p.28]
-
 **Medida 13: Impuesto único de segunda categoría [p.29]**
 - Exención total para quienes ganen menos de $500.000 mensuales [p.29]
 - Cinco tramos con tasa marginal mínima 1,5% y máxima 35% [p.29]
 - Aplicación directa en liquidación de sueldo [p.29]
-
 **Medida 14: Impuesto Global Complementario (IGC) [p.29]**
 - Único tributo anual progresivo que integra todas las fuentes de ingreso [p.29]
 - Tasas marginales desde 2,5% hasta máximo 35% para altos ingresos [p.30]
 - Declaración de renta simple y digital [p.30]
-
 **Medida 15: Invariabilidad tributaria corporativa por 50 años [p.30]**
 - Los cinco primeros puntos del nuevo régimen tributario tendrán invariabilidad absoluta por 50 años [p.31]
 - Aplicable a toda inversión en Chile [p.31]
 - Convertir a Chile en uno de los países más atractivos del mundo para invertir [p.31]
-
 **Medida 16: Cambio terminológico de "contribuyente" a "pagador de impuestos" [p.31]**
 - Modificar toda legislación fiscal para usar término "pagadores de impuestos" [p.31]
 - Señal cultural de un nuevo pacto fiscal [p.31]
-
 **Medida 17: Fortalecimiento de DEDECON [p.32]**
 - Reformar Defensoría del Contribuyente con nuevas atribuciones [p.32]
 - Representación judicial gratuita para PYMEs [p.32]
 - Autonomía del Ministerio de Hacienda, dependencia del Ministerio de Justicia [p.32]
 - Carta de Derechos del Pagador de Impuestos [p.32]
-
 **Medida 18: Incentivos para la formalización [p.33]**
 - Declaración de renta universal para toda persona mayor de edad [p.33]
 - Control basado en activos e ingresos reales [p.34]
 - Nuevo Registro Social Solidario con trazabilidad tributaria [p.34]
 - Facilitación y acompañamiento para formalización [p.35]
-
 **Medida 19: Fin al IVA en servicios profesionales [p.35]**
 - Eliminar completamente IVA a servicios profesionales [p.35]
 - Tasas diferenciadas IVA 10% y 0% para artículos básicos, vivienda, medicamentos, libros [p.35]
-
 **Medida 20: Ajuste de plazos y cumplimiento [p.36]**
 - Ampliación plazo declaración anual hasta 30 de junio [p.36]
 - Eliminación límite transferencias bancarias mensuales (Ley 21.713) [p.36]
-
 **Medida 21: Creación Agencia Tributaria Autónoma (AT) [p.37]**
 - Fusión completa de SII, DNA y TGR [p.37]
 - Agencia única independiente del Ministerio de Hacienda [p.37]
 - Tecnología de punta, interoperabilidad total de datos [p.37]
-
 **Medida 22: Fortalecimiento Consejo Fiscal Autónomo [p.38]**
 - CFA revisará toda iniciativa legal que implique gasto permanente [p.38]
 - Recomendaciones técnicas públicas vinculantes en consideración [p.39]
 - Guardián técnico del gasto público y superávit fiscal [p.39]
-
 **Medida 23: Fin a la doble tributación externa [p.39]**
 - Firma masiva de tratados de doble tributación con países estratégicos [p.39]
 - Reducción progresiva retención utilidades al exterior del 35% al 20% [p.40]
 - Posicionamiento Santiago como hub de startups y operaciones tecnológicas [p.40]
-
 ### PILAR 2: FIN A LA BUROCRACIA ASFIXIANTE
-
 **Medida 24: Ventanilla Única Digital [p.41]**
 - Constitución legal empresa, inicio actividades, patente comercial provisoria 100% digital [p.41]
 - Todo sin trámites presenciales, sin duplicidades, sin costos ocultos [p.41]
 - Sistema accesible 24/7 con videos explicativos [p.41]
-
 **Medida 25: Permisos por declaración jurada [p.41]**
 - Eliminación permiso previo para actividades productivas de bajo riesgo [p.41]
 - Reemplazo por declaraciones juradas y compromisos de cumplimiento [p.41]
 - Fiscalización ex post con criterios técnicos [p.41]
-
 **Medida 26: Nuevo Servicio de Permisos Ambientales (SPA) [p.42]**
 - Reemplazo del SEIA por SPA [p.42]
 - Unificación de todos los permisos ambientales en única solicitud digital [p.42]
 - Plazo máximo 45 días hábiles para evaluación y resolución [p.42]
 - Eliminación de exigencias ideológicas como "cambio climático" y "descarbonización" [p.42]
-
 **Medida 27: Nueva institucionalidad protección patrimonio [p.43]**
 - Reemplazo Consejo de Monumentos Nacionales [p.43]
 - Pronunciamiento en 7 días corridos con silencio positivo [p.43]
 - Incumplimiento de plazos será causal de destitución [p.43]
-
 **Medida 28: Defensa de las MIPYMEs [p.43]**
 - Elevar a rango constitucional principio de evaluación obligatoria de impacto regulatorio sobre MIPYMEs [p.43]
 - Informes disponibles públicamente en sitio Ministerio de Economía [p.43]
 - Fortalecimiento Ley 20.416 sobre Empresas de Menor Tamaño [p.43]
-
 **Medida 29: Agencia Nacional de Desarrollo Sectorial (ANDES) [p.44]**
 - Centro de gravedad de nueva gobernanza para desarrollo productivo [p.44]
 - Triplicar aporte PYMEs al PIB [p.44]
 - Directores regionales únicos reemplazando fragmentación entre CORFO, SERCOTEC, ProChile, INAPI [p.44]
 - Descentralización real a través de Comités Regionales de Desarrollo Productivo [p.44]
-
 **Medida 30: Plan Mittelstand Chile (2026-2030) [p.45]**
 - Transformar 4.000 MIPYMEs en líderes de sus sectores [p.45]
 - Identificación de 2.000 empresas con alto potencial, selección de 1.000 beneficiarias [p.45]
 - 1.000 empresas digitalizadas, 500 nuevas exportadoras, 50.000 nuevos empleos técnicos [p.45]
 - Aumento más del 20% en exportaciones PYME [p.45]
-
 **Medida 31: Scale-Ups en Bolsa [p.46]**
 - Ampliar y simplificar acceso al segmento PYME de ScaleX [p.46]
 - Asignar 5% de fondos AFP a vehículos de inversión Scale-Up [p.46]
 - Aumentar inversión I+D del 0,39% al 2% del PIB [p.46]
 - Meta: triplicar aporte PYME al PIB en 10 años [p.46]
-
 **Medida 32: Deuda Cero en Imposiciones [p.47]**
 - Transformar pago cotizaciones en proceso automático [p.47]
 - Cero papeleo y trámites para PYMEs [p.47]
 - Contrato tipo universal para PYMEs [p.47]
 - Cambio de sueldo líquido a modelo sueldo bruto [p.47]
-
 ### PILAR 3: REDUCCIÓN DEL GASTO PÚBLICO (4,5-5% DEL PIB)
-
 **Medida 33: Reestructuración ministerial [p.48]**
 - Reducción número ministerios de 25 a 9 [p.48]
 - Ahorro estructural 1,5%-2% del PIB [p.48]
 - Ministerio del Interior: absorbe Interior, SEGPRES y SEGEGOB [p.48]
 - Ministerio de Seguridad y Defensa: fusiona Seguridad Pública y Defensa [p.48]
-
 ---
-
 ## HEALTH
-
 ### Atención Oportuna, de Calidad y Calidez
 **Objetivo general: Cerrar brechas y mejorar estándar de salud [p.61]**
-
 **Medida 34: Sistema Integral de Salud [p.61]**
 - Solución integral de salud desde la concepción hasta la muerte [p.61]
 - Sistemas de salud existentes actuando en forma complementaria e integrada [p.61]
 - Sistemas de salud entregados mediante modelo de cooperativa [p.61]
 - Control del órgano rector [p.61]
-
 **Medida 35: Voucher de Salud para Población Vulnerable [p.61]**
 - Aporte económico a población vulnerable correspondiente a quintiles de menores ingresos [p.61]
 - Entrega de voucher para obtener solución integral de salud [p.61]
-
 **Medida 36: Descentralización de Políticas Sanitarias [p.61]**
 - Descentralización ejecución políticas sanitarias [p.61]
 - Optimización indicadores de salud a nivel nacional [p.61]
-
 **Medida 37: Tecnologías de Información en Salud [p.61]**
 - Implementación "REAL" tecnologías de información en tres niveles de atención [p.61]
 - Ficha clínica única a nivel nacional [p.61]
 - Cuadro de mando integral para toma de decisiones [p.61]
-
 **Medida 38: Fortalecimiento MINSAL como Órgano Rector [p.61]**
 - Ministerio de Salud con capacidad de gestión [p.61]
 - Entrega brechas reales y presupuestos adecuados [p.61]
 - Obtención estándar con calidad y calidez [p.61]
-
 **Medida 39: Unidad de Gestión de Redes Nacional [p.62]**
 - Unidad dependiente del MINSAL [p.62]
 - Diagnóstico acertado y articulación diferentes sistemas de salud [p.62]
-
 **Medida 40: Unidad Autónoma de Control Ausentismo Laboral [p.62]**
 - Correcto funcionamiento ausentismo laboral [p.62]
 - Emisión de licencias médicas [p.62]
-
 **Medida 41: Priorización Salud Mental y Adicciones [p.62]**
 - Salud mental y adicciones como prioridad en políticas públicas [p.62]
 - Órganos ejecutivos con complementariedad público-privada [p.62]
-
 **Medida 42: Control del Gasto de Bolsillo [p.62]**
 - Control gasto de bolsillo de la población [p.62]
 - Uso farmacoterapia genérica y farmacias públicas, privadas [p.62]
-
 **Medida 43: Trabajo con Colegios Profesionales [p.62]**
 - Trabajo con colegios profesionales de salud [p.62]
 - Gestión eficiente de sistemas y fin captura política de directivos [p.62]
-
 **Medida 44: Trabajador Social de Salud [p.62]**
 - Figura "TRABAJADOR SOCIAL DE SALUD" [p.62]
 - Acompañamiento permanente al paciente [p.62]
 - Información si plazos y condiciones mínimas no se han cumplido [p.62]
-
 **Medida 45: Reducción Tiempos de Espera Patologías Prioritarias [p.62]**
 - Meta: Reducir tiempos de espera 1.200.000 pacientes en lista de espera [p.62]
 - 100 Hospitales públicos o privados, 12.000 pacientes cada uno [p.62]
 - 6 meses: 2000 pacientes por hospital/mes [p.62]
 - Semanalmente 500 pacientes, 100 pacientes diarios [p.62]
-
 **Medida 46: Mejora de Eficiencia Atención de Salud [p.62]**
 - Mejora eficiencia tres niveles de atención [p.62]
 - Énfasis atención terciaria en corto plazo [p.62]
 - Atención primaria en largo plazo [p.62]
-
 **Medida 47: Implementación Cuidados Domiciliarios [p.63]**
 - Cuidados domiciliarios donde paciente en su hábitat recibe atenciones [p.63]
 - Coordinación mediante figura del trabajador social de salud [p.63]
 - Implementación 100% en 1 año [p.63]
-
 **Medida 48: Integración Sistema Primario [p.63]**
 - Integración sistema primario al resto de niveles de salud [p.63]
 - Favorecimiento del flujo y resolución [p.63]
-
 ---
-
 ## EDUCATION
-
 ### Cooperativas Educacionales y Sistema de Voucher
 **Medida 49: Cooperativas educacionales [p.95]**
 - Sistema de voucher [p.96]
 - Currículum flexible [p.97]
 - Educación temprana [p.97]
-
 **Medida 50: Educación básica y media [p.98]**
 - Aprender en confianza [p.98]
 - Educación de adultos [p.98]
 - Educación superior [p.99]
-
 ### Libertad Educacional y Elección Escolar
 **Medida 51: Sistema de Voucher Educacional [p.97]**
 - Empoderamiento de padres para elegir escuelas [p.97]
 - Financiamiento directo a estudiantes en lugar de instituciones [p.97]
 - Marco regulatorio flexible incluyendo flexibilidad en Ley de Inclusión [p.97]
-
 **Medida 52: Reforma Curricular [p.96]**
 - Currículum flexible fortaleciendo autonomía estudiantil [p.96]
 - Estructura modular gestionada a través de plataforma digital y App [p.96]
 - Disponible para familias que opten por preparar hijos mediante exámenes libres [p.96]
-
 **Medida 53: Transformación Educación Inicial [p.98]**
 - Transformar sistema educación temprana desde nacimiento hasta 6 años [p.98]
 - Establecer bases fundamentales para desarrollo físico, emocional, social y cognitivo [p.98]
 - Intervención de calidad y pertinente con impacto duradero [p.98]
-
 **Medida 54: Reforma Convivencia Escolar [p.99]**
 - Transformar Departamento Convivencia Escolar en equipo especializado activo [p.99]
 - Trabajo directo con familias y redes de apoyo [p.99]
 - Fortalecimiento comunidad educativa mediante respeto y cooperación [p.99]
-
 **Medida 55: Pausas Activas en Educación Preescolar y Escolar [p.143]**
 - Integración actividad física en curricula educacionales [p.143]
 - Promoción hábitos saludables desde temprana edad [p.143]
-
 **Medida 56: Comunidades de Aprendizaje en Familia [p.113]**
 - Mantener niños alejados del crimen organizado [p.113]
 - Comunidades organización familiar y educacional para formación integral [p.113]
 - Foco en escuelas/liceos capturados o en riesgo por narcotráfico [p.113]
-
 ---
-
 ## HOUSING
-
 ### Vivienda Libre, Propiedad Segura y Espacios Públicos Sostenibles
 **Objetivo general: Transformación integral del sector vivienda mediante liberalización del mercado [p.171]**
-
 **Medida 57: Liberalización del Mercado Inmobiliario [p.172]**
 - Revisión profunda y flexibilización de normativas urbanas [p.172]
 - Promoción construcción en altura y densificación en áreas consolidadas [p.172]
 - Simplificación y agilización procedimientos administrativos [p.172]
 - Apertura a nuevos actores y tecnologías [p.172]
-
 **Medida 58: Incentivos Financieros Basados en el Libre Mercado [p.173]**
 - Reducción impuestos y cargas regulatorias [p.173]
 - Eliminación IVA primera vivienda [p.173]
 - 15% impuesto empresas por utilidades retiradas, 0% utilidades reinvertidas [p.173]
 - Promoción financiamiento privado [p.173]
-
 **Medida 59: Flexibilización del Crédito Hipotecario [p.174]**
 - Promoción competencia entre bancos, cooperativas de crédito e instituciones financieras [p.174]
 - Reducción restricciones regulatorias [p.174]
 - Facilitación securitización créditos hipotecarios [p.174]
-
 **Medida 60: Apertura del Suelo Estatal Subutilizado [p.175]**
 - Venta propiedades estatales no estratégicas [p.175]
 - Promoción inversión privada en adquisición suelo fiscal [p.175]
 - Descentralización y delegación a gobiernos locales [p.175]
-
 **Medida 61: Rol del Sector Privado en la Vivienda Social [p.175]**
 - Acuerdos financiamiento entre empresas privadas y ciudadanos [p.175]
 - Implementación modelos vivienda asequible con inversión privada [p.175]
 - Supresión regulaciones excesivas [p.175]
-
 **Medida 62: Fomento al Arriendo en el Libre Mercado [p.176]**
 - Reducción regulaciones arriendo para incentivar oferta [p.176]
 - Simplificación procedimientos administrativos [p.176]
 - Fortalecimiento derechos propiedad [p.176]
 - Beneficios tributarios propietarios que arrienden [p.176]
-
 **Medida 63: Erradicación de Tomas mediante Protección Propiedad Privada [p.176]**
 - Aplicación rigurosa derechos de propiedad [p.176]
 - Marco legal claro y eficiente [p.176]
 - Fortalecimiento fuerzas de seguridad [p.176]
 - Modernización registros de propiedad [p.176]
-
 **Medida 64: Modelos de Vivienda Basados en Iniciativas Privadas [p.177]**
 - Promoción fondos inversión inmobiliaria especializados [p.177]
 - Implementación programas vivienda transitoria [p.177]
 - Incentivos tributarios empresas y ONGs participantes [p.177]
-
 **Medida 65: Agilización de Trámites y Permisos de Construcción [p.178]**
 - Ventanillas únicas digitales [p.178]
 - Estandarización requisitos y procedimientos [p.178]
 - Plazos máximos con mecanismos control [p.178]
 - Coordinación entre organismos públicos [p.178]
-
 **Medida 66: Reducción del Gasto Público en Áreas Verdes [p.178]**
 - Concesión parques urbanos a sector privado [p.178]
 - Promoción participación comunitaria [p.178]
 - Créditos tributarios empresas inversores [p.178]
 - Modelo "parques de mercado" [p.178]
-
 **Medida 67: Fomento del Modelo de Ciudades Privadas [p.179]**
 - Desarrollo urbanizaciones con gestión 100% privada [p.179]
 - Libertad comunidades para gestionar espacios propios [p.179]
 - Competencia entre urbanizaciones privadas [p.179]
-
 **Medida 68: Reforma Integral del Suelo Urbano [p.179]**
 - Flexibilización regulatoria [p.179]
 - Agilización procedimientos aprobación proyectos [p.179]
 - Libertad uso de suelo [p.179]
 - Incentivos densificación [p.179]
-
 **Medida 69: Regeneración Urbana y Desarrollo Comunitario [p.180]**
 - Regeneración urbana comunitaria integral [p.180]
 - Seguridad urbana comunitaria y privada [p.180]
 - Descentralización oportunidades con iniciativa privada [p.180]
 - Participación comunitaria y autogestión [p.180]
-
 **Medida 70: Política Habitacional Inteligente [p.180]**
 - Desburocratización y gestión ágil [p.180]
 - Promoción oferta y demanda del mercado [p.180]
 - Empoderamiento y autonomía habitacional [p.180]
 - Monitoreo inteligente y adaptación constante [p.180]
-
 ---
-
 ## SOCIAL_POLICIES
-
 ### Desarrollo Humano
 **Medida 71: Del Ministerio del Trabajo al Ministerio de Desarrollo Humano [p.108]**
-
 **Medida 72: Plataforma de trabajo por horas [p.101]**
 - Contratos digitales instantáneos [p.102]
 - Indemnización a todo evento con seguro de cesantía fortalecido [p.102]
 - Modificación mecanismo fijación salario mínimo [p.102]
-
 **Medida 73: Transformación del SENCE [p.103]**
 - Ahorro previsional al nacer [p.104]
 - Eliminación fondos generacionales y fomento inversión PYMEs [p.104]
 - Ampliación alternativas fondos de pensiones y métodos de jubilación [p.105]
 - Financiación Pensión Garantizada Universal (PGU) [p.106]
-
 ### Prioridad Erradicación de Pobreza
 **Medida 74: Reorganización Política Social [p.55]**
 - Priorizar 90% población más vulnerable [p.55]
 - Prioridad familias chilenas con niños, quienes cuidan discapacitados, adultos mayores sin redes de apoyo estables [p.55]
 - Integración, promoción autonomía, reconocimiento esfuerzo personal y familiar [p.55]
-
 **Medida 75: Protección Social a través del Empleo [p.103]**
 - Protección social focalizada sin comprometer dinámica empresarial [p.103]
 - Aumento participación laboral femenina de 62,3% a 64,3% [p.103]
 - Fortalecimiento eficiencia fiscal eliminando programas redundantes [p.103]
-
 **Medida 76: Ahorro Previsional al Nacer [p.104]**
 - Modelo preventivo y liberal donde cada persona nace con patrimonio propio [p.104]
 - Fortalece ahorro nacional, incentiva educación financiera [p.104]
 - Reduce dependencia futura de transferencias estatales [p.104]
-
 **Medida 77: Comunidades de Acompañamiento [p.114]**
 - Sistemas de apoyo para familias vulnerables [p.114]
 - Redes de protección social comunitarias [p.114]
-
 **Medida 78: Desarrollo Centrado en la Familia [p.55]**
 - Esfuerzo familiar como motor de desarrollo [p.55]
 - Protección núcleo familiar como unidad social básica [p.55]
-
 ---
-
 ## STATE_MODERNIZATION
-
 ### Modernización Integral del Estado
 **Medida 79: Reforma administración pública y regionalización [p.126]**
 - Agrupación Político-Administrativa (DPA) [p.127]
@@ -476,126 +372,96 @@
 - Sistemas de monitoreo y evaluación contra la corrupción [p.128]
 - Desarrollo Territorial Subnacional (DTS) [p.128]
 - Revisión sobredotación Servicios Públicos [p.129]
-
 **Medida 80: Ley Rastrillo [p.130]**
 - Ventanilla Única Nacional [p.131]
-
 ---
-
 ## INFRASTRUCTURE
-
 ### Nueva Arquitectura Institucional
 **Medida 81: Reforma Ley de Concesiones [p.155]**
 - Optimización presupuesto Ministerio Obras Públicas [p.156]
 - Autonomía administrativa y financiera puertos chilenos [p.157]
 - Ventanilla única para proyectos de infraestructura [p.158]
-
 **Medida 82: Marco normativo plantas desalinizadoras [p.160]**
 - Energía limpia desde residuos [p.161]
 - Normativa amigable desarrollo empresas geotérmicas [p.162]
 - Crowdfunding para inversión infraestructura pública [p.163]
-
 **Medida 83: Plan Estratégico Inversión 100% privada Obras Públicas [p.164]**
 - Modernización integral infraestructura pública [p.166]
-
 ---
-
 ## ENVIRONMENT
-
 ### Gestión Ambiental Competitiva
 **Medida 84: Nuevo Servicio de Permisos Ambientales [p.42]**
 - Eliminación de exigencias ideológicas como "cambio climático" y "descarbonización" [p.42]
 - Evaluación basada en ciencia, técnica y responsabilidad [p.42]
 - Armonía con derechos fundamentales: propiedad, trabajo, emprender y desarrollo [p.42]
-
 ### Desarrollo Energético y Recursos Naturales
 **Medida 85: Energía Limpia desde Residuos [p.161]**
 - Desarrollo generación energía a partir de materiales de desecho [p.161]
 - Implementación tecnología waste-to-energy [p.161]
-
 **Medida 86: Desarrollo Energía Geotérmica [p.162]**
 - Descentralización y competencia para desarrollo energía geotérmica [p.162]
 - Incentivos de mercado claros: tarifas y acceso a red [p.162]
 - Protección ambiental sin excesiva intervención estatal [p.162]
-
 **Medida 87: Independencia Energética [p.164]**
 - Abordar contexto energético total: no solo electricidad sino transporte, procesos industriales, calefacción [p.164]
 - Chile genera solo 41,89% con recursos propios más baratos (Biomasa, Energía Hidráulica) [p.164]
 - Necesidad visión energética nacional comprensiva [p.164]
-
 **Medida 88: Protección Recursos Naturales [p.88]**
 - Protección recursos naturales en territorio antártico [p.88]
 - Soberanía ambiental en aguas territoriales [p.88]
-
 **Medida 89: Marco Normativo Plantas Desalinizadoras [p.160]**
 - Desarrollo tecnología desalinización para seguridad hídrica [p.160]
 - Marcos regulatorios facilitadores inversión privada [p.160]
-
 ---
-
 ## FOREIGN_POLICY
-
 ### Ejes de Trabajo Internacional
 **Medida 90: Primer Eje - Seguridad y migraciones [p.87]**
 - Segundo Eje - Política Vecinal y Para vecinal [p.87]
 - Tercer Eje - Política Antártica y Mares Australes [p.88]
 - Cuarto Eje - Plan Nacional de Prospectiva en Política Exterior [p.89]
-
 ### Seguridad y Control Migratorio
 **Medida 91: Control Seguridad y Migración [p.87]**
 - Coordinación entre Ministerio Relaciones Exteriores y Defensa para seguridad nacional [p.87]
 - Registro inmigrantes en fronteras con base de datos de identidad [p.87]
 - Reestablecimiento requisitos visa consular con apoyo adecuado [p.87]
-
 **Medida 92: Política Vecinal y Paravecinal [p.87]**
 - Gestión política exterior activa en Latinoamérica [p.87]
 - Aumento niveles inversión chilena en Brasil, Colombia, Perú [p.87]
 - Control fronterizo efectivo detención narcotráfico e inmigración ilegal [p.87]
 - Relaciones regionales con provincias argentinas paralelo a gobierno central [p.87]
-
 **Medida 93: Política Antártica y Mares Australes [p.88]**
 - Fortalecimiento conectividad aérea y marítima [p.88]
 - Construcción y potenciamiento puertos con infraestructura logística asociada [p.88]
 - Inversión en capacidades búsqueda y rescate [p.88]
 - Fortalecimiento presencia diplomática y protección recursos naturales [p.88]
-
 **Medida 94: Proyección Comercial e Inversión [p.89]**
 - Posicionar Chile como actor influencia política regional (soft power) [p.89]
 - Fortalecer vínculos con países G20 y países afines [p.89]
 - Aumentar rol político y comercial de Chile en escenario mundial [p.89]
-
 **Medida 95: Facilitación Comercio Internacional [p.206]**
 - Transformar sistema portuario en modelo competitivo y sustentable [p.206]
 - Posicionar Chile como hub comercio internacional en Latinoamérica [p.206]
 - Plataforma digital unificada para proyectos infraestructura [p.206]
-
 ---
-
 ## INSTITUTIONAL_REFORMS
-
 ### Sistema de Justicia
 **Medida 96: Reforma sistema designación magistrados tribunales superiores [p.78]**
 - Consejo de la Magistratura [p.80]
 - Jurisdicción de probidad para adecuada administración de justicia [p.82]
 - Políticas penitenciarias [p.84]
-
 ### Reforma Ministerial
 **Medida 97: Reducción ministerios de 25 a 9 [p.48]**
 - Nuevo Ministerio del Interior: Interior + SEGPRES + SEGEGOB [p.48]
 - Nuevo Ministerio de Seguridad y Defensa [p.48]
 - Conservación Ministerio Relaciones Exteriores [p.48]
-
 ---
-
 ## QUANTIFIED_COMMITMENTS
-
 ### Metas Tributarias
 - 0% impuesto a utilidades reinvertidas [p.24]
 - 15% impuesto único cuando se retiran utilidades [p.24]
 - Reducción gasto público 4,5%-5% del PIB [p.47]
 - Invariabilidad tributaria por 50 años [p.31]
 - Reducción retención utilidades exterior del 35% al 20% [p.40]
-
 ### Metas Económicas
 - Triplicar aporte PYMEs al PIB [p.44]
 - Transformar 4.000 MIPYMEs en líderes sectoriales [p.45]
@@ -604,29 +470,24 @@
 - Aumento 20% exportaciones PYME [p.45]
 - Aumentar inversión I+D del 0,39% al 2% del PIB [p.46]
 - 5% fondos AFP a vehículos inversión Scale-Up [p.46]
-
 ### Metas Administrativas
 - Reducir ministerios de 25 a 9 [p.48]
 - Ahorro estructural 1,5%-2% del PIB [p.48]
 - Plazo máximo 45 días hábiles evaluación ambiental [p.42]
 - 7 días corridos pronunciamiento patrimonio [p.43]
 - Exención tributaria para ingresos bajo $500.000 mensuales [p.29]
-
 ### Metas de Plazos
 - 50 años invariabilidad tributaria [p.31]
 - Plan Mittelstand Chile 2026-2030 [p.45]
 - 30 de junio plazo declaración anual [p.36]
 - 45 días hábiles permisos ambientales [p.42]
 - 7 días pronunciamiento patrimonio [p.43]
-
 ---
-
 **DOCUMENTO FUENTE:** Programa de Gobierno 2026-2030 - Johannes Kaiser Barents von Hohenhagen, Partido Nacional Libertario, 2025
 **TOTAL MEDIDAS EXTRAÍDAS:** 97 medidas específicas
 **COBERTURA:** Cobertura integral de secciones principales del documento
 **FECHA EXTRACCIÓN ORIGINAL:** 28 de septiembre de 2025
 **FECHA REFINAMIENTO:** 29 de septiembre de 2025
-
 **REFINAMIENTOS APLICADOS SEGÚN EXTRACT_REFINEMENT_STANDARD.MD:**
 - ✅ Header format standardizado según template del standard v1.1
 - ✅ Medidas renumeradas secuencialmente (1-97) sin reinicio por sección
