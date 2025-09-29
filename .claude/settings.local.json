@@ -12,7 +12,8 @@
       "Bash(fi)",
       "Bash(do if ! grep -q \"\\[p\\.$i\\]\" \"G:\\My Drive\\Projects\\2025\\presidential\\02_extract\\extract_Jeannette_Jara.txt\")",
       "Bash(then echo \"Missing: p.$i\")",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Read(//g//**)"
     ],
     "deny": [],
     "ask": []

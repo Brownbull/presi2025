@@ -1,3 +1,4 @@
+# Flujo de trabajo:
 ## Descargar programas
 - [Jose Antonio Kast](https://kast.cl/)
 - [Jeannette Jara](https://jeannettejara.cl/)
@@ -26,7 +27,8 @@ Estos se utilizaron con Claude Code para realizar iteraciones incrementales en l
 2.perfect, now perform the "análisis adicional de las páginas restantes" to complete the extraction according to standards 
 3.do a final check for missing items on the extract according to the standard and proceed with changes if any required
 ```
-## Refinamiento
+
+### Refinamiento
 ```claude code
 1.ok now considering the files created at /02_extract create a file called extract_refinement_standard at folder
 /claude/standards which describes a common standard to present the information in /02_extract files in a normalized way. The
@@ -36,6 +38,6 @@ standard should allow to specify all the contents of the files in /02_extract fo
 
 ```claude code
 1.execute command @claude\commands\extract_refinement.md considering candidate {candidate_here}, text presidential extract is @02_extract\extreact_{candidate_here}.txt
-3.do a final check for missing items on the extract according to the standard and proceed with changes if any required
+3.do a final check for missing items on the refined extract according to the standard and proceed with changes if any required
 ```
 
