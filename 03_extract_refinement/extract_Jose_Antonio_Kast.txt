@@ -2,7 +2,6 @@
 ## LA FUERZA DEL CAMBIO - PARTIDO REPUBLICANO DE CHILE
 ### "GOBIERNO DE EMERGENCIA"
 ### Septiembre 2025
----
 ## VISION_AND_PRINCIPLES
 **Medida 1: Compromiso Fundamental ante emergencias nacionales [p.2]**
 - Emergencia en seguridad: encerrar a las familias en sus casas mientras criminales se pasean libres [p.2]
@@ -13,7 +12,6 @@
 - Recuperar el orden y la autoridad para reimpulsar el progreso económico [p.3]
 - Restaurar la libertad, dignidad y justicia para todos los chilenos [p.3]
 - Gobierno de emergencia que impulse cambios profundos con decisión y rapidez [p.4]
----
 ## SECURITY_AND_PUBLIC_ORDER
 **Medida 3: Plan de Recuperación Territorial contra crimen organizado [p.21]**
 - Dotación de todos los recursos materiales y humanos para recuperación del orden público [p.21]
@@ -39,7 +37,6 @@
 - Autoridad entendida como servicio a la comunidad [p.20]
 - Fortalecer vínculos sociales con líderes probos y ciudadanos responsables [p.21]
 - Fortalecimiento institucional basado en respeto a la autoridad [p.21]
----
 ## ECONOMY_AND_EMPLOYMENT
 **Medida 9: Revertir decrecimiento económico estructural [p.11]**
 - Enfrentar emergencia económica estructural del país [p.11]
@@ -65,7 +62,6 @@
 - Aspirar a ser gobierno de mayor creación de puestos de trabajo en más de una década [p.29]
 - Potenciar especialmente aumento del empleo femenino y juvenil [p.36]
 - Más empleo, más formalidad y mejores sueldos como prioridad [p.29]
----
 ## HEALTH
 **Medida 15: Garantizar acceso oportuno de calidad a salud [p.33]**
 - Fortalecer red pública de atención primaria [p.33]
@@ -79,7 +75,6 @@
 - Reconocer efecto perjudicial de ideologías asistencialistas [p.13]
 - Atender emergencia social donde uno de cada cinco chilenos vive en pobreza [p.13]
 - Garantizar acceso fundamental a servicios de salud [p.33]
----
 ## EDUCATION
 **Medida 18: Transformar educación en vehículo de ascenso social [p.14]**
 - Convertir educación de condena perpetua en oportunidad de progreso [p.14]
@@ -101,7 +96,6 @@
 - Iniciativa con mantención de escuelas abiertas [p.29]
 - Legislación laboral moderna promoviendo adaptabilidad educativa [p.29]
 - Contratos multifuncionales en sector educativo [p.29]
----
 ## HOUSING
 **Medida 23: Programa habitacional masivo [p.36-37]**
 - Aspirar a mayor creación de soluciones habitacionales [p.36]
@@ -115,7 +109,6 @@
 - Potenciar especialmente desarrollo urbano sustentable [p.36]
 - Integrar política habitacional con desarrollo económico [p.36]
 - Mejorar conectividad y accesibilidad urbana [p.35]
----
 ## SOCIAL_POLICIES
 **Medida 26: Programa integral de protección social [p.13-14]**
 - Combatir emergencia social donde uno de cada cinco chilenos vive en pobreza [p.13]
@@ -133,7 +126,6 @@
 - Potenciar especialmente aumento del empleo femenino [p.36]
 - Promover igualdad de oportunidades laborales [p.36]
 - Integrar enfoque de género en políticas públicas [p.36]
----
 ## STATE_MODERNIZATION
 **Medida 30: Eliminación masiva de trámites burocráticos [p.28]**
 - Identificar, revisar y derogar al menos 100 trámites administrativos durante primeros 100 días [p.28]
@@ -151,7 +143,6 @@
 - Fortalecimiento institucional basado en respeto a la autoridad [p.21]
 - Claridad en cadena de mando institucional [p.22]
 - Coordinación eficiente entre instituciones del Estado [p.22]
----
 ## INFRASTRUCTURE
 **Medida 34: Desarrollo de infraestructura portuaria [p.35]**
 - Infraestructura que permita recibir embarcaciones con mayor eslora y capacidad [p.35]
@@ -165,7 +156,6 @@
 - Contribuir a superar crisis hídrica de Atacama [p.16]
 - Solucionar escasez hídrica en O'Higgins, Maule y Ñuble [p.16]
 - Desarrollo de infraestructura de riego y agua potable [p.16]
----
 ## ENVIRONMENT
 **Medida 37: Gestión de crisis climática extrema [p.16]**
 - Enfrentar condiciones climáticas extremas en Magallanes [p.16]
@@ -179,7 +169,6 @@
 - Proteger importancia turística de Los Ríos y Los Lagos [p.16]
 - Desarrollo sustentable del sector agrícola [p.16]
 - Conservación de recursos naturales estratégicos [p.16]
----
 ## FOREIGN_POLICY
 **Medida 40: Cambio radical en política internacional [p.38]**
 - Implementar cambio radical que Chile necesita para desafíos internacionales [p.38]
@@ -189,7 +178,6 @@
 - Promover influencia directa de Áreas de Defensa Nacional [p.22]
 - Optimizar compra de material y actualización de capacidades defensivas [p.22]
 - Generar respaldo jurídico y político internacional [p.22]
----
 ## INSTITUTIONAL_REFORMS
 **Medida 42: Reforma del sistema de justicia [p.10]**
 - Ministerio Público que realmente persiga a los delincuentes [p.10]
@@ -203,7 +191,6 @@
 - Transformar Estado que dejó de servir al bien común [p.2]
 - Eliminar obstáculos burocráticos innecesarios [p.2]
 - Restaurar eficiencia y eficacia gubernamental [p.2]
----
 ## QUANTIFIED_COMMITMENTS
 ### Metas Económicas
 - Reducir tasa impuesto corporativo del 27% al 23% para empresas medianas y grandes [p.28]
@@ -235,7 +222,6 @@
 - 40% del territorio convertido en verdaderos territorios controlados [p.19]
 - Población de Tarapacá con pobreza extrema más alta del país [p.16]
 - Plan Nacional de Inversiones Culturales 2026-2036 [p.37]
----
 **DOCUMENTO FUENTE:** Programa_Jose_Antonio_Kast_ss_20250928.pdf - José Antonio Kast, La Fuerza del Cambio, 2025
 **TOTAL MEDIDAS EXTRAÍDAS:** 44 medidas específicas
 **COBERTURA:** 95% del programa original, 147 páginas totales

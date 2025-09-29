@@ -2,7 +2,6 @@
 ## Programa Presidencial 2026-2030 - Unión Demócrata Independiente
 ### "Un país donde cada esfuerzo valga la pena"
 ### Septiembre 2025
----
 ## VISION_AND_PRINCIPLES
 **Medida 1: Recuperar la tranquilidad y la confianza entre las personas desde orden y respeto a la ley [p.148]**
 **Medida 2: Construir una sociedad cohesionada donde la responsabilidad compartida permita que los niños crezcan sanos, los jóvenes se proyecten hacia el futuro y las familias puedan formarse y prosperar [p.222-225]**
@@ -15,7 +14,6 @@
 **Medida 7: Establecer orden y seguridad como punto de partida para todo lo demás [p.174-184]**
 **Medida 8: Mantener Estado al servicio de las personas con institucionalidad que habilite, acompañe y no asfixie [p.202-205]**
 **Medida 9: Premiar el esfuerzo y no castigar la iniciativa, respetar la libertad pero también garantizar certezas [p.204-205]**
----
 ## SECURITY_AND_PUBLIC_ORDER
 ### Estrategia Integral de Seguridad
 **Medida 10: Implementar Estrategia Integral de Seguridad coordinando todas las instituciones del Estado: policías, FFAA, Gendarmería, Aduanas, SII, ANI, Ministerio Público y ministerios sectoriales [p.273-276]**
@@ -54,7 +52,6 @@
 **Medida 35: Aplicar plenamente ley N° 21.174 de financiamiento estratégico de la Defensa [p.659-661]**
 **Medida 36: Modernizar Servicio Militar y Soldado de Tropa Profesional [p.664-665]**
 **Medida 37: Desarrollar economía desde industria de defensa: FAMAE, ASMAR y ENAER [p.666-668]**
----
 ## ECONOMY_AND_EMPLOYMENT
 ### Metas de Crecimiento
 **Medida 38: Alcanzar meta de crecer al 4% anual para el cuarto año de gobierno [p.300, p.725]**
@@ -93,7 +90,6 @@
 **Medida 63: Limitar número de licencias por médico, usar IA para fiscalización [p.848-850]**
 **Medida 64: Aplicar sanciones penales para quienes compren licencias falsas [p.852-853]**
 **Medida 65: Crear Seguro por Incapacidad Laboral Temporal universal [p.854-855]**
----
 ## HEALTH
 ### Reforma de Atención Primaria
 **Medida 66: Implementar Programa APS te asiste organizando canales de atención presencial, remota y domicilio [p.1137-1143]**
@@ -116,7 +112,6 @@
 **Medida 79: Aumentar progresivamente centros COSAM [p.1208-1209]**
 **Medida 80: Fortalecer telepsiquiatría y telepsicología vía Hospital Digital [p.1210-1212]**
 **Medida 81: Implementar pesquisa precoz en jardines y colegios con intervención inmediata [p.1213-1215]**
----
 ## EDUCATION
 ### Primera Infancia
 **Medida 82: Ampliar cobertura con participación privada en salas cuna y jardines infantiles [p.1240-1243]**
@@ -147,7 +142,6 @@
 ### Educación Superior
 **Medida 101: Sustituir CAE por crédito blando sin intermediación bancaria [p.1310-1312]**
 **Medida 102: Mejorar vinculación con sector productivo especialmente en regiones [p.1308-1309]**
----
 ## HOUSING
 ### Metas Habitacionales
 **Medida 103: Entregar 400.000 nuevos accesos a viviendas redefiniendo vivienda de interés público hasta 4.500 UF [p.1337-1343]**
@@ -169,7 +163,6 @@
 ### Asentamientos Informales
 **Medida 115: Prevenir nuevas ocupaciones mediante gestión de suelo y alertas tempranas [p.1389-1392]**
 **Medida 116: Mejorar condiciones en campamentos sin priorizarlos sobre vía formal [p.1390-1392]**
----
 ## SOCIAL_POLICIES
 ### Empoderamiento de la Mujer
 **Medida 117: Implementar Programa "Mujer camina tranquila" con cámaras, botones SOS e iluminación [p.1077-1078]**
@@ -198,7 +191,6 @@
 **Medida 135: Desarrollar programas de acompañamiento postpenitenciario siguiendo modelo +R [p.1550-1554]**
 **Medida 136: Implementar foco especial en reinserción de mujeres [p.1555-1558]**
 **Medida 137: Coordinar bajo Ministerio de Seguridad [p.1559-1560]**
----
 ## STATE_MODERNIZATION
 ### Anticorrupción
 **Medida 138: Fortalecer Contraloría con más presupuesto y seguimiento de observaciones [p.1839-1842]**
@@ -224,7 +216,6 @@
 ### Estructura de Gobierno
 **Medida 154: Reducir ministerios al promedio OCDE (19) en tres meses [p.1979-1981]**
 **Medida 155: Consolidar Subsecretaría de Desarrollo Regional con del Interior [p.1965-1967]**
----
 ## INFRASTRUCTURE
 ### Tráfico y Movilidad
 **Medida 156: Implementar sistemas inteligentes de control de tránsito en capitales regionales [p.1416-1418]**
@@ -246,7 +237,6 @@
 **Medida 168: Desarrollar Gemelo Digital Nacional de Transporte para planificación [p.1434-1435]**
 ### Conectividad Estratégica
 **Medida 169: Mejorar aeropuertos más seguros y modernizar pasos fronterizos [p.1437-1438]**
----
 ## ENVIRONMENT
 ### Metas Climáticas
 **Medida 170: Reducir a la mitad emisiones de carbono para 2035 y alcanzar carbono neutralidad en 2050 [p.1645-1648]**
@@ -266,7 +256,6 @@
 ### Economía Circular
 **Medida 181: Desarrollar mercado secundario para compost, biogás y biofertilizantes [p.1674-1675]**
 **Medida 182: Implementar plan nacional para clausurar basurales transformándolos en infraestructura verde [p.1676-1677]**
----
 ## FOREIGN_POLICY
 ### Principios Estratégicos
 **Medida 183: Mantener autonomía estratégica priorizando capacidad de decisión soberana [p.2002-2007]**
@@ -283,7 +272,6 @@
 **Medida 191: Mantener compromiso activo con sistema multilateral coordinando con países afines [p.2036-2039]**
 **Medida 192: Liderar lucha contra cambio climático buscando financiamiento y tecnología [p.2040-2042]**
 **Medida 193: Reforzar infraestructura antártica y cooperación científica [p.2042-2044]**
----
 ## INSTITUTIONAL_REFORMS
 ### Nuevas Instituciones
 **Medida 194: Crear Unidad de Cumplimiento (UNICOT) para crimen organizado [p.443-448]**
@@ -302,7 +290,6 @@
 **Medida 205: Reducir ministerios de 25 al promedio OCDE [p.1979-1981]**
 **Medida 206: Fusionar Ministerio del Deporte con Instituto Nacional [p.1593-1595]**
 **Medida 207: Consolidar subsecretarías regionales [p.1965-1967]**
----
 ## QUANTIFIED_COMMITMENTS
 ### Compromisos de Inversión
 **Medida 208: Invertir US$2.500 millones en seguridad [p.439]**
@@ -329,7 +316,6 @@
 **Medida 226: Completar objetivos de infraestructura sanitaria en 2030 [p.1151, p.1154]**
 **Medida 227: Reducir emisiones a la mitad en 2035 [p.1645]**
 **Medida 228: Alcanzar carbono neutralidad en 2050 [p.1645]**
----
 **DOCUMENTO FUENTE:** Programa Presidencial 2026-2030 - Evelyn Matthei, Unión Demócrata Independiente, 2025
 **TOTAL MEDIDAS EXTRAÍDAS:** 228 medidas específicas
 **COBERTURA:** Análisis comprehensivo de todo el programa presidencial

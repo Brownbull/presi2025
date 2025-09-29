@@ -2,7 +2,6 @@
 ## PROGRAMA DE GOBIERNO 2026-2030 - PARTIDO NACIONAL LIBERTARIO
 ### "DEFIENDE LA VERDAD"
 ### Septiembre 2025
----
 ## VISION_AND_PRINCIPLES
 ### Visión General
 **Compromiso irrenunciable con la verdad, justicia e imperio de la ley [p.29]**
@@ -26,7 +25,6 @@
 - Disputa por los elementos de una cultura a través de las instituciones y dispositivos culturales [p.11]
 - Buscamos recuperar la cultura manteniendo el foco en "la verdad, el bien, la belleza y la libertad" [p.11]
 - Contrarreste las amenazas a la democracia y a la paz internacional [p.9]
----
 ## SECURITY_AND_PUBLIC_ORDER
 ### Fortalecimiento Institucional
 **Medida 1: Fusión Ministerio de Seguridad y Defensa [p.48]**
@@ -56,7 +54,6 @@
 - Misiones Fuerzas Armadas incluyen seguridad Externa e Interna [p.72]
 - Apoyo a policías en erradicación crimen organizado, inmigración ilegal, narcotráfico [p.72]
 - Producción inteligencia, control fronterizo, zonas estado de excepción constitucional [p.72]
----
 ## ECONOMY_AND_EMPLOYMENT
 ### PILAR 1: REFORMA TRIBUTARIA PRO-EMPRENDIMIENTO
 **Medida 8: 0% impuesto a utilidades reinvertidas [p.24]**
@@ -169,7 +166,6 @@
 - Ahorro estructural 1,5%-2% del PIB [p.48]
 - Ministerio del Interior: absorbe Interior, SEGPRES y SEGEGOB [p.48]
 - Ministerio de Seguridad y Defensa: fusiona Seguridad Pública y Defensa [p.48]
----
 ## HEALTH
 ### Atención Oportuna, de Calidad y Calidez
 **Objetivo general: Cerrar brechas y mejorar estándar de salud [p.61]**
@@ -227,7 +223,6 @@
 **Medida 48: Integración Sistema Primario [p.63]**
 - Integración sistema primario al resto de niveles de salud [p.63]
 - Favorecimiento del flujo y resolución [p.63]
----
 ## EDUCATION
 ### Cooperativas Educacionales y Sistema de Voucher
 **Medida 49: Cooperativas educacionales [p.95]**
@@ -262,7 +257,6 @@
 - Mantener niños alejados del crimen organizado [p.113]
 - Comunidades organización familiar y educacional para formación integral [p.113]
 - Foco en escuelas/liceos capturados o en riesgo por narcotráfico [p.113]
----
 ## HOUSING
 ### Vivienda Libre, Propiedad Segura y Espacios Públicos Sostenibles
 **Objetivo general: Transformación integral del sector vivienda mediante liberalización del mercado [p.171]**
@@ -331,7 +325,6 @@
 - Promoción oferta y demanda del mercado [p.180]
 - Empoderamiento y autonomía habitacional [p.180]
 - Monitoreo inteligente y adaptación constante [p.180]
----
 ## SOCIAL_POLICIES
 ### Desarrollo Humano
 **Medida 71: Del Ministerio del Trabajo al Ministerio de Desarrollo Humano [p.108]**
@@ -363,7 +356,6 @@
 **Medida 78: Desarrollo Centrado en la Familia [p.55]**
 - Esfuerzo familiar como motor de desarrollo [p.55]
 - Protección núcleo familiar como unidad social básica [p.55]
----
 ## STATE_MODERNIZATION
 ### Modernización Integral del Estado
 **Medida 79: Reforma administración pública y regionalización [p.126]**
@@ -374,7 +366,6 @@
 - Revisión sobredotación Servicios Públicos [p.129]
 **Medida 80: Ley Rastrillo [p.130]**
 - Ventanilla Única Nacional [p.131]
----
 ## INFRASTRUCTURE
 ### Nueva Arquitectura Institucional
 **Medida 81: Reforma Ley de Concesiones [p.155]**
@@ -387,7 +378,6 @@
 - Crowdfunding para inversión infraestructura pública [p.163]
 **Medida 83: Plan Estratégico Inversión 100% privada Obras Públicas [p.164]**
 - Modernización integral infraestructura pública [p.166]
----
 ## ENVIRONMENT
 ### Gestión Ambiental Competitiva
 **Medida 84: Nuevo Servicio de Permisos Ambientales [p.42]**
@@ -412,7 +402,6 @@
 **Medida 89: Marco Normativo Plantas Desalinizadoras [p.160]**
 - Desarrollo tecnología desalinización para seguridad hídrica [p.160]
 - Marcos regulatorios facilitadores inversión privada [p.160]
----
 ## FOREIGN_POLICY
 ### Ejes de Trabajo Internacional
 **Medida 90: Primer Eje - Seguridad y migraciones [p.87]**
@@ -442,7 +431,6 @@
 - Transformar sistema portuario en modelo competitivo y sustentable [p.206]
 - Posicionar Chile como hub comercio internacional en Latinoamérica [p.206]
 - Plataforma digital unificada para proyectos infraestructura [p.206]
----
 ## INSTITUTIONAL_REFORMS
 ### Sistema de Justicia
 **Medida 96: Reforma sistema designación magistrados tribunales superiores [p.78]**
@@ -454,7 +442,6 @@
 - Nuevo Ministerio del Interior: Interior + SEGPRES + SEGEGOB [p.48]
 - Nuevo Ministerio de Seguridad y Defensa [p.48]
 - Conservación Ministerio Relaciones Exteriores [p.48]
----
 ## QUANTIFIED_COMMITMENTS
 ### Metas Tributarias
 - 0% impuesto a utilidades reinvertidas [p.24]
@@ -482,7 +469,6 @@
 - 30 de junio plazo declaración anual [p.36]
 - 45 días hábiles permisos ambientales [p.42]
 - 7 días pronunciamiento patrimonio [p.43]
----
 **DOCUMENTO FUENTE:** Programa de Gobierno 2026-2030 - Johannes Kaiser Barents von Hohenhagen, Partido Nacional Libertario, 2025
 **TOTAL MEDIDAS EXTRAÍDAS:** 97 medidas específicas
 **COBERTURA:** Cobertura integral de secciones principales del documento

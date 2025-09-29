@@ -2,7 +2,6 @@
 ## LINEAMIENTOS PROGRAMÁTICOS - "UN CHILE QUE CUMPLE"
 ### "Un Chile que Cumple"
 ### Agosto 2025
----
 ## VISION_AND_PRINCIPLES
 **Medida 1: Reconectar la política con la vida cotidiana [p.3]**
 - Abordar la brecha entre la política y la gente para que sea vista como un instrumento facilitador [p.3]
@@ -17,7 +16,6 @@
 **Medida 4: Estado que garantice condiciones de vida dignas [p.7]**
 - Abordar desafíos actuales en salud, vivienda y educación [p.7]
 - Construir un Estado que protege y acompaña [p.7]
----
 ## SECURITY_AND_PUBLIC_ORDER
 **Medida 5: Mejorar Estado Mayor Conjunto [p.25]**
 - Fortalecer desarrollo e integración de capacidades militares [p.25]
@@ -56,7 +54,6 @@
 **Medida 19: Duplicar formación anual de Carabineros [p.31]**
 **Medida 20: Plan Niñez Segura [p.33]**
 - Atender niños, niñas y adolescentes en situación de riesgo social [p.33]
----
 ## ECONOMY_AND_EMPLOYMENT
 **Medida 21: Ley Marco de Permisos Sectoriales [p.10]**
 - Implementar ventanilla única (SEA y Sectorial) para aumentar certeza, transparencia y trazabilidad [p.10]
@@ -120,7 +117,6 @@
 - Implementar gradualmente durante el gobierno [p.22]
 **Medida 47: Jornada de 40 horas en sector público [p.23]**
 - Equiparar extensión con sector privado [p.23]
----
 ## HEALTH
 **Medida 48: Estrategia Nacional de Resolución Oportuna [p.36]**
 - Exámenes máximo 6 meses [p.36]
@@ -165,7 +161,6 @@
 **Medida 65: Infraestructura de clase mundial [p.48]**
 - 12 hospitales completos, 10 Centros de Cáncer, 25 COSAM [p.48]
 - 120 dispositivos de APS [p.48]
----
 ## EDUCATION
 **Medida 66: Plan Nacional de Salud Mental Escolar [p.57]**
 - Equipos multidisciplinarios en territorios [p.57]
@@ -194,7 +189,6 @@
 - Asegurar financiamiento para superar crisis heredada [p.61]
 **Medida 77: Fortalecimiento Educación Especial [p.61]**
 - Universalizar Proyectos de Integración Escolar [p.61]
----
 ## HOUSING
 **Medida 78: Nuevo impulso al Plan de Emergencia Habitacional [p.50]**
 - 260.000 nuevas construcciones y 140.000 mejoramientos [p.50]
@@ -212,7 +206,6 @@
 - 50 planes maestros en dos primeros años [p.54]
 **Medida 84: Planificación territorial con estaciones de trenes [p.54-55]**
 - 50 planes de nuevos barrios dignos [p.55]
----
 ## SOCIAL_POLICIES
 **Medida 85: Fortalecer Sistema Nacional de Cuidados [p.22]**
 - Resolver precariedad del trabajo de cuidado realizado por mujeres [p.22]
@@ -222,7 +215,6 @@
 - Fortalecer programa de residencias transitorias [p.35]
 **Medida 88: Beneficio contribuciones para adultos mayores [p.54]**
 - Más de 200.000 adultos mayores no acceden a beneficios [p.54]
----
 ## STATE_MODERNIZATION
 **Medida 89: Ventanilla única para permisos (SEA y Sectorial) [p.10]**
 - Aumentar certeza, transparencia y trazabilidad [p.10]
@@ -232,7 +224,6 @@
 - Fortalecer División de Control y Gestión Institucional [p.31]
 **Medida 92: Observatorio de medicamentos con datos en tiempo real [p.38]**
 - Transparencia y Regulación Inteligente [p.38]
----
 ## INFRASTRUCTURE
 **Medida 93: Fortalecer planes de EFE en Bío-Bío, Valparaíso, La Araucanía y Los Lagos [p.11]**
 - Extender presencia a La Serena-Coquimbo y Los Ríos [p.11]
@@ -241,20 +232,17 @@
 - Crear por ley política con financiamiento plurianual [p.59]
 **Medida 96: Agenda "fast track" con estándares internacionales [p.30]**
 - Para alta y máxima seguridad [p.30]
----
 ## ENVIRONMENT
 **Medida 97: Protección de salares y lagunas andinas [p.14]**
 - Fortalecer Red de Salares protegidos [p.14]
 **Medida 98: Sistemas de gestión circular en nuevos proyectos al 2030 [p.15]**
 **Medida 99: Acelerar construcción de plantas desaladoras multipropósito [p.13]**
 - Gestión hídrica sostenible [p.13]
----
 ## FOREIGN_POLICY
 **Medida 100: Posicionamiento marca "Visit South America" con países de la región [p.16]**
 **Medida 101: Fortalecer coordinación ministerial en comercio exterior [p.20]**
 - Evitar duplicidades en comercio exterior e inversión [p.20]
 **Medida 102: Promover ScaleX como plataforma regional integrada con bolsas de Chile, Perú y Colombia [p.19]**
----
 ## INSTITUTIONAL_REFORMS
 **Medida 103: Agencia Nacional de Control de Armas reemplazando DGMN [p.25]**
 - Institucionalidad especializada civil [p.25]
@@ -266,7 +254,6 @@
 - Implementar mejoras propuestas por Mesa Técnica SAE [p.61]
 **Medida 108: Subsidio Unificado al Empleo [p.22]**
 - Unificar Subsidio al Empleo Joven, Bono Empleo a la Mujer y Subsidio Previsional a Trabajadores Jóvenes [p.22]
----
 ## QUANTIFIED_COMMITMENTS
 ### Metas Económicas
 - Inversión: acercar al 30% del PIB [p.9]
@@ -304,7 +291,6 @@
 - 100 comunas prioritarias Escuelas Comunitarias [p.57]
 - 70 Liceos Técnicos de Excelencia [p.58]
 - 1.000 establecimientos infraestructura escolar [p.58]
----
 **DOCUMENTO FUENTE:** Lineamientos Programáticos "Un Chile que Cumple" - Jeannette Jara Román, Agosto 2025
 **TOTAL MEDIDAS EXTRAÍDAS:** 108 medidas específicas
 **COBERTURA:** 100% del documento (páginas 3-61)
