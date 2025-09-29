@@ -38,6 +38,6 @@ standard should allow to specify all the contents of the files in /02_extract fo
 
 ```claude code
 1.execute command @claude\commands\extract_refinement.md considering candidate {candidate_here}, text presidential extract is @02_extract\extreact_{candidate_here}.txt
-3.do a final check for missing items on the refined extract according to the standard and proceed with changes if any required
+2.do a final check for missing items on the refined extract according to the standard and proceed with changes if any required
 ```
 
