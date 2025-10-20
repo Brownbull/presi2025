@@ -13,7 +13,14 @@
       "Bash(do if ! grep -q \"\\[p\\.$i\\]\" \"G:\\My Drive\\Projects\\2025\\presidential\\02_extract\\extract_Jeannette_Jara.txt\")",
       "Bash(then echo \"Missing: p.$i\")",
       "Bash(find:*)",
-      "Read(//g//**)"
+      "Read(//g//**)",
+      "Bash(mv \"EDUARDO-ANTONIO-ARTES-BRICHETTI_ss_20251020.txt\" \"Programa_Eduardo_Artes_ss_20251020.txt\")",
+      "Bash(mv \"EVELYN-MATTHEI-FORNET_ss_20251020.txt\" \"Programa_Evelyn_Matthei_ss_20251020.txt\")",
+      "Bash(mv \"FRANCO-PARISI-FERNANDEZ_ss_20251020.txt\" \"Programa_Franco_Parisi_ss_20251020.txt\")",
+      "Bash(mv \"HAROLD-MAYNE-NICHOLLS-SECUL_ss_20251020.txt\" \"Programa_Harold_Mayne_Nicholls_ss_20251020.txt\")",
+      "Bash(mv \"JEANNETTE-JARA-ROMAN_ss_20251020.txt\" \"Programa_Jeannette_Jara_ss_20251020.txt\")",
+      "Bash(mv \"JOHANNES-KAISER-BARENTS-VON-HOHENHAGEN_ss_20251020.txt\" \"Programa_Johannes_Kaiser_ss_20251020.txt\")",
+      "Bash(mv \"MARCO-ANTONIO-ENRIQUEZ-OMINAMI-GUMUCIO_ss_20251020.txt\" \"Programa_Marco_Enriquez_Ominami_ss_20251020.txt\")"
     ],
     "deny": [],
     "ask": []

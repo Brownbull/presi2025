@@ -43,5 +43,23 @@ standard should allow to specify all the contents of the files in /02_extract fo
 
 ## Agents
 La creacion de agentes se hizo completamente utilizando Claude Opus 4.1, enfocandose en espectros politicos, casos de personas representativas y en formas de evaluacion de medidas y factibilidad de estas.
+### Espectros Politicos Nacionales
+- agente-P-CL-autonomista-regional.md
+- agente-P-CL-ecologista.md
+- agente-P-CL-democrata-cristiano.md
+- agente-P-CL-liberal-conservador.md
+- agente-P-CL-nacional-populista.md
+- agente-P-CL-progresista-transformador.md
+### Espectros Politicos Internacionales
+- agente-P-CH-del-partido-comunista-chino.md
+- agente-P-US-democrata-de-estados-unidos.md
+- agente-P-US-republicano-de-estados-unidos.md
+### Grupos de Interes
+- agente-S-dignidad.md
+- agente-S-orden.md
+- agente-S-pragmatico.md
+## Evaluators
+- evaluador-med-smart.md
+- evaluador-prog-factibilidad.md
 
 

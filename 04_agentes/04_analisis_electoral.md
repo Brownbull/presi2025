@@ -4,10 +4,10 @@
 
 ### Distribución Electoral Estimada
 - **Votantes probables**: 7.5 millones (50% padrón)
-- **Indecisos/volátiles**: 2.5 millones (33%)
-- **Voto duro derecha**: 2.2 millones (29%)
-- **Voto duro izquierda**: 1.8 millones (24%)
-- **Voto duro centro**: 1.0 millón (14%)
+  - **Indecisos/volátiles**: 2.5 millones (33%)
+  - **Voto duro derecha**: 2.2 millones (29%)
+  - **Voto duro izquierda**: 1.8 millones (24%)
+  - **Voto duro centro**: 1.0 millón (14%)
 
 ## Coaliciones Ganadoras Potenciales
 
