@@ -1,0 +1,555 @@
+PRESIDENTIAL PROGRAM EXTRACT - HAROLD MAYNE-NICHOLLS
+Election: Chile 2025
+Document Source: Programa_Harold_Mayne_Nicholls_ss_20251020.txt
+Extraction Date: October 21, 2025
+
+================================================================================
+VISION AND PRINCIPLES
+================================================================================
+
+VIS001: Recuperar el alma de Chile [p.5]
+VIS002: Reestablecer una convivencia sana, respetuosa y pacífica [p.5]
+VIS003: Unir en torno a propósito común como Selección Nacional [p.5]
+VIS004: Renovar la política y recuperar el prestigio del sistema de partidos [p.5]
+VIS005: Liderazgo del "centro" como espacio de valoración de la dignidad de las personas [p.5]
+VIS006: Excluir posiciones extremas, intolerancia y fanatismo dogmático [p.5]
+VIS007: "Escuchar, unir, servir" como orientación de hacer política [p.5]
+VIS008: Conducción honesta, cercana y dialogante [p.6]
+VIS009: Libertad para la vida [p.40]
+VIS010: Fraternidad para la economía [p.40]
+VIS011: Igualdad ante la ley, sin excepción [p.41]
+
+================================================================================
+SECURITY AND PUBLIC ORDER
+================================================================================
+
+SEC001: Convocar Comité Nacional de Seguridad con sesiones semanales para coordinar fuerzas del orden e inteligencia [p.9]
+SEC002: Continuar correcta implementación del Ministerio de Seguridad Pública [p.9]
+SEC003: Impulsar agenda legislativa de seguridad para actualizar leyes contra narcotráfico, control de armas y crimen organizado [p.9]
+SEC004: Dotar de mayores facultades y tecnología a unidades especializadas de Carabineros, PDI, Fiscalía y otras instituciones de seguridad [p.9]
+SEC005: Apoyar Ley de Infraestructura Crítica para desplegar Fuerzas Armadas en vigilancia de puntos sensibles [p.9]
+SEC006: Apoyar levantamiento del secreto bancario para investigaciones de lavado de dinero [p.10]
+SEC007: Fortalecer Servicio Nacional de Aduanas y crear cuerpo especializado en control del tráfico en puertos [p.10]
+SEC008: Invertir en tecnología de punta en fronteras: drones, sensores de movimiento, "minas virtuales" o cercos electrónicos disuasivos [p.10]
+SEC009: Robustecer Servicio Nacional de Migraciones para establecer mecanismos de denegación de entradas o visas [p.10]
+SEC010: Establecer mecanismos eficientes de expulsión administrativa y judicial de personas extranjeras que incumplan leyes [p.10]
+SEC011: Expulsar de inmediato y prohibir reingreso de extranjeros que cometan delitos graves en Chile [p.10]
+SEC012: Aumentar dotación de policías que cumplan labores territoriales [p.10]
+SEC013: Mejor gestión de la dotación policial en territorio mediante tecnología [p.10]
+SEC014: Equiparar municipios con menos herramientas en seguridad municipal [p.10]
+SEC015: Implementar operativos locales frecuentes en barrios críticos [p.10]
+SEC016: Prohibir explícitamente ingreso de delincuentes a estadios [p.10]
+SEC017: Colocar torniquetes altos y sistemas de reconocimiento facial en recintos deportivos [p.10]
+SEC018: Reforzar patrullajes y presencia policial en zonas residenciales [p.10]
+SEC019: En La Araucanía y zonas fronterizas del norte, abogar por apoyo de personal militar en tareas de seguridad [p.11]
+SEC020: Plan de desarrollo local en zonas de conflicto [p.11]
+SEC021: Fortalecer inteligencia en seguridad, crear unidades especializadas para infiltrarse y anticipar movimientos de bandas [p.11]
+SEC022: Fortalecer Consejos Comunales de Seguridad Pública [p.11]
+SEC023: Crear Consejo de Convivencia Ciudadana que involucre vecinos en prevención [p.11]
+SEC024: Intervención en territorio: eliminación de predios baldíos o sitios eriazos que reúnen micro delincuencia [p.11]
+SEC025: Control efectivo en vía pública para consumo de Cannabis y Alcohol [p.11]
+SEC026: Aplicación preventiva de la ley 20.000 [p.11]
+SEC027: Esquinas Deportivas: alianzas público-privadas para prevención del delito en jóvenes mediante deportes de contacto [p.11]
+SEC028: Convenios entre municipios, empresas, fundaciones y Estado para talleres extracurriculares, mentoría, formación laboral temprana y apoyo psicológico [p.11]
+SEC029: Incentivos tributarios para empresas que participen en construcción de trayectorias de vida positivas para adolescentes y jóvenes [p.11]
+SEC030: Sistema de monitoreo educacional preventivo interinstitucional y descentralizado [p.11]
+SEC031: Plataforma nacional para interconectar municipios, escuelas, policías y Mejor Niñez [p.11]
+SEC032: Detección temprana de situaciones de riesgo mediante cruce de datos de asistencia, deserción y detenciones de menores [p.11]
+SEC033: Programa "Iluminar La Araucanía": dotar caminos interiores con luz pública [p.12]
+SEC034: Entregar señal de Internet en cada rincón del territorio de La Araucanía [p.12]
+SEC035: Estudiar e implementar opciones del documento "Acuerdo Nacional por el Desarrollo y la Paz en La Araucanía" [p.12]
+
+================================================================================
+ECONOMY AND EMPLOYMENT
+================================================================================
+
+ECO001: Otorgar apoyos de invierno extraordinarios para familias vulnerables (adultos mayores, hogares de menores ingresos) [p.12]
+ECO002: Fortalecer generación de nuevas políticas públicas para Adulto Mayor desde Senama [p.13]
+ECO003: Crear figura del defensor de derechos del Adulto Mayor en cada región [p.13]
+ECO004: Garantizar seguridad jurídica, respeto al Estado de Derecho, contratos y propiedad privada [p.13]
+ECO005: Mantener finanzas públicas responsables y reglas claras (impuestos estables y equitativos, regulaciones transparentes) [p.13]
+ECO006: Reforzar InvestChile como aceleradora de grandes proyectos estratégicos [p.13]
+ECO007: Seguimiento mensual de proyectos de mayor envergadura [p.13]
+ECO008: Ventanilla única digital nacional con trazabilidad pública, plazos perentorios y responsabilidad directa de cada institución [p.13]
+ECO009: Apoyo a sectores con alto potencial de empleo: Construcción, energía verde, economía digital, industria alimentaria, turismo [p.13]
+ECO010: Facilitar crédito a pymes a tasas bajas mediante BancoEstado y garantías estatales [p.13]
+ECO011: Asesoría técnica a pymes para mejorar productividad y digitalización [p.13]
+ECO012: Instalación de "Centros de Competitividad Territorial (CCT)" adaptados a identidad de cada región [p.13]
+ECO013: CCT instalados en universidades públicas regionales, acompañando estrategias regionales de desarrollo (ERD) [p.13]
+ECO014: Generar al menos 500 mil nuevos empleos formales en cuatro años [p.14]
+ECO015: Desplegar obras públicas intensivas: plan de construcción y mejoramiento de infraestructura [p.14]
+ECO016: Construcción y mejoramiento de caminos vecinales, puentes, plazas, veredas, ciclovías, mejoramiento de viviendas y barrios [p.14]
+ECO017: Mejoramiento del salario mínimo progresivo, concertado en Mesa de Diálogo Social [p.14]
+ECO018: Acercar salario mínimo a salario digno que cubra necesidades básicas [p.14]
+ECO019: Evaluar incrementos adicionales del sueldo mínimo según crecimiento e inflación [p.14]
+ECO020: Apoyar microempresas con subsidios transitorios para pagar salario mínimo si es necesario [p.14]
+ECO021: Ampliación del Ingreso Mínimo Garantizado [p.14]
+ECO022: Reforzar PGU (Pensión Garantizada Universal) para adultos mayores [p.14]
+ECO023: Lanzar programa de promoción turística internacional destacando Chile como destino seguro, diverso y sustentable [p.14]
+ECO024: Facilitar inversión en infraestructura turística: aeropuertos, pasos fronterizos, rutas escénicas, centros de información, hoteles [p.14]
+ECO025: Crear incentivos tributarios para emprendimientos turísticos en zonas extremas [p.14]
+ECO026: Alianzas estratégicas con municipalidades y gremios para organizar festivales culturales, gastronómicos y deportivos [p.14]
+ECO027: Campañas para turismo interno [p.14]
+ECO028: Apoyo a agricultura familiar campesina con asistencia técnica y canales de comercialización [p.14]
+ECO029: Desarrollo de polos industriales descentralizados vía parques tecnológicos regionales [p.14]
+ECO030: Fomentar desarrollo de proyectos mineros con bajo impacto ambiental y fuerte compromiso social [p.15]
+ECO031: Acelerar procesos de aprobación mediante mecanismos de decisión ágil [p.15]
+ECO032: Facilitar adopción de nuevas tecnologías mineras a través de plataformas de validación técnica a escala real [p.15]
+ECO033: Consolidar cartera robusta de proyectos de mediana minería [p.15]
+ECO034: Priorizar iniciativas mineras que generen encadenamientos productivos y diversifiquen oferta exportadora [p.15]
+ECO035: Establecer ecosistema público-privado que potencie pequeña y mediana minería [p.15]
+ECO036: Beneficios tributarios diferenciados para pequeña y mediana minería [p.15]
+ECO037: Acceso preferente a instrumentos de financiamiento para pequeña y mediana minería [p.15]
+ECO038: Incentivos para formalización y cumplimiento ambiental en minería [p.15]
+ECO039: Implementar "Royalty por Innovación" que incentive mineras a invertir en plantas y tecnología para producir bienes elaborados [p.16]
+ECO040: Crear Centros de Excelencia en Metalurgia y Materiales Avanzados [p.16]
+ECO041: Programa Nacional de Talentos para la Minería del Futuro [p.16]
+ECO042: Plan "Doctor en la Industria del Cobre" [p.16]
+ECO043: Estrategia para atraer fabricantes de baterías, componentes electrónicos y vehículos eléctricos a instalarse en Chile [p.16]
+ECO044: Modificar regulación que permite exportar elementos (paladio, renio, cobalto, platino, etc) sin pagar impuesto [p.16]
+ECO045: Facilitar repatriación de capitales con incentivos para reinvertir en proyectos locales [p.16]
+ECO046: Reducción de impuestos a utilidades reinvertidas en sectores productivos nacionales [p.16]
+ECO047: Invitar chilenos emprendedores en el exterior a traer sus innovaciones [p.16]
+ECO048: Respeto irrestricto a tratados internacionales para inversionistas extranjeros [p.16]
+ECO049: Rapidez en resolución de controversias [p.16]
+ECO050: Eliminación de trabas burocráticas [p.16]
+
+================================================================================
+HEALTH
+================================================================================
+
+HEA001: Enfrentar tiempos de espera, aumentar capacidad resolutiva y mejorar experiencia del usuario [p.17]
+HEA002: Colaboración de actores públicos y privados para resolver problema de tiempos de espera [p.17]
+HEA003: Retomar discusión sobre precio de medicamentos para avanzar hacia precios justos [p.17]
+HEA004: Poner a disposición medicamentos más demandados por población [p.17]
+HEA005: Actualizar normativas como decreto 264/2003 (Formulario Nacional) [p.17]
+HEA006: Reforzar apoyo a planes de vida saludable en familias y comunidades [p.17]
+HEA007: Foco especial en control de obesidad, sedentarismo y salud mental [p.17]
+HEA008: Profundizar estrategias de atención primaria universal [p.17]
+HEA009: Aspirar a alcanzar promedios de uso de recursos de la OCDE [p.17]
+HEA010: Modernizar gestión concentrando al Ministerio de Salud en función rectora [p.17]
+HEA011: Diferenciar institución encargada de gestión en red de establecimientos públicos y complementariedad con prestadores privados [p.17]
+HEA012: Mejorar condiciones de trabajo del personal de salud [p.17]
+HEA013: Incorporar comunidades en gestión de soluciones que apunten a humanización de la salud [p.17]
+HEA014: Desarrollar mayores incentivos para personas que cuiden a adultos mayores [p.17]
+HEA015: Fonasa implemente adecuadamente modalidad de cobertura complementaria [p.18]
+HEA016: Estricta supervisión al cumplimiento de leyes que regulan aseguramiento privado [p.18]
+HEA017: Impulsar Consejo de Autoridades Tradicionales de Primeras Naciones de Chile [p.18]
+HEA018: Asignar Asesores Culturales (coaching cultural) en MINSAL, Subsecretarías y SEREMIS [p.18]
+HEA019: Fortalecer rol del Facilitador Cultural en establecimientos de salud [p.18]
+HEA020: En atención primaria en territorios de primeras naciones, garantizar gestión participativa en salud en todos niveles [p.18]
+HEA021: Toda infraestructura de salud tendrá incorporada mirada intercultural desde diseño [p.18]
+HEA022: Ampliar aplicación de normativas y acceso a prácticas complementarias de salud y bienestar [p.18]
+HEA023: Programa Nacional de Salud Mental robusto [p.18]
+HEA024: Creación de "Centros Comunitarios de Salud Mental" en cada servicio de salud [p.18]
+HEA025: Integración de psicólogos en Atención Primaria garantizando al menos una atención psicológica breve para cualquier consultante [p.18]
+HEA026: Campañas masivas de sensibilización para reducir estigma de salud mental [p.18]
+HEA027: Aumentar cobertura del Fonasa e isapres en prestaciones de salud mental [p.18]
+HEA028: Fortalecer líneas de apoyo y prevención del suicidio, especialmente orientadas a jóvenes [p.18]
+HEA029: Porcentaje fijo del presupuesto de salud para salud mental, avanzando hacia 5% recomendado por OMS [p.18]
+HEA030: Implementar programas especiales de beneficios para ciudadanos que opten por tener hijas e hijos [p.19]
+HEA031: Ayuda directa para adquisición de primera vivienda para familias con hijos [p.19]
+HEA032: Beneficios para educación básica y media de hijos [p.19]
+
+================================================================================
+HOUSING
+================================================================================
+
+HOU001: Abordar déficit habitacional cuantitativo de alrededor de 550 mil viviendas [p.20]
+HOU002: Abordar déficit cualitativo (mejoras y ampliaciones) que se acerca a 1,5 millones de viviendas para familias vulnerables, jóvenes y sectores medios [p.20]
+HOU003: Acelerar construcción para que cada familia tenga primera vivienda digna [p.20]
+HOU004: Apoyar modalidades donde construye y financia privado y se paga en cuotas (total o parcialmente por Estado) [p.20]
+HOU005: Generar proyectos de vivienda social e integradas vía concesiones [p.20]
+HOU006: Actualizar subsidios habitacionales, tanto en monto como en focalización [p.20]
+HOU007: Fortalecer mecanismos de alianza público-privada para desarrollos inmobiliarios [p.20]
+HOU008: Revisar regulaciones financieras que han restringido crédito al sector inmobiliario [p.20]
+HOU009: Utilizar terrenos fiscales para proyectos destinados al arriendo bajo modalidad de financiamiento compartido [p.20]
+HOU010: Subsidio de Arriendo (DS52) y aporte personal [p.20]
+HOU011: Fortalecer proyecto de "Condominios de Viviendas Tuteladas" para adultos mayores autovalentes [p.20]
+HOU012: Red de apoyo desde Municipalidad, SENAMA y servicios varios para condominios tutelados [p.20]
+HOU013: Apoyar iniciativas como programa "Pequeño Condominio" para familias con terreno en condiciones de hacinamiento [p.20]
+HOU014: Anticipar nacimiento de nuevos campamentos a través de inteligencia policial y de seguridad [p.20]
+HOU015: Programa de erradicación de campamentos existentes, partiendo con aquellos ubicados en zonas de riesgo latente [p.20]
+
+================================================================================
+EDUCATION
+================================================================================
+
+EDU001: Cero tolerancia a deserción y ausentismo escolar [p.20]
+EDU002: Mantener campaña nacional "Cada Día Cuenta" con refuerzo [p.20]
+EDU003: Monitores comunitarios que visiten casas de estudiantes que no asistan al colegio [p.20]
+EDU004: Detección temprana de casos de riesgo de inasistencia [p.20]
+EDU005: Incentivos de asistencia (actividades deportivas o artísticas atractivas en escuelas) [p.20]
+EDU006: Aumentar apoyos a establecimientos con alto índice de vulnerabilidad [p.21]
+EDU007: Más financiamiento por alumno vulnerable [p.21]
+EDU008: Programas de tutorías académicas individuales [p.21]
+EDU009: Marco Nacional de Uso Ético de IA en educación escolar [p.21]
+EDU010: Capacitación docente masiva en uso de IA [p.21]
+EDU011: Modernización de métodos de evaluación hacia proyectos, debates y resolución de problemas [p.21]
+EDU012: Guías para familias que apoyen uso responsable de IA [p.21]
+EDU013: Fortalecimiento de educación técnico-profesional como vía estratégica de desarrollo [p.21]
+EDU014: Fortalecer calidad y equidad en educación superior con criterios más exigentes de acreditación curricular [p.21]
+EDU015: Exigir procesos de evaluación justos y protección a alumnos frente a arbitrariedades [p.21]
+EDU016: Estándares mínimos de transparencia evaluativa con rúbricas claras y mecanismos de apelación imparciales [p.21]
+EDU017: Creación del "Instituto Nacional para la Mejora Educativa" (INME), organismo público autónomo [p.21]
+EDU018: INME con personalidad jurídica y patrimonio propio [p.21]
+EDU019: INME encargado de evaluar impacto de políticas educativas, auditar procesos pedagógicos, proponer estándares de mejora [p.21]
+EDU020: INME brindará asistencia técnica directa a sostenedores y establecimientos [p.21]
+EDU021: Dirección ejecutiva de INME seleccionada por Alta Dirección Pública [p.21]
+EDU022: Consejo autónomo responsable de lineamientos estratégicos de INME [p.21]
+EDU023: Equipos técnicos desplegados en todo el país con autonomía operativa regional [p.21]
+EDU024: Garantizar cobertura universal de sala cuna desde los 2 años [p.21]
+EDU025: Énfasis de salas cuna en propios lugares de trabajo [p.21]
+EDU026: Sala cuna como derecho independiente de situación laboral de los padres [p.21]
+EDU027: Acompañamiento a madres gestantes y familias con visitas domiciliarias de orientadores [p.21]
+EDU028: Visitas de apego y estimulación temprana [p.21]
+EDU029: Detección e intervención temprana de rezagos en desarrollo psicomotor o lenguaje [p.22]
+EDU030: Ampliación de subvención y estándares para jardines infantiles y salas cuna [p.22]
+EDU031: Escuelas para padres, talleres comunitarios y difusión de prácticas positivas de crianza [p.22]
+EDU032: Promover corresponsabilidad parental [p.22]
+EDU033: Ampliar gradualmente postnatal parental para que más padres puedan involucrarse en cuidado de bebés [p.22]
+
+================================================================================
+STATE MODERNIZATION
+================================================================================
+
+STA001: Dotar educación de organización independiente del poder político, dirigida por educadores y académicos de excelencia [p.7]
+STA002: Acordar reforma del Estado que apunte a servir de manera eficiente y profesional [p.7]
+STA003: Acordar conjunto de cambios al sistema político que devuelvan confianza de ciudadanía a la política [p.7]
+STA004: Acordar mejoramientos del sistema económico para retomar aumento sostenido de productividad [p.7]
+STA005: Promover cultura de la paz y estrategias de seguridad que devuelvan al Estado patrimonio exclusivo del uso de la fuerza [p.7]
+STA006: Reforzar mecanismos de control interno y externo [p.26]
+STA007: Dotar de mayor autonomía y recursos a Contraloría General de la República [p.26]
+STA008: Crear comités de ética en ministerios [p.26]
+STA009: Aplicar pruebas aleatorias de integridad [p.26]
+STA010: Proponer penas de cárcel para corruptores [p.26]
+STA011: Transparentar completamente compras públicas en portal visible para todos [p.26]
+STA012: Cada iniciativa de gobierno explicada con su financiamiento y plazos [p.26]
+STA013: Revisar exenciones tributarias regresivas [p.26]
+STA014: Avanzar gradualmente a impuestos verdes (elevar impuesto a emisiones contaminantes de empresas) [p.26]
+STA015: Fortalecer fiscalización a evasión/elusión tributaria con apoyo de tecnología [p.26]
+STA016: Combate al contrabando y redes de comercio ilegal [p.27]
+STA017: Adoptar reglas de responsabilidad fiscal claras (mantener deuda pública en rangos sostenibles, ahorrar en épocas de bonanza) [p.27]
+STA018: Alivianar aparato público, refundir reparticiones comenzando en ámbito político ligado a presidencia [p.27]
+STA019: Disminución radical de asesores del "segundo piso" y secretaría general de gobierno [p.27]
+STA020: Impulsar Reforma del Empleo Público que establezca mérito como base de función pública [p.27]
+STA021: Creación de sistema nacional de Formación Pública para capacitar nuevos servidores en ética, gestión y políticas públicas [p.27]
+STA022: Registro Único de personal público para planificar dotación, evitar duplicidades y transparentar salarios [p.27]
+STA023: Reducir alta rotación en sector público [p.27]
+STA024: Mantener buenos funcionarios técnicos en puestos independientemente de color político gobernante [p.27]
+STA025: Profesionalizar servicio civil fortaleciendo sistema de Alta Dirección Pública y ampliándolo a más cargos [p.27]
+STA026: Abrir debate para reformar régimen político, explorando alternativas para lograr mayor colaboración entre poderes [p.27]
+STA027: Reforma al sistema de partidos políticos: incentivar concentración o fusión de partidos [p.27]
+STA028: Reposición de prohibición de pactos electorales [p.27]
+STA029: Promover democracia interna y disciplina de partidos [p.27]
+STA030: Aumentar exigencias de firmas o votos para formar nuevos partidos [p.27]
+STA031: Premiar partidos fusionados que representen mejor a ciudadanía [p.27]
+STA032: Creación de Directorio Autónomo de Educación (similar al Banco Central) [p.28]
+STA033: Directorio integrado por expertos nombrados con acuerdo amplio [p.28]
+STA034: Directorio encargado de definir estándares mínimos, currículum base y evaluaciones en sistema escolar [p.28]
+STA035: Traer líderes y expertos mundiales para asesorar y evaluar reformas estructurales [p.28]
+STA036: Invitar economistas reconocidos internacionalmente en seguridad social para revisar propuestas de reforma de pensiones [p.28]
+STA037: Implementar mecanismos de democracia participativa: plebiscitos comunales vinculantes en temas relevantes locales [p.28]
+STA038: Presupuestos participativos fortalecidos [p.28]
+STA039: Consultas digitales sobre proyectos de ley nacionales [p.28]
+STA040: Plataforma Digital de Seguimiento donde ciudadanos puedan ver avance de compromisos en tiempo real [p.28]
+STA041: Reintroducir educación cívica en colegios y liceos como asignatura transversal [p.28]
+STA042: Programas de formación ciudadana para adultos mediante juntas de vecinos, bibliotecas y organizaciones [p.28]
+STA043: Red Nacional de Centros de Diálogo Comunitarios [p.28]
+STA044: Espacios de encuentro en cada comuna donde ciudadanos de distintas posturas puedan debatir soluciones con facilitadores profesionales [p.28]
+
+================================================================================
+JUSTICE AND INSTITUTIONAL REFORMS
+================================================================================
+
+JUS001: Garantizar independencia judicial y de la Fiscalía [p.29]
+JUS002: Nuevo sistema de nombramientos judiciales mediante órgano autónomo [p.29]
+JUS003: Separar función jurisdiccional de función de gobierno judicial [p.29]
+JUS004: Eliminar influencias indebidas externas e internas en justicia [p.29]
+JUS005: Sustraer a cortes de funciones administrativas y disciplinarias [p.29]
+JUS006: Procedimiento de selección público y transparente, basado en mérito [p.29]
+JUS007: Órgano de nombramientos con composición mixta de jueces, académicos, juristas y ciudadanía [p.29]
+JUS008: Mecanismos como sorteo para evitar control político [p.29]
+JUS009: Autonomía plena del Ministerio Público frente a intentos de capturas partidistas [p.29]
+JUS010: Defensoría Penal Pública adquiera autonomía constitucional [p.29]
+JUS011: Modernización de gestión judicial (mejoras en tramitación digital) [p.29]
+JUS012: Más fiscales y defensores públicos donde falten [p.29]
+JUS013: Promover eliminación de atenuante de "irreprochable conducta anterior" para delitos graves [p.29]
+JUS014: Asegurar que reincidencia en delitos menores conlleve sanciones efectivas y acumulativas [p.29]
+JUS015: No tomar en cuenta antecedentes de menores de 18 años en delitos graves [p.29]
+JUS016: Aumentar capacidad carcelaria (más recintos y ampliación de existentes) [p.29]
+JUS017: Terminar con hacinamiento carcelario [p.29]
+JUS018: Creación de Tribunales especializados en crimen organizado y corrupción dentro del Poder Judicial [p.29]
+JUS019: Jueces protegidos, en rotación y con formación continua [p.29]
+JUS020: Instalación de salas penales especializadas en Cortes de Apelaciones que lo requieran [p.29]
+JUS021: Reorganizar y reforzar Gendarmería: nuevos programas de reclutamiento, selección y formación [p.29]
+JUS022: Ampliación de infraestructura carcelaria [p.30]
+JUS023: Incorporación de tecnovigilancia, bio-identificación y plataformas digitales integradas con tribunales [p.30]
+JUS024: Fortalecimiento de unidades anti-corrupción en Gendarmería [p.30]
+JUS025: Racionalización del uso de recintos carcelarios [p.30]
+JUS026: Modernizar estructura del Registro Civil [p.30]
+JUS027: Elevar capacidades técnicas del Registro Civil [p.30]
+JUS028: Actualizar infraestructura y TICs del Registro Civil [p.30]
+
+================================================================================
+FOREIGN POLICY
+================================================================================
+
+FOR001: Apego irrestricto a valores democráticos [p.30]
+FOR002: Respeto y promoción de derechos humanos [p.30]
+FOR003: Compromiso con multilateralismo como marco esencial para cooperación entre Estados [p.30]
+FOR004: Defender institucionalidad democrática, Estado de derecho y solución pacífica de controversias [p.30]
+FOR005: Promover integración regional [p.30]
+FOR006: Acción concertada frente a desafíos globales: paz, cambio climático y equidad social [p.30]
+FOR007: Profundizar política internacional desde retorno a democracia [p.30]
+
+================================================================================
+SOCIAL POLICIES
+================================================================================
+
+SOC001: Implementar reforma de pensiones aprobada [p.30]
+SOC002: Mayor parte de personas mayores de 65 años no paguen contribuciones (impuesto territorial) por su primera vivienda [p.31]
+SOC003: Fortalecer dispositivos de prevención y protección contra violencia de género [p.31]
+SOC004: Más Casas de Acogida para mujeres en riesgo en todo el país [p.31]
+SOC005: Líneas de denuncia y orientación 24/7 reforzadas [p.31]
+SOC006: Campañas educativas permanentes que promuevan respeto y no violencia desde edades tempranas [p.31]
+SOC007: Instruir a Carabineros, PDI y tribunales para mejorar respuesta a denuncias de violencia intrafamiliar [p.31]
+SOC008: Plena implementación de Ley Gabriela [p.31]
+SOC009: Monitoreo con estadísticas públicas de aplicación de Ley Gabriela [p.31]
+SOC010: Programas de capacitación y colocación laboral para mujeres que han estado fuera del mercado [p.31]
+SOC011: Apoyo al emprendimiento femenino a través de capital semilla específico [p.31]
+SOC012: Promoción de participación de mujeres en sectores donde están sub-representadas [p.31]
+SOC013: Ampliar cobertura de salas cuna y educación preescolar gratuita [p.31]
+SOC014: Garantizar acceso universal a Kinder y Prekinder [p.31]
+SOC015: Implementar gradualmente Sistema Nacional de Cuidados [p.31]
+SOC016: Apoyo a cuidadores informales [p.31]
+SOC017: Centros de día para adultos mayores [p.31]
+SOC018: Formación de cuidadores profesionales [p.31]
+SOC019: Ejecutar ley de inclusión laboral ampliando cupos en sector público más allá del mínimo legal [p.31]
+SOC020: Apoyar empresas privadas para cumplimiento de inclusión laboral con incentivos [p.31]
+SOC021: Mejorar Pensión de invalidez para garantizar ingresos dignos [p.31]
+SOC022: Garantía de financiamiento estable y transparente para desarrollo cultural [p.32]
+SOC023: Valoración de identidades locales, comunitarias y de pueblos originarios [p.32]
+SOC024: Generación de espacios de participación para artistas y gestores culturales en diseño y evaluación de políticas [p.32]
+SOC025: Énfasis especial a expresiones culturales juveniles [p.32]
+SOC026: Política migratoria humanitaria pero ordenada [p.32]
+SOC027: Agilizar regularización de extranjeros con arraigo laboral [p.32]
+SOC028: Incluir migrantes de buena fe en protección social y economía formal [p.32]
+SOC029: Reforzar Defensoría de Víctimas [p.32]
+SOC030: Fortalecer Defensoría Penal Pública [p.32]
+
+================================================================================
+ENVIRONMENT AND SUSTAINABLE DEVELOPMENT
+================================================================================
+
+ENV001: Reforzar Planes Regionales de Desarrollo Urbano (PRDU) [p.33]
+ENV002: Fortalecer capacidades del MINVU para coordinarse con gobiernos regionales y municipios [p.33]
+ENV003: Expansiones urbanas cuenten con áreas verdes, transporte público, servicios y respeten zonas de valor ambiental [p.33]
+ENV004: Revisar funcionamiento del Consejo Nacional de Desarrollo Territorial (CNDT) y COMICIVYT [p.33]
+ENV005: Lograr que todas regiones completen Planes Regionales de Ordenamiento Territorial (PROT) [p.33]
+ENV006: Promover ciudades compactas y bien planificadas [p.33]
+ENV007: Cada proyecto habitacional de interés social irá acompañado de inversión en infraestructura verde y conectividad [p.33]
+ENV008: Impulsar Ley de Uso de Suelo moderna que limite urbanización en áreas de riesgo [p.33]
+ENV009: Primar densificación equilibrada por sobre extensión descontrolada [p.33]
+ENV010: Énfasis en prevención de incendios forestales [p.33]
+ENV011: Dotar de mejor tecnología a Conaf [p.33]
+ENV012: Capacitación sostenida a brigadistas de Conaf [p.33]
+ENV013: Abordar erradicación de campamentos con planificación territorial rigurosa [p.33]
+ENV014: Identificar terrenos aptos y bien ubicados para proyectos sociales [p.33]
+ENV015: Bancos de suelo público [p.33]
+ENV016: Convenios con privados para utilizar terrenos baldíos urbanos en desuso [p.33]
+ENV017: Soluciones habitacionales considerarán desarrollo del barrio, pavimentación, iluminación, agua potable y alcantarillado [p.33]
+ENV018: Reforzar prevención de tomas [p.33]
+ENV019: Dotar de más recursos y facultades a Superintendencia del Medio Ambiente [p.33]
+ENV020: Aplicar multas severas a quienes dañen ecosistemas [p.33]
+ENV021: Sanciones más altas para construcción ilegal en áreas protegidas, humedales o riveras [p.34]
+ENV022: Obligación de restauración ecológica del área afectada [p.34]
+ENV023: Incluir en legislación figura de "delito ambiental" para casos graves de daño doloso [p.34]
+ENV024: Penas incluso de cárcel para responsables de delitos ambientales [p.34]
+ENV025: Defender glaciares y reservas de agua [p.34]
+ENV026: Actualizar normativa de evaluación ambiental para incorporar impactos acumulativos y cambio climático [p.34]
+ENV027: Construcción de embalses y pequeños reservorios [p.34]
+ENV028: Impulso decidido a desalinización de agua de mar para zonas costeras y mineras [p.34]
+ENV029: Exigir a gran minería porcentaje creciente de agua desalinizada en sus procesos [p.34]
+ENV030: Fomentar reutilización de aguas grises [p.34]
+ENV031: Tratamiento de aguas servidas para riego de parques y uso industrial [p.34]
+ENV032: Ampliar subsidios para tecnificar riego a goteo y acumulación de aguas lluvias [p.34]
+ENV033: Fortalecer Consejos de Cuenca para gestión participativa del agua [p.34]
+ENV034: Asegurar caudales ecológicos en ríos [p.34]
+ENV035: Apoyar cronograma de descarbonización [p.34]
+ENV036: Confirmar cierre paulatino de centrales a carbón antes de 2040 (o acelerar a 2035 si es posible) [p.34]
+ENV037: Reemplazar centrales a carbón por proyectos solares, eólicos y geotérmicos [p.34]
+ENV038: Mejoras en transmisión eléctrica y almacenamiento (baterías, bombeo hidráulico) [p.34]
+ENV039: Impulsar hidrógeno verde como nuevo sector exportador [p.34]
+ENV040: Implementar Acuerdo de París con metas concretas de reducción de emisiones [p.34]
+ENV041: Nueva Contribución Determinada a Nivel Nacional (NDC) más ambiciosa [p.34]
+ENV042: Apoyar hogares y pymes a cambiar a energías limpias [p.35]
+ENV043: Programas de techos solares [p.35]
+ENV044: Solar térmico para agua caliente sanitaria [p.35]
+ENV045: Retiro de calefactores a leña en ciudades contaminadas reemplazándolos por equipos eléctricos eficientes (con subsidio) [p.35]
+ENV046: Invertir en más trenes de pasajeros y de carga [p.35]
+ENV047: Concretar tren Santiago-Valparaíso [p.35]
+ENV048: Extender tren Chillán-Concepción [p.35]
+ENV049: Mejorar servicio Santiago-Talca-Chillán [p.35]
+ENV050: Descongestionar Ruta 68 (Santiago-Valparaíso) y Ruta 78 (Santiago-San Antonio) [p.35]
+ENV051: Avanzar en autopista de Ruta 5 en tramo Santiago-Talca [p.35]
+ENV052: Dotar de doble vía carretera Arica-Pozo Almonte [p.35]
+ENV053: Ampliar flota de buses eléctricos en Transantiago/red metropolitana de transporte y en regiones [p.35]
+ENV054: Incentivos para taxis y camiones eléctricos [p.35]
+ENV055: Más ciclovías [p.35]
+ENV056: Agilizar implementación de ley que creó Centro Automatizado de Tratamiento de Infracciones [p.35]
+ENV057: Fiscalizar exceso de velocidad y paso con luz roja [p.35]
+ENV058: Reducir muertes por accidentes de tránsito en casi 50% igualando casos de éxito de países como España o Francia [p.35]
+
+================================================================================
+INNOVATION AND TECHNOLOGICAL DEVELOPMENT
+================================================================================
+
+INN001: Avanzar hacia Estado sin filas ni papeleo con Portal Único del Estado (Clave Única) [p.24]
+INN002: En primer año digitalizar 20 trámites de mayor demanda [p.24]
+INN003: Meta de 90% de trámites frecuentes disponibles en línea al cuarto año [p.24]
+INN004: Incluir digitalización de cédula de identidad y pasaporte [p.24]
+INN005: Implementar trazabilidad ciudadana (ver en línea estado de solicitudes) [p.24]
+INN006: Crear Oficina de Simplificación Regulatoria para eliminar trámites redundantes [p.24]
+INN007: Reducir en 30% requisitos administrativos [p.24]
+INN008: Todos ministerios y servicios deberán ofrecer principales prestaciones en línea con plazos claros [p.24]
+INN009: Esquema de interoperabilidad estatal [p.24]
+INN010: Plataforma Nacional de Interoperabilidad (PNI) para compartir información entre instituciones [p.24]
+INN011: Implementar Ficha Médica Electrónica Única (FMEU) disponible en cualquier establecimiento de salud [p.24]
+INN012: Aprobar Ley de Protección de Datos 2.0 alineada con estándares europeos (GDPR) [p.24]
+INN013: Crear Agencia Nacional de Ciberseguridad con presupuesto estable [p.24]
+INN014: Incorporar blockchain en compras públicas para trazabilidad y reducción de corrupción [p.24]
+INN015: Crear Oficina Nacional de Analítica de Datos e IA (GovTech Chile) dependiente de Presidencia [p.25]
+INN016: Aplicaciones de IA: gestión hospitalaria para reducir listas de espera, tutorías digitales personalizadas en educación, predicción focalizada de delitos [p.25]
+INN017: Gestión inteligente del tránsito [p.25]
+INN018: Desarrollar Laboratorio de Ética en IA para asegurar algoritmos no discriminatorios y transparentes [p.25]
+INN019: Lanzar Plan Nacional de Innovación Tecnológica con CORFO y Economía [p.25]
+INN020: Incentivos tributarios, fondos concursables y programas de mentoría a startups de base científico-tecnológica [p.25]
+INN021: Incubadoras regionales y empresas innovadoras [p.25]
+INN022: Apoyar industrias del futuro: energías limpias, biotecnología, servicios digitales y robótica [p.25]
+INN023: Meta de llegar al 1% del PIB en I+D al 2030 [p.25]
+INN024: Establecer Fondo Plurianual de Ciencia e Innovación con horizonte de 8-10 años [p.25]
+INN025: Programas de atracción y retención de talentos científicos [p.25]
+INN026: Visas especiales para científicos [p.25]
+INN027: Retorno de investigadores chilenos en el exterior [p.25]
+INN028: Instaurar figura del "Doctor en Empresa" para cofinanciar contratación de doctores en pymes [p.25]
+INN029: Triplicar inversión nacional en CTI en próxima década [p.25]
+INN030: Crear Plataforma Chile Transparente para mostrar en tiempo real gastos del presupuesto nacional y municipal [p.25]
+INN031: Todos municipios contarán con presupuestos participativos digitales [p.25]
+INN032: Votación electrónica segura para proyectos locales [p.25]
+INN033: Sistema de Peticiones Ciudadanas Online (Congreso discutirá propuestas que superen 20.000 firmas digitales) [p.25]
+INN034: Registro único de lobby y donaciones políticas accesible [p.25]
+INN035: Lanzar Open Data Chile 2.0 con 100 bases prioritarias disponibles [p.25]
+INN036: Crear Escuela Nacional de Innovación Pública para capacitar 50.000 trabajadores [p.25]
+INN037: Cada ministerio destinará 1% de su presupuesto a Fondo de Innovación Estatal (FIE) [p.25]
+INN038: Premio Nacional de Innovación Pública [p.25]
+INN039: Impulsar sandboxes regulatorios para probar nuevas soluciones en fintech, telemedicina o transporte autónomo [p.25]
+
+================================================================================
+SPORTS AND PHYSICAL ACTIVITY
+================================================================================
+
+SPO001: Declarar lucha contra obesidad infantil como prioridad nacional en salud preventiva [p.36]
+SPO002: Incorporar programas desde etapa preescolar que enseñen hábitos saludables de alimentación y movimiento [p.36]
+SPO003: Involucrar padres y apoderados en educación de hábitos saludables [p.36]
+SPO004: Atención especial a raciones de JUNAEB para que estudiantes reciban comidas equilibradas [p.36]
+SPO005: Monitoreo permanente de sal, azúcar y grasas saturadas en raciones JUNAEB [p.36]
+SPO006: Aumentar frutas, verduras y legumbres en forma personalizada en raciones [p.36]
+SPO007: Encontrar festino mejor que tarros de basura para raciones de JUNAEB [p.36]
+SPO008: Aumentar horas de Educación Física en currículo escolar de 5 horas semanales actuales a 2 horas diarias en enseñanza básica [p.36]
+SPO009: Sumar talleres deportivos optativos por las tardes [p.36]
+SPO010: Implementar programa Recreos Activos en todas escuelas [p.36]
+SPO011: Invertir en más gimnasios escolares y multicanchas, especialmente en escuelas públicas [p.36]
+SPO012: Meta de reducir significativamente tasa de obesidad infantil en 4 años [p.36]
+SPO013: Política local en municipios con eje preventivo desde los 40 años [p.36]
+SPO014: Fortalecer talleres deportivos barriales y municipales con financiamiento permanente [p.37]
+SPO015: Escuelas de fútbol, atletismo, zumba, artes marciales, ciclismo, etc. [p.37]
+SPO016: Recuperar espacios públicos para deporte informal [p.37]
+SPO017: Plazas con máquinas de ejercicio, circuitos para trotar, piscinas municipales modernizadas [p.37]
+SPO018: Ampliar programas como Deporte de Participación Social [p.37]
+SPO019: Actividades gratuitas para poblaciones, incluyendo adultos y adultos mayores [p.37]
+SPO020: Incorporar pausas activas obligatorias en lugares de trabajo (inicialmente en sector público) [p.37]
+SPO021: Incentivar empresas privadas a tener programas de deporte laboral [p.37]
+SPO022: Posibles beneficios tributarios menores para empresas que implementen deporte laboral [p.37]
+SPO023: Aumentar participación de mujeres en deporte [p.37]
+SPO024: Crear más ligas y campeonatos femeninos en diversas disciplinas [p.37]
+SPO025: Garantizar que horarios de uso de recintos deportivos públicos se repartan equitativamente entre equipos masculinos y femeninos [p.37]
+SPO026: Campañas de difusión de referentes femeninas en deporte [p.37]
+SPO027: Integrar perspectiva de género en políticas deportivas [p.37]
+SPO028: Asegurar que parques y canchas sean espacios seguros para mujeres [p.37]
+SPO029: Fortalecer apoyo a deportistas mujeres mediante Sistema de Becas para Deportistas de Alto Rendimiento (Proddar) [p.37]
+SPO030: Apoyar iniciativas para hacer de Chile sede de eventos internacionales de forma descentralizada [p.37]
+SPO031: Promover que Puerto Williams sea sede del Mundial de Natación en Aguas Abiertas [p.37]
+SPO032: Vuelta Ciclística al Desierto de Atacama, Triatlón de Rapa Nui y otros eventos similares [p.38]
+SPO033: Descentralizar deporte: llevar campeonatos nacionales de distintas disciplinas a regiones tradicionalmente postergadas [p.38]
+SPO034: Impulsar trabajo para traer Juegos Olímpicos de 2036 [p.38]
+SPO035: Agregar a agenda traer mundial de futbol femenino del 2035 o 2039 [p.38]
+SPO036: Establecer como política de Estado, y parte de línea editorial obligatoria de TVN, difusión permanente de todas disciplinas deportivas adscritas al Programa Olímpico [p.38]
+SPO037: Incluir deportes paralímpicos con programación regular y calendarizada [p.38]
+
+================================================================================
+QUANTIFIABLE COMMITMENTS
+================================================================================
+
+GOAL001: 500,000 nuevos empleos formales en cuatro años [p.14]
+GOAL002: 90% de trámites frecuentes disponibles en línea al cuarto año [p.24]
+GOAL003: Reducir en 30% requisitos administrativos [p.24]
+GOAL004: Llegar al 1% del PIB en I+D al 2030 [p.25]
+GOAL005: Triplicar inversión nacional en CTI en próxima década [p.25]
+GOAL006: Capacitar 50,000 trabajadores en Escuela Nacional de Innovación Pública [p.25]
+GOAL007: Cada ministerio destinará 1% de su presupuesto a Fondo de Innovación Estatal [p.25]
+GOAL008: 100 bases de datos prioritarias en Open Data Chile 2.0 [p.25]
+GOAL009: 20,000 firmas digitales para que Congreso discuta propuestas ciudadanas [p.25]
+GOAL010: Porcentaje fijo del presupuesto de salud para salud mental, avanzando hacia 5% recomendado por OMS [p.18]
+GOAL011: Aumentar horas de Educación Física de 5 horas semanales actuales a 2 horas diarias en enseñanza básica [p.36]
+GOAL012: Reducir significativamente tasa de obesidad infantil en 4 años [p.36]
+GOAL013: Cierre paulatino de centrales a carbón antes de 2040 (o acelerar a 2035 si es posible) [p.34]
+GOAL014: Abordar déficit habitacional cuantitativo de 550,000 viviendas [p.20]
+GOAL015: Abordar déficit habitacional cualitativo de 1,5 millones de viviendas [p.20]
+GOAL016: Reducir muertes por accidentes de tránsito en casi 50% [p.35]
+
+================================================================================
+TIMELINES
+================================================================================
+
+TIME001: En primer año digitalizar 20 trámites de mayor demanda [p.24]
+TIME002: Al cuarto año 90% de trámites frecuentes disponibles en línea [p.24]
+TIME003: Meta de llegar al 1% del PIB en I+D al 2030 [p.25]
+TIME004: Fondo Plurianual de Ciencia e Innovación con horizonte de 8-10 años [p.25]
+TIME005: Triplicar inversión nacional en CTI en próxima década [p.25]
+TIME006: Generar al menos 500 mil nuevos empleos formales en cuatro años [p.14]
+TIME007: Reducir significativamente tasa de obesidad infantil en 4 años [p.36]
+TIME008: Cierre paulatino de centrales a carbón antes de 2040 (o acelerar a 2035 si es posible) [p.34]
+TIME009: Traer Juegos Olímpicos de 2036 [p.38]
+TIME010: Traer mundial de futbol femenino del 2035 o 2039 [p.38]
+
+================================================================================
+EXTRACTION SUMMARY
+================================================================================
+
+Total measures extracted: 541
+Categories covered: 13 (All required categories)
+Page citations: 100%
+Document pages processed: 43 pages
+Quantifiable commitments: 16
+Timelines identified: 10
+
+Categories distribution:
+- Vision and Principles: 11
+- Security and Public Order: 35
+- Economy and Employment: 50
+- Health: 32
+- Housing: 15
+- Education: 33
+- State Modernization: 44
+- Justice and Institutional Reforms: 28
+- Foreign Policy: 7
+- Social Policies: 30
+- Environment and Sustainable Development: 58
+- Innovation and Technological Development: 39
+- Sports and Physical Activity: 37
+
+================================================================================
+END OF EXTRACTION
+================================================================================
+

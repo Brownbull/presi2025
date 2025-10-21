@@ -1,0 +1,113 @@
+INFORME FINAL DE VERIFICACIÓN - EXTRACCIÓN FRANCO PARISI
+Fecha: 21 de octubre de 2025
+Evaluador: Sistema de Control de Calidad
+Documento fuente: Programa_Franco_Parisi_ss_20251020.txt (128 páginas)
+Extracción actual: extract_Franco_Parisi.txt (805 líneas, 614 medidas)
+
+================================================================================
+VERIFICACIÓN CONTRA plan_standard.md
+================================================================================
+
+1. COBERTURA DE DOCUMENTO (Standard 1.1)
+   Requisito: 100% de cobertura desde portada hasta página final
+   
+   STATUS: ❌ INCOMPLETE - TABLA CUANTITATIVA FALTANTE
+
+   GAPS IDENTIFICADOS:
+   
+   a) TABLA INCENTIVOS TRIBUTARIOS ÁNGELES INVERSIONISTAS [pp.75-76]
+      - Ubicación fuente: líneas 3572-3592
+      - Propuesta 9.5: Red de Capitales Ángeles con incentivo tributario
+      - Datos cuantitativos estructurados FALTANTES:
+        
+        * Empresas GRANDES (> UF 1.000.000):
+          - Descuento: 30%
+          - Tope anual: UF 20.000
+          - Permanencia mínima: 3 años
+          - Condición: Inversión en sectores estratégicos
+        
+        * Empresas MEDIANAS (UF 25.000 - UF 100.000):
+          - Descuento: 35%
+          - Tope anual: UF 10.000
+          - Permanencia mínima: 3 años
+          - Condición: Inversión directa o vía fondos registrados
+        
+        * Empresas PEQUEÑAS (< UF 25.000):
+          - Descuento: 50%
+          - Tope anual: UF 5.000
+          - Permanencia mínima: 2 años
+          - Condición: Inversión en startups regionales o innovación social
+
+      - IMPACTO: Violación de Standard 1.2 (Mandatory Content Elements - Goals)
+      - IMPACTO: Violación de Standard 5 (Quantifiable Elements - ALL numeric commitments)
+      - SEVERIDAD: CRÍTICA - Datos cuantitativos estructurados ausentes
+
+================================================================================
+
+2. ELEMENTOS CUANTIFICABLES (Standard 5)
+   Requisito: Todos los compromisos numéricos, porcentajes, montos monetarios, plazos, cantidades
+   
+   STATUS: ❌ INCOMPLETE
+   
+   ELEMENTO FALTANTE:
+   - Tabla estructurada con 3 categorías de empresas
+   - 9 valores cuantificables específicos (porcentajes, topes UF, años)
+   - Condiciones específicas por categoría
+
+================================================================================
+
+3. CITAS Y REFERENCIAS (Standard 2)
+   Requisito: 100% de elementos citados con formato [p.X] o [pp.X-Y]
+   
+   STATUS: ✓ PARCIAL - Necesita incorporar [pp.75-76] para tabla faltante
+
+================================================================================
+
+4. FIDELIDAD TERMINOLÓGICA (Standard 3)
+   Requisito: Preservar términos exactos, números exactos, unidades
+   
+   STATUS: ✓ BUENO en elementos extraídos
+   ACCIÓN: Verificar que tabla use términos exactos del original
+
+================================================================================
+
+5. PROFUNDIDAD DE EXTRACCIÓN (Standard 7)
+   Requisito: Capturar tablas, gráficos, datos estructurados con referencia de página
+   
+   STATUS: ❌ INCOMPLETE - Tabla estructurada faltante
+
+================================================================================
+
+RESUMEN DE ACCIONES CORRECTIVAS REQUERIDAS
+================================================================================
+
+ACCIÓN 1: Agregar tabla completa de incentivos tributarios ángeles inversionistas
+  - Ubicar en sección "9. ECONOMÍA & MIPYMES"
+  - Incluir después de medida sobre Circuito/Red de Capitales Ángeles
+  - Formato: Preservar estructura de tabla con todas las categorías
+  - Cita: [pp.75-76]
+
+ACCIÓN 2: Re-verificar secciones de Economía para otros datos tabulares
+
+ACCIÓN 3: Re-evaluar score tras correcciones
+
+================================================================================
+
+EVALUACIÓN ACTUAL vs. STANDARD
+================================================================================
+
+1. Coverage (Standard 1)           1.8/2.0  (tabla faltante = -0.2)
+2. Citations (Standard 2)          2.0/2.0  ✓
+3. Precision (Standard 3)          2.0/2.0  ✓
+4. Categorization (Standard 4)     2.0/2.0  ✓
+5. Format (Standard 6)             2.0/2.0  ✓
+
+SCORE ACTUAL:                      9.8/10.0
+
+TARGET POST-CORRECCIÓN:            10.0/10.0
+
+================================================================================
+
+RECOMENDACIÓN: PROCEDER CON CORRECCIONES INMEDIATAS
+Incorporar tabla de incentivos tributarios preservando estructura y valores exactos.
+
