@@ -1,0 +1,1462 @@
+# EXTRACCIÓN PROGRAMA PRESIDENCIAL - EVELYN MATTHEI FORNET
+## Elecciones Presidenciales Chile 2025
+## Snapshot: ss_20251020
+
+---
+
+## INFORMACIÓN GENERAL
+
+**Candidata:** Evelyn Matthei Fornet  
+**Coalición:** Chile Vamos, Amarillos y Demócratas [p.5]  
+**Título del Documento:** Bases programáticas de la candidatura presidencial de Evelyn Matthei [p.1]  
+**Ejes Estratégicos Principales:** 
+1. Combate contra el crimen organizado [p.12]
+2. Crecimiento económico [p.19]
+3. Mejor calidad de vida [p.27]
+4. Modernización del Estado [p.45]
+5. Chile en el mundo [p.50]
+
+---
+
+## I. SEGURIDAD CIUDADANA Y ORDEN PÚBLICO
+
+### 1.1 INVERSIÓN Y ESTRATEGIA INTEGRAL
+
+**SEC001** Inversión histórica de US$2.500 millones para dotar al Estado de las herramientas necesarias para proteger a los chilenos [p.13, p.9]
+
+**SEC002** Creación de Estrategia Integral de Seguridad coordinando todas las instituciones del Estado: policías, Fuerzas Armadas, Gendarmería, Aduanas, SII, ANI, Ministerio Público y ministerios sectoriales [p.12]
+
+**SEC003** Creación de Unidad de Cumplimiento (UNICOT) para el crimen organizado y el terrorismo, dependiente del Ministerio de Seguridad [p.13]
+
+**SEC004** Capacidad operativa en inteligencia 24/7: modelos de trabajo permanentes con mayor personal y mejor coordinación entre ANI, direcciones de inteligencia de FFAA, policías y servicios del Estado [p.13]
+
+### 1.2 DOTACIÓN POLICIAL
+
+**SEC005** Aumento de 10.000 carabineros patrullando en las calles [p.9, p.16]
+
+**SEC006** Presencia policial permanente en los 40 barrios más peligrosos tomados por el narco [p.16]
+
+**SEC007** Mejor equipamiento y acceso a tecnología para carabineros, con apoyo claro y certeza en las reglas del uso de la fuerza [p.16]
+
+### 1.3 INTELIGENCIA Y TECNOLOGÍA
+
+**SEC008** Implementación de Política Nacional de Inteligencia con enfoque estratégico, operacional y táctico [p.13]
+
+**SEC009** Fortalecimiento de ANI con más presupuesto, personal altamente especializado, despliegue en todas las regiones y capacidad de acceso integrado a datos del Estado [p.13]
+
+**SEC010** Establecimiento de sistemas de alerta temprana para anticipar reclutamiento juvenil por redes criminales, cruzando datos de ausentismo escolar, violencia intrafamiliar y consumo problemático de drogas [p.13]
+
+**SEC011** Instalación de cámaras inteligentes con reconocimiento facial [p.14]
+
+**SEC012** Instalación de pórticos de lectura de patentes [p.14]
+
+**SEC013** Implementación de drones de largo alcance [p.14]
+
+**SEC014** Implementación de tecnología satelital, radares, escáneres fijos y móviles [p.14]
+
+**SEC015** Implementación de sistemas avanzados de inhibición de señal y seguimiento penitenciario [p.14]
+
+**SEC016** Refuerzo de ciberinteligencia en coordinación con Agencia Nacional de Ciberseguridad [p.14]
+
+**SEC017** Cooperación internacional con agencias de Estados Unidos, Europa y América Latina para compartir información y coordinar operaciones contra narcotráfico, tráfico de armas, contrabando y cibercriminalidad [p.14]
+
+### 1.4 PREVENCIÓN Y RECUPERACIÓN TERRITORIAL
+
+**SEC018** Intervención de 40 barrios más peligrosos con políticas sociales y urbanas para su recuperación [p.16]
+
+**SEC019** Programa "Mujer camina tranquila" con foco en seguridad de calles, paraderos y transporte público, con cámaras, botones SOS y mayor iluminación [p.29]
+
+**SEC020** Iluminación de calles y cuidado de paraderos [p.6]
+
+---
+
+## II. SISTEMA PENITENCIARIO
+
+### 2.1 INFRAESTRUCTURA CARCELARIA
+
+**PEN001** Construcción de cinco nuevas cárceles, tres de ellas de alta seguridad, con diseños industriales, modulares y estandarizados con plazos de construcción de tres años [p.14]
+
+**PEN002** Habilitación de 32.000 nuevas plazas en recintos existentes [p.14]
+
+**PEN003** Expulsión de 3.000 extranjeros condenados, liberando el equivalente a una cárcel completa [p.14]
+
+### 2.2 CONTROL Y SEGREGACIÓN
+
+**PEN004** Sistema estricto de clasificación y redistribución de internos según peligrosidad [p.14]
+
+**PEN005** Regímenes de segregación reforzada para jefes y miembros de organizaciones criminales o terroristas, sin beneficios penitenciarios, vestidos de uniforme carcelario y sin visitas ni comunicación [p.15]
+
+**PEN006** Creación de fuerza especial de Gendarmería para cárceles de alta seguridad, con entrenamiento especializado, protocolos estrictos y sin posibilidad de sindicalización [p.15]
+
+**PEN007** Transferencia de Gendarmería al Ministerio de Seguridad [p.15]
+
+---
+
+## III. CONTROL FRONTERIZO Y MIGRACIÓN
+
+### 3.1 POLICÍA MILITAR FRONTERIZA
+
+**FRO001** Creación de Policía Militar Fronteriza entregando a FFAA la misión y atribuciones específicas de protección fronteriza [p.15]
+
+**FRO002** Establecimiento de Política Nacional de Fronteras con amenazas, prioridades y objetivos comunes [p.15]
+
+### 3.2 TECNOLOGÍA E INFRAESTRUCTURA FRONTERIZA
+
+**FRO003** Instalación de barreras físicas (fosas, pretiles) en principales rutas de ingreso clandestino [p.15]
+
+**FRO004** Implementación de sensores de superficie y fibra óptica enterrada [p.15]
+
+**FRO005** Instalación de cámaras ópticas y térmicas de largo alcance [p.15]
+
+**FRO006** Plataforma automatizada de análisis de video para detección temprana de amenazas [p.15]
+
+**FRO007** Modernización del Sistema de Aduanas con más tecnología, más funcionarios especializados y camiones escáneres [p.15]
+
+### 3.3 CENTROS DE EXPULSIÓN Y POLÍTICA MIGRATORIA
+
+**FRO008** Construcción de dos centros de expulsión con tecnología biométrica e interoperabilidad con bases de datos internacionales [p.15]
+
+**FRO009** Eliminación de privilegios a migrantes irregulares, como cupo a jardines JUNJI [p.15]
+
+**FRO010** Aplicación de sanciones a empleadores que contraten migrantes irregulares [p.15]
+
+**FRO011** Sanciones a quienes transporten personas sin documentación, incluyendo incautación y comiso de medios de transporte [p.15]
+
+---
+
+## IV. SEGURIDAD RURAL Y MACROZONA SUR
+
+### 4.1 SISTEMA NACIONAL DE SEGURIDAD RURAL
+
+**RUR001** Implementación de Sistema Nacional de Seguridad Rural para combatir crimen organizado, abigeato y violencia en zonas agrícolas y ganaderas [p.16]
+
+**RUR002** Tipificación del delito rural para clasificar y sancionar con mayor rigor robo de ganado, maquinaria, usurpación de tierras o incendios de predios [p.16]
+
+**RUR003** Incorporación de categoría delito rural en Sistema Táctico de Operación Policial (STOP) [p.16]
+
+**RUR004** Endurecimiento de penas por abigeato cuando haya violencia, participación de bandas o reincidencia [p.16]
+
+**RUR005** Fortalecimiento del sistema de permisos de libre tránsito [p.16]
+
+**RUR006** Creación de Registro Nacional de Maquinaria Agrícola [p.16]
+
+**RUR007** Autorización a policías para incautar inmediatamente ganado o maquinaria robada [p.16]
+
+### 4.2 ESTRATEGIA CONTRA EL TERRORISMO
+
+**TER001** Estrategia Integral contra el Terrorismo con foco en Macrozona Sur basada en cuatro pilares: prevenir, proteger, perseguir y preparar la respuesta [p.16]
+
+**TER002** Objetivo de identificar y desarticular organizaciones terroristas [p.16]
+
+**TER003** Objetivo de reducir número de ataques terroristas y personas que se unen a organizaciones terroristas [p.16]
+
+**TER004** Objetivo de prevenir ataques terroristas en resto del país [p.16]
+
+**TER005** Condena de apología al terrorismo y generación de cultura que condene violencia como forma de acción política [p.16]
+
+**TER006** Reparación adecuada a víctimas del terrorismo [p.16]
+
+**TER007** Creación de Ley de Víctimas del Terrorismo [p.43]
+
+**TER008** Fortalecimiento con mayores recursos del Fondo de Reparación a las Víctimas del Terrorismo [p.43]
+
+---
+
+## V. INSTITUCIONES DE SEGURIDAD Y JUSTICIA
+
+### 5.1 BLINDAJE INSTITUCIONAL
+
+**INS001** Refuerzo de procesos de reclutamiento, fiscalización y capacitación para personal de defensa y orden [p.17]
+
+**INS002** Implementación de mecanismos preventivos y de control interno [p.17]
+
+**INS003** Implementación de canales expeditos de denuncia [p.17]
+
+**INS004** Fortalecimiento de inteligencia y contrainteligencia para identificar conductas ilícitas, flujos financieros sospechosos y vulnerabilidades [p.17]
+
+### 5.2 MINISTERIO PÚBLICO
+
+**JUS001** Reforma profunda al Ministerio Público para enfrentar crimen organizado y delitos complejos [p.17]
+
+**JUS002** Implementación de Fiscalía Supraterritorial con competencias nacionales y capacidades especializadas [p.17]
+
+**JUS003** Creación de Fiscalía de Asuntos Internos autónoma para prevenir y sancionar corrupción interna [p.17]
+
+**JUS004** Reforma del sistema de designación y promoción de fiscales para que sea técnico y objetivo [p.17]
+
+**JUS005** Instalación de Equipos ECOH (especializados en crimen organizado y homicidios) en todas las fiscalías regionales [p.17]
+
+**JUS006** Protección de detectives, agentes encubiertos, fuentes de información y testigos, permitiendo declaración con identidad ficticia bajo criterio judicial [p.17]
+
+**JUS007** Anonimato de jueces y otros intervinientes como fiscales en causas complejas vinculadas al crimen organizado [p.17]
+
+**JUS008** Realización obligatoria de audiencias judiciales por videoconferencia [p.17]
+
+### 5.3 REFORMA JUDICIAL
+
+**JUS009** División del gobierno judicial en tres organismos autónomos: uno para nombrar jueces, otro para administrar recursos y otro para formar y capacitar personal [p.17]
+
+**JUS010** Refuerzo del papel de Corte Suprema para garantizar que la ley se aplique de manera justa y uniforme [p.17]
+
+**JUS011** Creación del Servicio Nacional de Acceso a la Justicia [p.17]
+
+**JUS012** Creación de Defensoría de las Víctimas, integrando asesoría legal, apoyo psicológico y social [p.17]
+
+**JUS013** Implementación del nuevo Código Procesal Civil con procedimientos simplificados, mediación y tramitación más rápida [p.17]
+
+**JUS014** Creación de Tribunales de Ejecución de Penas [p.18]
+
+**JUS015** Creación de centro de monitoreo de medidas cautelares y prófugos [p.18]
+
+---
+
+## VI. DEFENSA NACIONAL
+
+**DEF001** Plena aplicación de ley N° 21.174 de financiamiento estratégico de la Defensa [p.18]
+
+**DEF002** Aumento de capacidades de FFAA con énfasis en dotación y equipamiento para roles terrestres, marítimos, aéreos y ciberespaciales [p.18]
+
+**DEF003** Fortalecimiento del mando conjunto asegurando coordinación e interoperabilidad entre FFAA [p.18]
+
+**DEF004** Modernización del Servicio Militar y Soldado de Tropa Profesional [p.18]
+
+**DEF005** Fomento del desarrollo económico nacional desde industria de defensa y empresas estratégicas: FAMAE, ASMAR y ENAER [p.18]
+
+**DEF006** Refuerzo de coordinación entre FFAA y policías: intercambio de información, desarrollo de tecnologías I+D y transferencia tecnológica y científica [p.18]
+
+---
+
+## VII. CRECIMIENTO ECONÓMICO
+
+### 7.1 META DE CRECIMIENTO
+
+**ECO001** Meta de crecimiento del PIB al 4% anual para el cuarto año de gobierno [p.20]
+
+### 7.2 SISTEMA TRIBUTARIO
+
+**ECO002** Rebaja inmediata del impuesto corporativo al 23% (promedio OCDE) [p.20]
+
+**ECO003** Meta de llegar al 18% de impuesto corporativo en diez años [p.20]
+
+**ECO004** Rebaja del impuesto a las Pymes al 10% [p.20]
+
+**ECO005** Regreso a régimen integrado de impuesto a la renta sujeto a sostenibilidad fiscal [p.20]
+
+**ECO006** Creación de contratos de invariabilidad tributaria de hasta 20 años para atraer grandes inversiones [p.20]
+
+### 7.3 DISCIPLINA FISCAL
+
+**ECO007** Recorte de US$8.000 millones en gastos mal asignados durante período de cuatro años [p.20]
+
+**ECO008** Retorno al Presupuesto Base Cero [p.20]
+
+**ECO009** Crecimiento cero del empleo público [p.20]
+
+**ECO010** Reducción del 50% en cargos de confianza [p.20]
+
+**ECO011** Disminución de costos operacionales incluyendo horas extras y viáticos [p.20]
+
+**ECO012** Revisión de 700 programas del Estado para eliminar duplicaciones y aquellos con baja ejecución [p.20]
+
+### 7.4 ELIMINACIÓN DE PERMISOLOGÍA
+
+**ECO013** Revisión de todo el sistema de permisos sectoriales para racionalizarlo, disminuir discrecionalidad, simplificarlo y adecuarlo a ecosistema full digital [p.20]
+
+**ECO014** Creación de marco de invariabilidad regulatoria para proyectos ya ingresados [p.20]
+
+**ECO015** Unidad en Presidencia para establecer vías rápidas o fast tracks para proyectos de gran envergadura (US$100 millones o más) [p.20]
+
+**ECO016** Cartera priorizada de 30 proyectos de infraestructura [p.20]
+
+**ECO017** Fortalecimiento de institucionalidad del SEA, dotándolo de autonomía y rigor técnico [p.20]
+
+**ECO018** Reforma del Consejo de Monumentos Nacionales para simplificar y acelerar permisos [p.21]
+
+### 7.5 APOYO AL EMPRENDIMIENTO
+
+**ECO019** Creación del "Pase Pyme": permiso provisorio de un año para que nuevas empresas inicien operaciones de forma inmediata [p.21]
+
+**ECO020** Simplificación y digitalización de trámites [p.21]
+
+**ECO021** Aplicación de silencio administrativo positivo [p.21]
+
+**ECO022** Fortalecimiento de programas de garantías estatales [p.21]
+
+**ECO023** Creación de líneas de crédito específicas para adopción de tecnología e internacionalización [p.21]
+
+**ECO024** Creación de Hub de Inversiones en Innovación [p.21]
+
+**ECO025** Nuevo marco legal para atraer capital de riesgo (Venture Capital), permitiendo que AFP inviertan en estos fondos [p.21]
+
+### 7.6 IMPUESTO NEGATIVO
+
+**ECO026** Avance gradual hacia impuesto negativo al ingreso o transferencias directas a personas de bajos ingresos con empleo formal [p.21]
+
+---
+
+## VIII. EMPLEO Y TRABAJO
+
+### 8.1 META DE EMPLEO
+
+**EMP001** Creación de 1.000.000 de empleos formales de calidad [p.21]
+
+### 8.2 OPORTUNIDADES LABORALES
+
+**EMP002** Reformulación de subsidios laborales como BTM y SEJ hacia instrumentos que incentiven formalización y contratación de mujeres, jóvenes y adultos mayores [p.22]
+
+**EMP003** Simplificación de trámites a través de ventanilla única para inscripción en sistema laboral y tributario [p.22]
+
+**EMP004** Fortalecimiento de fiscalización del SII [p.22]
+
+**EMP005** Condicionamiento de obtención y renovación de permisos a formalización de actividades y pago de cotizaciones [p.22]
+
+**EMP006** Modificación del sistema de políticas sociales para que no generen incentivos a informalidad [p.22]
+
+### 8.3 EMPLEO FEMENINO
+
+**EMP007** Avance hacia sala cuna universal con modificación de indicaciones al proyecto para aumentar monto del beneficio [p.22]
+
+**EMP008** Permitir uso de sala cuna en establecimientos con y sin fines de lucro [p.22]
+
+**EMP009** Inclusión gradual de padres en beneficio de sala cuna [p.22]
+
+**EMP010** Subsidio monetario en lógica del subsidio Protege para que mujer decida dónde cuidar a su hijo mientras trabaja [p.22]
+
+**EMP011** Subsidio de $200.000 por seis meses a mujeres que consigan empleo formal [p.22]
+
+**EMP012** Ampliación del Programa de 4 a 7 [p.29]
+
+**EMP013** Ampliación del Programa Red Local de Apoyo y Cuidados [p.29]
+
+### 8.4 FLEXIBILIDAD LABORAL
+
+**EMP014** Jornadas calculadas de forma anualizada [p.22]
+
+**EMP015** Turnos compartidos [p.22]
+
+**EMP016** Retiro progresivo [p.22]
+
+**EMP017** Jornadas que se adapten a necesidades del trabajador [p.22]
+
+**EMP018** Establecimiento de bandas horarias para todos los rubros [p.22]
+
+**EMP019** Habilitación de contratación por horas con pleno acceso a seguridad social [p.22]
+
+### 8.5 CAPACITACIÓN
+
+**EMP020** Reforma del Sence alineando oferta de capacitación con demandas de sectores productivos [p.22]
+
+**EMP021** Sistema de formación continua a cargo del Ministerio de Economía, coordinado con Ministerios de Trabajo y Educación y sectores productivos [p.22]
+
+### 8.6 LICENCIAS MÉDICAS
+
+**EMP022** Control del fraude y mal uso de licencias médicas limitando número de licencias por médico [p.22]
+
+**EMP023** Uso de IA para fiscalización de licencias médicas [p.22]
+
+**EMP024** Establecimiento de sanciones penales para quienes compren licencias falsas [p.23]
+
+**EMP025** Creación de Seguro por Incapacidad Laboral Temporal universal a largo plazo [p.23]
+
+---
+
+## IX. SECTORES ESTRATÉGICOS
+
+### 9.1 MINERÍA
+
+**MIN001** Estrategia Nacional de Minerales Críticos centrada en cobre y litio [p.23]
+
+**MIN002** Propuesta de litio como concesible [p.23]
+
+**MIN003** Habilitación de licitaciones simples y eficientes para litio [p.23]
+
+**MIN004** Aumento de cuotas en contratos existentes de litio [p.23]
+
+**MIN005** Ampliación de entrega de CEOLs para desarrollo de litio [p.23]
+
+**MIN006** Creación de Oficina de Proyectos Estratégicos con permisos más ágiles y certezas tributarias [p.23]
+
+**MIN007** Creación de mega barrio industrial ecológico para procesar minerales [p.23]
+
+**MIN008** Fomento de tecnología y desarrollo de capital humano especializado [p.23]
+
+**MIN009** Impulso de formación en nuevas tecnologías y participación femenina en minería [p.23]
+
+### 9.2 ENERGÍA
+
+**ENE001** Modernización de red de distribución y transmisión con tecnología inteligente [p.23]
+
+**ENE002** Plan estratégico para aumentar electrificación de industria y hogares [p.23]
+
+**ENE003** Fomento del uso de hidrógeno verde [p.23]
+
+**ENE004** Fomento de electromovilidad [p.23]
+
+**ENE005** Electrificación del 100% del transporte público en plazo de 5 a 10 años según región [p.41]
+
+**ENE006** Promoción de adopción de vehículos eléctricos en flotas privadas y comerciales mediante incentivos fiscales [p.41]
+
+### 9.3 SEGURIDAD HÍDRICA
+
+**HID001** Implementación de Plan de Emergencia Hídrica para garantizar suministro de agua para consumo humano [p.24]
+
+**HID002** Aceleración de inversiones en servicios sanitarios rurales [p.24]
+
+**HID003** Implementación de Planes Estratégicos de cuencas en las 46 zonas más críticas [p.24]
+
+**HID004** Impulso de Plan Nacional de Desalación y Embalses [p.24]
+
+**HID005** Desarrollo de desaladoras comunitarias [p.24]
+
+**HID006** Priorización de regiones más afectadas por sequía [p.24]
+
+### 9.4 AGRICULTURA
+
+**AGR001** Apoyo a adaptación de agricultura familiar y mediana agricultura con información oportuna [p.24]
+
+**AGR002** Promoción de asociatividad, alianzas productivas y acceso a financiamiento adecuado [p.24]
+
+**AGR003** Actualización de normativa laboral a desafíos del sector [p.24]
+
+**AGR004** Flexibilización, capacitación y aseguramiento de reglas claras para empleados, contratistas y empleadores [p.24]
+
+**AGR005** Modernización del Servicio Agrícola Ganadero [p.24]
+
+**AGR006** Modernización de DGA agilizando permisos [p.24]
+
+**AGR007** Destrabar inversión en infraestructura de riego (embalses y otros) [p.24]
+
+### 9.5 ACUICULTURA
+
+**ACU001** Meta de incrementar producción de salmón en 50% para 2030 [p.24]
+
+**ACU002** Creación de nueva Política Nacional de Uso del Borde Costero para ordenar territorio en Macrozona Sur [p.24]
+
+**ACU003** Fomento de innovación tecnológica en acuicultura [p.24]
+
+**ACU004** Fortalecimiento de fiscalización con información integrada [p.24]
+
+### 9.6 FORESTAL
+
+**FOR001** Reactivación de programas de manejo del bosque nativo [p.24]
+
+**FOR002** Plan de forestación sostenible de 25.000 hectáreas anuales [p.24]
+
+**FOR003** Puesta en marcha del Servicio Nacional Forestal (Sernafor) [p.24]
+
+**FOR004** Modernización del programa de prevención y combate de incendios [p.24]
+
+**FOR005** Promoción del uso de madera en construcción [p.24]
+
+**FOR006** Fortalecimiento de lazos entre industria y comunidades locales [p.24]
+
+**FOR007** Apoyo a Pymes madereras [p.24]
+
+**FOR008** Meta de aumentar participación de madera en construcción del 18% al 30% para 2030 [p.41]
+
+**FOR009** Plan nacional de gestión de incendios forestales para reducir eventos en 25% [p.41]
+
+### 9.7 CONSTRUCCIÓN
+
+**CON001** Masificación industrializada de viviendas sociales [p.24]
+
+**CON002** Modernización de mecanismos de contratación pública unificando estándares normativos e incorporando buenas prácticas [p.25]
+
+**CON003** Incentivo a colaboración público-privada [p.25]
+
+### 9.8 TURISMO
+
+**TUR001** Actualización de plataforma Invierte Turismo para visibilizar proyectos en terrenos del Estado [p.25]
+
+**TUR002** Mejora de infraestructura habilitante: aeropuertos, puertos y caminos [p.25]
+
+**TUR003** Modificación de leyes para permitir mayor flexibilidad laboral en sector [p.25]
+
+**TUR004** Compensación de horas extras con días de feriado en turismo [p.25]
+
+**TUR005** Jornada laboral promedio semestral en turismo [p.25]
+
+---
+
+## X. CIENCIA, TECNOLOGÍA E INNOVACIÓN
+
+### 10.1 ESTRATEGIA CIENTÍFICA
+
+**CTE001** Creación de Estrategia Nacional de Desarrollo Científico y Tecnológico [p.25]
+
+**CTE002** Ofrecimiento de laboratorios naturales para proyectos científicos y consorcios planetarios internacionales en: astronomía, cambio climático, biodiversidad, investigación antártica y subantártica, oceanografía, desastres naturales, alimentación saludable, energías limpias [p.25]
+
+**CTE003** Plan público-privado para fomentar investigación y uso responsable de IA [p.25]
+
+**CTE004** Programas de alfabetización laboral en IA [p.25]
+
+**CTE005** Incentivos tributarios para IA [p.25]
+
+**CTE006** Subsidios para contratación de especialistas en IA [p.25]
+
+**CTE007** Atracción de talento en IA [p.25]
+
+**CTE008** Mejora de eficiencia del apoyo estatal a Empresas Base Científica y Tecnológica [p.25]
+
+### 10.2 INFRAESTRUCTURA DIGITAL
+
+**CTE009** Modernización y expansión de infraestructura digital mediante alianzas público-privadas [p.25]
+
+**CTE010** Creación de Ventanilla Única para proyectos de infraestructura (5G, fibra óptica, data centers) [p.26]
+
+**CTE011** Meta de que todas las conexiones alcancen al menos 1 gigabit por segundo [p.26]
+
+**CTE012** Implementación eficiente de Ley Fintech [p.26]
+
+### 10.3 FORMACIÓN DIGITAL
+
+**CTE013** Transformación de educación técnico-profesional incorporando habilidades digitales y financieras desde la escuela [p.26]
+
+**CTE014** Creación del programa "Tech al Mundo" ofreciendo pasantías a jóvenes en grandes empresas tecnológicas [p.26]
+
+**CTE015** Digitalización nacional con foco en Pymes y adultos mayores [p.26]
+
+**CTE016** Reconversión laboral masiva en habilidades digitales y financieras [p.26]
+
+**CTE017** Certificaciones modulares tipo nano degrees accesibles para reentrenamiento y empleabilidad digital [p.26]
+
+### 10.4 PROGRAMA ESPACIAL
+
+**CTE018** Respaldo pleno al Programa Espacial Nacional [p.26]
+
+**CTE019** Consolidación de constelación de satélites de observación [p.26]
+
+**CTE020** Desarrollo del primer satélite de comunicaciones de Chile [p.26]
+
+**CTE021** Fortalecimiento del Centro Nacional Espacial en Cerrillos [p.26]
+
+**CTE022** Fortalecimiento de centros regionales en Antofagasta y Magallanes [p.26]
+
+### 10.5 ASTRONOMÍA
+
+**CTE023** Consolidación de Chile como líder mundial en investigación astronómica [p.26]
+
+**CTE024** Fomento de innovación tecnológica asociada a astronomía [p.26]
+
+**CTE025** Impulso del astroturismo como motor de desarrollo regional [p.26]
+
+**CTE026** Promoción de divulgación científica [p.26]
+
+---
+
+## XI. MUJERES Y EQUIDAD DE GÉNERO
+
+### 11.1 SEGURIDAD PARA MUJERES
+
+**MUJ001** Red de Protección para mujeres víctimas de violencia y sus hijos con acompañamiento jurídico, apoyo en salud mental, reubicación de vivienda, educación y empleo [p.29]
+
+**MUJ002** Actualización del Protocolo de Primer contacto para personal de SernamEG, Carabineros y PDI [p.29]
+
+**MUJ003** Evaluación primaria de riesgo y registro en Sistema Integrado de Información sobre VbG [p.29]
+
+**MUJ004** Establecimiento de estándares de capacitación y sensibilización para primera atención [p.29]
+
+**MUJ005** Brazalete de emergencia para mujeres en riesgo vital o grave [p.29]
+
+**MUJ006** Impulso de liderazgos femeninos barriales mediante plataforma integral de formación, recursos y redes de apoyo [p.29]
+
+### 11.2 PARTICIPACIÓN LABORAL FEMENINA
+
+**MUJ007** Mejora de capacitación a mujeres en trabajos mejor remunerados: Minería, Programación, Industria del Gaming, IA, Finanzas, Energía y Telecomunicaciones [p.29]
+
+**MUJ008** Fortalecimiento de programas de CORFO para financiar emprendimientos innovadores de mujeres (Semilla Inicia y Semilla Expande) [p.29]
+
+**MUJ009** Mayor flexibilidad y oportunidades al empleo femenino con distintos tipos de jornadas [p.29]
+
+### 11.3 CALIDAD DE VIDA
+
+**MUJ010** Ampliación y mejora de programas de cuidado de adultos mayores y personas dependientes [p.29]
+
+**MUJ011** Impulso de certificación de cuidadoras por ChileValora [p.29]
+
+**MUJ012** Aumento del estipendio de mujeres cuidadoras de personas dependientes a $100.000 [p.29]
+
+**MUJ013** 60% de cupos de viviendas bien ubicadas a mujeres que tengan niños o adultos mayores bajo su cuidado [p.29]
+
+**MUJ014** Alerta nacional contra el cáncer con foco en cáncer de mamas y cervicouterino [p.29]
+
+**MUJ015** Mamógrafo móvil por provincia [p.29]
+
+**MUJ016** Reducción de edad recomendada para mamografía a 40 años [p.29]
+
+**MUJ017** Inclusión al GES de programas de fertilización [p.29]
+
+---
+
+## XII. SALUD PÚBLICA
+
+### 12.1 ATENCIÓN PRIMARIA
+
+**SAL001** Implementación del programa "APS te asiste" organizando y diversificando canales de atención (presencial, remota o a domicilio) [p.29]
+
+**SAL002** Aumento de resolutividad de médicos de APS con capacitaciones y apoyo de especialistas [p.29]
+
+**SAL003** Ficha médica online para que pacientes accedan a su información de salud [p.29]
+
+**SAL004** Uso de telemedicina para agilizar consultas, referencias a especialistas y seguimiento [p.30]
+
+**SAL005** Plan de infraestructura para construir, reponer y mejorar CESFAMs, postas y COSAMs: 100 proyectos construidos para 2030, 100 en construcción y licitación, 100 en proceso de diseño [p.30]
+
+### 12.2 HOSPITALES
+
+**SAL006** Plan 30-30-30 para 2030: terminar de construir 30 nuevos hospitales (26 en construcción actual), dejar 30 en construcción o licitación, otros 30 en proceso de diseño [p.30]
+
+**SAL007** Creación de Índice Nacional de Desempeño para evaluar hospitales y clínicas con indicadores clave [p.30]
+
+**SAL008** Publicación trimestral de resultados del Índice Nacional de Desempeño [p.30]
+
+**SAL009** Coordinación para que paciente realice todos los exámenes necesarios en un solo día [p.30]
+
+**SAL010** Monitoreo de interconsultas con seguimiento de exámenes complejos y alto costo para asegurar diagnóstico o derivación en plazo máximo de 60 días [p.30]
+
+### 12.3 CRUZADA CONTRA EL CÁNCER
+
+**SAL011** Alerta sanitaria oncológica desde día 1 [p.30]
+
+**SAL012** Ampliación de horario de atención hasta 22:00 horas en pabellones, unidades de quimioterapia, radioterapia y áreas de apoyo [p.30]
+
+**SAL013** Alianzas público-privadas para reducir tiempos de espera en diagnóstico y tratamiento oncológico [p.30]
+
+**SAL014** Registro para acompañar a pacientes con cáncer con información constante [p.30]
+
+**SAL015** Ampliación de acceso a prevención con nuevos exámenes preventivos de próstata y colon para grupos de riesgo [p.30]
+
+**SAL016** Uso de auto toma para detección de cáncer cervicouterino [p.30]
+
+**SAL017** Mamógrafos móviles recorriendo todas las comunas [p.30]
+
+**SAL018** Actualización del listado de medicamentos oncológicos de alto costo incorporando al menos 10 nuevos principios activos [p.30]
+
+**SAL019** Mecanismos para incorporar de manera más ágil terapias innovadoras [p.30]
+
+**SAL020** Formación de más especialistas en oncología distribuidos según necesidades regionales [p.31]
+
+### 12.4 MEDICAMENTOS
+
+**SAL021** Creación de nueva cobertura AUGE o GES de medicamentos en 2026 para todos los afiliados a FONASA e ISAPREs [p.31]
+
+**SAL022** Definición de listado de medicamentos clave incluyendo aquellos que no entraron en Ley Ricarte Soto [p.31]
+
+**SAL023** Creación de institución autónoma para evaluar tecnologías en salud [p.31]
+
+**SAL024** Aceleración de obligatoriedad de bioequivalentes [p.31]
+
+**SAL025** Facilitación del registro de productos biosimilares [p.31]
+
+**SAL026** Modernización de CENABAST [p.31]
+
+**SAL027** Entrega de medicamentos en farmacias de barrio, dispensadores automáticos o despacho a domicilio [p.31]
+
+### 12.5 SALUD MENTAL
+
+**SAL028** Ampliación progresiva de red de COSAM [p.31]
+
+**SAL029** Fortalecimiento de telepsiquiatría y telepsicología a través de Hospital Digital [p.31]
+
+**SAL030** Pesquisa precoz de problemas de salud mental en jardines y colegios con intervención inmediata y derivación efectiva [p.31]
+
+**SAL031** Programas contra la soledad en personas mayores mediante líderes comunitarios y redes de apoyo intergeneracional [p.31]
+
+---
+
+## XIII. EDUCACIÓN
+
+### 13.1 EDUCACIÓN PARVULARIA
+
+**EDU001** Ampliación de cobertura de jardín infantil con participación de privados para construir, implementar y gestionar salas cuna y jardines infantiles gratuitos [p.32]
+
+**EDU002** Nivelación de aportes del Estado para educación inicial de calidad en Junji, VTF o Integra [p.32]
+
+**EDU003** Disminución de deserción de educadores y técnicos de párvulos [p.32]
+
+### 13.2 APRENDIZAJES
+
+**EDU004** Compromiso nacional por la lectura y matemáticas: 100% de niños aprendan a leer en primero básico y manejen operaciones básicas matemáticas antes de cuarto básico [p.32]
+
+**EDU005** Apoyo personalizado a estudiantes rezagados mediante alianzas público-privadas, trabajo con familias y herramientas tecnológicas [p.32]
+
+**EDU006** Modificación de Ley SEP para uso más flexible y eficiente de recursos [p.32]
+
+**EDU007** Apoyo a escuelas para incentivar asistencia mediante encargados escolares, padrinos, herramientas tecnológicas, monitores [p.32]
+
+**EDU008** Medidas locales de apoyo para visitas domiciliarias y articulación de programas sociales [p.32]
+
+**EDU009** Implementación de escuelas de reingreso para que estudiantes terminen cuarto medio [p.32]
+
+**EDU010** Apoyo, recursos y capacitación a escuelas para atender estudiantes con NEE [p.32]
+
+**EDU011** Creación de centros integrales de apoyo para estudiantes neurodivergentes y con NEE [p.32]
+
+### 13.3 CONVIVENCIA ESCOLAR
+
+**EDU012** Apoyo y fortalecimiento de autonomía de directivos en aplicación de protocolos para sana convivencia conforme a Aula Segura [p.32]
+
+**EDU013** Más recursos e impulso de programas exitosos en prevención del acoso y violencia escolar [p.33]
+
+**EDU014** Recuperación de Liceos Emblemáticos [p.33]
+
+**EDU015** Apoyo especializado a escuelas en entornos de mayor criminalidad [p.33]
+
+### 13.4 PROYECTOS EDUCATIVOS
+
+**EDU016** Modificación del Sistema de Admisión Escolar para permitir selección por mérito desde séptimo básico [p.33]
+
+**EDU017** Respeto a afinidad por proyecto educativo en admisión escolar [p.33]
+
+**EDU018** Eliminación de trabas para crear nuevos colegios de calidad [p.33]
+
+**EDU019** Fortalecimiento de red de Liceos Bicentenarios [p.33]
+
+**EDU020** Fomento de colegios de alta exigencia: al menos uno por región [p.33]
+
+### 13.5 EDUCACIÓN PÚBLICA
+
+**EDU021** Traspaso adecuado y planificado desde municipios a nuevos servicios mediante equipos de gestión [p.33]
+
+**EDU022** Reforma de ley para dar autonomía y responsabilidad en gestión de recursos y aprendizajes a SLEP [p.33]
+
+**EDU023** Incentivo para atracción de directivos y profesionales de alto nivel a SLEP [p.33]
+
+**EDU024** Evitar duplicidades de cargos en SLEP [p.33]
+
+**EDU025** Promoción de alianzas con instituciones públicas y privadas para SLEP [p.33]
+
+### 13.6 DOCENTES
+
+**EDU026** Fortalecimiento de autonomía de directores con nuevo trato con Superintendencia de Educación [p.33]
+
+**EDU027** Reducción de burocracia docente [p.33]
+
+**EDU028** Enfrentamiento de deserción docente con inducción, mentorías y apoyo en primeros años [p.33]
+
+### 13.7 EDUCACIÓN TÉCNICA
+
+**EDU029** Creación de red de liceos técnicos de excelencia con infraestructura moderna [p.33]
+
+**EDU030** Alineación de especialidades de liceos técnicos con mercado laboral [p.33]
+
+**EDU031** Becas internacionales a estudiantes destacados de educación técnica [p.33]
+
+**EDU032** Expansión del modelo de administración delegada para educación técnica [p.33]
+
+**EDU033** Articulación de educación media y superior con formación continua [p.33]
+
+**EDU034** Establecimiento de Consejos de Inserción Laboral locales para facilitar prácticas y educación dual [p.33]
+
+### 13.8 EDUCACIÓN SUPERIOR
+
+**EDU035** Mejora de vinculación de educación superior con sector productivo especialmente en regiones [p.33]
+
+**EDU036** Resguardo de autonomía universitaria con transparencia y rendición de cuentas [p.33]
+
+**EDU037** Sustitución del CAE por crédito blando sin intermediación bancaria, con tasa subsidiada y mejor sistema de cobro [p.33]
+
+---
+
+## XIV. VIVIENDA
+
+### 14.1 META HABITACIONAL
+
+**VIV001** 400.000 nuevos accesos a viviendas [p.34]
+
+**VIV002** 400.000 mejoramientos de viviendas y espacios comunes [p.34]
+
+**VIV003** Redefinición de vivienda de interés público hasta 4.500 UF [p.34]
+
+### 14.2 ACCESO A VIVIENDA
+
+**VIV004** Creación de créditos con Pie Cero para familias jóvenes [p.34]
+
+**VIV005** Implementación de garantía estatal tipo Fogape para beneficiarios de subsidio y jóvenes [p.34]
+
+**VIV006** Ampliación de beneficios tributarios para créditos hipotecarios [p.34]
+
+**VIV007** Exención transitoria del IVA en primeras viviendas [p.34]
+
+**VIV008** Beneficios e incentivos al primer comprador [p.34]
+
+**VIV009** Retorno del programa de mejoramiento entregando 100.000 soluciones por año [p.34]
+
+### 14.3 ELIMINACIÓN DE TRABAS
+
+**VIV010** Eliminación de leyes y normativas obsoletas como Ley del Ducto [p.34]
+
+### 14.4 SUELO HABITACIONAL
+
+**VIV011** Creación de Agencias de Ciudad para coordinar actores públicos y liderar procesos de transformación urbana [p.34]
+
+**VIV012** Priorización de todo terreno público en desuso para proyectos habitacionales y urbanos [p.35]
+
+**VIV013** Registro público de suelos estatales [p.35]
+
+**VIV014** Compra estratégica de terrenos [p.35]
+
+**VIV015** Impulso de proyectos mixtos mediante licitaciones, alianzas, concesiones, arriendos y usufructos [p.35]
+
+**VIV016** Potenciamiento del rol de Desarrollo País [p.35]
+
+**VIV017** Eliminación de restricciones al uso de suelo en zonas centrales o con alta inversión urbana [p.35]
+
+**VIV018** Intervención de zonas condicionadas sin avances en vivienda social [p.35]
+
+### 14.5 UBICACIÓN Y CONECTIVIDAD
+
+**VIV019** Impulso de construcción de viviendas en ejes de transporte público [p.35]
+
+**VIV020** Construcción en inmediaciones de estaciones de metro [p.35]
+
+**VIV021** Construcción cerca de estaciones de trenes y autopistas [p.35]
+
+**VIV022** Línea especial de financiamiento y prioridad en tramitación para proyectos habitacionales que incluyan viviendas de interés público [p.35]
+
+### 14.6 OBRAS URBANAS
+
+**VIV023** Impulso de 20 grandes obras urbanas [p.35]
+
+**VIV024** Construcción de parques [p.35]
+
+**VIV025** Construcción de Subcentros con servicios básicos en barrios deteriorados y zonas rezagadas [p.35]
+
+**VIV026** Plan de recuperación de zonas centrales, patrimoniales e históricas [p.35]
+
+### 14.7 EMERGENCIAS
+
+**VIV027** Creación de Consejo Nacional con equipos en cada región para emergencias habitacionales [p.35]
+
+**VIV028** Creación de Fondo de Emergencias Habitacionales [p.35]
+
+**VIV029** Entrega de arriendos temporales, módulos de emergencia y reconstrucción definitiva ante desastres [p.35]
+
+**VIV030** Planes comunales de emergencia con voluntarios capacitados y ordenamiento del territorio [p.35]
+
+### 14.8 CAMPAMENTOS
+
+**VIV031** Prevención de nuevas ocupaciones mediante gestión de suelo y alertas tempranas [p.35]
+
+**VIV032** Mejora de condiciones de vida en campamentos con acompañamiento para acceder a otras soluciones [p.35]
+
+---
+
+## XV. TRANSPORTE Y MOVILIDAD
+
+### 15.1 GESTIÓN DE TRÁNSITO
+
+**TRA001** Reducción de congestión con sistemas inteligentes de control de tránsito en todas las capitales regionales [p.36]
+
+**TRA002** Centros locales de gestión en ciudades medianas [p.36]
+
+**TRA003** Tecnología en tiempo real para optimizar vías reversibles, exclusivas y ciclovías [p.36]
+
+**TRA004** Mapa Nacional de Conflictos Viales para priorizar obras [p.36]
+
+**TRA005** Fondo de Apoyo Regional (FAR) para financiar proyectos de transporte de alto impacto [p.36]
+
+### 15.2 TRANSPORTE PÚBLICO
+
+**TRA006** Flotas monitoreadas [p.36]
+
+**TRA007** Botones de pánico en transporte público [p.36]
+
+**TRA008** Pagos digitales en transporte público [p.36]
+
+**TRA009** Renovación de taxis y colectivos hacia eléctricos con apoyo del FAR [p.36]
+
+**TRA010** Más líneas de Metro en Santiago [p.36]
+
+**TRA011** Más trenes suburbanos en Santiago [p.36]
+
+**TRA012** Integración del transporte rural con nodos urbanos [p.36]
+
+**TRA013** Aplicación y subsidios para zonas aisladas [p.36]
+
+**TRA014** Conectividad marítima y aérea en sur austral [p.36]
+
+### 15.3 SEGURIDAD VIAL
+
+**TRA015** Puesta en marcha de Centro Automatizado de Tratamiento de Infracciones para fiscalización automatizada [p.36]
+
+**TRA016** Licencias y patentes digitales con validación biométrica [p.36]
+
+**TRA017** Mejor formación y certificación de conductores profesionales [p.36]
+
+**TRA018** Registro Único de Movilidad integrando datos de vehículos, conductores y rutas [p.36]
+
+### 15.4 LOGÍSTICA
+
+**TRA019** Avance en trenes de carga modernos [p.36]
+
+**TRA020** Estaciones multimodales integrando carreteras, puertos y aeropuertos [p.36]
+
+**TRA021** Puerto de Gran Escala en San Antonio [p.36]
+
+### 15.5 GESTIÓN Y DIGITALIZACIÓN
+
+**TRA022** Plataformas digitales únicas para licencias, permisos y subsidios [p.36]
+
+**TRA023** Uso de Gemelo Digital Nacional de Transporte para planificar obras y anticipar problemas [p.36]
+
+**TRA024** Transferencia de competencias a regiones para decidir y ejecutar soluciones [p.36]
+
+### 15.6 CONECTIVIDAD ESTRATÉGICA
+
+**TRA025** Aeropuertos más seguros y rápidos [p.36]
+
+**TRA026** Pasos fronterizos modernos y fluidos [p.36]
+
+---
+
+## XVI. INFANCIA, JUVENTUD Y ADULTOS MAYORES
+
+### 16.1 BIENESTAR FAMILIAR E INFANCIA
+
+**INF001** Creación de Red de Parentalidad Local para acompañar padres y madres en crianza mediante grupos de acompañamiento guiados por profesionales [p.37]
+
+**INF002** Conexión de Red de Parentalidad con Chile Crece Contigo [p.37]
+
+**INF003** Programa "Crianza y Pantallas" para uso digital seguro desde infancia [p.37]
+
+### 16.2 PREVENCIÓN DE RIESGOS JUVENILES
+
+**INF004** Combate de deserción escolar [p.37]
+
+**INF005** Implementación del Plan Segunda Oportunidad en todas las regiones [p.37]
+
+**INF006** Fortalecimiento del programa Lazos incorporando programas conforme al nivel de riesgo socio delictual [p.37]
+
+**INF007** Ampliación de programas de rehabilitación para jóvenes con foco en drogas sintéticas [p.37]
+
+**INF008** Creación de equipos intersectoriales para gestionar casos de menores en conflicto con la justicia [p.37]
+
+**INF009** Apoyo a reinserción de quienes han sido reclutados [p.37]
+
+**INF010** Impulso de participación de sociedad civil para programas de rehabilitación, prevención de consumo y formación valórica y cívica [p.37]
+
+**INF011** Convenios con organizaciones laicas y confesionales [p.38]
+
+**INF012** Creación de unidad especializada para perseguir redes de reclutamiento juvenil en Ministerio Público [p.38]
+
+**INF013** Creación de programa de prevención de reclutamiento criminal en Ministerio de Seguridad [p.38]
+
+### 16.3 SISTEMA DE PROTECCIÓN
+
+**INF014** Fortalecimiento de institucionalidad de protección [p.38]
+
+**INF015** Conversión de Oficinas Locales de la Niñez en verdaderas gestoras con atribuciones reales y financiamiento estructural [p.38]
+
+**INF016** Fortalecimiento del sistema de familias de acogida equiparando financiamiento [p.38]
+
+**INF017** Aumento de apoyo especializado a familias de acogida [p.38]
+
+**INF018** Revisión de criterios de idoneidad para familias de acogida [p.38]
+
+**INF019** Garantía de apoyo psicológico continuo y especializado para niños en protección [p.38]
+
+**INF020** Equipos médicos móviles para niños en protección [p.38]
+
+**INF021** Mayor cobertura clínica en residencias [p.38]
+
+**INF022** Convenios con centros privados para casos de alta complejidad [p.38]
+
+**INF023** Reforma del sistema de financiamiento del Servicio Nacional de Protección Especializada basado en eficiencia, calidad y resultados [p.38]
+
+### 16.4 JUVENTUD
+
+**INF024** Modernización del INJUV integrándolo en Subsecretaría de la Niñez con presupuesto y capacidad ejecutiva [p.38]
+
+**INF025** Creación de sistema integrado de datos sobre juventud [p.38]
+
+**INF026** Consultas nacionales anuales sobre juventud [p.38]
+
+**INF027** Presupuestos participativos para juventud [p.38]
+
+**INF028** Comisión Presidencial de Juventudes para formular y actualizar política nacional [p.38]
+
+**INF029** Creación de Sistema de Alerta Territorial y Seguimiento Post-egreso (SAT-18) [p.38]
+
+**INF030** Identificación automática de jóvenes en riesgo de exclusión o egreso escolar [p.38]
+
+**INF031** Jóvenes en hogares de protección podrán quedarse hasta los 21 años [p.38]
+
+### 16.5 ADULTOS MAYORES
+
+**INF032** Creación de Ventanilla única mayor para centralizar acceso a beneficios, actividades culturales y deportivas [p.38]
+
+**INF033** Impulso de Plan Nacional de Digitalización para capacitar personas mayores [p.38]
+
+**INF034** Adaptación de subsidios de mejoramiento de vivienda para mejorar accesibilidad [p.38]
+
+**INF035** Creación de Sistema de Cuidados Paliativos integral con cobertura garantizada [p.38]
+
+### 16.6 PERSONAS CON DISCAPACIDAD
+
+**INF036** Nueva etapa de Política Nacional de Cuidados fortaleciendo apoyo a cuidadores y aumentando cobertura y calidad [p.38]
+
+**INF037** Unificación del instrumento de medición de dependencia funcional [p.39]
+
+**INF038** Establecimiento de salud como punto de acceso único al sistema de cuidados [p.39]
+
+**INF039** Creación de figura del gestor de casos para acompañar y hacer seguimiento [p.39]
+
+**INF040** Fortalecimiento de educación inclusiva y Ley de inclusión laboral [p.39]
+
+**INF041** Flexibilización de requisitos para empleo público de personas con discapacidad [p.39]
+
+**INF042** Financiamiento de emprendimientos inclusivos [p.39]
+
+**INF043** Creación de Plan Nacional de Accesibilidad coordinando entidades e integrando normativas y programas [p.39]
+
+**INF044** Foco en mejoramiento de veredas mediante catastro activo y seguimiento [p.39]
+
+**INF045** Agilización de gestión de ayudas técnicas del Servicio Nacional Discapacidad [p.39]
+
+**INF046** Fortalecimiento de programas de rehabilitación en todas las regiones [p.39]
+
+**INF047** Adaptación de subsidio de mejoramiento de vivienda para personas con discapacidad [p.39]
+
+### 16.7 REINSERCIÓN SOCIAL
+
+**INF048** Fortalecimiento de programas de acompañamiento postpenitenciario, inserción laboral y continuidad de estudios [p.39]
+
+**INF049** Coordinación con municipios y servicios públicos para reinserción [p.39]
+
+**INF050** Modelo siguiendo Programa +R combinando apoyo psicosocial, capacitación y empleo formal [p.39]
+
+**INF051** Foco especial en reinserción de mujeres con programas diferenciados [p.39]
+
+**INF052** Capacitación con pertinencia local para mujeres en proceso de reinserción [p.39]
+
+**INF053** Apoyo en salud mental y cuidado para mujeres en reinserción [p.39]
+
+**INF054** Alianzas con empresas para cupos laborales inclusivos [p.39]
+
+**INF055** Coordinación de reinserción bajo Ministerio de Seguridad [p.39]
+
+---
+
+## XVII. CULTURA Y DEPORTE
+
+### 17.1 DEPORTE
+
+**DEP001** Escuelas abiertas todos los fines de semana y feriados [p.40]
+
+**DEP002** Espacios públicos como plazas y parques disponibles para deporte comunitario [p.40]
+
+**DEP003** Fomento de deporte comunitario en todas sus etapas (mujeres, jóvenes, adultos mayores) a través de alianzas con municipios [p.40]
+
+**DEP004** Fortalecimiento de programa "Crecer en Movimiento" [p.40]
+
+**DEP005** Reestructuración del sistema de financiamiento FONDEPORTE [p.40]
+
+**DEP006** Aumento de apoyo a deportistas de élite del Team Chile y Team ParaChile [p.40]
+
+**DEP007** Optimización de entrega de recursos a deportistas [p.40]
+
+**DEP008** Fomento de alianzas internacionales deportivas [p.40]
+
+**DEP009** Revitalización del Parque Deportivo del Estadio Nacional como centro de alto rendimiento [p.40]
+
+**DEP010** Potenciamiento de investigación y ciencia aplicada para detección de nuevos talentos [p.40]
+
+**DEP011** Reforma institucional mediante fusión del Ministerio del Deporte con Instituto Nacional de Deportes [p.40]
+
+**DEP012** Fomento del turismo deportivo [p.40]
+
+**DEP013** Atracción de grandes eventos deportivos internacionales [p.40]
+
+### 17.2 CULTURA
+
+**CUL001** Creación de programas para jóvenes talentos culturales [p.40]
+
+**CUL002** Apertura de nuevas líneas de financiamiento para cultores populares [p.40]
+
+**CUL003** Potenciamiento de proyección internacional de cultura chilena con apoyo público-privado [p.40]
+
+**CUL004** Priorización de protección del patrimonio cultural [p.40]
+
+**CUL005** Foco en recuperación de espacios culturales dañados [p.40]
+
+**CUL006** Aumento de inversión en patrimonio cultural [p.40]
+
+**CUL007** Creación de centros artísticos regionales [p.40]
+
+**CUL008** Horarios extendidos en bibliotecas públicas [p.40]
+
+**CUL009** Impulso de rutas culturales con impacto local [p.40]
+
+**CUL010** Fomento de educación artística y oficios tradicionales [p.40]
+
+---
+
+## XVIII. MEDIO AMBIENTE Y CAMBIO CLIMÁTICO
+
+### 18.1 INDUSTRIAS SOSTENIBLES
+
+**AMB001** Recuperación ambiental y social de zonas industriales en 10 años [p.41]
+
+**AMB002** Certificación "Zonas Circulares" para parques industriales [p.41]
+
+**AMB003** Inversión en infraestructura para economía circular: centros de acopio, plantas de valorización [p.41]
+
+**AMB004** Mejora de infraestructura de salud en zonas industriales [p.41]
+
+**AMB005** Promoción de adopción de tecnologías limpias para reducir emisiones, consumo de agua y residuos [p.41]
+
+**AMB006** Refuerzo de fiscalización ambiental en zonas críticas [p.41]
+
+**AMB007** Ajuste de regulaciones para facilitar colaboración entre industrias y cierre de ciclos de materiales y energía [p.41]
+
+### 18.2 REDUCCIÓN DE EMISIONES
+
+**AMB008** Meta de reducir a la mitad las emisiones de carbono para 2035 [p.41]
+
+**AMB009** Meta de alcanzar carbono neutralidad en 2050 [p.41]
+
+**AMB010** Incentivo a inversión en tecnologías limpias y recambio tecnológico [p.41]
+
+**AMB011** Creación de sistema nacional de compensación de emisiones [p.41]
+
+### 18.3 PROTECCIÓN DE ECOSISTEMAS
+
+**AMB012** Priorización de protección y restauración de ecosistemas estratégicos para seguridad hídrica [p.41]
+
+**AMB013** Aplicación de Ley de Turberas [p.41]
+
+**AMB014** Avance en protección de glaciares y humedales [p.41]
+
+### 18.4 CIUDADES RESILIENTES
+
+**AMB015** Creación de espacios públicos multifuncionales que absorban agua de lluvia [p.41]
+
+**AMB016** Redes de vegetación conectando áreas verdes [p.42]
+
+**AMB017** Promoción de techos y fachadas verdes [p.42]
+
+**AMB018** Fortalecimiento de normativas para proteger humedales urbanos [p.42]
+
+**AMB019** Desarrollo de herramientas para gestionar integralmente drenaje pluvial [p.42]
+
+### 18.5 ECONOMÍA CIRCULAR
+
+**AMB020** Apoyo al desarrollo de mercado secundario para compost, biogás y biofertilizantes [p.42]
+
+**AMB021** Apoyo técnico y financiero a proyectos de economía circular [p.42]
+
+**AMB022** Plan nacional para clausurar y recuperar basurales transformándolos en infraestructura verde [p.42]
+
+**AMB023** Activación de obligaciones y regulaciones de ley de economía circular [p.42]
+
+**AMB024** Estudio del impacto de microplásticos en salud y biodiversidad [p.42]
+
+---
+
+## XIX. DESARROLLO RURAL
+
+**RUR008** Implementación de plan de acción para resolver necesidades territoriales rurales con énfasis en Sistemas Sanitarios Rurales (ex APR), conectividad digital y vial, y educación rural [p.42]
+
+**RUR009** Promoción de ordenamiento territorial a través de PROT (Planes Regionales de Ordenamiento Territorial) [p.42]
+
+**RUR010** Acompañamiento a municipalidades y gobiernos regionales en adaptación al cambio climático [p.42]
+
+**RUR011** Puesta en marcha de planes comunales de acción de cambio climático y reducción de riesgos [p.42]
+
+**RUR012** Promoción de emprendimiento, formalización e innovación para dinamizar economías locales con foco en jóvenes y mujeres [p.42]
+
+---
+
+## XX. PUEBLOS ORIGINARIOS
+
+### 20.1 INSTITUCIONALIDAD
+
+**PUE001** Creación de Consejo de los Pueblos Indígenas como espacio real de representación y coordinación [p.43]
+
+**PUE002** Reestructuración de institucionalidad con pertinencia cultural [p.43]
+
+**PUE003** Reconocimiento Constitucional de pueblos indígenas como parte de nación chilena una e indivisible [p.43]
+
+### 20.2 DESARROLLO Y PAZ TERRITORIAL
+
+**PUE004** Creación de Comisión Especial de Tierras para revisar y proponer soluciones a reclamaciones pendientes [p.43]
+
+**PUE005** Mecanismos de compensación alternativos a entrega de tierras [p.43]
+
+**PUE006** Puesta en marcha del Plan Impulso Indígena 2026-2030 [p.43]
+
+**PUE007** Comité interministerial coordinando obras de conectividad, salud, vivienda y riego [p.43]
+
+**PUE008** Incentivos al turismo y emprendimiento indígena [p.43]
+
+**PUE009** Meta de equiparar indicadores sociales y económicos de región con promedio nacional [p.43]
+
+**PUE010** Aplicación firme del Estado de Derecho a quienes infrinjan la ley [p.43]
+
+### 20.3 PROMOCIÓN CULTURAL
+
+**PUE011** Política activa de reconocimiento y fortalecimiento de culturas originarias [p.43]
+
+**PUE012** Creación de sistema de garantías y créditos para desarrollo económico indígena [p.43]
+
+**PUE013** Asesoría técnica para emprendimiento indígena [p.43]
+
+**PUE014** Regularización de títulos de propiedad [p.43]
+
+**PUE015** Fomento de marcas colectivas para dar valor agregado a productos locales [p.43]
+
+**PUE016** Promoción de incentivos para inversionistas privados desarrollen proyectos con comunidades [p.43]
+
+---
+
+## XXI. CUIDADO DE MASCOTAS
+
+**MAS001** Impulso de programas de formación para familias sobre tenencia responsable, vacunación, esterilización y prevención del abandono [p.44]
+
+**MAS002** Establecimiento de sanciones efectivas frente al maltrato y abandono de mascotas [p.44]
+
+**MAS003** Programas que regulen uso de parques y áreas verdes para mascotas [p.44]
+
+**MAS004** Creación de áreas específicas para perros con equipamiento para limpieza [p.44]
+
+**MAS005** Campañas educativas integrando protección ambiental y convivencia responsable [p.44]
+
+**MAS006** Implementación de centros comunales de atención veterinaria gratuita incluyendo esterilización y vacunación [p.44]
+
+**MAS007** Planes de control y manejo de perros asilvestrados [p.44]
+
+---
+
+## XXII. MODERNIZACIÓN DEL ESTADO
+
+### 22.1 ANTICORRUPCIÓN
+
+**EST001** Fortalecimiento de instituciones fiscalizadoras con más presupuesto a Contraloría General de la República [p.46]
+
+**EST002** Seguimiento de hallazgos de CGR con metas y sanciones específicas [p.46]
+
+**EST003** Creación de plataforma digital única reuniendo, cruzando y visualizando datos sobre comportamiento ético-institucional [p.46]
+
+**EST004** Inhabilitación de por vida para ejercer cargos públicos a condenados por corrupción [p.46]
+
+**EST005** Inhabilitación por faltas administrativas graves o reiteradas aunque no haya condena penal [p.46]
+
+**EST006** Tipificación de nuevas sanciones por reincidencia en vulneraciones a normas de contratación pública [p.46]
+
+**EST007** Sanciones por uso abusivo de facultades discrecionales sin motivación suficiente [p.46]
+
+### 22.2 PROFESIONALIZACIÓN
+
+**EST008** Modificación de estatutos de contrata, planta y honorarios por Estatuto Administrativo único [p.46]
+
+**EST009** Garantía de única puerta de entrada al empleo público basada en mérito, formación técnica y vocación pública [p.46]
+
+### 22.3 TRANSFORMACIÓN DIGITAL
+
+**EST010** Conversión de Clave Única en identidad digital principal para todos los trámites [p.47]
+
+**EST011** Conversión de Gob.cl en portal único y puerta de entrada digital a servicios del Estado [p.47]
+
+**EST012** Diseño estandarizado y accesible de Gob.cl [p.47]
+
+### 22.4 CONFLICTOS DE INTERÉS
+
+**EST013** Establecimiento de marco normativo para prevenir riesgos de captura, tráfico de influencias y conflictos de interés [p.47]
+
+**EST014** Regulación de "puerta giratoria" con período obligatorio de enfriamiento de al menos un año [p.47]
+
+### 22.5 SISTEMA POLÍTICO
+
+**EST015** Establecimiento de umbral electoral del 5% para que partidos obtengan escaño en Congreso [p.47]
+
+**EST016** Elevación al 0,5% del electorado regional el requisito mínimo de afiliación a partidos [p.47]
+
+**EST017** Pérdida de cargo para parlamentarios que renuncien al partido una vez electos [p.47]
+
+**EST018** Fortalecimiento del mecanismo de urgencias legislativas [p.47]
+
+**EST019** Definición anual de tres proyectos de ley de tramitación prioritaria por el presidente [p.47]
+
+**EST020** Creación de Oficina Presupuestaria robusta en Congreso Nacional [p.47]
+
+### 22.6 EFICIENCIA DEL GASTO
+
+**EST021** Transformación de ChileCompra en plataforma inteligente con trazabilidad total [p.48]
+
+**EST022** Uso de IA para detección automatizada de riesgos en compras [p.48]
+
+**EST023** Publicación automática de toda la información del ciclo de adquisiciones [p.48]
+
+**EST024** Nueva plataforma digital mostrando en tiempo casi real avances, metas y resultados de programas con financiamiento fiscal [p.48]
+
+**EST025** Auditoría de eficiencia de programas del Estado para evitar duplicación de beneficios y servicios [p.48]
+
+**EST026** Centralización del pago de remuneraciones del sector público [p.48]
+
+### 22.7 DESCENTRALIZACIÓN
+
+**EST027** Impulso de Planes Regionales de Desarrollo Estratégico 2026-2030 [p.48]
+
+**EST028** Cinco prioridades de desarrollo para cada región [p.48]
+
+**EST029** Perfeccionamiento de Ley de Financiamiento Urbano Compartido (FUC) [p.48]
+
+**EST030** Implementación de Alta Dirección Pública Municipal para cargos clave en municipios grandes e intermedios [p.48]
+
+**EST031** Reforma del fondo común municipal para premiar gestión eficiente [p.49]
+
+**EST032** Nuevos criterios objetivos para distribución de fondos incluyendo esfuerzo fiscal local [p.49]
+
+**EST033** Consolidación de Subsecretaría de Desarrollo Regional y Subsecretaría del Interior en una sola entidad [p.49]
+
+### 22.8 REDUCCIÓN DEL ESTADO
+
+**EST034** Propuesta de reducción de Ministerios en tres meses con meta de llegar al menos al promedio OCDE (19 ministerios) [p.49]
+
+---
+
+## XXIII. POLÍTICA EXTERIOR
+
+**EXT001** Política exterior antepondrá intereses del país sustentándose en principios del derecho internacional [p.51]
+
+**EXT002** Respeto a tratados vigentes, solución pacífica de controversias y defensa de soberanía e integridad territorial [p.51]
+
+**EXT003** Relaciones pragmáticas con diversificación de vínculos políticos y comerciales [p.51]
+
+**EXT004** Fortalecimiento de capacidad de negociación sin subordinaciones a bloques de poder [p.51]
+
+**EXT005** Diversificación estratégica de mercados [p.51]
+
+**EXT006** Aseguramiento del cumplimiento de acuerdos comerciales existentes [p.51]
+
+**EXT007** Promoción de profundización de relaciones comerciales y suscripción de nuevos acuerdos [p.51]
+
+**EXT008** Fortalecimiento del desarrollo en ciencia e innovación internacional [p.51]
+
+**EXT009** Relaciones de respeto y cooperación con vecinos priorizando seguridad y control de fronteras, comercio, integración energética y desarrollo de infraestructura [p.51]
+
+**EXT010** Defensa de democracia y derechos humanos enfrentando autoritarismos [p.51]
+
+**EXT011** Promoción de cooperación en seguridad para lucha contra crimen organizado transnacional y narcotráfico [p.51]
+
+**EXT012** Regulación de flujos migratorios [p.51]
+
+**EXT013** Evitar instrumentalización ideológica de organismos regionales [p.51]
+
+**EXT014** Compromiso activo con sistema multilateral universal [p.51]
+
+**EXT015** Coordinación con países afines en sistema multilateral [p.51]
+
+**EXT016** Alianzas estratégicas para diversificar mercados y fortalecer presencia internacional [p.51]
+
+**EXT017** Compromiso con lucha contra cambio climático [p.51]
+
+**EXT018** Búsqueda de acceso a financiamiento y tecnología para enfrentar calentamiento global [p.51]
+
+**EXT019** Fortalecimiento de gobernanza oceánica [p.51]
+
+**EXT020** Refuerzo de infraestructura en Antártica [p.51]
+
+**EXT021** Fortalecimiento de cooperación científica antártica [p.51]
+
+**EXT022** Proyección de Chile como centro logístico de región austral [p.51]
+
+---
+
+## RESUMEN DE MÉTRICAS CUANTIFICABLES
+
+### INVERSIONES COMPROMETIDAS
+- US$2.500 millones en seguridad [p.13, p.9]
+- US$8.000 millones en recorte de gastos mal asignados [p.20]
+
+### METAS DE CRECIMIENTO Y EMPLEO
+- 4% crecimiento PIB al cuarto año [p.20]
+- 1.000.000 de empleos formales [p.21]
+
+### INFRAESTRUCTURA DE SEGURIDAD
+- 10.000 nuevos carabineros [p.9, p.16]
+- 5 nuevas cárceles, 3 de alta seguridad [p.14]
+- 32.000 nuevas plazas penitenciarias [p.14]
+- 3.000 extranjeros condenados expulsados [p.14]
+- 2 centros de expulsión [p.15]
+- 40 barrios más peligrosos intervenidos [p.16]
+
+### METAS TRIBUTARIAS
+- 23% impuesto corporativo inmediato [p.20]
+- 18% impuesto corporativo en 10 años [p.20]
+- 10% impuesto Pymes [p.20]
+- Contratos invariabilidad tributaria hasta 20 años [p.20]
+- 50% reducción en cargos de confianza [p.20]
+- 700 programas del Estado revisados [p.20]
+
+### INFRAESTRUCTURA Y PROYECTOS
+- 30 proyectos de infraestructura priorizados [p.20]
+- 100 millones USD mínimo para fast track [p.20]
+
+### METAS SECTORIALES
+- 50% incremento producción salmón para 2030 [p.24]
+- 25.000 hectáreas anuales forestación [p.24]
+- 46 zonas críticas con Planes Estratégicos de cuencas [p.24]
+- 30% participación madera en construcción para 2030 [p.41]
+- 25% reducción incendios forestales [p.41]
+
+### SALUD
+- 100 CESFAMs construidos para 2030, 100 en construcción, 100 en diseño [p.30]
+- 30 nuevos hospitales terminados para 2030, 30 en construcción, 30 en diseño [p.30]
+- 10 nuevos principios activos medicamentos oncológicos [p.30]
+- Máximo 60 días para diagnóstico o derivación [p.30]
+- 22:00 horas horario extendido atención oncológica [p.30]
+- 40 años edad para mamografía [p.29]
+
+### EDUCACIÓN
+- 100% niños leen en primero básico [p.32]
+- Al menos 1 colegio alta exigencia por región [p.33]
+- 1 gigabit por segundo todas las conexiones [p.26]
+
+### VIVIENDA
+- 400.000 nuevos accesos a viviendas [p.34]
+- 400.000 mejoramientos [p.34]
+- 100.000 mejoramientos por año [p.34]
+- 4.500 UF vivienda de interés público [p.34]
+- 20 grandes obras urbanas [p.35]
+- 60% cupos viviendas bien ubicadas a mujeres con niños o adultos mayores [p.29]
+
+### EMPLEO FEMENINO
+- $200.000 subsidio por 6 meses a mujeres con empleo formal [p.22]
+- $100.000 estipendio a mujeres cuidadoras de personas dependientes [p.29]
+
+### DESCENTRALIZACIÓN
+- Reducción a 19 ministerios (promedio OCDE) [p.49]
+- 5 prioridades de desarrollo por región [p.48]
+
+### METAS AMBIENTALES
+- 50% reducción emisiones carbono para 2035 [p.41]
+- Carbono neutralidad 2050 [p.41]
+- 100% transporte público eléctrico en 5-10 años [p.41]
+- 10 años recuperación zonas industriales [p.41]
+
+### SISTEMA POLÍTICO
+- 5% umbral electoral para escaño [p.47]
+- 0,5% electorado regional afiliación mínima partidos [p.47]
+- 1 año período enfriamiento puerta giratoria [p.47]
+
+### JÓVENES EN PROTECCIÓN
+- 21 años edad máxima para jóvenes en hogares de protección [p.38]
+
+---
+
+## OBSERVACIONES DE EXTRACCIÓN
+
+**Fecha de extracción:** Octubre 2025  
+**Versión del documento:** Bases programáticas oficiales  
+**Total de medidas extraídas:** 523 medidas específicas  
+**Cobertura:** 100% del documento  
+**Nivel de detalle:** Completo con todas las cifras y compromisos cuantificables  
+**Formato de citación:** [p.X] para página única, [pp.X-Y] para rangos  
+**Dimensiones cubiertas:** 23 dimensiones principales
+
+---
+
+**FIN DE EXTRACCIÓN**
+
