@@ -12,14 +12,14 @@
 do a final check for missing items on the extract according to the standard and proceed with changes if any required
 
 ## 2. Refinement
-- for candidate Eduardo_Artes execute command @claude\commands\extract_refinement.md, text presidential plan is @02_extract\ss_20251020
-- for candidate Evelyn_Matthei execute command @claude\commands\extract_refinement.md, text presidential plan is @02_extract\ss_20251020
-- for candidate Franco_Parisi execute command @claude\commands\extract_refinement.md, text presidential plan is @02_extract\ss_20251020
-- for candidate Harold_Mayne_Nicholls execute command @claude\commands\extract_refinement.md, text presidential plan is @02_extract\ss_20251020
-- for candidate Jeannette_Jara execute command @claude\commands\extract_refinement.md, text presidential plan is @02_extract\ss_20251020
-- for candidate Johannes_Kaiser execute command @claude\commands\extract_refinement.md, text presidential plan is @02_extract\ss_20251020
-- for candidate Jose_Antonio_Kast execute command @claude\commands\extract_refinement.md, text presidential plan is @02_extract\ss_20251020
-- for candidate Marco_Enriquez_Ominami execute command @claude\commands\extract_refinement.md, text presidential plan is @02_extract\ss_20251020
+- for candidate Eduardo_Artes execute command @.claude\commands\extract_refinement.md, text presidential plan is @02_extract\ss_20251020
+- for candidate Evelyn_Matthei execute command @.claude\commands\extract_refinement.md, text presidential plan is @02_extract\ss_20251020
+- for candidate Franco_Parisi execute command @.claude\commands\extract_refinement.md, text presidential plan is @02_extract\ss_20251020
+- for candidate Harold_Mayne_Nicholls execute command @.claude\commands\extract_refinement.md, text presidential plan is @02_extract\ss_20251020
+- for candidate Jeannette_Jara execute command @.claude\commands\extract_refinement.md, text presidential plan is @02_extract\ss_20251020
+- for candidate Johannes_Kaiser execute command @.claude\commands\extract_refinement.md, text presidential plan is @02_extract\ss_20251020
+- for candidate Jose_Antonio_Kast execute command @.claude\commands\extract_refinement.md, text presidential plan is @02_extract\ss_20251020
+- for candidate Marco_Enriquez_Ominami execute command @.claude\commands\extract_refinement.md, text presidential plan is @02_extract\ss_20251020
 
 ### After
 do a final check for missing items on the extract according to the standard and proceed with changes if any required
