@@ -105,7 +105,12 @@ description: Matriz interactiva con 224 evaluaciones de 28 personas sobre 8 cand
               <summary><span class="plus-button">+</span></summary>
               <div class="persona-expanded">
                 <div class="persona-demographics-expanded">
-            </div>
+                  {% if persona.edad %}<div>🎂 {{ persona.edad }}</div>{% endif %}
+                  {% if persona.ingreso %}<div>💰 {{ persona.ingreso }}</div>{% endif %}
+                  {% if persona.ocupacion %}<div>💼 {{ persona.ocupacion }}</div>{% endif %}
+                  {% if persona.ubicacion %}<div>📍 {{ persona.ubicacion }}</div>{% endif %}
+                  {% if persona.situacion %}<div>👥 {{ persona.situacion }}</div>{% endif %}
+                </div>
                 {% if persona.contexto and persona.contexto.length > 0 %}
                 <div class="persona-context-expanded">
                   <div class="context-title">📋 Contexto</div>
@@ -115,7 +120,7 @@ description: Matriz interactiva con 224 evaluaciones de 28 personas sobre 8 cand
                     {% endfor %}
                   </ul>
                 </div>
-            {% endif %}
+                {% endif %}
               </div>
             </details>
             {% endif %}
