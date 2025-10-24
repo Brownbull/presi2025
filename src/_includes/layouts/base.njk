@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if title %}{{ title }} | {% endif %}Análisis con IA sobre Programas Presidenciales Chile 2025</title>
+  <title>{% if title %}{{ title }} | {% endif %}Khujta AI - Análisis Presidencial 2025</title>
   <meta name="description" content="{{ description or 'Análisis generado con Claude Sonnet 4.5 sobre programas presidenciales de Chile 2025. Evaluación de 28 personas electorales sobre 8 candidatos.' }}">
   <meta name="author" content="Khujta AI">
   <link rel="author" href="mailto:khujta.ai@gmail.com">
@@ -23,7 +23,7 @@
   <header class="site-header">
     <div class="container">
       <h1 class="site-title">
-        <a href="{{ '/' | url }}">🤖 Análisis con IA<br><span>Programas Presidenciales Chile 2025</span></a>
+        <a href="{{ '/' | url }}">🤖 Khujta AI<br><span>Análisis Presidencial 2025</span></a>
       </h1>
       <nav class="main-nav">
         <a href="{{ '/' | url }}">Inicio</a>
@@ -67,10 +67,10 @@
         <div class="footer-section">
           <h3>Enlaces</h3>
           <ul>
-            <li><a href="/programas/">Programas de Candidatos</a></li>
-            <li><a href="/personas/">28 Personas Electorales</a></li>
-            <li><a href="/matriz/">Matriz de Evaluación</a></li>
-            <li><a href="/metodologia/">Metodología del Análisis</a></li>
+            <li><a href="{{ '/programas/' | url }}">Programas de Candidatos</a></li>
+            <li><a href="{{ '/personas/' | url }}">28 Personas Electorales</a></li>
+            <li><a href="{{ '/matriz/' | url }}">Matriz de Evaluación</a></li>
+            <li><a href="{{ '/metodologia/' | url }}">Metodología del Análisis</a></li>
           </ul>
         </div>
 
@@ -96,6 +96,6 @@
     </div>
   </footer>
 
-  <script src="/assets/js/main.js"></script>
+  <script src="{{ '/assets/js/main.js' | url }}"></script>
 </body>
 </html>
