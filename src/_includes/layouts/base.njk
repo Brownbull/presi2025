@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if title %}{{ title }} | {% endif %}Análisis con IA sobre Programas Presidenciales Chile 2025</title>
+  <meta name="description" content="{{ description or 'Análisis generado con Claude Sonnet 4.5 sobre programas presidenciales de Chile 2025. Evaluación de 28 personas electorales sobre 8 candidatos.' }}">
+  <meta name="author" content="Gabe C">
+  <link rel="author" href="https://www.linkedin.com/in/gabriel-carcamo/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ title or 'Análisis con IA sobre Programas Presidenciales Chile 2025' }}">
+  <meta property="og:description" content="{{ description or 'Análisis generado con Claude Sonnet 4.5 sobre programas presidenciales de Chile 2025' }}">
+  <meta property="og:type" content="website">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+
+  {% include "components/ai-disclaimer.njk" %}
+
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">
+        <a href="/">🤖 Análisis con IA<br><span>Programas Presidenciales Chile 2025</span></a>
+      </h1>
+      <nav class="main-nav">
+        <a href="/">Inicio</a>
+        <a href="/programas/">Programas</a>
+        <a href="/personas/">Personas</a>
+        <a href="/matriz/">Matriz</a>
+        <a href="/metodologia/">Metodología</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="container">
+      {{ content | safe }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Sobre este proyecto</h3>
+          <p>
+            <strong>🤖 Análisis generado con IA</strong><br>
+            Este sitio utiliza <strong>Claude Sonnet 4.5</strong> de Anthropic para analizar
+            programas presidenciales de Chile 2025 desde la perspectiva de 28 personas electorales.
+          </p>
+          <p class="disclaimer-badge">
+            ⚠️ El contenido es informativo y no constituye recomendación electoral
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Enlaces</h3>
+          <ul>
+            <li><a href="/programas/">Programas de Candidatos</a></li>
+            <li><a href="/personas/">28 Personas Electorales</a></li>
+            <li><a href="/matriz/">Matriz de Evaluación</a></li>
+            <li><a href="/metodologia/">Metodología del Análisis</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Autor</h3>
+          <p>
+            Creado por <strong>Gabe C</strong><br>
+            <a href="https://www.linkedin.com/in/gabriel-carcamo/" target="_blank" rel="noopener">
+              LinkedIn →
+            </a>
+          </p>
+          <p>
+            <a href="https://buymeacoffee.com/brownbull" target="_blank" rel="noopener" class="donate-button">
+              ☕ Apóyame con un café
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Gabe C. Análisis generado con IA.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

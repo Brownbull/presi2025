@@ -1,0 +1,217 @@
+---
+layout: layouts/base.njk
+title: Matriz de Evaluación
+description: Matriz interactiva con 224 evaluaciones de 28 personas sobre 8 candidatos presidenciales
+---
+
+<h1>📊 Matriz de Evaluación</h1>
+
+<p class="intro">
+  Matriz interactiva con <strong>224 evaluaciones</strong> (28 personas × 8 candidatos).
+  Cada celda muestra la calificación que una persona electoral otorga al programa de un candidato,
+  en escala de 0-10.
+</p>
+
+<div class="matriz-legend">
+  <h3>Escala de Colores</h3>
+  <div class="legend-items">
+    <span class="legend-item"><span class="color-box high"></span> 7.0-10.0: Alto</span>
+    <span class="legend-item"><span class="color-box medium"></span> 5.0-6.9: Medio</span>
+    <span class="legend-item"><span class="color-box low"></span> 3.0-4.9: Bajo</span>
+    <span class="legend-item"><span class="color-box poor"></span> 0-2.9: Muy bajo</span>
+  </div>
+</div>
+
+<div class="matriz-wrapper">
+  <table class="matriz-table">
+    <thead>
+      <tr>
+        <th class="sticky-col">Persona</th>
+        {% for candidato in matriz.candidatos %}
+        <th>{{ candidato }}</th>
+        {% endfor %}
+        <th>Prom.</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for evaluacion in matriz.evaluaciones %}
+      <tr>
+        <td class="persona-cell sticky-col">
+          <a href="/personas/{{ evaluacion.numero | personaId }}-{{ evaluacion.nombre | slug }}/" class="persona-link">
+            <div class="persona-name">{{ evaluacion.numero }}. {{ evaluacion.nombre }}</div>
+            {% set persona = personas | find(evaluacion.numero) %}
+            {% if persona %}
+            <div class="persona-meta">
+              <span class="age">{{ persona.edad }}</span>
+              <span class="income">{{ persona.ingreso }}</span>
+            </div>
+            {% endif %}
+          </a>
+        </td>
+        {% for candidato in matriz.candidatos %}
+          {% set rating = evaluacion.evaluaciones[candidato] %}
+          {% if rating %}
+            {% set ratingClass = "" %}
+            {% if rating >= 7 %}{% set ratingClass = "high" %}
+            {% elif rating >= 5 %}{% set ratingClass = "medium" %}
+            {% elif rating >= 3 %}{% set ratingClass = "low" %}
+            {% else %}{% set ratingClass = "poor" %}{% endif %}
+            <td class="rating-cell {{ ratingClass }}">{{ rating | formatNumber }}</td>
+          {% else %}
+            <td class="rating-cell na">N/A</td>
+          {% endif %}
+        {% endfor %}
+        <td class="promedio-cell">{{ evaluacion.promedio | formatNumber }}</td>
+      </tr>
+      {% endfor %}
+      <tr class="promedio-row">
+        <td class="sticky-col"><strong>PROMEDIO</strong></td>
+        {% for candidato in matriz.candidatos %}
+          {% set promedio = matriz.promedios[candidato] %}
+          {% if promedio %}
+            {% set ratingClass = "" %}
+            {% if promedio >= 7 %}{% set ratingClass = "high" %}
+            {% elif promedio >= 5 %}{% set ratingClass = "medium" %}
+            {% elif promedio >= 3 %}{% set ratingClass = "low" %}
+            {% else %}{% set ratingClass = "poor" %}{% endif %}
+            <td class="rating-cell {{ ratingClass }}"><strong>{{ promedio | formatNumber }}</strong></td>
+          {% else %}
+            <td class="rating-cell na"><strong>N/A</strong></td>
+          {% endif %}
+        {% endfor %}
+        <td class="promedio-cell"><strong>-</strong></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<section class="rankings-section">
+  <h2>Rankings por Candidato</h2>
+  <p>Promedio general de las 28 personas electorales:</p>
+
+  <ol class="ranking-list">
+    {% for ranking in matriz.rankings %}
+    <li class="ranking-item">
+      <span class="posicion">#{{ ranking.posicion }}</span>
+      <span class="nombre">{{ ranking.candidato }}</span>
+      {% set ratingClass = "" %}
+      {% if ranking.promedio >= 7 %}{% set ratingClass = "high" %}
+      {% elif ranking.promedio >= 5 %}{% set ratingClass = "medium" %}
+      {% elif ranking.promedio >= 3 %}{% set ratingClass = "low" %}
+      {% else %}{% set ratingClass = "poor" %}{% endif %}
+      <span class="rating rating-cell {{ ratingClass }}">{{ ranking.promedio | formatNumber }}/10</span>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+<style>
+.intro {
+  font-size: 1.1rem;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-lg);
+  max-width: 800px;
+}
+
+.matriz-legend {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.matriz-legend h3 {
+  margin-top: 0;
+  font-size: 1rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+.legend-items {
+  display: flex;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  font-size: 0.9rem;
+}
+
+.color-box {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+}
+
+.color-box.high { background-color: var(--color-rating-high); }
+.color-box.medium { background-color: var(--color-rating-medium); }
+.color-box.low { background-color: var(--color-rating-low); }
+.color-box.poor { background-color: var(--color-rating-poor); }
+
+.sticky-col {
+  position: sticky;
+  left: 0;
+  background-color: var(--color-surface);
+  z-index: 5;
+}
+
+.promedio-row {
+  background-color: var(--color-bg);
+  font-weight: 600;
+  border-top: 2px solid var(--color-border);
+}
+
+.promedio-cell {
+  text-align: center;
+  font-weight: 600;
+  background-color: var(--color-bg);
+}
+
+.rankings-section {
+  margin-top: var(--spacing-xl);
+  padding: var(--spacing-lg);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.ranking-list {
+  list-style: none;
+  padding: 0;
+  margin-top: var(--spacing-md);
+}
+
+.ranking-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.ranking-item:last-child {
+  border-bottom: none;
+}
+
+.ranking-item .posicion {
+  font-weight: 700;
+  color: var(--color-text-secondary);
+  min-width: 3rem;
+  font-size: 1.1rem;
+}
+
+.ranking-item .nombre {
+  flex: 1;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.ranking-item .rating {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+</style>

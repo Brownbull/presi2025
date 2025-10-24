@@ -1,0 +1,203 @@
+---
+layout: layouts/base.njk
+title: Inicio
+---
+
+<div class="hero">
+  <h1>🤖 Análisis con IA sobre Programas Presidenciales Chile 2025</h1>
+  <p class="lead">
+    Evaluación de 8 candidatos presidenciales desde la perspectiva de 28 personas electorales,
+    generada con <strong>Claude Sonnet 4.5</strong> de Anthropic.
+  </p>
+</div>
+
+<section class="intro-section">
+  <h2>¿Qué encontrarás aquí?</h2>
+
+  <div class="card-grid">
+    <div class="card">
+      <h3>📋 Programas de Candidatos</h3>
+      <p>
+        Extractos comprehensivos de los programas de gobierno de los 8 candidatos presidenciales,
+        con <strong>{{ programas | length }}</strong> programas analizados y cientos de medidas específicas catalogadas.
+      </p>
+      <p><a href="/programas/">Ver programas →</a></p>
+    </div>
+
+    <div class="card">
+      <h3>👥 28 Personas Electorales</h3>
+      <p>
+        Perfiles detallados de 28 personas que representan diferentes grupos de interés electoral en Chile,
+        desde profesionales agobiados hasta jubilados precarizados.
+      </p>
+      <p><a href="/personas/">Ver personas →</a></p>
+    </div>
+
+    <div class="card">
+      <h3>📊 Matriz de Evaluación</h3>
+      <p>
+        Tabla interactiva con 224 evaluaciones (28 personas × 8 candidatos) que muestra
+        qué tan bien cada programa responde a las necesidades de cada persona electoral.
+      </p>
+      <p><a href="/matriz/">Ver matriz →</a></p>
+    </div>
+
+    <div class="card">
+      <h3>🔬 Metodología</h3>
+      <p>
+        Proceso detallado de análisis, desde la extracción de medidas hasta la evaluación
+        personalizada con criterios específicos y estándares de calidad.
+      </p>
+      <p><a href="/metodologia/">Ver metodología →</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="rankings-section">
+  <h2>Rankings Generales</h2>
+
+  {% if matriz.rankings.length > 0 %}
+  <div class="rankings-grid">
+    <div class="ranking-box">
+      <h3>Por Candidato</h3>
+      <p class="subtitle">Promedio general de las 28 personas</p>
+      <ol class="ranking-list">
+        {% for ranking in matriz.rankings %}
+        <li class="ranking-item">
+          <span class="posicion">#{{ ranking.posicion }}</span>
+          <span class="nombre">{{ ranking.candidato }}</span>
+          <span class="rating rating-{{ ranking.promedio | ratingColor }}">{{ ranking.promedio | formatNumber }}/10</span>
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </div>
+  {% endif %}
+</section>
+
+<section class="about-section">
+  <h2>Sobre este proyecto</h2>
+  <div class="about-content">
+    <p>
+      Este sitio utiliza <strong>Claude Sonnet 4.5</strong> de Anthropic para realizar un análisis comprehensivo
+      de los programas presidenciales de Chile 2025. El análisis se basa en:
+    </p>
+    <ul>
+      <li><strong>Extracción rigurosa:</strong> Cada programa fue procesado según estándares específicos, extrayendo medidas concretas con citas precisas.</li>
+      <li><strong>Evaluación personalizada:</strong> 28 personas electorales evalúan cada programa desde sus prioridades y contexto específico.</li>
+      <li><strong>Perspectiva auténtica:</strong> Las evaluaciones mantienen la voz en primera persona de cada persona, con escepticismo realista.</li>
+      <li><strong>Transparencia total:</strong> Todas las evaluaciones citan medidas específicas y explican su razonamiento.</li>
+    </ul>
+    <p class="disclaimer">
+      ⚠️ <strong>Importante:</strong> Este contenido es informativo y no constituye recomendación electoral.
+      Está diseñado para facilitar el acceso a información programática desde múltiples perspectivas ciudadanas.
+    </p>
+  </div>
+</section>
+
+<style>
+.hero {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+  padding: var(--spacing-xl) 0;
+  background: linear-gradient(135deg, #E3F2FD 0%, #FFF9C4 100%);
+  border-radius: var(--radius-lg);
+}
+
+.hero h1 {
+  margin-bottom: var(--spacing-md);
+}
+
+.lead {
+  font-size: 1.2rem;
+  color: var(--color-text-secondary);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.intro-section,
+.rankings-section,
+.about-section {
+  margin: var(--spacing-xl) 0;
+}
+
+.rankings-grid {
+  display: grid;
+  gap: var(--spacing-lg);
+}
+
+.ranking-box {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.ranking-box h3 {
+  margin-top: 0;
+}
+
+.ranking-box .subtitle {
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.ranking-list {
+  list-style: none;
+  padding: 0;
+}
+
+.ranking-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.ranking-item:last-child {
+  border-bottom: none;
+}
+
+.ranking-item .posicion {
+  font-weight: 700;
+  color: var(--color-text-secondary);
+  min-width: 3rem;
+}
+
+.ranking-item .nombre {
+  flex: 1;
+  font-weight: 500;
+}
+
+.ranking-item .rating {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.about-content {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-lg);
+}
+
+.about-content ul {
+  margin: var(--spacing-md) 0;
+  padding-left: var(--spacing-xl);
+}
+
+.about-content li {
+  margin-bottom: var(--spacing-sm);
+}
+
+.disclaimer {
+  background-color: var(--color-disclaimer-bg);
+  border-left: 4px solid var(--color-disclaimer-border);
+  padding: var(--spacing-md);
+  border-radius: var(--radius-sm);
+  margin-top: var(--spacing-md);
+}
+</style>

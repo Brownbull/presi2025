@@ -1,65 +1,115 @@
-# Flujo de trabajo:
-## Descargar programas
-- [Jose Antonio Kast](https://kast.cl/)
-- [Jeannette Jara](https://jeannettejara.cl/)
-- [Evelyn Matthei](https://evelynmatthei.cl/programa-gobierno-matthei/)
-- [Johannes Kaiser](https://static.emol.cl/emol50/documentos/archivos/2025/09/25/202509251166.pdf)
+# Análisis con IA sobre Programas Presidenciales Chile 2025
 
-## Formato pdf a txt
-Se evaluaron 3 alternativas de parseo de pdf a texto usando el programa de evelyn matthei asociado al snapshot 20250928:
-- pdfcandy: https://pdfcandy.com/
-- pypdf: [01_convert_pdf_pypdf.ipynb](./01_convert_pdf_pypdf.ipynb) <i>WINNER!!</i>
-- pdfminer: [01_convert_pdf_pdfminer.ipynb](./01_convert_pdf_pdfminer.ipynb)
+Análisis generado con **Claude Sonnet 4.5** de Anthropic sobre programas presidenciales de Chile 2025.
 
-De estos 3, inspeccionando las primeras 6 paginas el mejor fue <b>pypdf</b>, por lo que sera la herramienta por defecto a usar.
+## Descripción
 
-## Comando extractor programas
-Con ayuda de Claude se creo comando y standard a seguir para extraer contenido de los programas de gobierno:
-- Comando: [plan_extractor.md](./claude/commands/plan_extractor.md)
-- Standard: [plan_standard.md](./claude/standards/plan_standard.md)
+Este proyecto analiza los programas de 8 candidatos presidenciales desde la perspectiva de 28 personas electorales que representan diferentes grupos de interés en Chile.
 
-Estos se utilizaron con Claude Code para realizar iteraciones incrementales en la extraccion hasta llegar a una evaluacion de >8 en escala de 10 en la extraccion del programa.
+- **8 programas procesados** con más de 1,500 medidas catalogadas
+- **28 personas electorales** con perfiles detallados
+- **224 evaluaciones** (28 × 8) con análisis personalizado
+- **Matriz interactiva** con rankings y promedios
 
-## Extraccion
-```claude code
-1.execute command @claude\commands\plan_extractor.md considering candidate {candidate_here}, text presidential plan is @01_programas\ss_20250928\txt\Programa_{candidate_here}_ss_20250928.txt
-2.perfect, now perform the "análisis adicional de las páginas restantes" to complete the extraction according to standards 
-3.do a final check for missing items on the extract according to the standard and proceed with changes if any required
+## Estructura del Proyecto
+
+```
+.
+├── 01_programas/           # Programas originales en PDF/TXT
+├── 03_extract_refinement/  # Extractos procesados según estándar v1.1
+├── 04_evaluacion_agentes/  # Evaluaciones por persona
+├── docs/                   # Definición de personas
+├── src/                    # Código fuente del sitio 11ty
+│   ├── _data/             # Scripts de procesamiento de datos
+│   ├── _includes/         # Layouts y componentes
+│   ├── index.njk          # Página principal
+│   ├── programas/         # Páginas de programas
+│   ├── personas/          # Páginas de personas
+│   ├── matriz/            # Matriz de evaluación
+│   └── metodologia/       # Metodología del análisis
+├── assets/                 # CSS y JavaScript
+├── .eleventy.js           # Configuración de 11ty
+└── package.json           # Dependencias
 ```
 
-## Refinamiento
-### Create
-```claude code
-1.ok now considering the files created at /02_extract create a file called extract_refinement_standard at folder
-/claude/standards which describes a common standard to present the information in /02_extract files in a normalized way. The
-standard should allow to specify all the contents of the files in /02_extract folder in a normalized way.
-2.do a final check for missing items on the standard proceed with changes if any required
-```
-### Execute
-```claude code
-1.execute command @claude\commands\extract_refinement.md considering candidate {candidate_here}, text presidential extract is @02_extract\extreact_{candidate_here}.txt
-2.do a final check for missing items on the refined extract according to the standard and proceed with changes if any required
+## Tecnologías
+
+- **11ty (Eleventy)**: Generador de sitios estáticos
+- **Nunjucks**: Motor de plantillas
+- **Markdown-it**: Procesamiento de markdown
+- **GitHub Pages**: Hosting gratuito
+- **Claude Sonnet 4.5**: Análisis con IA
+
+## Desarrollo Local
+
+### Prerrequisitos
+
+- Node.js 18 o superior
+- npm
+
+### Instalación
+
+```bash
+# Instalar dependencias
+npm install
+
+# Modo desarrollo (con hot reload)
+npm start
+
+# Build para producción
+npm run build
 ```
 
-## Agents
-La creacion de agentes se hizo completamente utilizando Claude Opus 4.1, enfocandose en espectros politicos, casos de personas representativas y en formas de evaluacion de medidas y factibilidad de estas.
-### Espectros Politicos Nacionales
-- agente-P-CL-autonomista-regional.md
-- agente-P-CL-ecologista.md
-- agente-P-CL-democrata-cristiano.md
-- agente-P-CL-liberal-conservador.md
-- agente-P-CL-nacional-populista.md
-- agente-P-CL-progresista-transformador.md
-### Espectros Politicos Internacionales
-- agente-P-CH-del-partido-comunista-chino.md
-- agente-P-US-democrata-de-estados-unidos.md
-- agente-P-US-republicano-de-estados-unidos.md
-### Grupos de Interes
-- agente-S-dignidad.md
-- agente-S-orden.md
-- agente-S-pragmatico.md
-## Evaluators
-- evaluador-med-smart.md
-- evaluador-prog-factibilidad.md
+El sitio estará disponible en `http://localhost:8080`
+
+## Despliegue
+
+El sitio se despliega automáticamente a GitHub Pages cuando se hace push a la rama `main`:
+
+1. El workflow de GitHub Actions se ejecuta automáticamente
+2. Se instalan las dependencias
+3. Se construye el sitio (`_site/`)
+4. Se despliega a GitHub Pages
+
+### Configuración de GitHub Pages
+
+1. Ve a Settings → Pages en tu repositorio
+2. Source: GitHub Actions
+3. El sitio estará disponible en `https://[usuario].github.io/[repositorio]/`
+
+## Metodología
+
+El análisis sigue un proceso de 4 etapas:
+
+1. **Extracción de Programas**: Estándar de refinamiento v1.1 con numeración secuencial y citas precisas
+2. **Definición de Personas**: 28 perfiles representativos de diferentes grupos electorales
+3. **Evaluación Personalizada**: Cada persona evalúa los 8 programas (escala 0-10)
+4. **Procesamiento de Datos**: Generación automática del sitio con 11ty
+
+Ver más detalles en [/metodologia/](src/metodologia/index.njk)
+
+## Limitaciones
+
+⚠️ **Importante**:
+
+- Este contenido es informativo y no constituye recomendación electoral
+- Las evaluaciones son generadas por IA, no por personas reales
+- Los puntajes son relativos y subjetivos
+- Debe complementarse con otras fuentes de información electoral
+
+## Autor
+
+Creado por **Gabe C**
+
+- LinkedIn: [gabriel-carcamo](https://www.linkedin.com/in/gabriel-carcamo/)
+- Buy Me a Coffee: [brownbull](https://buymeacoffee.com/brownbull)
+
+## Licencia
+
+MIT License
+
+---
+
+🤖 **Análisis generado con IA usando Claude Sonnet 4.5 de Anthropic**
 
 

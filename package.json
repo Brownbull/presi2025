@@ -1,5 +1,28 @@
 {
+  "name": "analisis-programas-presidenciales-2025",
+  "version": "1.0.0",
+  "description": "Análisis con IA sobre Programas Presidenciales Chile 2025",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "debug": "DEBUG=Eleventy* eleventy"
+  },
+  "keywords": [
+    "elecciones",
+    "chile",
+    "presidenciales",
+    "2025",
+    "analisis",
+    "ia"
+  ],
+  "author": "Gabe C",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  },
   "dependencies": {
-    "@anthropic-ai/claude-agent-sdk": "^0.1.0"
+    "@anthropic-ai/claude-agent-sdk": "^0.1.0",
+    "markdown-it": "^13.0.2",
+    "markdown-it-anchor": "^8.6.7"
   }
 }

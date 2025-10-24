@@ -1,0 +1,49 @@
+---
+layout: layouts/base.njk
+title: 28 Personas Electorales
+description: Perfiles de 28 personas que representan diferentes grupos de interés electoral en Chile
+---
+
+<h1>👥 28 Personas Electorales</h1>
+
+<p class="intro">
+  Perfiles detallados de 28 personas que representan diferentes grupos de interés electoral en Chile.
+  Cada persona evalúa los 8 programas presidenciales desde sus prioridades, contexto y necesidades específicas.
+</p>
+
+<div class="card-grid">
+  {% for persona in personas %}
+  <a href="/personas/{{ persona.id }}/" class="card persona-card">
+    <div class="emoji">{{ persona.emoji }}</div>
+    <div class="nombre">{{ persona.numero }}. {{ persona.nombre }}</div>
+    <div class="descripcion">{{ persona.descripcion }}</div>
+    <div class="persona-demographics">
+      <span class="age">{{ persona.edad }}</span>
+      <span class="income">{{ persona.ingreso }}</span>
+    </div>
+    {% if persona.fraseTipica %}
+    <blockquote class="persona-quote">
+      "{{ persona.fraseTipica }}"
+    </blockquote>
+    {% endif %}
+  </a>
+  {% endfor %}
+</div>
+
+<style>
+.intro {
+  font-size: 1.1rem;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-xl);
+  max-width: 800px;
+}
+
+a.card {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+a.card:hover {
+  text-decoration: none;
+}
+</style>
