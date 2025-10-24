@@ -74,9 +74,10 @@ module.exports = function() {
       const titleMatch = contenido.match(/# EXTRACTO COMPREHENSIVO: (.+)/);
       const subtitleMatch = contenido.match(/## (.+)/);
 
-      // Count measures
-      const medidas = contenido.match(/\*\*Medida \d+:/g) || [];
-      const numMedidas = medidas.length;
+      // Count measures - handle both **Medida and plain Medida formats
+      const medidasBold = contenido.match(/\*\*Medida \d+:/g) || [];
+      const medidasPlain = contenido.match(/^Medida \d+:/gm) || [];
+      const numMedidas = medidasBold.length > 0 ? medidasBold.length : medidasPlain.length;
 
       // Extract sections
       const secciones = [];
