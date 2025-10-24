@@ -1,28 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mkdir:*)",
-      "Bash(ls:*)",
-      "Bash(for i in {1..61})",
-      "Bash(do echo \"p.$i\")",
-      "Bash(done)",
-      "Bash(while read page)",
-      "Bash(do if ! grep -q \"\\[$page\\]\" \"G:\\My Drive\\Projects\\2025\\presidential\\02_extract\\extract_Jeannette_Jara.txt\")",
-      "Bash(then echo \"Missing: $page\")",
-      "Bash(fi)",
-      "Bash(do if ! grep -q \"\\[p\\.$i\\]\" \"G:\\My Drive\\Projects\\2025\\presidential\\02_extract\\extract_Jeannette_Jara.txt\")",
-      "Bash(then echo \"Missing: p.$i\")",
-      "Bash(find:*)",
-      "Read(//g//**)",
-      "Bash(mv \"EDUARDO-ANTONIO-ARTES-BRICHETTI_ss_20251020.txt\" \"Programa_Eduardo_Artes_ss_20251020.txt\")",
-      "Bash(mv \"EVELYN-MATTHEI-FORNET_ss_20251020.txt\" \"Programa_Evelyn_Matthei_ss_20251020.txt\")",
-      "Bash(mv \"FRANCO-PARISI-FERNANDEZ_ss_20251020.txt\" \"Programa_Franco_Parisi_ss_20251020.txt\")",
-      "Bash(mv \"HAROLD-MAYNE-NICHOLLS-SECUL_ss_20251020.txt\" \"Programa_Harold_Mayne_Nicholls_ss_20251020.txt\")",
-      "Bash(mv \"JEANNETTE-JARA-ROMAN_ss_20251020.txt\" \"Programa_Jeannette_Jara_ss_20251020.txt\")",
-      "Bash(mv \"JOHANNES-KAISER-BARENTS-VON-HOHENHAGEN_ss_20251020.txt\" \"Programa_Johannes_Kaiser_ss_20251020.txt\")",
-      "Bash(mv \"MARCO-ANTONIO-ENRIQUEZ-OMINAMI-GUMUCIO_ss_20251020.txt\" \"Programa_Marco_Enriquez_Ominami_ss_20251020.txt\")",
-      "Bash(git pull:*)",
-      "Bash(awk:*)"
+      "Bash(python extract_ratings.py:*)",
+      "Bash(python:*)",
+      "Bash(for f in \"04_evaluacion_agentes\"/persona_{07,08,09,13,14,15,16,22,24,26,28}_*.md)",
+      "Bash(for p in 16 22 24 26 28)",
+      "Bash(do echo \"=== Persona $p ===\")",
+      "Bash(for f in persona_{16,22,24,26,28}_*.md)",
+      "Bash(do sed -i 's/\\*\\*Calificación: \\([0-9.]*\\)\\/10\\*\\*/&\\n\\n**Calificación Personal:** \\1\\/10\\n**¿Votaría por este candidato?** TBD/g' \"$f\")",
+      "Bash(echo:*)"
     ],
     "deny": [],
     "ask": []
