@@ -14,7 +14,7 @@
   <meta property="og:type" content="website">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}">
 </head>
 <body>
 
@@ -23,14 +23,14 @@
   <header class="site-header">
     <div class="container">
       <h1 class="site-title">
-        <a href="/">🤖 Análisis con IA<br><span>Programas Presidenciales Chile 2025</span></a>
+        <a href="{{ '/' | url }}">🤖 Análisis con IA<br><span>Programas Presidenciales Chile 2025</span></a>
       </h1>
       <nav class="main-nav">
-        <a href="/">Inicio</a>
-        <a href="/programas/">Programas</a>
-        <a href="/personas/">Personas</a>
-        <a href="/matriz/">Evaluación</a>
-        <a href="/metodologia/">Metodología</a>
+        <a href="{{ '/' | url }}">Inicio</a>
+        <a href="{{ '/programas/' | url }}">Programas</a>
+        <a href="{{ '/personas/' | url }}">Personas</a>
+        <a href="{{ '/matriz/' | url }}">Evaluación</a>
+        <a href="{{ '/metodologia/' | url }}">Metodología</a>
         <a href="https://buymeacoffee.com/khujtaaig" target="_blank" rel="noopener" class="nav-donate">
           ☕ Apóyame con un café
         </a>

@@ -11,7 +11,7 @@ eleventyComputed:
 ---
 
 <nav class="breadcrumb">
-  <a href="/">Inicio</a> / <a href="/personas/">Personas</a> / {{ persona.nombre }}
+  <a href="{{ '/' | url }}">Inicio</a> / <a href="{{ '/personas/' | url }}">Personas</a> / {{ persona.nombre }}
 </nav>
 
 <div class="persona-header">
@@ -109,13 +109,13 @@ eleventyComputed:
       {% endfor %}
     </div>
   {% else %}
-    <p class="no-content">Las evaluaciones detalladas están en proceso. Ver <a href="/matriz/">Matriz de Evaluación</a>.</p>
+    <p class="no-content">Las evaluaciones detalladas están en proceso. Ver <a href="{{ '/matriz/' | url }}">Matriz de Evaluación</a>.</p>
   {% endif %}
 </section>
 
 <nav class="persona-nav">
-  <a href="/personas/" class="back-link">← Volver a personas</a>
-  <a href="/matriz/" class="matriz-link">Ver en la matriz →</a>
+  <a href="{{ '/personas/' | url }}" class="back-link">← Volver a personas</a>
+  <a href="{{ '/matriz/' | url }}" class="matriz-link">Ver en la matriz →</a>
 </nav>
 
 <style>

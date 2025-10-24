@@ -27,7 +27,7 @@ description: Matriz interactiva con 224 evaluaciones de 28 personas sobre 8 cand
     <thead>
       <tr>
         <th class="sticky-col candidato-header personas-header-special">
-          <a href="/personas/" class="persona-column-title">Personas</a>
+          <a href="{{ '/personas/' | url }}" class="persona-column-title">Personas</a>
         </th>
         <th class="candidato-header">
           <select class="candidato-selector" data-column="0">
@@ -91,7 +91,7 @@ description: Matriz interactiva con 224 evaluaciones de 28 personas sobre 8 cand
         <td class="persona-cell sticky-col">
           <div class="persona-header-cell">
             <div class="persona-name-row">
-              <a href="/personas/{{ evaluacion.numero | personaId }}-{{ evaluacion.nombre | slug }}/" class="persona-link">
+              <a href="{{ '/personas/' | url }}{{ evaluacion.numero | personaId }}-{{ evaluacion.nombre | slug }}/" class="persona-link">
                 <div class="persona-name">{{ evaluacion.numero }}. {{ evaluacion.nombre }}</div>
               </a>
               <button class="toggle-include-btn" onclick="togglePersonaInclusion(this)" title="Excluir de promedio">

@@ -11,7 +11,7 @@ eleventyComputed:
 ---
 
 <nav class="breadcrumb">
-  <a href="/">Inicio</a> / <a href="/programas/">Programas</a> / {{ programa.nombre }}
+  <a href="{{ '/' | url }}">Inicio</a> / <a href="{{ '/programas/' | url }}">Programas</a> / {{ programa.nombre }}
 </nav>
 
 <div class="programa-header">
@@ -28,7 +28,7 @@ eleventyComputed:
 </div>
 
 <nav class="programa-nav">
-  <a href="/programas/" class="back-link">← Volver a programas</a>
+  <a href="{{ '/programas/' | url }}" class="back-link">← Volver a programas</a>
 </nav>
 
 <style>

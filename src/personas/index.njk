@@ -13,7 +13,7 @@ description: Perfiles de 28 personas que representan diferentes grupos de inter√
 
 <div class="card-grid">
   {% for persona in personas %}
-  <a href="/personas/{{ persona.id }}/" class="card persona-card">
+  <a href="{{ '/personas/' | url }}{{ persona.id }}/" class="card persona-card">
     <div class="emoji">{{ persona.emoji }}</div>
     <div class="nombre">{{ persona.numero }}. {{ persona.nombre }}</div>
     <div class="descripcion">{{ persona.descripcion }}</div>

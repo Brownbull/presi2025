@@ -14,7 +14,7 @@ description: Extractos comprehensivos de los programas presidenciales de Chile 2
 
 <div class="card-grid">
   {% for programa in programas %}
-  <a href="/programas/{{ programa.slug }}/" class="card programa-card color-{{ loop.index }}">
+  <a href="{{ '/programas/' | url }}{{ programa.slug }}/" class="card programa-card color-{{ loop.index }}">
     <h3>{{ programa.nombre }}</h3>
     <p class="partido">{{ programa.partido }}</p>
     <div class="programa-meta">
