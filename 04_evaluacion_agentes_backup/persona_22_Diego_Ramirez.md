@@ -1,10 +1,16 @@
 # Evaluación Electoral - Persona 22: Diego Ramírez
+## El Gamer Semi-Pro - Antofagasta
+
+**Perfil:**
+- Edad: 19 años
+- Comuna: Antofagasta
+- Ocupación: Streamer de videojuegos y delivery part-time
+- Ingreso mensual: $400.000 (variable, sin contrato)
+- Situación: Gana más streaming que en trabajos formales, pero sin protección social. Vive con sus padres. Sueña con profesionalizarse en esports.
 
 ---
 
-## EVALUACIONES POR CANDIDATO
-
-## 1. Eduardo Artes
+## Eduardo Artés - Unión Patriótica
 
 Brígido, este compa va heavy con todo el rollo revolucionario. Habla de tecnología soberana [p.25] y desarrollo científico [p.25-26], pero cuando leo todo su programa es pura wea de estatizar todo. Propone que el Estado nacionalice recursos estratégicos [p.8] y controle los medios de producción [p.15-16].
 
@@ -14,7 +20,7 @@ Lo único que me tinca es que habla de garantizar acceso universal a internet [p
 
 El tema del trabajo digital ni lo menciona. Cero propuestas para gente como yo que ganamos plata de formas "no tradicionales". Para ellos existo solo si estoy en una fábrica con overol.
 
-**Calificación Personal:** 2/10
+**Calificación: 2/10**
 
 **Calificación Personal:** 2/10
 **¿Votaría por este candidato?** TBD
@@ -24,9 +30,7 @@ Solo le doy 2 puntos porque al menos menciona internet universal, pero su modelo
 
 ---
 
----
-
-## 2. Marco Enríquez-Ominami
+## Marco Enríquez-Ominami - Partido Progresista
 
 MEO cacha un poco más la volá digital. Propone impulsar economía digital y creativa [p.23], que es más o menos donde yo estoy metido. También habla de simplificar trámites digitales [p.35] y crear plataformas de gobierno electrónico [p.35-36], que estaría piola para no perder tiempo en weas burocráticas.
 
@@ -38,7 +42,7 @@ Lo del internet dice que quiere banda ancha universal [p.23], pero no especifica
 
 Habla de educación técnica y formación continua [p.25], pero nada sobre capacitación en industrias digitales, esports, producción de contenido. Sigue pensando en weás tradicionales.
 
-**Calificación Personal:** 5/10
+**Calificación: 5/10**
 
 **Calificación Personal:** 5/10
 **¿Votaría por este candidato?** TBD
@@ -48,9 +52,7 @@ Tiene algunas ideas que me sirven, pero le falta entender bien el trabajo digita
 
 ---
 
----
-
-## 3. Jeannette Jara
+## Jeannette Jara - Frente Amplio
 
 La Jara tiene propuestas interesantes para trabajadores independientes como yo. Propone crear sistema de protección social universal [p.17-18] que cubra a todos, no solo a los que tienen contrato. Eso significaría que yo tendría salud, previsión y protección aunque trabaje por mi cuenta.
 
@@ -64,7 +66,7 @@ También habla de crear fondos para industrias creativas [p.31] y capacitación 
 
 Lo único que me tinca medio es que también quiere regular caleta [p.32]. Espero que las regulaciones sean para protegernos, no para complicarnos más la pega.
 
-**Calificación Personal:** 7/10
+**Calificación: 7/10**
 
 **Calificación Personal:** 7/10
 **¿Votaría por este candidato?** TBD
@@ -74,9 +76,7 @@ Es la que más entiende mi realidad laboral y tiene propuestas concretas. Me arr
 
 ---
 
----
-
-## 4. José Antonio Kast
+## José Antonio Kast - Partido Republicano
 
 Este wn vive en el siglo pasado. Todo su programa es sobre militares, mano dura, familia tradicional [p.8-12]. Ni siquiera menciona trabajo digital, plataformas, nada. Para él probablemente los streamers somos unos flaites que no trabajamos de verdad.
 
@@ -86,7 +86,7 @@ Lo único rescatable es que habla de mejorar conectividad digital [p.35], pero d
 
 Cero políticas de protección social para gente como yo. Su modelo es "consíguete un trabajo normal o te cagas". Nah, paso.
 
-**Calificación Personal:** 1/10
+**Calificación: 1/10**
 
 **Calificación Personal:** 1/10
 **¿Votaría por este candidato?** TBD
@@ -96,9 +96,7 @@ Es como si yo no existiera en su Chile. Última opción.
 
 ---
 
----
-
-## 5. Johannes Kaiser
+## Johannes Kaiser - Partido Social Cristiano
 
 Kaiser tiene un programa súper conservador y tradicional [p.6-8]. Habla de familia, orden, disciplina. No cacha nada del mundo digital.
 
@@ -108,7 +106,7 @@ Dice que quiere apoyar emprendimiento [p.20], pero cuando hablas de emprendimien
 
 Lo del internet ni lo menciona. Cero propuestas de conectividad, digitalización, nada. Vive en los 90.
 
-**Calificación Personal:** 1/10
+**Calificación: 1/10**
 
 **Calificación Personal:** 1/10
 **¿Votaría por este candidato?** TBD
@@ -118,9 +116,7 @@ Otro que no me ve. Next.
 
 ---
 
----
-
-## 6. Evelyn Matthei
+## Evelyn Matthei - Chile Vamos
 
 La Matthei tiene un programa más técnico y con más números. Propone impulsar economía digital [p.23-24] y crear fondos para innovación [p.24]. Eso suena bien, pero cuando lees los detalles es todo para startups tech, no para creadores de contenido.
 
@@ -132,7 +128,7 @@ Tiene un programa de capacitación digital [p.38-39] que podría servir para apr
 
 El tema de salud y previsión para independientes lo toca muy superficial [p.27]. No hay propuestas concretas de cómo cubrir a gente con ingresos variables como yo.
 
-**Calificación Personal:** 5/10
+**Calificación: 5/10**
 
 **Calificación Personal:** 5/10
 **¿Votaría por este candidato?** TBD
@@ -142,9 +138,7 @@ Tiene lo del internet bien pensado, pero le falta entender que necesitamos prote
 
 ---
 
----
-
-## 7. Harold Mayne-Nicholls
+## Harold Mayne-Nicholls - Independiente
 
 Este compa tiene un programa súper centrado en modernizar el Estado [p.24-25] y usar tecnología [p.24-25]. Propone digitalizar trámites [p.24] y crear plataforma única del Estado [p.24], lo que estaría bueno para no perder tiempo.
 
@@ -158,7 +152,7 @@ No propone nada de protección social para independientes. Tampoco habla de regu
 
 Menciona apoyar industrias del futuro como servicios digitales [p.25], pero no especifica cómo. Probablemente piensa en empresas grandes, no en gente individual.
 
-**Calificación Personal:** 4/10
+**Calificación: 4/10**
 
 **Calificación Personal:** 4/10
 **¿Votaría por este candidato?** TBD
@@ -168,9 +162,7 @@ Tiene buenas ideas de modernización pero no me incluye en su visión. Es muy to
 
 ---
 
----
-
-## 8. Franco Parisi
+## Franco Parisi - Partido de la Gente
 
 Parisi me sorprendió. Tiene propuestas súper concretas que me afectarían directo. Lo más heavy es que propone reconocer e-sports como disciplina deportiva oficial [p.111] y crear registro de clubes de esports con acceso a fondos públicos [p.111]. Eso es como UN GOLAZO porque significaría que podríamos postular a plata del IND, tener personalidad jurídica, todo.
 
@@ -186,7 +178,7 @@ Lo del internet no lo menciona tanto como otros, pero habla de modernizar infrae
 
 El tema de protección social no lo desarrolla mucho para independientes. Tiene cosas para emprendedores pero no para gente con pega súper variable como yo.
 
-**Calificación Personal:** 8/10
+**Calificación: 8/10**
 
 **Calificación Personal:** 8/10
 **¿Votaría por este candidato?** TBD
@@ -222,5 +214,3 @@ Lo que sí tengo claro: necesito internet de calidad en regiones, reconocimiento
 
 **Intención de voto más probable: Franco Parisi**
 **Segunda opción: Jeannette Jara**
-
----

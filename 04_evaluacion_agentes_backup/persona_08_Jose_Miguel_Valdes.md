@@ -1,10 +1,19 @@
 # EVALUACIÓN DE CANDIDATOS PRESIDENCIALES
+## Persona 08: José Miguel Valdés - El Agricultor Amenazado
+### Perfil: Agricultor mediano, 58 años, Curicó (40 hectáreas herencia familiar)
+### Fecha de Evaluación: 23 de Octubre de 2025
 
 ---
 
-## EVALUACIONES POR CANDIDATO
+## CONTEXTO PERSONAL
 
-## 1. Eduardo Artes
+Soy José Miguel Valdés, tengo 58 años y llevo toda mi vida trabajando estas 40 hectáreas que heredé de mi padre en Curicó. Este es el tercer año de sequía que enfrentamos, y cada vez es más difícil. Los robos de cables y cosechas son constantes - ya ni siquiera denuncio porque Carabineros nunca llega a tiempo. La competencia con fruta china nos está matando los precios, y mis derechos de agua están en el aire, sin ninguna certeza. Para colmo, mi hijo no quiere seguir en el campo. Me dice que no tiene futuro acá. Los costos de electricidad para el riego están por las nubes.
+
+El campo alimenta a Chile, pero nos tienen abandonados. Necesito un presidente que entienda que sin campo no hay país, y que nos dé las herramientas para defender lo nuestro.
+
+---
+
+## EDUARDO ARTÉS - UNIÓN PATRIÓTICA
 
 **EVALUACIÓN: 180 palabras**
 
@@ -21,9 +30,7 @@ Sobre seguridad rural, ni una palabra. Sobre sucesión familiar o facilitar el t
 
 ---
 
----
-
-## 2. Marco Enríquez-Ominami
+## MARCO ENRÍQUEZ-OMINAMI - PARTIDO DEMÓCRATA, COMUNES, REGIONALISTAS
 
 **EVALUACIÓN: 320 palabras**
 
@@ -48,9 +55,7 @@ Sobre sucesión familiar: CERO. No le importa si mi hijo sigue o no en el campo.
 
 ---
 
----
-
-## 3. Jeannette Jara
+## JEANNETTE JARA - FRENTE AMPLIO, PARTIDO SOCIALISTA
 
 **EVALUACIÓN: 380 palabras**
 
@@ -77,9 +82,7 @@ Su visión es demasiado estatista para mi gusto, pero es la ÚNICA que toma en s
 
 ---
 
----
-
-## 4. José Antonio Kast
+## JOSÉ ANTONIO KAST - PARTIDO REPUBLICANO
 
 **EVALUACIÓN: 450 palabras**
 
@@ -104,9 +107,7 @@ Va a "modernizar el Servicio Agrícola Ganadero" y la "DGA agilizando permisos" 
 
 ---
 
----
-
-## 5. Johannes Kaiser
+## JOHANNES KAISER - PARTIDO ACCIÓN REPUBLICANA
 
 **EVALUACIÓN: 290 palabras**
 
@@ -129,9 +130,7 @@ Además, su discurso anti-establishment y confrontacional me genera desconfianza
 
 ---
 
----
-
-## 6. Evelyn Matthei
+## EVELYN MATTHEI - CHILE VAMOS, AMARILLOS, DEMÓCRATAS
 
 **EVALUACIÓN: 485 palabras**
 
@@ -158,9 +157,7 @@ Su visión es pragmática: libre mercado con apoyo focalizado al agro, seguridad
 
 ---
 
----
-
-## 7. Harold Mayne-Nicholls
+## HAROLD MAYNE-NICHOLLS - INDEPENDIENTE
 
 **EVALUACIÓN: 315 palabras**
 
@@ -187,9 +184,7 @@ Su programa es genérico y bien intencionado, pero le falta carne. Todo es "vamo
 
 ---
 
----
-
-## 8. Franco Parisi
+## FRANCO PARISI - PARTIDO DE LA GENTE
 
 **EVALUACIÓN: 420 palabras**
 
@@ -246,5 +241,3 @@ Matthei me da confianza de que va a resolver los problemas urgentes (robos, agua
 **GENERADO POR:** Claude (Anthropic)
 **ESTÁNDAR:** persona_evaluation_standard.md v1.0
 **FECHA:** 23 de Octubre de 2025
-
----

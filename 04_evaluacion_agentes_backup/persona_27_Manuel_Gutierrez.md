@@ -1,10 +1,19 @@
 # Evaluación de Candidatos Presidenciales 2026
+## Persona 27: Manuel Gutiérrez - El Chofer de Micro
+
+**Perfil:**
+- Edad: 49 años
+- Comuna: Pudahuel
+- Ocupación: Conductor de Transantiago (subcontratado)
+- Ingreso mensual: $950.000 (con bonos)
+- Situación: 15 años manejando micros, subcontratado por empresa privada con contrato estatal. Sin estabilidad laboral real. Agresiones constantes de pasajeros. Preocupado por automatización y violencia en el trabajo.
+- Preocupaciones principales: Estabilidad laboral, seguridad en transporte público, regulación de subcontratación, protección frente a agresiones, pensión digna tras años de trabajo físico intenso.
 
 ---
 
-## EVALUACIONES POR CANDIDATO
+## Evaluación Candidato por Candidato
 
-## 1. Eduardo Artes
+### 1. Eduardo Artés - Unión Patriótica
 
 Mire, Artés habla bonito de los trabajadores pero a mí me preocupa si entiende lo que es manejar una micro 12 horas al día. Él dice que va a nacionalizar todo el transporte público [p.35], y eso suena bien porque somos nosotros los que generamos la plata mientras las empresas se llevan la ganancia. Llevo 15 años subcontratado ganando $950 mil con bonos, sin estabilidad, y las empresas nos cambian de contrato cada dos años para que no tengamos antigüedad.
 
@@ -16,15 +25,13 @@ Lo de la seguridad me parece débil. Dice que van a "defender derechos humanos s
 
 Eso sí, me gusta que quiera "nacionalizar empresas estratégicas" [p.35] porque el Transantiago es estratégico y nosotros somos los que lo movemos. Pero el problema es que Artés quiere hacer una revolución completa y yo lo que necesito es que me paguen bien, que no me peguen, y que tenga una pensión decente.
 
-**Calificación Personal:** 4/10** - Habla por los trabajadores pero sus propuestas son muy radicales y no dan seguridad de qué va a pasar con la gente como yo que ya lleva años trabajando.
+**Evaluación: 4/10** - Habla por los trabajadores pero sus propuestas son muy radicales y no dan seguridad de qué va a pasar con la gente como yo que ya lleva años trabajando.
 
 **Intención de voto: No** - Muy arriesgado para alguien de 49 años que necesita estabilidad.
 
 ---
 
----
-
-## 2. Marco Enríquez-Ominami
+### 2. Marco Enríquez-Ominami - Independiente
 
 MEO me cae bien porque habla como persona normal, no como político tradicional. Dice que va a crear más de 1 millón de empleos [p.14], pero yo no necesito empleo, necesito que el empleo que tengo sea digno y estable. Llevo 15 años en esto.
 
@@ -40,15 +47,13 @@ Lo del IVA al 10% en alimentos [p.12] me sirve porque con $950 mil tengo que est
 
 No dice nada de pensiones concretas, solo menciona "Pensión Garantizada Universal de $210.000 el primer año" [p.35]. Con 15 años de trabajo físico intenso, eso es miseria. Voy a quedar quebrado.
 
-**Calificación Personal:** 5/10** - Tiene ideas interesantes en seguridad y salud mental, pero no habla del transporte público ni de los trabajadores subcontratados.
+**Evaluación: 5/10** - Tiene ideas interesantes en seguridad y salud mental, pero no habla del transporte público ni de los trabajadores subcontratados.
 
 **Intención de voto: Tal vez** - Depende de si presenta algo más concreto para gente como yo.
 
 ---
 
----
-
-## 3. Jeannette Jara
+### 3. Jeannette Jara - Frente Amplio / Partido Comunista
 
 Jara es la única que habla directamente de terminar con la subcontratación [p.23]. Eso me importa porque llevo 15 años siendo un "prestador de servicios" cuando en realidad soy un trabajador del transporte público. Las empresas nos rotan cada dos años para que no tengamos antigüedad ni derechos.
 
@@ -66,15 +71,13 @@ Me preocupa que hable de "participación vinculante de trabajadores en empresas"
 
 Lo de "reducir jornada a 40 horas semanales sin reducción salarial" [p.23] es imposible en el transporte. Si trabajo 40 horas, ¿quién maneja las otras 4 horas de mi turno? ¿Van a contratar el doble de choferes?
 
-**Calificación Personal:** 6/10** - Es la que más habla de regular la subcontratación, pero sus propuestas económicas me dan miedo y en seguridad es muy blanda.
+**Evaluación: 6/10** - Es la que más habla de regular la subcontratación, pero sus propuestas económicas me dan miedo y en seguridad es muy blanda.
 
 **Intención de voto: Tal vez** - Me gusta lo laboral pero me asusta lo demás.
 
 ---
 
----
-
-## 4. José Antonio Kast
+### 4. José Antonio Kast - Partido Republicano
 
 Kast habla de orden y eso me resuena porque todos los días vivo el desorden. Promete "Plan de Recuperación Territorial contra el crimen organizado" [pp.808-812] y "cierre fronterizo a inmigración ilegal" [pp.822-824]. En Pudahuel veo cómo ha aumentado la delincuencia con la inmigración descontrolada.
 
@@ -92,15 +95,13 @@ Lo de "modernización del transporte público" [p.189] suena bien, pero no dice 
 
 Lo del "impuesto negativo al ingreso donde el Estado transferirá recursos a trabajadores" [pp.1144-1146] me llama la atención. Si gano $950 mil, ¿califico para eso? Pero sospecho que es para gente que gana menos.
 
-**Calificación Personal:** 5/10** - Fuerte en seguridad que necesito, pero débil en protección laboral y pensiones. Me da miedo que me echen con el ajuste.
+**Evaluación: 5/10** - Fuerte en seguridad que necesito, pero débil en protección laboral y pensiones. Me da miedo que me echen con el ajuste.
 
 **Intención de voto: Tal vez** - Depende de si garantiza que no nos van a echar a los subcontratados.
 
 ---
 
----
-
-## 5. Johannes Kaiser
+### 5. Johannes Kaiser - Partido Republicano
 
 Kaiser es más radical que Kast y eso me asusta. Promete "reducir 200.000 empleados públicos en 4 años" [pp.55-56]. Yo trabajo para el Transantiago que es del Estado, aunque sea subcontratado. ¿Voy a quedar afuera?
 
@@ -120,15 +121,13 @@ En transporte dice "reemplazo subsidio generalizado por sistema segmentado con t
 
 Lo más terrible es que dice "eliminación fondos generacionales" [p.104]. No entiendo bien pero suena a que van a tocar las pensiones.
 
-**Calificación Personal:** 3/10** - Muy duro en seguridad pero sus propuestas laborales son pura precarización. Las pensiones solo para los que nazcan ahora.
+**Evaluación: 3/10** - Muy duro en seguridad pero sus propuestas laborales son pura precarización. Las pensiones solo para los que nazcan ahora.
 
 **Intención de voto: No** - Demasiado riesgo de quedar sin pega y sin pensión.
 
 ---
 
----
-
-## 6. Evelyn Matthei
+### 6. Evelyn Matthei - Chile Vamos
 
 Matthei tiene experiencia y eso se nota. Habla de "duplicar dotación de Carabineros de 12.000 a 24.000 en 4 años" [p.94], lo cual necesitamos urgente. Pero nuevamente, ¿van a estar en las micros o solo en las calles?
 
@@ -146,15 +145,13 @@ Habla de "combatir subcontratación abusiva" [p.106] pero no dice cómo. Yo soy 
 
 Lo de "Estado subsidiario que promueva iniciativa privada" [p.39] me suena a que las empresas van a seguir ganando y nosotros seguir precarios. Necesito regulación, no más mercado.
 
-**Calificación Personal:** 5/10** - Tiene experiencia y es seria, pero no veo propuestas concretas para el transporte público ni para trabajadores subcontratados. Pensiones muy bajas.
+**Evaluación: 5/10** - Tiene experiencia y es seria, pero no veo propuestas concretas para el transporte público ni para trabajadores subcontratados. Pensiones muy bajas.
 
 **Intención de voto: Tal vez** - Es la más preparada pero no me representa.
 
 ---
 
----
-
-## 7. Harold Mayne-Nicholls
+### 7. Harold Mayne-Nicholls - Independiente
 
 Mayne habla mucho de educación y fútbol, pero casi nada de trabajo. Promete "aumentar sueldos docentes en 30%" [p.28] - bien por los profes, pero ¿y nosotros los choferes?
 
@@ -170,15 +167,13 @@ En transporte público, NADA. No menciona Transantiago, no menciona a los chofer
 
 Lo de "Chile país desarrollado al 2030" [p.15] suena bonito pero yo voy a tener 54 años en 2030 y seguramente voy a seguir manejando micro ganando casi lo mismo.
 
-**Calificación Personal:** 3/10** - No habla de transporte público, no habla de trabajadores subcontratados, pensiones vagas. No me representa.
+**Evaluación: 3/10** - No habla de transporte público, no habla de trabajadores subcontratados, pensiones vagas. No me representa.
 
 **Intención de voto: No** - No veo nada para gente como yo.
 
 ---
 
----
-
-## 8. Franco Parisi
+### 8. Franco Parisi - Partido de la Gente
 
 Parisi promete "pensión básica universal de $400.000 para mayores de 65 años" [p.87]. Eso sí me sirve. Con 15 años cotizando voy a tener algo más, quizás $500-600 mil. Es lo mejor que he escuchado.
 
@@ -198,7 +193,7 @@ No habla nada específico de transporte público ni de subcontratación. Es como
 
 Lo de "consultas ciudadanas vinculantes" [p.53] suena democrático pero yo lo que necesito son soluciones ahora, no más votaciones.
 
-**Calificación Personal:** 6/10** - La pensión de $400 mil es lo mejor que he escuchado, pero todo lo demás es muy vago y no sé si es financiable.
+**Evaluación: 6/10** - La pensión de $400 mil es lo mejor que he escuchado, pero todo lo demás es muy vago y no sé si es financiable.
 
 **Intención de voto: Tal vez** - Me tienta por la pensión, pero necesito saber si es real.
 
@@ -234,5 +229,3 @@ Lo que está claro es que después de 15 años trabajando para el Estado a trav�
 **Fecha de evaluación:** 23 de Octubre de 2025
 **Método:** Análisis de extractos refinados de programas presidenciales
 **Perspectiva:** Trabajador subcontratado de transporte público, 49 años, Pudahuel
-
----

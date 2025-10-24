@@ -102,43 +102,143 @@ module.exports = function() {
             const evalContent = fs.readFileSync(evalPath, 'utf-8');
 
             // Parse candidate evaluations
-            // Handle two formats:
-            // Format 1: "## 1. Candidate Name" (with number)
-            // Format 2: "## CANDIDATE NAME" (no number, all caps)
+            // Handle multiple formats:
+            // Format 1: "## 1. Candidate Name" (with number, ##)
+            // Format 2: "## CANDIDATE NAME" (no number, all caps, ##)
+            // Format 3: "### 1. CANDIDATE NAME" (with number, ###)
+            // Format 4: "## CANDIDATE NAME (Party)" (with party info)
+            // Format 5: "## Candidate Name" (Title Case with accents)
+            // Format 6: "### CANDIDATE NAME - PARTY" (three hashes, all caps, with party/dash)
+
+            // Try Format 1: ## 1. Candidate
             let candidateSections = evalContent.split(/(?=^## \d+\.)/gm).filter(s => s.trim() && s.match(/^## \d+\./m));
 
-            // If no numbered sections found, try all-caps format
+            // Try Format 3: ### 1. CANDIDATE (three hashes with number)
+            if (candidateSections.length === 0) {
+              candidateSections = evalContent.split(/(?=^### \d+\.)/gm).filter(s => s.trim() && s.match(/^### \d+\./m));
+            }
+
+            // Try Format 6: ### CANDIDATE NAME - PARTY (three hashes, all caps, no number)
+            if (candidateSections.length === 0) {
+              candidateSections = evalContent.split(/(?=^### [A-ZÑÁÉÍÓÚ])/gm).filter(s => {
+                const firstLine = s.trim().split('\n')[0];
+                // Must start with ###, contain mostly uppercase letters, and not be metadata sections
+                return firstLine &&
+                       firstLine.match(/^### [A-ZÑÁÉÍÓÚ]/) &&
+                       !firstLine.includes('Enfermera') &&
+                       !firstLine.includes('Octubre') &&
+                       !firstLine.includes('PERFIL') &&
+                       !firstLine.includes('CONCLUSIÓN') &&
+                       !firstLine.includes('RESUMEN') &&
+                       !firstLine.includes('RANKING') &&
+                       !firstLine.includes('EVALUACIONES');
+              });
+            }
+
+            // Try Format 2/4: ## CANDIDATE (all caps, may have party)
             if (candidateSections.length === 0) {
               candidateSections = evalContent.split(/(?=^## [A-ZÑÁÉÍÓÚ])/gm).filter(s => {
                 const firstLine = s.trim().split('\n')[0];
-                // Must start with ##, contain mostly uppercase letters, and not be "Persona" or "CONCLUSIÓN"
+                // Must start with ##, contain mostly uppercase letters, and not be metadata sections
                 return firstLine &&
                        firstLine.match(/^## [A-ZÑÁÉÍÓÚ]/) &&
                        !firstLine.includes('Persona') &&
+                       !firstLine.includes('PERFIL') &&
+                       !firstLine.includes('CONTEXTO') &&
                        !firstLine.includes('CONCLUSIÓN') &&
+                       !firstLine.includes('RESUMEN') &&
+                       !firstLine.includes('RANKING') &&
+                       !firstLine.includes('ANÁLISIS') &&
+                       !firstLine.includes('EVALUACIONES') &&
                        !firstLine.includes('Perspectiva');
               });
             }
 
-            candidateSections.forEach(candSection => {
-              // Extract candidate name from either format
-              let candidato = null;
-              const numberedMatch = candSection.match(/^## \d+\.\s+(.+?)$/m);
-              const capsMatch = candSection.match(/^## ([A-ZÑÁÉÍÓÚ][A-Z\s\-ÑÁÉÍÓÚ]+?)$/m);
+            // Try Format 5: ## Candidate Name (Title Case, e.g., "Eduardo Artés", "Marco Enríquez-Ominami")
+            if (candidateSections.length === 0) {
+              candidateSections = evalContent.split(/(?=^## [A-ZÑÁÉÍÓÚÜ][a-zñáéíóúü])/gm).filter(s => {
+                const firstLine = s.trim().split('\n')[0];
+                // Must start with ##, capital letter followed by lowercase, and not be metadata sections
+                return firstLine &&
+                       firstLine.match(/^## [A-ZÑÁÉÍÓÚÜ][a-zñáéíóúü]/) &&
+                       !firstLine.includes('Perfil') &&
+                       !firstLine.includes('Perspectiva') &&
+                       !firstLine.includes('Reflexión') &&
+                       !firstLine.includes('Conclusión');
+              });
+            }
 
+            // Debug logging for Daniela
+            if (numero === '7') {
+              console.log(`\n[DEBUG] Daniela Soto: Found ${candidateSections.length} sections`);
+              candidateSections.forEach((s, i) => {
+                const firstLine = s.split('\n')[0];
+                console.log(`  Section ${i+1}: ${firstLine}`);
+              });
+            }
+
+            candidateSections.forEach(candSection => {
+              // Extract candidate name from any format
+              let candidato = null;
+
+              // Try "## 1. Name" or "### 1. NAME"
+              const numberedMatch = candSection.match(/^##+ \d+\.\s+(.+?)$/m);
               if (numberedMatch) {
                 candidato = numberedMatch[1].trim();
-              } else if (capsMatch) {
-                candidato = capsMatch[1].trim();
+                // Remove party info if present (e.g., "CANDIDATE - Party")
+                candidato = candidato.split(/\s*[-–]\s*/)[0].trim();
+              }
+
+              // Try "## CANDIDATE NAME" (all caps) or "## CANDIDATE (Party)"
+              if (!candidato) {
+                const capsMatch = candSection.match(/^## ([A-ZÑÁÉÍÓÚ][A-Z\s\-ÑÁÉÍÓÚ]+?)(?:\s*\([^)]+\))?$/m);
+                if (capsMatch) {
+                  candidato = capsMatch[1].trim();
+                }
+              }
+
+              // Try "### CANDIDATE NAME" or "### CANDIDATE - PARTY" (three hashes, all caps)
+              if (!candidato) {
+                const caps3Match = candSection.match(/^### ([A-ZÑÁÉÍÓÚ][A-Z\s\-ÑÁÉÍÓÚ]+?)(?:\s*[-–]\s*.+)?$/m);
+                if (caps3Match) {
+                  candidato = caps3Match[1].trim();
+                  // Remove party info after dash
+                  candidato = candidato.split(/\s*[-–]\s*/)[0].trim();
+                }
+              }
+
+              // Try "## Candidate Name" (Title Case, e.g., "Eduardo Artés", "Marco Enríquez-Ominami")
+              if (!candidato) {
+                const titleMatch = candSection.match(/^## ([A-ZÑÁÉÍÓÚÜ][a-zñáéíóúü]+(?:[\s-][A-ZÑÁÉÍÓÚÜ][a-zñáéíóúü-]+)*)$/m);
+                if (titleMatch) {
+                  candidato = titleMatch[1].trim();
+                }
               }
 
               if (!candidato) return;
 
-              // Extract rating - look for either "**Calificación Personal:**" or "**VEREDICTO:**" followed by rating
+              // Debug logging for Daniela
+              if (numero === '7') {
+                console.log(`[DEBUG] Daniela - Candidate extracted: "${candidato}"`);
+              }
+
+              // Skip if it's a metadata section (RANKING, CONCLUSION, etc.)
+              if (candidato.includes('RANKING') || candidato.includes('CONCLUS') || candidato.includes('RESUMEN')) {
+                if (numero === '7') console.log(`[DEBUG] Daniela - FILTERED OUT: ${candidato}`);
+                return;
+              }
+
+              // Extract rating - look for "**Calificación Personal:**", "**VEREDICTO:**", or "**Evaluación:**" followed by rating
               let rating = null;
               const ratingMatch1 = candSection.match(/\*\*Calificación Personal:\*\*\s+(\d+(?:\.\d+)?)\/10/);
               const ratingMatch2 = candSection.match(/\*\*VEREDICTO:\*\*.+?(\d+(?:\.\d+)?)\/10/);
-              rating = ratingMatch1 ? parseFloat(ratingMatch1[1]) : (ratingMatch2 ? parseFloat(ratingMatch2[1]) : null);
+              const ratingMatch3 = candSection.match(/\*\*Evaluación\*\*:\s+(\d+(?:\.\d+)?)\/10/);
+              rating = ratingMatch1 ? parseFloat(ratingMatch1[1]) : (ratingMatch2 ? parseFloat(ratingMatch2[1]) : (ratingMatch3 ? parseFloat(ratingMatch3[1]) : null));
+
+              // Debug logging for Daniela
+              if (numero === '7') {
+                console.log(`[DEBUG] Daniela - ${candidato}: rating = ${rating !== null ? rating + '/10' : 'NOT FOUND'}`);
+              }
 
               // Extract first paragraph as summary
               const paragraphs = candSection.split('\n\n').filter(p => p.trim() && !p.startsWith('#') && !p.includes('**Calificación') && !p.includes('**¿Votaría'));

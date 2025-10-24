@@ -1,8 +1,25 @@
 # Evaluación de Programas Presidenciales 2025
+## Perspectiva: Héctor Silva - El Temporal Agrícola
+
+**Edad:** 55 años
+**Ubicación:** Rancagua (temporadas) / Cauquenes (origen)
+**Ocupación:** Temporero agrícola
+**Situación:** 8 meses trabajo, 4 cesante. Vive en mediaguas durante cosecha. Sin previsión mayoría del año.
+
+**Contexto Personal:**
+Llevo 30 años trabajando en las cosechas. De Cauquenes a Rancagua, donde caiga fruta. Ocho meses de pega dura, cuatro meses sin nada. Vivo en mediaguas que da la patronal durante la temporada. Mi espalda está destruida de tanto agacharse y cargar. Mis hijos casi no me ven porque ando de campo en campo. Y ahora las máquinas nos están reemplazando. Chile come gracias a nosotros pero somos invisibles.
+
+**Mis Prioridades Electorales:**
+1. Estatuto temporero: Urgente
+2. Previsión: Cotización anual
+3. Vivienda: Digna en faenas
+4. Salud: Cobertura todo el año
+5. Mecanización: Protección laboral
+
+**Frase que me representa:**
+*"Chile come gracias a nosotros pero somos invisibles"*
 
 ---
-
-## EVALUACIONES POR CANDIDATO
 
 ## 1. Eduardo Artes
 
@@ -17,8 +34,6 @@ Propone **Medida 153: Gratuidad total en educación superior**. Ojalá mis hijos
 **Calificación Personal:** 3/10
 
 **¿Votaría por este candidato?** No - Habla de trabajadores en general pero no nos ve a los temporeros específicamente. Mucha teoría, poca solución concreta para mi situación.
-
----
 
 ---
 
@@ -40,8 +55,6 @@ También propone **Medida 68: Plan de construcción masiva de viviendas sociales
 
 ---
 
----
-
 ## 3. Jeannette Jara
 
 Jara propone **Medida 178: Estatuto del Temporero con protección especial** y **Medida 179: Mejora condiciones laborales en agricultura**. Esto me interesa mucho. Dice que va a **regular condiciones de vivienda en faenas agrícolas** y **garantizar seguridad social continua**. Exactamente lo que necesito.
@@ -57,8 +70,6 @@ Lo que no veo claro es el financiamiento. ¿De dónde va a sacar la plata para c
 **Calificación Personal:** 8/10
 
 **¿Votaría por este candidato?** Sí - Tiene las propuestas más completas para temporeros. Aborda vivienda, salud, previsión. Mi única duda es si podrá implementarlo contra la presión de los patrones.
-
----
 
 ---
 
@@ -80,8 +91,6 @@ No veo absolutamente nada sobre vivienda digna para temporeros, sobre cotizació
 
 ---
 
----
-
 ## 5. Johannes Kaiser
 
 Kaiser habla mucho de libertad individual, Estado mínimo, libre mercado. Leo su programa y tampoco encuentro nada para temporeros. Propone **Medida 45: Eliminación de regulaciones laborales excesivas** y **Medida 68: Libertad contractual plena**.
@@ -97,8 +106,6 @@ No hay ni una propuesta para trabajadores temporales, para vivienda en faenas, p
 **Calificación Personal:** 1/10
 
 **¿Votaría por este candidato?** No - Su programa empeoraría mi situación. Menos protección, menos Estado, todo al mercado. El mercado nunca ha protegido a los temporeros.
-
----
 
 ---
 
@@ -122,8 +129,6 @@ Es un programa más serio que otros, pero no nos prioriza. Somos una nota al pie
 
 ---
 
----
-
 ## 7. Harold Mayne-Nicholls
 
 Mayne-Nicholls tiene un programa grande con muchas medidas pero de temporeros nada específico. Propone **Medida 60: Generar 500.000 nuevos empleos formales en 4 años**. Suena bien pero ¿van a ser empleos permanentes o más trabajos temporales como el mío?
@@ -139,8 +144,6 @@ Pero no veo nada sobre estatuto de temporeros, nada sobre vivienda en faenas, na
 **Calificación Personal:** 4/10
 
 **¿Votaría por este candidato?** No - Tiene buenas intenciones generales pero no aborda los problemas específicos de los trabajadores temporales agrícolas. Demasiado genérico.
-
----
 
 ---
 
@@ -175,5 +178,3 @@ Los candidatos de derecha (Kast, Kaiser) ni siquiera nos consideran. Su enfoque 
 **Razón principal:** Es la única que tiene un programa integral específico para temporeros agrícolas, abordando todas mis prioridades: estatuto laboral, cotización continua, vivienda digna, salud todo el año y protección frente a mecanización.
 
 **Reservas:** Me preocupa que los patrones agrícolas presionen fuerte contra estas medidas. Los he visto amenazar con cerrar o irse del país cada vez que hay propuestas de mejorar nuestras condiciones. Necesito ver que Jara tenga la fuerza política para enfrentarlos y hacer cumplir las leyes. Porque leyes bonitas sin fiscalización no sirven de nada. Ya lo he visto muchas veces.
-
----

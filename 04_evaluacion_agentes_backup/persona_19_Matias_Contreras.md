@@ -1,8 +1,25 @@
 # Evaluación de Programas Presidenciales 2025
+## Perspectiva: 🏳️‍🌈 Matías Contreras - El Joven LGBTQ+
+
+**Edad:** 22 años
+**Ubicación:** Concepción
+**Ocupación:** Estudiante de diseño + barista
+**Situación:** En proceso de salir del closet, discriminación en universidad, familia conservadora conflictuada, sin acceso a terapia afirmativa, agredido en calle 2 veces, evalúa migrar a Santiago.
+
+**Contexto Personal:**
+Estudio diseño en Concepción y trabajo part-time como barista para pagarme los estudios. He sido agredido dos veces en la calle por mi orientación sexual. Mi familia es conservadora y no acepta mi identidad. No tengo acceso a terapia afirmativa y en la universidad sufro discriminación constante. Estoy considerando seriamente migrar a Santiago porque aquí no me siento seguro ni aceptado.
+
+**Mis Prioridades Electorales:**
+1. Ley antidiscriminación: Con dientes
+2. Educación sexual: Integral
+3. Salud trans: Acceso digno
+4. Matrimonio igualitario: Pleno
+5. Adopción: Homoparental
+
+**Frase que me representa:**
+*"No pido privilegios, solo existir sin miedo"*
 
 ---
-
-## EVALUACIONES POR CANDIDATO
 
 ## 1. Eduardo Artes
 
@@ -17,8 +34,6 @@ Habla de crear un "Chile nuevo" pero al parecer ese Chile no me incluye a mí ni
 **Calificación Personal:** 2/10
 
 **¿Votaría por este candidato?** No - Me invisibiliza completamente. Un candidato que ni siquiera menciona los derechos LGBTQ+ en 2025 no me representa ni me protege.
-
----
 
 ---
 
@@ -37,8 +52,6 @@ No veo nada sobre matrimonio igualitario pleno, adopción homoparental, ni ley a
 **Calificación Personal:** 4/10
 
 **¿Votaría por este candidato?** No - Demasiado vago en temas LGBTQ+. No puedo confiar mi seguridad y dignidad a alguien que ni siquiera menciona explícitamente mis derechos.
-
----
 
 ---
 
@@ -62,8 +75,6 @@ También me preocupa que propone tantas cosas que no sé si tendrá recursos par
 
 ---
 
----
-
 ## 4. José Antonio Kast
 
 Leo su programa con miedo y confirmo mis peores temores. Busco "LGBTQ" o "diversidad sexual" y no hay nada. Peor aún, hay señales preocupantes.
@@ -84,8 +95,6 @@ No veo absolutamente nada sobre matrimonio igualitario ni adopción homoparental
 
 ---
 
----
-
 ## 5. Johannes Kaiser
 
 Reviso su programa con cuidado porque he escuchado cosas preocupantes de este candidato. Y efectivamente, no encuentro nada sobre derechos LGBTQ+. Absolutamente nada.
@@ -103,8 +112,6 @@ No veo nada sobre matrimonio, adopción, ni ley antidiscriminación. Para él, e
 **Calificación Personal:** 2/10
 
 **¿Votaría por este candidato?** No - Me invisibiliza por completo. Su "libertad de expresión absoluta" podría incluso empeorar la discriminación que ya sufro.
-
----
 
 ---
 
@@ -130,8 +137,6 @@ Lo rescatable es que no dice nada abiertamente discriminatorio, pero el silencio
 
 ---
 
----
-
 ## 7. Harold Mayne-Nicholls
 
 Reviso su programa extenso buscando algo que me hable. Encuentro buenas intenciones generales pero poca especificidad sobre mi comunidad.
@@ -151,8 +156,6 @@ Su propuesta de **Medida 97: Comité Nacional de Seguridad** podría mejorar seg
 **Calificación Personal:** 5/10
 
 **¿Votaría por este candidato?** Tal vez - Tiene buenas intenciones generales pero no aborda específicamente derechos LGBTQ+. Su enfoque de "centro" me genera desconfianza sobre si realmente me priorizaría.
-
----
 
 ---
 
@@ -191,5 +194,3 @@ Como joven de 22 años que ha sido agredido dos veces en la calle, que sufre dis
 **Razón principal:** Es la única que aborda todas mis prioridades con propuestas específicas y concretas. Me ve, me reconoce, y me promete protección real con ley antidiscriminación efectiva, educación sexual integral y salud mental especializada.
 
 **Reservas:** Tengo dudas sobre los plazos de implementación y el financiamiento de tantas políticas simultáneas. También me preocupa que en el Congreso actual, muchas de estas medidas podrían bloquearse. Pero al menos con ella sé que tendré una aliada en La Moneda, no una amenaza o una página en blanco.
-
----

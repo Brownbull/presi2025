@@ -1,10 +1,36 @@
 # EVALUACION DE CANDIDATOS PRESIDENCIALES
+## Persona 24: Bryan Flores - El Nini Atrapado
+
+**METADATA:**
+- Fecha: 2025-10-23
+- Version estandar: persona_evaluation_standard.md v1.0
+- Candidatos evaluados: 8
+- Palabras por candidato: 250-500
+- Perspectiva: Primera persona como Bryan Flores
 
 ---
 
-## EVALUACIONES POR CANDIDATO
+## PERFIL EVALUADOR
 
-## 1. Eduardo Artes
+**Nombre:** Bryan Flores
+**Edad:** 21 años
+**Comuna:** Cerro Navia
+**Situacion:** Ni estudia ni trabaja formal. Delivery ocasional.
+
+**Contexto:** Deje los estudios en pandemia. No tengo habilidades que le importen a nadie. Mi familia me presiona todo el dia. Mis amigos estan metidos en las drogas y la delincuencia. Veo el futuro cerrado.
+
+**Prioridades:**
+1. Capacitacion: Oficios rapidos
+2. Primer empleo: Incentivos reales
+3. Educacion: Segunda oportunidad
+4. Deporte/cultura: Espacios jovenes
+5. Salud mental: Apoyo accesible
+
+**Voz:** ¿Para que esforzarse si no hay futuro? El sistema ya me descarto.
+
+---
+
+## EDUARDO ARTES - UNION PATRIOTICA
 
 **MI EVALUACION: 2/10**
 
@@ -32,9 +58,7 @@ En resumen, este viejo vive en otra realidad. Su revolucion no me sirve pa nada 
 
 ---
 
----
-
-## 2. Marco Enríquez-Ominami
+## MARCO ENRIQUEZ-OMINAMI - PARTIDO PROGRESISTA
 
 **MI EVALUACION: 4/10**
 
@@ -67,9 +91,7 @@ En resumen, tiene algunas ideas que podrian servir pero todo es muy general. No 
 
 ---
 
----
-
-## 3. Jeannette Jara
+## JEANNETTE JARA - FRENTE AMPLIO / NUEVA MAYORIA
 
 **MI EVALUACION: 5/10**
 
@@ -105,9 +127,7 @@ En resumen, tiene mas propuestas concretas pa jovenes que los otros pero todavia
 
 ---
 
----
-
-## 4. José Antonio Kast
+## JOSE ANTONIO KAST - PARTIDO REPUBLICANO
 
 **MI EVALUACION: 2/10**
 
@@ -139,9 +159,7 @@ En resumen, Kast no es pa mi. Su Chile es pa la gente que ya la tiene hecha, no 
 
 ---
 
----
-
-## 5. Johannes Kaiser
+## JOHANNES KAISER - PARTIDO SOCIAL CRISTIANO
 
 **MI EVALUACION: 3/10**
 
@@ -177,9 +195,7 @@ En resumen, Kaiser tiene algunas ideas pa jovenes pero todo muy superficial. No 
 
 ---
 
----
-
-## 6. Evelyn Matthei
+## EVELYN MATTHEI - PARTIDO UDI / CHILE VAMOS
 
 **MI EVALUACION: 4/10**
 
@@ -216,9 +232,7 @@ En resumen, tiene mas cosas concretas que otros candidatos pero no se si confiar
 
 ---
 
----
-
-## 7. Harold Mayne-Nicholls
+## HAROLD MAYNE-NICHOLLS - CANDIDATURA INDEPENDIENTE
 
 **MI EVALUACION: 6/10**
 
@@ -259,9 +273,7 @@ En resumen, Mayne-Nicholls tiene el programa mas completo pa jovenes como yo. No
 
 ---
 
----
-
-## 8. Franco Parisi
+## FRANCO PARISI - PARTIDO DE LA GENTE
 
 **MI EVALUACION: 5/10**
 
@@ -343,5 +355,3 @@ Al final del dia, yo solo quiero una oportunidad. Que alguien me vea como mas qu
 **FECHA EVALUACION:** 23 de Octubre de 2025
 **EVALUADOR:** Bryan Flores, 21 años, Cerro Navia
 **PERSPECTIVA:** Primera persona, voz autentica de joven nini
-
----

@@ -1,10 +1,20 @@
 # EVALUACIÓN DE CANDIDATOS PRESIDENCIALES
+## Persona 06: Pedro Quintana - El Obrero del Norte
+
+**PERFIL:** Pedro Quintana, 38 años, Calama. Operario minera subcontratista. $1.200.000 (turnos 7x7). Casado en Antofagasta, 2 hijos.
+
+**CONTEXTO:** Viaja 300km para trabajar. Esposa espera 8 meses operación. Hija necesita ortodoncista ($3 millones). Calama: servicios carísimos. Teme reemplazo por extranjeros.
+
+**PRIORIDADES:**
+1. Migración: Control y orden
+2. Royalty: Que quede en región
+3. Vivienda: Acceso en ciudad minera
+4. Salud regional: Especialistas
+5. Trabajo: Fin subcontratación
 
 ---
 
-## EVALUACIONES POR CANDIDATO
-
-## 1. Eduardo Artes
+## EDUARDO ARTÉS
 
 Mira, el compa Artés habla bonito del trabajador, pero yo vivo la realidad de la mina todos los días y esto no me convence. Dice que va a "eliminar la subcontratación fraudulenta" y crear "empleo directo y estable" - eso suena bien, eso es lo que necesitamos los que estamos en faena. Pero cuando leo que quiere "transformación socialista del Estado" y "estatizar sectores estratégicos", me preocupo. ¿Qué va a pasar con mi pega? ¿Van a cerrar las mineras privadas? Yo trabajo para una contratista, si se viene un caos así, soy el primero en quedar afuera.
 
@@ -18,9 +28,7 @@ El tema de vivienda lo toca con "Plan Nacional de Vivienda Social" pero nada esp
 
 ---
 
----
-
-## 2. Marco Enríquez-Ominami
+## MARCO ENRÍQUEZ-OMINAMI
 
 Este gallo me confunde. Tiene harto programa, muchas ideas, pero no le veo el peso específico para mis problemas del norte. Habla de "descentralización efectiva" y eso suena bien, pero cuando busco qué significa para un minero en Calama, no encuentro mucho.
 
@@ -38,9 +46,7 @@ El problema es que tiene tantas medidas para todo que no sé qué es prioridad. 
 
 ---
 
----
-
-## 3. Jeannette Jara
+## JEANNETTE JARA
 
 La Jara viene del mundo sindical, eso me gusta porque cacha la realidad del trabajador. Tiene varias cosas que me hacen sentido. En trabajo dice que va a "terminar con abusos de subcontratación" y "garantizar trabajo digno" - eso es exactamente lo que necesito. También habla de "fortalecer sindicatos" y "mejorar condiciones de trabajadores mineros", finalmente alguien que nos mira.
 
@@ -58,9 +64,7 @@ Me gusta que viene del mundo del trabajo y entiende al trabajador, pero me falta
 
 ---
 
----
-
-## 4. José Antonio Kast
+## JOSÉ ANTONIO KAST
 
 Kast me llama la atención por el tema del orden. En migración es el más claro: "control estricto de fronteras", "expulsión de migrantes irregulares", "deportación inmediata de delincuentes extranjeros" - eso es lo que necesitamos en el norte. Estamos cansados de ver cómo entra gente sin control y cómo nos quitan las pegas o trabajan por menos plata. Kast dice las cosas claras y sin miedo.
 
@@ -78,9 +82,7 @@ Lo que me gusta es el orden y el control, especialmente en migración. Lo que me
 
 ---
 
----
-
-## 5. Johannes Kaiser
+## JOHANNES KAISER
 
 Kaiser es medio loco pero dice cosas que me hacen sentido. Es súper directo y sin filtro, habla como uno habla en la pega. En migración es durísimo: "cerrar fronteras", "deportaciones masivas", "prioridad absoluta a chilenos" - eso es lo que muchos en el norte pensamos pero no nos atrevemos a decir tan fuerte. Estamos cansados de ver cómo llega gente sin control.
 
@@ -98,9 +100,7 @@ Me gusta que es directo y que dice lo que muchos pensamos, especialmente en migr
 
 ---
 
----
-
-## 6. Evelyn Matthei
+## EVELYN MATTHEI
 
 La Matthei es la más seria de todos. Tiene experiencia, ha sido alcaldesa, ministra, sabe cómo funciona el Estado. Eso me da confianza porque no es solo discurso, es alguien que ha gestionado cosas reales.
 
@@ -120,9 +120,7 @@ Lo que me gusta de Matthei es que es ordenada, seria, tiene experiencia. Lo que 
 
 ---
 
----
-
-## 7. Harold Mayne-Nicholls
+## HAROLD MAYNE-NICHOLLS
 
 Mayne-Nicholls es el candidato independiente, viene del mundo del fútbol y se presenta como el del "centro" que va a unir a todos. Tiene un programa largo con hartas medidas.
 
@@ -142,9 +140,7 @@ Mayne-Nicholls tiene buenas intenciones y harto programa, pero es todo muy gené
 
 ---
 
----
-
-## 8. Franco Parisi
+## FRANCO PARISI
 
 Parisi es el candidato digital, el de "la gente". Habla directo y crítica a todos los políticos tradicionales. Tiene cosas interesantes.
 
@@ -166,4 +162,45 @@ Parisi tiene ideas distintas y crítica al sistema, eso me gusta. El tema de sac
 
 ---
 
+## CONCLUSIÓN
+
+Ningún candidato me convence 100%, todos tienen algo que me gusta y algo que me preocupa.
+
+Los que mejor entienden el tema del trabajador son **Jara** (viene del sindicalismo) y **Artés** (habla del trabajador), pero Artés me da miedo por tanto cambio radical y Jara es muy suave en migración.
+
+Los que son más firmes en migración y orden son **Kast** y **Kaiser**, que es mi tema prioritario porque en el norte vemos el problema todos los días. Pero Kast es muy empresarial y no va a tocar la subcontratación, y Kaiser solo grita sin plan.
+
+**Matthei** es la más seria y ordenada, tiene experiencia y podría gestionar bien, pero viene del lado de las empresas y no creo que toque el tema de la subcontratación ni del royalty.
+
+**Mayne-Nicholls** y **MEO** tienen hartos programas pero son muy genéricos, mucho "diálogo" y poca acción concreta para el norte.
+
+**Parisi** tiene ideas distintas y lo del IVA me ayuda, pero habla más de emprendedores que de obreros.
+
+Lo que necesito es alguien que:
+1. Controle la migración con mano firme (como Kast/Kaiser pero con plan)
+2. Termine con la subcontratación en minería (como Jara/Artés pero sin tanto caos)
+3. Haga que el royalty se quede en la región (nadie lo dice claro)
+4. Traiga especialistas de salud al norte (todos lo prometen, nadie dice cómo)
+5. Haga accesible la vivienda en ciudades mineras (nadie tiene plan específico)
+
+Si tengo que elegir, probablemente me inclinaría por **Kast** o **Matthei** por el tema del orden y la migración, que es mi prioridad número uno. Aunque sé que no van a tocar la subcontratación, al menos el país va a estar más ordenado y seguro. **Jara** es la que mejor entiende al trabajador pero me preocupa que sea muy blanda en migración.
+
+**RANKING FINAL:**
+1. Matthei - 6/10 (Seria, ordenada, experiencia)
+2. Kast - 6/10 (Orden y control, firme en migración)
+3. Jara - 6/10 (Entiende al trabajador, pero suave en migración)
+4. MEO - 5/10 (Muchas promesas, poco concreto)
+5. Mayne-Nicholls - 5/10 (Buenas intenciones, muy tibio)
+6. Parisi - 5/10 (Ideas distintas, poco para obreros)
+7. Artés - 4/10 (Habla del trabajador pero da miedo el caos)
+8. Kaiser - 4/10 (Dice lo que uno piensa, pero sin plan)
+
+La verdad es que estoy decepcionado. Ninguno me habla directo como obrero del norte. Todos prometen pero nadie dice cómo. Necesitamos un candidato que entienda que sacamos el cobre para Chile pero vivimos como en campamento, que nos reconozca y nos dé soluciones reales, no solo discursos.
+
 ---
+
+**DOCUMENTO:** Evaluación Persona 06 - Pedro Quintana
+**FECHA:** 23 de Octubre de 2025
+**ESTÁNDAR:** persona_evaluation_standard.md v1.0
+**TOTAL PALABRAS:** ~4,200 palabras (525 promedio por candidato)
+**VOICE:** First person as Pedro, working-class miner from Calama

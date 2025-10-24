@@ -1,8 +1,25 @@
 # Evaluación de Programas Presidenciales 2025
+## Perspectiva: Dr. Sebastián Herrera - El Médico Agotado
+
+**Edad:** 38 años
+**Ubicación:** Providencia (vive) / Rancagua (trabaja)
+**Ocupación:** Urgenciólogo público/privado
+**Situación:** Recién separado por horarios laborales. Deuda estudios $45 millones.
+
+**Contexto Personal:**
+Trabajo 80 horas semanales entre urgencias públicas y privadas. Veo el sistema de salud colapsándose desde adentro mientras intento pagar $45 millones en deuda de mis estudios. Mi matrimonio no resistió los turnos y horarios inhumanos. He sido agredido por pacientes desesperados. Muchos de mis colegas ya emigraron y yo también lo estoy considerando seriamente.
+
+**Mis Prioridades Electorales:**
+1. Salud: Reforma profunda YA
+2. Violencia: Protección funcionarios de salud
+3. Formación: Más especialistas
+4. Deuda médicos: Condonación parcial
+5. Condiciones: Horarios humanos
+
+**Frase que me representa:**
+*"Estudié para salvar vidas y el sistema me está matando"*
 
 ---
-
-## EVALUACIONES POR CANDIDATO
 
 ## 1. Eduardo Artes
 
@@ -19,8 +36,6 @@ El discurso revolucionario no me alimenta. Necesito pagar mi deuda, dormir más 
 **Calificación Personal:** 2/10
 
 **¿Votaría por este candidato?** No - Pura ideología sin soluciones prácticas para la crisis sanitaria que vivo todos los días.
-
----
 
 ---
 
@@ -42,8 +57,6 @@ Habla de "diálogo y consensos". Ya dialogamos suficiente. Necesito acción: má
 
 ---
 
----
-
 ## 3. Jeannette Jara
 
 Leo **"aumento de dotación de especialistas en hospitales públicos"** y por fin alguien reconoce el problema. Pero ¿cuántos? ¿Con qué incentivos? Porque mis colegas se van a Australia, España, Canadá. ¿Por qué se quedarían aquí ganando menos y trabajando más?
@@ -59,8 +72,6 @@ Veo enfoque en "derechos sociales" y "perspectiva de género", está bien, pero 
 **Calificación Personal:** 5/10
 
 **¿Votaría por este candidato?** Tal vez - Al menos menciona condiciones laborales en salud, pero sin concreción ni números. Insuficiente para la crisis que vivimos.
-
----
 
 ---
 
@@ -84,8 +95,6 @@ Su prioridad está en otra parte. Entiendo la importancia de la seguridad, pero 
 
 ---
 
----
-
 ## 5. Johannes Kaiser
 
 Busco "salud" en su programa y prácticamente no encuentro nada sustancial. Veo propuestas sobre "libertad económica" y "reducción del Estado" pero ¿cómo eso ayuda a un médico trabajando 80 horas semanales en un hospital público colapsado?
@@ -101,8 +110,6 @@ Su enfoque liberal y anti-Estado me preocupa. El sistema público de salud, con 
 **Calificación Personal:** 2/10
 
 **¿Votaría por este candidato?** No - No tiene propuestas serias para la crisis sanitaria. Su ideología no resuelve mis problemas concretos.
-
----
 
 ---
 
@@ -126,8 +133,6 @@ No veo condonación de deuda para médicos. No hay medidas específicas contra a
 
 ---
 
----
-
 ## 7. Harold Mayne-Nicholls
 
 Leo **"enfrentar tiempos de espera, aumentar capacidad resolutiva"** y pienso: por fin alguien reconoce el problema central. Pero ¿cómo? Porque yo soy quien ve esas listas de espera desde adentro.
@@ -145,8 +150,6 @@ No encuentro nada sobre condonación de deuda médica. Nada sobre protección co
 **Calificación Personal:** 5/10
 
 **¿Votaría por este candidato?** No - Reconoce problemas pero propuestas vagas. No aborda crisis de personal ni condiciones laborales específicas.
-
----
 
 ---
 
@@ -199,5 +202,3 @@ Necesito un candidato que entienda que sin médicos sanos, protegidos y motivado
 **Razón principal:** Únicas propuestas técnicas y concretas para gestión sanitaria: ficha clínica única universal, coordinación nacional de recursos, alianzas público-privadas con modelos de financiamiento específicos, estrategia de 6 ejes contra listas de espera. Demuestra conocimiento real del sistema más allá de frases bonitas.
 
 **Reservas:** Ignora completamente la crisis del personal sanitario. No menciona condonación de deuda para médicos, protección contra agresiones, reducción de horarios, incentivos para retener especialistas. Propone turnos extendidos cuando ya trabajamos 80 horas semanales. Arregla el sistema pero no a quienes lo sostenemos. Si gana, necesito que entienda que los médicos también somos seres humanos con límites, familias y dignidad.
-
----

@@ -1,10 +1,27 @@
 # Evaluación de Programas Presidenciales 2025
+## Perspectiva: Carla Espinoza - La Vendedora Retail Precaria
+
+**Edad:** 27 años
+**Ubicación:** San Bernardo
+**Ocupación:** Vendedora mall part-time (3 empleos)
+**Situación:** $380.000 por 30 horas semanales, madre soltera, hijo 4 años
+
+**Contexto Personal:**
+Tengo tres trabajos part-time para no perder beneficios sociales. Dejo a mi hijo con la vecina mientras trabajo porque llevo 2 años en lista de espera del jardín. Sin contrato fijo hace 5 años, fiada en 4 almacenes del barrio. Trabajo todo el día y no me alcanza ni para vivir.
+
+**Mis Prioridades Electorales:**
+1. 40 horas semanales: Necesito urgente contrato full-time
+2. Sala cuna universal: Ya no puedo seguir esperando
+3. Sueldo mínimo: Que llegue a $600.000 mínimo
+4. Transporte: Subsidio real para ir a trabajar
+5. Abusos retail: Fiscalización para que no me exploten
+
+**Frase que me representa:**
+*"Trabajo todo el día y no me alcanza ni para vivir. Necesito un contrato fijo de 40 horas, no tres pegas de medio tiempo."*
 
 ---
 
-## EVALUACIONES POR CANDIDATO
-
-## 1. Eduardo Artes
+## 1. Eduardo Artés
 
 Leo su programa y me confundo. Habla de "estatización de empresas estratégicas" y "tribunal popular para juzgar a empresarios". No entiendo bien qué significa eso para mí que trabajo en retail. ¿Van a estatizar el mall? ¿Y yo qué paso?
 
@@ -19,8 +36,6 @@ Me preocupa que hable tanto de "lucha de clases" y "nacionalizaciones". Yo solo 
 **Calificación Personal:** 2/10
 
 **¿Votaría por este candidato?** No - Muy ideológico, poco concreto. No habla de mis problemas reales y me asusta la idea de que quiera cambiar todo tan radical. Necesito soluciones prácticas, no experimentos.
-
----
 
 ---
 
@@ -39,8 +54,6 @@ Habla de "diálogo y construcción de consensos". Bonito, pero mientras él dial
 **Calificación Personal:** 4/10
 
 **¿Votaría por este candidato?** No - Tiene algunas cosas buenas pero no toca mis prioridades. Parece enfocado en adultos mayores y salud, yo necesito empleo y sala cuna.
-
----
 
 ---
 
@@ -64,8 +77,6 @@ Lo que más me gusta es que habla específico de empleo, de salario, de sala cun
 
 ---
 
----
-
 ## 4. José Antonio Kast
 
 Este candidato habla mucho de seguridad y orden. Propone **Medida 6: Aumento de 10.000 carabineros patrullando en las calles**. Está bien, a veces me da miedo salir del metro tarde cuando termino el turno nocturno, pero eso no me da contrato de 40 horas.
@@ -86,8 +97,6 @@ No veo nada sobre sueldo mínimo de $600.000. Nada sobre subsidio de transporte.
 
 ---
 
----
-
 ## 5. Johannes Kaiser
 
 Leo su programa y me pierdo en tecnicismos. Habla de **"reforma del sistema político"** y **"eliminación de partidos"**. No entiendo qué tiene que ver eso con que yo necesite un contrato de 40 horas.
@@ -105,8 +114,6 @@ Todo su programa parece hecho para empresarios o gente con plata que quiere meno
 **Calificación Personal:** 1/10
 
 **¿Votaría por este candidato?** No - Su programa me asustaría más mi situación. Eliminar protecciones laborales cuando ya casi no tengo ninguna es peligroso. No me representa para nada.
-
----
 
 ---
 
@@ -132,8 +139,6 @@ No veo nada específico sobre aumento del sueldo mínimo a $600.000. Tampoco sob
 
 ---
 
----
-
 ## 7. Harold Mayne-Nicholls
 
 Este candidato habla de **Medida 187: Garantizar cobertura universal de sala cuna desde los 2 años**. Pero mi hijo tiene 4. De nuevo, solo hasta los 2 años no me sirve. Necesito cobertura hasta preescolar.
@@ -153,8 +158,6 @@ Su programa es general, tiene buenas intenciones pero le falta especificidad en 
 **Calificación Personal:** 5/10
 
 **¿Votaría por este candidato?** Tal vez - Tiene sala cuna universal y habla de salario digno, pero sin números concretos es difícil confiar. Parece buena persona pero no sé si entiende mi realidad de tres trabajos precarios.
-
----
 
 ---
 
@@ -203,5 +206,3 @@ He revisado todos los programas y la verdad es que ninguno me convence 100%. Tod
 Lo que más me frustra es que ningún candidato entiende realmente mi situación: mujer joven, madre soltera, tres trabajos part-time, lista de espera de jardín de 2 años, sin contrato fijo hace 5 años. Todos hablan de "crear empleos" pero nadie habla de REGULARIZAR los empleos que ya existen. El retail está lleno de gente como yo trabajando precariamente. ¿Por qué nadie fiscaliza eso? ¿Por qué nadie obliga a las empresas a formalizar?
 
 Voy a votar por quien me ayude a dejar de malabaret tres trabajos y me dé un lugar seguro donde dejar a mi hijo mientras trabajo. Ojalá alguno cumpla.
-
----

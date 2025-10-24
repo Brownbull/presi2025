@@ -1,10 +1,22 @@
 # EVALUACIÓN DE CANDIDATOS PRESIDENCIALES
+## Persona 15: Miguel Ángel Castro - El Poblador Histórico
+
+**PERFIL:** Miguel Ángel Castro, 62 años, La Pintana. Maestro construcción independiente. Casa propia (toma años 80), casado.
+
+**CONTEXTO:** Barrio tomado por narcos. Nietos no pueden jugar en calle. Sin trabajo estable post-60. Esposa vende comida informal. Casa única patrimonio.
+
+**PRIORIDADES:**
+1. Narcos: Guerra total
+2. Barrios: Recuperar espacios
+3. Trabajo senior: Sin discriminación
+4. Pensión: Digna para informales
+5. Servicios: Mejorar en poblaciones
+
+**FECHA DE EVALUACIÓN:** 23 de Octubre de 2025
 
 ---
 
-## EVALUACIONES POR CANDIDATO
-
-## 1. Eduardo Artes
+## EDUARDO ARTÉS BRICHETTI (Unión Patriótica)
 
 Artés no me sirve para nada. Habla puras cosas de Venezuela, Cuba, del imperio yanqui. Yo luché por esta casa en los 80, no para que me vengan a hablar de solidaridad internacional cuando los narcos están controlando mi población. Su programa es todo teoría, todo revolucionario, pero no me dice cómo va a sacar a los narcos de mi esquina. Habla de nacionalizar empresas, de reforma agraria, pero yo necesito que mis nietos puedan salir a la calle. Dice que va a fortalecer el poder popular, pero el poder en mi barrio lo tienen los narcos, no el pueblo.
 
@@ -17,9 +29,7 @@ Lo único que rescato es que habla de mejorar las pensiones y de proteger a los 
 
 ---
 
----
-
-## 2. Marco Enríquez-Ominami
+## MARCO ENRÍQUEZ-OMINAMI (Partido Progresista)
 
 Marco habla bonito, tiene propuestas progresistas, pero no le creo. Este gallo siempre ha estado en la política, siempre promete cambios, pero yo sigo viendo cómo se deteriora mi población. Dice que va a invertir en seguridad, que va a mejorar los barrios, pero no veo la fuerza que necesito para enfrentar a los narcos. Todo muy diplomático, muy de diálogo, pero a los narcos no se les saca con diálogo.
 
@@ -34,9 +44,7 @@ Lo que sí me gusta es que habla de apoyar a los emprendedores informales como m
 
 ---
 
----
-
-## 3. Jeannette Jara
+## JEANNETTE JARA (Frente Amplio / Socialismo Democrático)
 
 Jeannette viene de la izquierda progresista, y eso me da desconfianza. Habla mucho de derechos, de inclusión, de justicia social, pero cuando leo su programa no veo que entienda lo que es vivir en una población tomada por narcos. Dice que va a invertir en lo social, en educación, en salud, que va a proteger a los trabajadores. Todo eso está bien, pero ¿cuándo me va a decir cómo va a limpiar mi barrio?
 
@@ -51,9 +59,7 @@ Lo que rescato es que habla de dignificar las pensiones y de apoyar a los trabaj
 
 ---
 
----
-
-## 4. José Antonio Kast
+## JOSÉ ANTONIO KAST (Partido Republicano)
 
 Kast es el que más me convence en seguridad. Este gallo dice las cosas claras: mano dura contra los narcos, militares en las calles si hace falta, cárcel sin beneficios para los delincuentes. Eso es lo que necesito. Llevo años viendo cómo se pudre mi población, cómo los narcos se adueñaron de las esquinas donde jugaban mis hijos y ahora no pueden jugar mis nietos. Kast promete guerra total contra el narcotráfico, y eso me gusta.
 
@@ -68,9 +74,7 @@ Pero tengo un problema con Kast: todo su discurso es de seguridad y de crecer la
 
 ---
 
----
-
-## 5. Johannes Kaiser
+## JOHANNES KAISER (Partido Libertario)
 
 Kaiser es puro libertario, puro libre mercado, puro que el Estado no se meta en nada. ¿Y a mí qué me sirve eso? Habla de eliminar impuestos, de privatizar todo, de que cada uno se las arregle. Pero yo a los 62 años, sin trabajo estable, con mi señora vendiendo comida en la calle, necesito un Estado que me ayude, no uno que se desaparezca.
 
@@ -85,9 +89,7 @@ Habla de libertad económica, de emprendimiento, de bajar regulaciones. Pero yo 
 
 ---
 
----
-
-## 6. Evelyn Matthei
+## EVELYN MATTHEI (Chile Vamos)
 
 Matthei es la candidata que más me convence en general. Tiene un programa súper completo y concreto. En seguridad promete 10.000 carabineros más, intervención de los 40 barrios más peligrosos (el mío debe estar ahí), presencia policial permanente, más cárceles, expulsión de extranjeros delincuentes, tecnología para combatir el narco. Eso es exactamente lo que necesito. No es puro discurso, tiene números, tiene plazos, tiene plan.
 
@@ -104,9 +106,7 @@ Lo único que me complica un poco es que es de derecha tradicional, de los mismo
 
 ---
 
----
-
-## 7. Harold Mayne-Nicholls
+## HAROLD MAYNE-NICHOLLS (Independiente)
 
 Mayne-Nicholls es independiente, viene del fútbol, no es político de carrera, y eso me gusta. Su programa tiene cosas buenas. Habla de combatir el narcotráfico con inteligencia, de fortalecer Carabineros, de dar más facultades a las policías, de construir más cárceles, de expulsar delincuentes extranjeros. Eso está bien.
 
@@ -123,9 +123,7 @@ Su programa es bueno, tiene cosas concretas, pero no me convence tanto como Matt
 
 ---
 
----
-
-## 8. Franco Parisi
+## FRANCO PARISI (Partido de la Gente)
 
 Parisi es el candidato YouTube, el que hace videos desde Estados Unidos. Su programa tiene algunas cosas que me llaman la atención: habla de devolver el IVA de los medicamentos, de devolver el IVA de la canasta básica. Eso me ayudaría caleta porque mi señora y yo gastamos harto en remedios y en comida. También habla de apoyar a los emprendedores, de dar bonos de formalización. Eso le serviría a mi señora que vende comida informal.
 
@@ -179,5 +177,3 @@ Voy a votar por **EVELYN MATTHEI**. Es la única que realmente me convence que v
 **ESTÁNDAR APLICADO:** persona_evaluation_standard.md v1.0
 **FORMATO:** Primera persona, voz auténtica de Miguel Ángel Castro
 **EXTENSIÓN:** 250-500 palabras por candidato (cumplido)
-
----

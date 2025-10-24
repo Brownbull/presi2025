@@ -1,8 +1,25 @@
 # Evaluación de Programas Presidenciales 2025
+## Perspectiva: Rosa Pérez - La Microempresaria Ahogada
+
+**Edad:** 52 años
+**Ubicación:** Concepción
+**Ocupación:** Dueña de almacén de barrio (15 años)
+**Situación:** Ventas -50%, deuda $8M, víctima de 4 robos en 2 años
+
+**Contexto Personal:**
+Tengo mi almacén hace 15 años en Concepción. Era mi sueño, mi sustento. Pero desde que llegaron los supermercados chinos, mis ventas cayeron 50%. Me robaron 4 veces en 2 años. Arrastro $8 millones de deuda de la pandemia repartidos en 3 créditos consumo. La competencia desleal de los informales me mata. Y el Estado solo me pone trabas burocráticas. Los chicos sobrevivimos pese al Estado, no gracias a él.
+
+**Mis Prioridades Electorales:**
+1. Seguridad comercio: Más protección para mi negocio
+2. Competencia desleal: Regular a los informales que no pagan impuestos
+3. Créditos: Bajar las tasas de usura que me ahogan
+4. Apoyo PYME: Real, no burocracia que no entiendo
+5. Servicios: Bajar costos de luz y agua que me matan
+
+**Frase que me representa:**
+*"Los chicos sobrevivimos pese al Estado, no gracias a él"*
 
 ---
-
-## EVALUACIONES POR CANDIDATO
 
 ## 1. Eduardo Artes
 
@@ -19,8 +36,6 @@ Sobre seguridad, propone **"abordar causas estructurales de la delincuencia"**. 
 **Calificación Personal:** 2/10
 
 **¿Votaría por este candidato?** No - Su programa es todo lo que me asusta. Estatización, controles, planificación central. Yo quiero libertad para trabajar, protección contra los ladrones y competencia justa. Esto es lo opuesto.
-
----
 
 ---
 
@@ -44,8 +59,6 @@ Lo único concreto que veo es **"25 nuevos CESFAM"**. Bien por la salud, pero es
 
 ---
 
----
-
 ## 3. Jeannette Jara
 
 Jara tiene algo que me llama la atención: **Medida 156: Reducir brecha salarial en comercio mediante mesas de negociación sector**. Trabajo en comercio, me interesa. Pero espera, yo soy la dueña, no empleada. ¿Esto me beneficia o me perjudica? Si tengo que subir sueldos sin poder subir precios, quiebro.
@@ -63,8 +76,6 @@ Me gusta que habla de **Medida 233: Tarifas eléctricas justas**. Pago una fortu
 **Calificación Personal:** 5/10
 
 **¿Votaría por este candidato?** Tal vez - Toca algunos temas míos (ambulantes, tarifas), pero me preocupa que su enfoque "progresista" termine subiéndome costos laborales que no puedo pagar. Necesito ver más detalles.
-
----
 
 ---
 
@@ -90,8 +101,6 @@ Sobre servicios básicos, no veo nada concreto para bajar luz y agua. Habla de *
 
 ---
 
----
-
 ## 5. Johannes Kaiser
 
 Kaiser me sorprende. Propone **Medida 78: Eliminar IVA a alimentos básicos**. Esto me beneficia doble: pago menos IVA al comprar mercadería y puedo bajar precios para competir con los chinos. Es concreto, es directo, me gusta.
@@ -111,8 +120,6 @@ No veo nada sobre competencia desleal ni comercio informal. Eso es un problema e
 **Calificación Personal:** 6/10
 
 **¿Votaría por este candidato?** Tal vez - Tiene propuestas atrevidas (IVA 0, crédito 2%). Si las cumple, mi negocio renace. Pero me faltan medidas contra competencia desleal y desconfío de promesas tan grandes.
-
----
 
 ---
 
@@ -138,8 +145,6 @@ No dice nada directo sobre competencia desleal de supermercados chinos. Ese es m
 
 ---
 
----
-
 ## 7. Harold Mayne-Nicholls
 
 Mayne-Nicholls propone **Medida 56: Facilitar crédito a pymes a tasas bajas mediante BancoEstado y garantías estatales**. Bien, pero BancoEstado ya existe y sus tasas no son tan bajas. ¿Qué va a cambiar? Necesito números concretos, no promesas vagas.
@@ -159,8 +164,6 @@ Me gusta su tono moderado y dialogante, pero le falta punch. Todo es muy tibio, 
 **Calificación Personal:** 5/10
 
 **¿Votaría por este candidato?** No - Demasiado vago. Toca algunos temas míos pero sin la urgencia y concreción que necesito. Me suena a político tradicional: mucha foto, poco cambio real.
-
----
 
 ---
 
@@ -211,5 +214,3 @@ Si tuviera que elegir segunda opción, sería Kaiser por su atrevimiento (IVA 0,
 Los demás o son muy teóricos (MEO, Mayne-Nicholls), o muy ideológicos (Artes, Jara), o les falta especificidad en temas que me importan (Kast habla de seguridad pero poco de pymes).
 
 Lo que sí tengo claro: no voto por alguien que no entienda que los chicos comerciantes sobrevivimos pese al Estado, no gracias a él. Y necesitamos un Estado que nos proteja de verdad, no uno que nos ahogue en trámites y nos deje solos frente a los ladrones y la competencia desleal.
-
----

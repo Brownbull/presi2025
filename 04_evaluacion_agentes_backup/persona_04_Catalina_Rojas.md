@@ -1,8 +1,25 @@
 # Evaluación de Programas Presidenciales 2025
+## Perspectiva: 👩‍🎓 Catalina Rojas - La Universitaria Endeudada
+
+**Edad:** 24 años
+**Ubicación:** Providencia (arrienda), originaria de Talca
+**Ocupación:** Estudiante de Psicología + trabajo part-time
+**Situación:** Deuda CAE $14 millones y subiendo, arrienda pieza $280.000, práctica no pagada
+
+**Contexto Personal:**
+Soy la primera de mi familia en ir a la universidad. Estudié para surgir y solo conseguí deudas. Tengo $14 millones en CAE y la cifra sigue creciendo. Mis papás se endeudaron para apoyarme y ahora yo no puedo ayudarlos. Arriendo una pieza en $280.000 mensuales, mi práctica no es pagada, y mi salud mental está deteriorada. No tengo ninguna expectativa de comprar vivienda algún día.
+
+**Mis Prioridades Electorales:**
+1. CAE: Condonación total
+2. Arriendos: Regular abusos
+3. Empleabilidad: Trabajos dignos para jóvenes
+4. Salud mental: Acceso a terapia
+5. Transporte: Tarifa estudiante real
+
+**Frase que me representa:**
+*"Estudié para surgir y solo conseguí deudas. Mi generación no tiene futuro."*
 
 ---
-
-## EVALUACIONES POR CANDIDATO
 
 ## 1. Eduardo Artes
 
@@ -24,8 +41,6 @@ Su programa es ideológicamente claro pero prácticamente vago para mis problema
 
 ---
 
----
-
 ## 2. Marco Enríquez-Ominami
 
 Marco habla de "nueva izquierda" y propuestas más moderadas que Artes. Busco CAE y encuentro que propone **"refinanciamiento con tasas más bajas"** para deudores CAE. OK, pero refinanciar no es condonar. Yo debo $14 millones, ¿refinanciar a qué tasa? ¿5 años más de pagos? Eso no resuelve el problema estructural.
@@ -43,8 +58,6 @@ Me gusta que es más concreto que Artes, pero sus propuestas son insuficientes. 
 **Calificación Personal:** 5/10
 
 **¿Votaría por este candidato?** Tal vez - Reconoce los problemas de mi generación pero las soluciones son tibias. Refinanciar no es condonar, subsidios vagos no son ayuda real.
-
----
 
 ---
 
@@ -70,8 +83,6 @@ Me decepciona porque esperaba más del FA. Han estado en gobierno y las cosas no
 
 ---
 
----
-
 ## 4. José Antonio Kast
 
 Kast representa todo lo que me asusta. Leo su programa y veo énfasis en "seguridad", "orden" y "familia tradicional". Busco algo para jóvenes endeudados y encuentro casi nada.
@@ -93,8 +104,6 @@ De hecho, algunas propuestas me perjudicarían activamente. "Mejorar cobro CAE" 
 **Calificación Personal:** 2/10
 
 **¿Votaría por este candidato?** No - Su programa ignora o empeora mi situación. Mejorar el cobro del CAE es lo contrario de ayudarme. Cero propuestas para arrendatarios o salud mental joven.
-
----
 
 ---
 
@@ -124,8 +133,6 @@ El CAE contingente al ingreso es lo único rescatable, pero todo lo demás me pe
 
 ---
 
----
-
 ## 6. Evelyn Matthei
 
 Matthei representa la derecha tradicional, más moderada que Kast. Leo su programa con bajas expectativas pero dispuesta a sorprenderme.
@@ -147,8 +154,6 @@ Matthei tiene propuestas más concretas que la izquierda en algunos temas (salud
 **Calificación Personal:** 6/10
 
 **¿Votaría por este candidato?** Tal vez - Reconoce salud mental joven y propone CAE más blando, pero sin claridad sobre condonación de deudas existentes. Nada para arrendatarios me preocupa.
-
----
 
 ---
 
@@ -175,8 +180,6 @@ Mayne-Nicholls tiene buenas intenciones y reconoce salud mental y arriendos, per
 **Calificación Personal:** 5/10
 
 **¿Votaría por este candidato?** Tal vez - Excelente en salud mental, reconoce arriendos, pero ignorar completamente el CAE es un error grave que me hace dudar.
-
----
 
 ---
 
@@ -225,5 +228,3 @@ Mi generación está endeudada, arrendando con abusos, con salud mental deterior
 **Reservas:** No condona el CAE, no regula arriendos, no obliga a pagar prácticas. Es el mal menor, no la solución que necesitamos. Mi generación seguirá endeudada, arrendando con abusos, y con salud mental deteriorada bajo cualquiera de estos candidatos.
 
 Estudié para surgir y solo conseguí deudas. Ninguno de estos candidatos cambiará eso fundamentalmente.
-
----

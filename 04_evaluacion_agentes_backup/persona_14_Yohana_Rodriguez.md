@@ -1,25 +1,33 @@
 # EVALUACIÓN DE CANDIDATOS PRESIDENCIALES
+## Persona 14: Yohana Rodríguez - La Migrante Integrada
+
+**PERFIL:** Yohana Rodríguez, 31 años, Estación Central. Técnico en enfermería. Venezolana, 5 años en Chile. Casada con chileno, 1 hijo chileno. Título no reconocido completamente. Sufre discriminación laboral. Familia en Venezuela necesita ayuda. Arrienda pieza familiar. Miedo a ola anti-migración.
+
+**PRIORIDADES DE EVALUACIÓN:**
+1. Regularización: Proceso justo
+2. Integración: Real, no papel
+3. Discriminación: Combatir xenofobia
+4. Validación títulos: Agilizar
+5. Reunificación familiar: Humanitaria
+
+**FECHA:** 23 de Octubre de 2025
 
 ---
 
-## EVALUACIONES POR CANDIDATO
-
-## 1. Eduardo Artes
+## EDUARDO ARTÉS (Unión Patriótica)
 
 Mira, Artés habla de derechos sociales y de combatir el imperialismo, pero cuando leo su programa no encuentro NADA sobre nosotros los migrantes. Habla de nacionalizar todo, de reconstruir el Estado, pero ¿qué pasa con los que venimos de afuera intentando aportar? Me preocupa ese discurso tan cerrado en "lo chileno". Después de cinco años acá, casada con un chileno, con un hijo nacido en Estación Central, yo YA soy parte de Chile. Pero con este señor siento que solo importan los chilenos de nacimiento. No dice nada de regularización, nada de validación de títulos profesionales, nada de integración. Es como si no existiéramos, pues.
 
 Su propuesta de salud universal suena bien porque necesitamos acceso digno a la salud, pero ¿me incluye a mí o solo a los chilenos? No lo dice. Me da miedo que este tipo de candidato alimente el discurso de "Chile para los chilenos" que escucho en la micro cuando la gente se queja de nosotros. No puedo apoyar a alguien que ni siquiera nos menciona.
 
-**Calificación Personal:** 2.0/10 - Me invisibiliza completamente. No hay propuestas para migrantes.
+**CALIFICACIÓN: 2.0/10** - Me invisibiliza completamente. No hay propuestas para migrantes.
 
 **Calificación Personal:** 2/10
 **¿Votaría por este candidato?** No - Ni siquiera menciona migrantes. Discurso cerrado en "lo chileno" alimenta xenofobia.
 
 ---
 
----
-
-## 2. Marco Enríquez-Ominami
+## MARCO ENRÍQUEZ-OMINAMI (Progresista-Humanista)
 
 Marco habla bonito de derechos humanos y de una política migratoria "con rostro humano", pero chamo, ¿dónde están las propuestas concretas? Dice que quiere "regularización con dignidad" pero no especifica CÓMO. Yo llevo cinco años acá y sé que las promesas bonitas no sirven si no hay un plan. Habla de combatir la xenofobia y eso me gusta, porque todos los días siento las miradas cuando digo que soy de Venezuela. En el trabajo me han dicho "para ser venezolana, trabajas bien", como si fuéramos flojos por defecto.
 
@@ -27,16 +35,14 @@ Lo que sí me llama la atención es que menciona facilitar la validación de tí
 
 Pero necesito más detalles. ¿Cuánto tiempo tomará? ¿Hay apoyo económico para el proceso? Porque validar títulos cuesta plata que no tengo. Me gusta su tono, me gusta que al menos nos menciona, pero me quedo con dudas de si realmente puede cumplir.
 
-**Calificación Personal:** 5.5/10 - Buenas intenciones, poca concreción. Necesito saber el "cómo".
+**CALIFICACIÓN: 5.5/10** - Buenas intenciones, poca concreción. Necesito saber el "cómo".
 
 **Calificación Personal:** 5.5/10
 **¿Votaría por este candidato?** Tal vez - Menciona validación títulos y combatir xenofobia, pero falta concreción. ¿Cómo? ¿Cuándo? ¿Cuánto cuesta?
 
 ---
 
----
-
-## 3. Jeannette Jara
+## JEANNETTE JARA (Frente Amplio)
 
 Jeannette habla de derechos sociales, de feminismo, de cuidados. Todo eso me resuena porque soy mujer, soy trabajadora de la salud, soy mamá. Pero cuando busco qué dice de migración... casi nada concreto. Habla de "políticas inclusivas" y de "combatir la discriminación", pero no veo un plan específico para nosotros los migrantes.
 
@@ -46,16 +52,14 @@ Lo que me preocupa es que el Frente Amplio a veces se enfoca tanto en lo "chilen
 
 Me gusta que hable de feminismo porque he sufrido doble discriminación: por ser mujer Y por ser venezolana. Pero necesito que entienda que las mujeres migrantes también existimos y tenemos necesidades específicas.
 
-**Calificación Personal:** 4.5/10 - Buenas intenciones en derechos sociales, pero poca atención a migración específicamente.
+**CALIFICACIÓN: 4.5/10** - Buenas intenciones en derechos sociales, pero poca atención a migración específicamente.
 
 **Calificación Personal:** 4.5/10
 **¿Votaría por este candidato?** No - Sistema de Cuidados podría ayudar, pero enfoque proteccionista me preocupa. Poca atención a migración.
 
 ---
 
----
-
-## 4. José Antonio Kast
+## JOSÉ ANTONIO KAST (Partido Republicano)
 
 Este señor me da pavor, de verdad. Kast habla de "expulsar de inmediato y prohibir reingreso de extranjeros que cometan delitos graves" y de "robustecer Servicio Nacional de Migraciones para establecer mecanismos de denegación de entradas o visas". Yo no he cometido ningún delito, trabajo honestamente, pago mis impuestos, estoy casada con un chileno, tengo un hijo chileno. Pero con este tipo de discurso me siento como delincuente por defecto.
 
@@ -63,16 +67,14 @@ Su programa habla de "control de fronteras" y de "orden" pero no dice NADA de in
 
 Llevo cinco años acá, amo a Chile, mi familia está acá, pero con Kast siento que siempre voy a ser "la venezolana", nunca "la vecina" o "la colega". Su discurso alimenta exactamente la xenofobia que sufro todos los días. No puedo apoyar a alguien que me ve como amenaza.
 
-**Calificación Personal:** 1.0/10 - Su discurso me discrimina y criminaliza. Cero propuestas de integración.
+**CALIFICACIÓN: 1.0/10** - Su discurso me discrimina y criminaliza. Cero propuestas de integración.
 
 **Calificación Personal:** 1/10
 **¿Votaría por este candidato?** No - Me ve como amenaza, no como persona. Alimenta xenofobia que sufro diariamente.
 
 ---
 
----
-
-## 5. Johannes Kaiser
+## JOHANNES KAISER (Partido Social Cristiano Regionalista)
 
 Kaiser habla mucho de descentralización y de dar poder a las regiones. Eso está bien, pero ¿qué significa para los migrantes? No veo propuestas claras. Menciona algo de "política migratoria ordenada" pero sin detalles. Eso me preocupa porque "ordenada" puede ser código para "restrictiva".
 
@@ -80,16 +82,14 @@ No encuentro nada sobre validación de títulos profesionales, nada sobre combat
 
 Su enfoque en lo regional podría ser bueno si significa que en Estación Central podríamos tener políticas de integración local, pero no lo especifica. Me quedo con muchas dudas.
 
-**Calificación Personal:** 3.0/10 - Simplemente no aborda el tema migratorio de forma seria.
+**CALIFICACIÓN: 3.0/10** - Simplemente no aborda el tema migratorio de forma seria.
 
 **Calificación Personal:** 3/10
 **¿Votaría por este candidato?** No - No aborda migración de forma seria. "Ordenada" suena a restrictiva.
 
 ---
 
----
-
-## 6. Evelyn Matthei
+## EVELYN MATTHEI (UDI-RN)
 
 Matthei dice que quiere "política migratoria humanitaria pero ordenada" y habla de "agilizar regularización de extranjeros con arraigo laboral". Eso me incluye a mí. Llevo cinco años trabajando acá, tengo familia chilena, pago impuestos. Su propuesta de "incluir migrantes de buena fe en protección social y economía formal" me suena bien porque justamente eso necesito: ser parte del sistema, no estar en los márgenes.
 
@@ -99,16 +99,14 @@ Me preocupa que su sector tiene históricamente un discurso anti-migrante, pero 
 
 Sin embargo, necesito más detalles. ¿Qué significa "regularización ágil"? ¿Cuánto tiempo? ¿Qué requisitos? ¿Hay apoyo para validar títulos profesionales? Son preguntas que su programa no responde.
 
-**Calificación Personal:** 6.0/10 - Al menos reconoce que existimos y aportamos. Falta concreción en validación de títulos.
+**CALIFICACIÓN: 6.0/10** - Al menos reconoce que existimos y aportamos. Falta concreción en validación de títulos.
 
 **Calificación Personal:** 6/10
 **¿Votaría por este candidato?** Tal vez - Reconoce que aportamos, propone regularización con arraigo laboral. Pero falta validación títulos.
 
 ---
 
----
-
-## 7. Harold Mayne-Nicholls
+## HAROLD MAYNE-NICHOLLS (Independiente)
 
 Mayne-Nicholls dice textualmente en su medida 237: "Política migratoria humanitaria pero ordenada", en la 238: "Agilizar regularización de extranjeros con arraigo laboral", y en la 239: "Incluir migrantes de buena fe en protección social y economía formal". Esto me describe perfectamente: tengo arraigo laboral, soy de buena fe, necesito estar en el sistema formal.
 
@@ -118,16 +116,14 @@ Lo que me gusta es que habla de "humanitaria", eso significa que entiende que so
 
 Su programa es muy técnico, muy gerencial. Habla de modernización, de digitalización, de eficiencia. Eso podría ayudar a que los trámites migratorios sean más rápidos y menos kafkianos. Dios sabe que el proceso de visa ha sido una pesadilla de papeles y esperas.
 
-**Calificación Personal:** 6.5/10 - Propuestas similares a Matthei, con enfoque más técnico que podría agilizar trámites. Pero falta validación títulos.
+**CALIFICACIÓN: 6.5/10** - Propuestas similares a Matthei, con enfoque más técnico que podría agilizar trámites. Pero falta validación títulos.
 
 **Calificación Personal:** 6.5/10
 **¿Votaría por este candidato?** Sí - Enfoque técnico podría agilizar trámites kafkianos. Regularización con arraigo laboral. Falta validación títulos.
 
 ---
 
----
-
-## 8. Franco Parisi
+## FRANCO PARISI (Partido de la Gente)
 
 Parisi es... complicado. Su programa es súper técnico y largo, tiene mil medidas de economía, de salud, de seguridad. Pero cuando busco "migración" o "migrantes" o "extranjeros"... no encuentro casi nada. Es como si no existiéramos para él.
 
@@ -137,7 +133,7 @@ Eso sí, tiene propuestas interesantes en salud, como eliminar el IVA a medicame
 
 Pero no dice nada de validación de títulos profesionales, nada de regularización, nada de integración, nada de combatir la discriminación. Para alguien que dice representar "a la gente", parece que los migrantes no somos parte de "la gente".
 
-**Calificación Personal:** 3.5/10 - Propuestas generales que podrían beneficiarme indirectamente, pero cero atención a necesidades específicas de migrantes.
+**CALIFICACIÓN: 3.5/10** - Propuestas generales que podrían beneficiarme indirectamente, pero cero atención a necesidades específicas de migrantes.
 
 **Calificación Personal:** 3.5/10
 **¿Votaría por este candidato?** No - Representa "a la gente" pero migrantes no somos parte. Cero propuestas específicas.
@@ -168,5 +164,3 @@ Por ahora, tendría que elegir entre Matthei o Mayne-Nicholls, porque al menos r
 **FORMATO:** Primera persona como Yohana Rodríguez
 **EXTENSIÓN:** 250-500 palabras por candidato
 **PERSPECTIVA:** Evaluación desde prioridades de migrante integrada con necesidades de regularización, validación de títulos, combate a discriminación y reunificación familiar.
-
----

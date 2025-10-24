@@ -1,8 +1,25 @@
 # Evaluación de Programas Presidenciales 2025
+## Perspectiva: Patricia Morales - La Deudora Habitacional
+
+**Edad:** 39 años
+**Ubicación:** Quilicura, Santiago
+**Ocupación:** Secretaria municipal
+**Situación:** Dividendo subió de $450.000 a $750.000, divorciada con 2 hijos, 6 cuotas atrasadas, amenaza de remate
+
+**Contexto Personal:**
+Llevo 15 años pagando mi casa religiosamente. Nunca me atrasé hasta que mi ex dejó de pagar su parte del dividendo después del divorcio. La UF me destruyó: lo que era $450.000 ahora son $750.000. Tengo 6 cuotas atrasadas y el banco me amenaza con quitarme la única herencia que les puedo dejar a mis hijos.
+
+**Mis Prioridades Electorales:**
+1. No más UF: Créditos en pesos
+2. Tasa interés: Congelar/bajar
+3. Remates: Prohibir primera vivienda
+4. Repactación: Facilitarla
+5. Subsidios: Para mantener casa
+
+**Frase que me representa:**
+*"Pagué 15 años religiosamente y ahora me van a quitar la casa"*
 
 ---
-
-## EVALUACIONES POR CANDIDATO
 
 ## 1. Eduardo Artes
 
@@ -17,8 +34,6 @@ Lo que más me molesta es que habla de "derecho a vivienda digna" pero ignora co
 **Calificación Personal:** 2/10
 
 **¿Votaría por este candidato?** No - Habla de vivienda pública para quien no tiene, pero no ofrece nada para quienes estamos perdiendo la casa que pagamos durante 15 años. Su programa me ignora completamente.
-
----
 
 ---
 
@@ -40,8 +55,6 @@ Me gusta que al menos me ve, que entiende que hay gente pagando casa que está d
 
 ---
 
----
-
 ## 3. Jeannette Jara
 
 Su programa habla mucho de vivienda social nueva pero poco de quienes ya tenemos casa. Encuentro **Medida 214: "Congelar dividendos hipotecarios afectados por alzas extraordinarias de UF"**. ¡Por fin alguien dice "congelar"! Si mi dividendo vuelve a $450.000 que era antes, puedo respirar.
@@ -57,8 +70,6 @@ Y tampoco veo nada sobre eliminar la UF definitivamente. Congela, protege, pero 
 **Calificación Personal:** 7/10
 
 **¿Votaría por este candidato?** Sí - Tiene medidas concretas que me protegen: congelamiento y prohibición de remates. No es solución completa pero me da respiro inmediato que necesito urgente.
-
----
 
 ---
 
@@ -80,8 +91,6 @@ Me siento invisible. Como si gente como yo, clase media trabajadora que se endeu
 
 ---
 
----
-
 ## 5. Johannes Kaiser
 
 Leo su programa con curiosidad porque he escuchado que es "diferente". Encuentro **Medida 168: "Eliminar UF como unidad de medida para contratos de largo plazo incluyendo créditos hipotecarios"**. ¡Por fin! Alguien que dice claramente "eliminar la UF".
@@ -97,8 +106,6 @@ Lo que me gusta es que ataca la raíz: la UF. No me ofrece subsidios ni parches,
 **Calificación Personal:** 6/10
 
 **¿Votaría por este candidato?** Tal vez - Es el único que propone eliminar la UF, que es la raíz de mi problema. Pero "conversión voluntaria" me genera dudas. ¿Los bancos aceptarán? ¿O seguiré atrapada?
-
----
 
 ---
 
@@ -120,8 +127,6 @@ Me decepciona porque esperaba más de ella. Es mujer, debe entender lo que es qu
 
 ---
 
----
-
 ## 7. Harold Mayne-Nicholls
 
 Busco entre sus 419 medidas algo sobre créditos hipotecarios. Encuentro **Medida 199: "Acelerar construcción para que cada familia tenga primera vivienda digna"** y **Medida 202: "Actualizar subsidios habitacionales, tanto en monto como en focalización"**. De nuevo, todo enfocado en construcción nueva.
@@ -137,8 +142,6 @@ Habla de "diálogo", de "escuchar", de "unir". Bonito. Pero yo necesito acciones
 **Calificación Personal:** 3/10
 
 **¿Votaría por este candidato?** No - 419 medidas y ninguna para proteger a deudores hipotecarios en crisis. Su programa ignora completamente mi realidad. Necesito soluciones, no más construcción.
-
----
 
 ---
 
@@ -175,5 +178,3 @@ Necesito un presidente que entienda que hay miles como yo: gente que hizo todo b
 **Razón principal:** Es la única que ofrece protección concreta e inmediata: congelar dividendos y prohibir remates. Eso me salva la casa mientras busco solución definitiva.
 
 **Reservas:** No elimina la UF de raíz y no aclara cómo pago las 6 cuotas atrasadas. Son medidas de emergencia, no solución permanente. Pero al menos me ve, me protege y me da tiempo.
-
----

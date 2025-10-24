@@ -1,8 +1,25 @@
 # Evaluación de Programas Presidenciales 2025
+## Perspectiva: María José Contreras - La Profesional Agobiada
+
+**Edad:** 35 años
+**Ubicación:** Las Condes, Santiago
+**Ocupación:** Ingeniera comercial en empresa multinacional
+**Situación:** Casada, 2 hijos (5 y 2 años)
+
+**Contexto Personal:**
+Gano $3.500.000 con mi esposo pero entre dividendo ($850.000) y jardín/colegio ($600.000) se va casi la mitad. Paso 2 horas diarias en el auto. Llevo 2 años en lista de espera para sala cuna de la empresa. Sin familia cerca ni nana estable, vivo corriendo entre reuniones y pañales.
+
+**Mis Prioridades Electorales:**
+1. Sistema de cuidados: Salas cuna y after school
+2. Seguridad: Portonazos en mi barrio
+3. Teletrabajo: Legislación flexible
+4. Educación: Calidad sin copago excesivo
+5. Salud: Isapre cada vez más cara
+
+**Frase que me representa:**
+*"Trabajo para vivir estresada y pagar cuentas. El país se volvió invivible para la clase media profesional"*
 
 ---
-
-## EVALUACIONES POR CANDIDATO
 
 ## 1. Eduardo Artes
 
@@ -16,8 +33,6 @@ No hay nada de flexibilidad laboral, nada de Isapres, nada que me ayude con mis 
 
 **Calificación Personal:** 1/10
 **¿Votaría por este candidato?** No - Su programa estatizante me genera inseguridad económica total y no aborda ninguna de mis necesidades concretas como profesional y madre.
-
----
 
 ---
 
@@ -35,8 +50,6 @@ El tema de fondo: muchas promesas, poca factibilidad. Como profesional que eval�
 
 **Calificación Personal:** 5/10
 **¿Votaría por este candidato?** Tal vez - Tiene algunas medidas que me ayudan pero me falta ver los números y la factibilidad real.
-
----
 
 ---
 
@@ -59,8 +72,6 @@ Su programa tiene el corazón en el lugar correcto para las familias trabajadora
 
 ---
 
----
-
 ## 4. José Antonio Kast
 
 Kast me genera tensión. Su **Medida 2: Inversión de US$2.500 millones en seguridad** es EXACTAMENTE lo que necesito después de los portonazos en Las Condes. Su **Medida 6: 10.000 carabineros más en las calles** es concreto - números claros, timeline definido. Esto me da seguridad.
@@ -80,8 +91,6 @@ El problema: su programa prioriza seguridad y economía, pero el sistema de cuid
 
 ---
 
----
-
 ## 5. Johannes Kaiser
 
 Leo a Kaiser y no sé si reír o llorar. Su **Medida 1: Eliminar impuesto a la renta** suena fantástico - me quedarían como $400.000 más al mes. Pero como ingeniera comercial sé que eso significa o déficit fiscal brutal o recortes masivos en servicios. ¿Adiós sala cuna pública? ¿Adiós subsidios?
@@ -98,8 +107,6 @@ Su programa es un experimento económico radical. Puede que funcione en teoría,
 
 **Calificación Personal:** 3/10
 **¿Votaría por este candidato?** No - Demasiado riesgo, cero soluciones concretas para cuidados, y su radicalismo me genera inseguridad total.
-
----
 
 ---
 
@@ -124,8 +131,6 @@ El tema: es el programa MÁS completo y realista, con números y plazos. Pero en
 
 ---
 
----
-
 ## 7. Harold Mayne-Nicholls
 
 Mayne-Nicholls me sorprende positivamente. Su **Medida 187: Cobertura universal sala cuna desde los 2 años** es EXACTO lo que necesito. "Universal" significa que finalmente salgo de la lista de espera. Su **Medida 188: Énfasis en salas cuna en lugares de trabajo** es brillante - mi empresa podría implementarlo.
@@ -144,8 +149,6 @@ El problema: tiene ideas muy buenas, especialmente en cuidados y modernización,
 
 **Calificación Personal:** 7/10
 **¿Votaría por este candidato?** Sí - Tiene las mejores propuestas en sistema de cuidados que es mi prioridad, aunque me falta ver financiamiento y timelines exactos.
-
----
 
 ---
 
@@ -186,5 +189,3 @@ La realidad es que NINGÚN candidato aborda completamente mi situación: profesi
 ---
 
 **NOTA METODOLÓGICA:** Esta evaluación fue generada siguiendo el estándar persona_evaluation_standard.md v1.0, representando auténticamente la perspectiva y voz de María José Contreras basándose en su perfil detallado, escribiendo en primera persona desde su experiencia como profesional agobiada de clase media con 2 hijos pequeños, evaluando cada programa desde sus prioridades concretas: sistema de cuidados, seguridad, flexibilidad laboral, educación y salud.
-
----

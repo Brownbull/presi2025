@@ -1,10 +1,13 @@
 # EVALUACIÓN DE CANDIDATOS PRESIDENCIALES
+## Persona: Alejandra Martínez - La Teletrabajadora Atrapada
+
+**PERFIL:** Alejandra Martínez, 29 años, Viña del Mar. Diseñadora UX empresa USA (remoto). USD 2.000 (boleta honorarios). Convive, sin hijos por decisión. Paga 42% entre impuestos y cotizaciones. Sin beneficios laborales. Arrienda depto $650.000. Imposible acceso crédito hipotecario. Pareja también freelance.
+
+**FECHA EVALUACIÓN:** 23 de Octubre de 2025
 
 ---
 
-## EVALUACIONES POR CANDIDATO
-
-## 1. Eduardo Artes
+## EDUARDO ARTÉS
 
 Como trabajadora independiente internacional, Artés me asusta profundamente. Su propuesta de "sistema único de seguridad social" suena como eliminar mi AFP y obligarme a un sistema estatal que probablemente no reconozca mis ingresos en dólares de forma realista. Su énfasis en "trabajadores asalariados" ignora completamente que existo. Las "nuevas formas laborales" que menciona parecen dirigidas a Uber, no a profesionales remotos.
 
@@ -19,9 +22,7 @@ El tema vivienda es puro Estado constructor. Cero soluciones para profesionales 
 
 ---
 
----
-
-## 2. Marco Enríquez-Ominami
+## MARCO ENRÍQUEZ-OMINAMI
 
 Marco tiene ideas interesantes sobre digitalización y modernización, pero sigue pensando en trabajadores tradicionales. Su propuesta de "seguro de cesantía para trabajadores independientes" reconoce que existimos, lo cual es un avance, pero sigue siendo pensamiento de "formalización" tradicional.
 
@@ -38,9 +39,7 @@ El problema es que todo suena muy genérico. Dice las palabras correctas pero no
 
 ---
 
----
-
-## 3. Jeannette Jara
+## JEANNETTE JARA
 
 Jara tiene enfoque social fuerte pero está completamente atrapada en el paradigma empleado-empleador. Sus propuestas de "estabilidad laboral" y "negociación colectiva" no me sirven. Soy unipersonal.
 
@@ -57,9 +56,7 @@ No menciona nada sobre trabajadores remotos internacionales, freelancers profesi
 
 ---
 
----
-
-## 4. José Antonio Kast
+## JOSÉ ANTONIO KAST
 
 Kast tiene propuestas de "flexibilización laboral" que suenan bien en teoría, pero su enfoque es empresarial, no para independientes. Habla de "reducir costos laborales" desde la perspectiva del empleador, no del trabajador independiente.
 
@@ -76,9 +73,7 @@ El problema es que Kast piensa en emprendedores que contratan gente, no en profe
 
 ---
 
----
-
-## 5. Johannes Kaiser
+## JOHANNES KAISER
 
 Kaiser es caos puro. Habla de "destruir el Estado" y "eliminar impuestos", lo cual suena atractivo cuando pagas 42%, pero no hay plan coherente. Dice que "cada uno se las arregle", pero yo necesito poder comprar una casa.
 
@@ -95,9 +90,7 @@ Para alguien que necesita soluciones concretas al sistema financiero que me disc
 
 ---
 
----
-
-## 6. Evelyn Matthei
+## EVELYN MATTHEI
 
 Matthei tiene el programa más serio para mi situación. Propone "modernizar acceso a crédito hipotecario considerando ingresos por boleta de honorarios" y "facilitar evaluación crediticia para trabajadores independientes con ingresos demostrables".
 
@@ -116,9 +109,7 @@ El problema es que sigue siendo muy "institucional". No sé si realmente entiend
 
 ---
 
----
-
-## 7. Harold Mayne-Nicholls
+## HAROLD MAYNE-NICHOLLS
 
 Mayne-Nicholls tiene programa técnico e institucional, pero está enfocado en grandes reformas del Estado, no en problemas cotidianos de trabajadores digitales. Habla de "digitalizar trámites" y "ventanilla única", lo cual está bien pero no resuelve mi problema de vivienda.
 
@@ -135,9 +126,7 @@ En vivienda, tiene programas pero todos orientados a "familias vulnerables" o "c
 
 ---
 
----
-
-## 8. Franco Parisi
+## FRANCO PARISI
 
 Parisi tiene varias propuestas interesantes para mí. Su plan de "devolución IVA" me daría $25.000 mensuales de vuelta, lo cual ayuda con el costo de vida. "Eliminar IVA medicamentos" también es útil.
 
@@ -151,8 +140,6 @@ El problema es que Parisi está fuera del país y muchas propuestas suenan popul
 
 **Calificación Personal:** 7/10
 **¿Votaría por este candidato?** Tal vez - Plan concreto vivienda (250k créditos 5%, autopréstamo AFP) y devolución IVA. Pero credibilidad cuestionada.
-
----
 
 ---
 

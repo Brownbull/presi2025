@@ -1,8 +1,25 @@
 # Evaluación de Programas Presidenciales 2025
+## Perspectiva: Andrea Fuentes - La Cuidadora Invisible
+
+**Edad:** 48 años
+**Ubicación:** La Florida, Santiago
+**Ocupación:** Cuidadora a tiempo completo de madre con Alzheimer (sin remuneración)
+**Situación:** Dejó su trabajo hace 5 años, sin ingresos propios, sin cotizaciones previsionales, salud propia deteriorada, hermanos no ayudan
+
+**Contexto Personal:**
+Sacrifiqué mi vida profesional para cuidar a mi madre con Alzheimer 24/7. Llevo cinco años sin trabajar, sin sueldo, sin cotizar, mientras mis hermanos brillan por su ausencia. Mi propia salud se deteriora sin que nadie me vea. El Estado me castiga con miseria por hacer lo que las familias "deben" hacer.
+
+**Mis Prioridades Electorales:**
+1. Ley de cuidadoras: Reconocimiento legal y pago por mi trabajo
+2. Respiro: Centros de día estatales para poder descansar
+3. Pensión: Garantizar pensión para cuidadoras sin cotizaciones
+4. Salud: Apoyo domiciliario para enfermos de demencia
+5. Medicamentos: Gratuidad para tratamiento de demencia
+
+**Frase que me representa:**
+*"Sacrifiqué mi vida cuidando y el Estado me castiga con miseria"*
 
 ---
-
-## EVALUACIONES POR CANDIDATO
 
 ## 1. Eduardo Artes
 
@@ -21,8 +38,6 @@ No veo NADA sobre centros de día, respiro para cuidadores, reconocimiento del t
 **Calificación Personal:** 2/10
 
 **¿Votaría por este candidato?** No - Su programa no reconoce que existo. Soy una cuidadora invisible para su revolución industrial. Necesito apoyo concreto ahora, no promesas de socialismo futuro.
-
----
 
 ---
 
@@ -48,8 +63,6 @@ No menciona centros de día. No menciona respiro. No menciona reconocimiento ni 
 
 ---
 
----
-
 ## 3. Jeannette Jara
 
 Jara dice **Medida 56: Fortalecer Sistema Nacional de Cuidados**. Por fin alguien dice "cuidados". Pero solo una línea. "Fortalecer". ¿Cómo? ¿Cuándo? ¿Con cuánta plata? No detalla nada.
@@ -69,8 +82,6 @@ Menciona "fortalecer" el sistema de cuidados pero no dice CÓMO ni CUÁNTO ni CU
 **Calificación Personal:** 4/10
 
 **¿Votaría por este candidato?** Tal vez - Al menos menciona el Sistema de Cuidados y reconoce nuestra existencia. Pero las propuestas son vagas. Necesito saber: ¿me van a pagar? ¿cuándo? ¿cuánto? Sin eso, es solo retórica bonita.
-
----
 
 ---
 
@@ -94,8 +105,6 @@ No menciona: pago a cuidadoras, centros de día, respiro, medicamentos gratuitos
 
 ---
 
----
-
 ## 5. Johannes Kaiser
 
 Kaiser propone **Medida 97: Implementar cuidados domiciliarios 100% en 1 año**. ESTO me interesa. Cuidados domiciliarios coordinados por trabajador social de salud. ¿Significa que alguien vendría a ayudarme a cuidar a mi mamá? ¿O solo coordinación burocrática?
@@ -111,8 +120,6 @@ No menciona centros de día. No menciona reconocimiento del trabajo de cuidado. 
 **Calificación Personal:** 3/10
 
 **¿Votaría por este candidato?** No - Los "cuidados domiciliarios" son lo más cercano a mi realidad, pero sin detalles concretos. ¿Vienen a cuidar o solo a "coordinar"? Necesito ayuda real, no más burocracia.
-
----
 
 ---
 
@@ -142,8 +149,6 @@ Lo que NO veo: centros de día explícitos, horas de respiro garantizadas, cotiz
 
 ---
 
----
-
 ## 7. Harold Mayne-Nicholls
 
 Mayne-Nicholls propone **Medida 226: Implementar gradualmente Sistema Nacional de Cuidados**. Gradualmente. Siempre gradualmente. ¿En cuántos años? ¿Con qué presupuesto? No lo dice.
@@ -163,8 +168,6 @@ Menciona cuidadores y centros de día pero todo es vago, "gradual", sin plazos n
 **Calificación Personal:** 4/10
 
 **¿Votaría por este candidato?** No - Menciona centros de día pero sin detalles. "Apoyo a cuidadores informales" sin decir qué apoyo. Más promesas vagas que no cambian mi vida concreta.
-
----
 
 ---
 
@@ -203,5 +206,3 @@ La verdad es que ninguno entiende lo que es cuidar 24/7 sin sueldo, sin respiro,
 **Razón principal:** Es la única que pone un monto concreto ($100.000 para cuidadoras) y habla de certificación. No es suficiente pero es más de lo que otros ofrecen. Al menos reconoce que existimos y que nuestro trabajo vale algo.
 
 **Reservas:** $100.000 no es un sueldo digno. No veo centros de día explícitos. No veo solución para mis años sin cotizar. No veo medicamentos gratuitos para Alzheimer. Pero entre todos los que me ignoran, al menos ella me ve.
-
----

@@ -46,7 +46,11 @@ module.exports = function(eleventyConfig) {
     // Return the numero with leading zero if needed (01, 02, etc.)
     // If numero is already a 2-digit string, return as-is
     // If it's a single digit number or string, pad with zero
-    const numStr = numero.toString();
+    if (!numero || numero === undefined || numero === null) {
+      console.error('personaId filter received invalid numero:', numero);
+      return '00'; // Default fallback
+    }
+    const numStr = numero.toString().trim();
     return numStr.length === 1 ? `0${numStr}` : numStr;
   });
 

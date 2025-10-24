@@ -1,8 +1,25 @@
 # Evaluación de Programas Presidenciales 2025
+## Perspectiva: Javiera Mella - La Artista Precarizada
+
+**Edad:** 34 años
+**Ubicación:** Barrio Italia, Santiago
+**Ocupación:** Actriz y Profesora de Teatro
+**Situación:** Ingresos variables $0-800.000, arrienda con 3 amigos, 6 meses sin trabajo post-pandemia
+
+**Contexto Personal:**
+Llevo 6 meses sin trabajo estable después de la pandemia. Vivo postulando a fondos concursables que demoran meses en responder, con requisitos burocráticos imposibles. Hago clases para sobrevivir pero sin cotizaciones el 60% del tiempo. Mi salud mental está crítica porque amo lo que hago pero no puedo vivir de ello. El arte es esencial pero nos tratan como hobby.
+
+**Mis Prioridades Electorales:**
+1. Cultura: Presupuesto 2% PIB
+2. Previsión artistas: Sistema especial
+3. Fondos: Menos burocracia
+4. Espacios culturales: Proteger
+5. Educación artística: Valorar
+
+**Frase que me representa:**
+*"El arte es esencial pero nos tratan como hobby. Sin cultura no hay país."*
 
 ---
-
-## EVALUACIONES POR CANDIDATO
 
 ## 1. Eduardo Artes
 
@@ -17,8 +34,6 @@ Habla de **nacionalizar el cobre** y usar esos recursos para el pueblo. OK, pero
 **Calificación Personal:** 2/10
 
 **¿Votaría por este candidato?** No - La salud y educación gratuitas me ayudarían, pero la ausencia total de políticas culturales y el modelo autoritario son inaceptables. El arte muere sin libertad.
-
----
 
 ---
 
@@ -37,8 +52,6 @@ Habla bonito sobre "valorar la diversidad cultural" pero yo necesito comer hoy, 
 **Calificación Personal:** 5/10
 
 **¿Votaría por este candidato?** Tal vez - Reconoce la cultura y promete menos burocracia en fondos, lo cual valoro. Pero sin cifras presupuestarias ni sistema previsional para artistas, es insuficiente para mi situación crítica.
-
----
 
 ---
 
@@ -62,8 +75,6 @@ Su énfasis en **diálogo social y construcción colectiva** me resuena. He part
 
 ---
 
----
-
 ## 4. José Antonio Kast
 
 Busco "cultura" en su programa. Encuentro **Medida 287: Fortalecer identidad nacional y patrimonio cultural**. ¿Qué significa eso? ¿Más museos sobre héroes militares? ¿Censura al arte crítico? Su concepto de "identidad nacional" me asusta porque históricamente ha sido usado para silenciar disidencia artística.
@@ -84,8 +95,6 @@ Su énfasis en **seguridad** podría significar barrios más seguros, lo cual ne
 
 ---
 
----
-
 ## 5. Johannes Kaiser
 
 Leo su programa completo y cultura ni siquiera aparece como categoría. Busco "arte", "cultura", "patrimonio". Casi nada. Cero propuestas específicas para sector cultural.
@@ -103,8 +112,6 @@ No veo NADA sobre previsión para trabajadores irregulares, nada sobre salud men
 **Calificación Personal:** 1/10
 
 **¿Votaría por este candidato?** No - Ausencia total de políticas culturales, propone reducir Estado que ya nos ignora, y su modelo ultra-liberal condena a artistas a la indigencia absoluta.
-
----
 
 ---
 
@@ -130,8 +137,6 @@ Su programa es moderado, técnico, sin locuras. Pero también sin ambición tran
 
 ---
 
----
-
 ## 7. Harold Mayne-Nicholls
 
 Encuentro las mismas cuatro medidas que Matthei (233-236). De hecho, es texto idéntico. Esto me hace pensar que hubo coordinación entre candidatos de centroderecha o que copiaron mutuamente. Sea como sea, tengo las mismas preguntas.
@@ -152,8 +157,6 @@ Lo que sí valoro es su **Medida 235 sobre participación**. Si realmente implem
 **Calificación Personal:** 4/10
 
 **¿Votaría por este candidato?** No - Copia las mismas 4 medidas genéricas de Matthei, invierte masivamente en deporte pero no en cultura, y nos relega a nota al pie. El desbalance es evidente.
-
----
 
 ---
 
@@ -209,5 +212,3 @@ Como artista precarizada, tengo que elegir entre alguien que al menos nos recono
 **Reservas:** No especifica presupuesto cultural concreto (¿llegará al 2% PIB?), y la implementación del sistema previsional podría demorarse años en tramitación legislativa. He visto proyectos de ley para artistas morir en el Congreso. Necesito garantías de priorización real, no promesas que se olvidan después de la elección.
 
 Mi situación es crítica AHORA: 6 meses sin trabajo, salud mental deteriorada, sin pensión futura. No puedo esperar otros 4 años de "estudios" y "mesas de diálogo". Necesito acción concreta urgente. Jara es mi mejor apuesta, pero mi esperanza está teñida de todo el escepticismo que dan 10 años de ser tratada como hobby prescindible cuando sé que el arte es esencial para que este país no pierda completamente el alma.
-
----

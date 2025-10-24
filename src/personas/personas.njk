@@ -57,7 +57,7 @@ eleventyComputed:
   <h2>🎯 Prioridades Electorales</h2>
   <ol class="priorities-list">
     {% for item in persona.prioridades %}
-    <li>{{ item }}</li>
+    <li>{{ item | markdown | safe }}</li>
     {% endfor %}
   </ol>
 </section>

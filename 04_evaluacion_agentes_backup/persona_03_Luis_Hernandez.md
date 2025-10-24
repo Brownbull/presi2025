@@ -14,11 +14,9 @@
 
 ---
 
----
-
 ## EVALUACIONES POR CANDIDATO
 
-## 1. Eduardo Artes
+### 1. EDUARDO ARTÉS - Unión Patriótica
 
 Mire, yo respeto a la gente que tiene sus ideales, pero este señor vive en otro planeta. Habla de nacionalizar el cobre, de acabar con las AFP, de un Estado que controle todo. Yo lo único que necesito es que me dejen trabajar en paz y que no me asalten cada dos meses.
 
@@ -32,9 +30,7 @@ Y lo del combustible, ni lo menciona. Para mí que gasto $300 lucas al mes en be
 
 ---
 
----
-
-## 2. Marco Enríquez-Ominami
+### 2. MARCO ENRÍQUEZ-OMINAMI - Partido Progresista
 
 Marco habla bonito, siempre lo ha hecho. Tiene propuestas interesantes como lo del CAE, que me importa porque mi hijo debe $18 millones y eso me quita el sueño. Dice que va a condonar, a hacer que el Estado se haga cargo. Eso está bien, pero ¿de dónde va a sacar la plata?
 
@@ -48,9 +44,7 @@ Lo del combustible, tampoco tiene una propuesta clara. Habla de transición ener
 
 ---
 
----
-
-## 3. Jeannette Jara
+### 3. JEANNETTE JARA - Frente Amplio
 
 Jeannette habla mucho de derechos, de justicia social, de proteger a los trabajadores. Eso suena bien, pero cuando veo las propuestas concretas, me preocupo. Quiere aumentar impuestos a los ricos, está bien, pero también habla de regular mucho, de fiscalizar, de controlar.
 
@@ -66,9 +60,7 @@ Lo de la salud, habla de fortalecer el sistema público, de más recursos para e
 
 ---
 
----
-
-## 4. José Antonio Kast
+### 4. JOSÉ ANTONIO KAST - Partido Republicano
 
 Kast habla mi idioma en seguridad. Mano dura, más cárceles, que los delincuentes paguen, fin de las puertas giratorias. ESO es lo que necesito. Me han asaltado dos veces este año y estoy chato. Quiero que prendan a estos delincuentes y que se pudran en la cárcel, no que salgan en 6 meses a seguir asaltando.
 
@@ -84,9 +76,7 @@ Lo de la salud, quiere fortalecer las isapres y el sector privado. Bacán para l
 
 ---
 
----
-
-## 5. Johannes Kaiser
+### 5. JOHANNES KAISER - Partido Social Cristiano
 
 Kaiser es como Kast pero más extremo. Habla de seguridad dura, de militares en las calles, de pena de muerte incluso. En seguridad me gusta que no se anda con rodeos, pero me parece que se va al otro extremo.
 
@@ -100,9 +90,7 @@ Lo del combustible, tampoco dice nada concreto. Habla de libre mercado, de que l
 
 ---
 
----
-
-## 6. Evelyn Matthei
+### 6. EVELYN MATTHEI - Renovación Nacional
 
 Matthei me genera más confianza que los otros. Tiene experiencia, ha sido alcaldesa, ministra, sabe cómo funciona el Estado. Y lo más importante: tiene propuestas concretas y realistas.
 
@@ -120,9 +108,7 @@ Lo de la salud, quiere fortalecer tanto el sistema público como el privado. Hab
 
 ---
 
----
-
-## 7. Harold Mayne-Nicholls
+### 7. HAROLD MAYNE-NICHOLLS - Independiente
 
 Mayne-Nicholls es una sorpresa. Viene del fútbol, no de la política tradicional, y se nota. Tiene ideas frescas pero aterrizadas.
 
@@ -142,9 +128,7 @@ Lo de la salud, tiene hartas propuestas: reducir listas de espera, colaboración
 
 ---
 
----
-
-## 8. Franco Parisi
+### 8. FRANCO PARISI - Partido de la Gente
 
 Parisi habla MI idioma. Es el único que tiene propuestas concretas para gente como yo que está en la informalidad rebuscándose la vida.
 
@@ -167,56 +151,6 @@ Lo que me gusta de Parisi es que piensa en soluciones CONCRETAS y MEDIBLES. No e
 Lo que no me gusta: no aborda el CAE (mi prioridad por mi hijo), y le falta algo directo sobre combustibles. Pero en general, es el que más me representa.
 
 **VEREDICTO:** El único que realmente entiende a los informales. Propuestas concretas que ponen plata en el bolsillo. Le falta CAE, pero es el más realista. **8/10**
-
----
-
-## RANKING FINAL (Perspectiva de Luis Hernández)
-
-1. **Franco Parisi - 8/10:** Propuestas concretas para informales. Devolución IVA medicamentos y canasta básica. Apoyo real a emprendedores. Seguridad seria. Falta CAE.
-
-2. **Evelyn Matthei - 7/10:** Equilibrada, realista, con experiencia. Seguridad sin extremos. Apoyo a pymes. Estabilidad. Le falta ser más directa con combustibles.
-
-3. **Harold Mayne-Nicholls - 7/10:** Práctico, completo, fresco. 500 mil empleos. Seguridad seria. Apoyo a pymes. Le falta CAE y combustibles.
-
-4. **José Antonio Kast - 6/10:** Excelente en seguridad (mi prioridad #1), pero me deja botado en lo económico y social. No habla del CAE.
-
-5. **Johannes Kaiser - 4/10:** Muy duro en seguridad, pero muy liberal en economía. No ofrece red de protección para informales como yo.
-
-6. **Marco Enríquez-Ominami - 4/10:** Buenas intenciones en CAE, pero muy alejado de mi realidad diaria. Mucho para profesionales, poco para informales.
-
-7. **Jeannette Jara - 3/10:** Muchos derechos en papel, pero más burocracia y controles. Seguridad "preventiva" no me sirve cuando me asaltan hoy.
-
-8. **Eduardo Artés - 2/10:** Vive en otro planeta. Ideología sin soluciones prácticas. Cero propuestas concretas para mis problemas reales.
-
----
-
-## ANÁLISIS FINAL
-
-Yo, Luis Hernández, soy un tipo que se levanta todos los días a las 6 AM, se sube a su auto y trabaja 12-14 horas para llevar plata a la casa, pagar la pensión alimenticia y las cuotas del auto. He sido asaltado dos veces este año. Gasto $300 lucas al mes en bencina. Llevo 3 años sin cotizar. Mi hijo debe $18 millones por el CAE.
-
-**Lo que necesito es simple:**
-- Seguridad para trabajar sin miedo
-- Que me ayuden con el combustible que me come el sueldo
-- Que formalizar sea fácil y barato, no un infierno de trámites
-- Que le solucionen la vida a mi hijo con esa deuda del CAE
-- Poder atenderme en salud aunque esté atrasado en cotizaciones
-
-**Parisi** es el único que me ofrece plata directa al bolsillo (devolución IVA) y facilidades reales para formalizar. Además tiene un plan de seguridad serio. Le falta el CAE, pero en todo lo demás me representa.
-
-**Matthei** y **Mayne-Nicholls** son buenos, responsables, realistas. Siento que con ellos el país no se va a desestabilizar y eso me da tranquilidad. Pero no tienen esas ayudas directas que Parisi sí ofrece.
-
-**Kast** me encanta en seguridad, pero siento que su modelo económico es para empresarios, no para tipos como yo que estamos al límite.
-
-Los demás están muy lejos de mi realidad. Hablan bonito, tienen ideales, pero no me resuelven los problemas que tengo HOY.
-
-**Mi voto sería para Parisi**, con Matthei como segunda opción si Parisi no me convence en el debate o si siento que sus promesas son muy arriesgadas.
-
----
-
-**Documento generado:** 23 de Octubre de 2025
-**Perspectiva:** Luis Hernández, 45 años, conductor Uber/delivery, Puente Alto
-**Metodología:** Evaluación en primera persona según persona_evaluation_standard.md v1.0
-**Extensión:** 250-500 palabras por candidato (cumplido)
 
 ---
 

@@ -1,8 +1,25 @@
 # Evaluación de Programas Presidenciales 2025
+## Perspectiva: 👴 Juan Carlos Muñoz - El Jubilado Precarizado
+
+**Edad:** 68 años
+**Ubicación:** Maipú, Santiago
+**Pensión:** $185.000 AFP + PGU
+**Situación:** Viudo, vive con hijo desempleado
+
+**Contexto Personal:**
+Trabajé 42 años, cotizé siempre. Recibo $185.000 de pensión. Gasto $45.000 en remedios cada mes. Hago fila desde las 5 AM para conseguir hora médica. Arriendo una pieza de mi casa para completar porque si no, no llego a fin de mes. Mi hijo está cesante y vive conmigo. Esto no es vida, es sobrevivir.
+
+**Mis Prioridades Electorales:**
+1. Pensiones dignas: Mínimo $500.000
+2. Salud: Fin de listas de espera
+3. Remedios: Gratuitos para crónicos
+4. Servicios básicos: Rebaja cuentas luz/agua
+5. Transporte: Gratuidad real metro/micro
+
+**Frase que me representa:**
+*"Construí este país y ahora vivo como pordiosero. Las AFP nos robaron"*
 
 ---
-
-## EVALUACIONES POR CANDIDATO
 
 ## 1. Eduardo Artes
 
@@ -16,8 +33,6 @@ Lo que me complica es que todo su programa suena muy radical. Quiere cambiar tod
 
 **Calificación Personal:** 6/10
 **¿Votaría por este candidato?** Tal vez - Promete lo que necesito ($500.000, remedios gratis), pero me da miedo tanto cambio radical a mi edad. No tengo tiempo para experimentos.
-
----
 
 ---
 
@@ -38,8 +53,6 @@ El problema con MEO es que todo suena a medias tintas. No termina de comprometer
 
 ---
 
----
-
 ## 3. Jeannette Jara
 
 Jara promete pensión mínima de $500.000 para todos los adultos mayores. Eso es exactamente lo que necesito. Dice que va a "fortalecer pilar solidario" y aumentar el aporte del Estado. Además, habla de "eliminar lucro en sistema previsional". Bien, porque esos weones de las AFP se hicieron ricos con nuestra plata mientras nosotros morimos de hambre.
@@ -54,8 +67,6 @@ Lo que me preocupa es si de verdad va a poder hacer todo esto. Suena muy bueno, 
 
 **Calificación Personal:** 8/10
 **¿Votaría por este candidato?** Sí - Es la que más directamente ataca mis problemas: $500.000, remedios gratis, rebaja en servicios. Si cumple aunque sea la mitad, mi vida mejora.
-
----
 
 ---
 
@@ -76,8 +87,6 @@ En servicios básicos no dice nada concreto. Habla de "eficiencia" y "libre merc
 
 ---
 
----
-
 ## 5. Johannes Kaiser
 
 Kaiser propone "pensión básica universal de $200.000" para todos. ¿$200.000? Eso es menos de lo que recibo ahora con la PGU. Habla de "libertad de elección en sistema previsional" y "cuentas individuales". Más de lo mismo. Las cuentas individuales son las AFP y ya sabemos cómo terminó eso.
@@ -92,8 +101,6 @@ Este candidato vive en otro mundo. Habla de libertad, mercado, eficiencia. Yo ne
 
 **Calificación Personal:** 2/10
 **¿Votaría por este candidato?** No - Ofrece menos de lo que tengo ahora. Puras ideas raras que no entienden la realidad de un jubilado pobre.
-
----
 
 ---
 
@@ -116,8 +123,6 @@ Matthei es más de lo mismo. Gestión eficiente, mejoras graduales, revisar, est
 
 ---
 
----
-
 ## 7. Harold Mayne-Nicholls
 
 Mayne-Nicholls dice que va a "implementar reforma de pensiones aprobada". ¿Cuál reforma? ¿La que lleva años en el Congreso? Eso no me dice nada. Habla de "reforzar PGU para adultos mayores" pero no dice cuánto. Sin números concretos no puedo saber si me sirve.
@@ -134,8 +139,6 @@ Mayne-Nicholls suena a buen tipo pero muy general. Muchas ideas bonitas pero nad
 
 **Calificación Personal:** 4/10
 **¿Votaría por este candidato?** No - Demasiado vago. Buenas intenciones pero sin medidas concretas que mejoren mi situación.
-
----
 
 ---
 
@@ -174,5 +177,3 @@ Jara es la única que entiende mi urgencia y propone soluciones concretas. Puede
 ---
 
 **NOTA METODOLÓGICA:** Esta evaluación fue generada siguiendo el estándar persona_evaluation_standard.md v1.0, representando auténticamente la perspectiva y voz de Juan Carlos Muñoz basándose en su perfil detallado en docs/02_grupos_interes_electoral.md.
-
----

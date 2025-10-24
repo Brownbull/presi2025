@@ -1,8 +1,25 @@
 # Evaluación de Programas Presidenciales 2025
+## Perspectiva: 🏢 Roberto González - El Santiaguino Hastiado
+
+**Edad:** 44 años
+**Ubicación:** Ñuñoa, Santiago
+**Ocupación:** Gerente medio en empresa nacional
+**Situación:** Casa robada 2 veces, hijo mayor quiere emigrar, 50% del sueldo en educación/salud
+
+**Contexto Personal:**
+Vivo en Ñuñoa, trabajo como gerente medio y mi ingreso familiar es de $4.5 millones mensuales. Suena bien en papel, pero la realidad es que el 50% se va en colegio particular y salud privada. Mi casa ha sido robada dos veces en los últimos años. Mi hijo mayor habla de irse del país porque no ve futuro acá. Evito salir de noche en mi propio barrio. Este no es el país donde crecí, y mis hijos no tienen las oportunidades que yo tuve.
+
+**Mis Prioridades Electorales:**
+1. Seguridad: Necesito orden público ya
+2. Migración: Control efectivo de fronteras
+3. Crecimiento: Reactivar la economía para que mi empresa no recorte personal
+4. Impuestos: No más alzas, ya pago suficiente
+5. Certeza jurídica: Estabilidad de reglas para poder planificar
+
+**Frase que me representa:**
+*"Trabajo 12 horas diarias, pago mis impuestos, pero vivo con miedo. ¿Para esto estudié y me esforcé?"*
 
 ---
-
-## EVALUACIONES POR CANDIDATO
 
 ## 1. Eduardo Artes
 
@@ -19,8 +36,6 @@ Lo más grave: no dice nada sobre bajar impuestos o aliviar la carga tributaria.
 **Calificación Personal:** 2/10
 
 **¿Votaría por este candidato?** No - Su modelo económico amenaza mi empleo, su visión de seguridad es utópica, y su propuesta migratoria ignora completamente el problema del control fronterizo. Estoy harto, pero no desesperado para apoyar esto.
-
----
 
 ---
 
@@ -42,8 +57,6 @@ Lo positivo es que al menos menciona la **economía de mercado** y no plantea na
 
 ---
 
----
-
 ## 3. Jeannette Jara
 
 Leo su programa y siento que no me habla a mí. Todo está enfocado en **"sectores vulnerables", "pensiones dignas", "Estado garante"**. Entiendo que hay gente que lo necesita, pero ¿qué hay para la clase media como yo? Los que trabajamos, pagamos impuestos, mantenemos familias, y sentimos que siempre ponemos pero nunca recibimos.
@@ -59,8 +72,6 @@ Lo único rescatable es que habla de **"transparencia" y "combate a la corrupci�
 **Calificación Personal:** 3/10
 
 **¿Votaría por este candidato?** No - Su programa no considera mi realidad. Estoy en la clase media que sostiene el país con impuestos pero no recibe nada a cambio. Más Estado y más gasto no es la solución que necesito.
-
----
 
 ---
 
@@ -84,8 +95,6 @@ Mi única preocupación: algunos temas valóricos pueden generar polarización. 
 
 ---
 
----
-
 ## 5. Johannes Kaiser
 
 Kaiser es interesante pero errático. Por un lado, propone **"eliminación de privilegios de la clase política"** y **"reducción del Estado"**, lo cual comparto totalmente. Estoy harto de políticos que viven regaladamente mientras el país se cae a pedazos. Pero por otro lado, algunas de sus propuestas me parecen demasiado radicales o simplemente poco serias.
@@ -103,8 +112,6 @@ Comparto su rabia contra el sistema. Yo también estoy hastiado. Pero la rabia n
 **Calificación Personal:** 4/10
 
 **¿Votaría por este candidato?** No - Comparto su diagnóstico pero no confío en sus soluciones. Es demasiado radical en algunas áreas y demasiado vago en otras. Prefiero alguien más sólido técnicamente.
-
----
 
 ---
 
@@ -128,8 +135,6 @@ Es el programa más completo que he leído. Aborda mis cinco prioridades con ser
 
 ---
 
----
-
 ## 7. Harold Mayne-Nicholls
 
 Mayne-Nicholls tiene un programa interesante, con énfasis en **modernización del Estado y digitalización**. La **Medida 344-346 de digitalizar 20 trámites en el primer año** y **90% de trámites online al cuarto año** suena excelente. Como gerente, pierdo horas en trámites burocráticos inútiles. Esto ayudaría.
@@ -147,8 +152,6 @@ El programa es moderno, bien intencionado, pero le falta punch. Es demasiado tib
 **Calificación Personal:** 6/10
 
 **¿Votaría por este candidato?** Tal vez - Tiene propuestas interesantes de modernización y empleo, pero le falta contundencia en seguridad y control migratorio. No me genera la confianza de que recuperaré mi tranquilidad.
-
----
 
 ---
 
@@ -189,5 +192,3 @@ Vivo en un barrio que se cayó en inseguridad. Mi hijo quiere irse del país. Tr
 **Razón principal:** Programa técnico con 584 medidas específicas, inversión concreta de US$2.500 millones en seguridad, rebaja tributaria al 23% (llegando al 18%), control migratorio efectivo con Policía Militar Fronteriza, y contratos de invariabilidad de 20 años. Es lo más cercano a recuperar el país que conocí.
 
 **Reservas:** Necesito ver el detalle financiero de cómo se financia todo. Los recortes de US$8.000 millones en gasto público deben ser reales, no cosméticos. Y la implementación tiene que empezar desde el día uno. No puedo esperar otros 4 años de promesas incumplidas. Mi paciencia se agotó.
-
----

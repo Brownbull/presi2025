@@ -1,8 +1,25 @@
 # Evaluación de Programas Presidenciales 2025
+## Perspectiva: Carmen Huaiquilaf - La Madre Mapuche Urbana
+
+**Edad:** 33 años
+**Ubicación:** Temuco
+**Ocupación:** Asistente de educación intercultural
+**Situación:** Separada, 3 hijos, vive allegada con sus padres, ex marido no paga pensión
+
+**Contexto Personal:**
+Trabajo en educación intercultural pero veo cómo mis propios hijos pierden el mapudungun cada día que pasa. Vivo allegada con mis padres porque mi ex no paga pensión y no hay subsidio de vivienda que reconozca nuestra realidad mapuche urbana. Enfrento discriminación constante: en el trabajo cuando uso mi apellido, en la calle cuando hablo con mis hijos en mapudungun, en las instituciones que solo ven "chilenos" y no ven que somos un pueblo. Mis hijos son chilenos y mapuche, pero el Estado solo ve lo primero.
+
+**Mis Prioridades Electorales:**
+1. Plurinacionalidad: Reconocimiento real del pueblo mapuche
+2. Educación: Intercultural efectiva, no solo simbólica
+3. Vivienda: Subsidio pertinente culturalmente
+4. Pensión alimenticia: Enforcement real contra padres que no pagan
+5. Discriminación: Ley antirracismo con dientes
+
+**Frase que me representa:**
+*"Estoy cansada de gestos simbólicos sin políticas reales. Necesito que mis hijos vivan su identidad mapuche sin tener que elegir entre ella y su futuro."*
 
 ---
-
-## EVALUACIONES POR CANDIDATO
 
 ## 1. Eduardo Artes
 
@@ -20,8 +37,6 @@ Su enfoque en el Estado socialista me hace dudar. ¿Otro Estado centralizado que
 
 ---
 
----
-
 ## 2. Marco Enríquez-Ominami
 
 Su programa menciona **Medida 125: Apoyo efectivo a pueblos originarios con políticas culturales de reconocimiento y espacios de participación**. Palabras bonitas. ¿Qué significa "apoyo efectivo"? Trabajo en educación intercultural y cada semana escucho "espacios de participación" que son solo fotos. Necesito presupuesto concreto, horas de mapudungun en el curriculum, no "espacios".
@@ -35,8 +50,6 @@ Dice hablar de "diálogo" y "consensos" pero no veo diálogo con pueblos origina
 **Calificación Personal:** 4/10
 
 **¿Votaría por este candidato?** No - Promesas vagas de "reconocimiento" sin contenido. Ignora completamente pensión alimenticia y realidad mapuche urbana.
-
----
 
 ---
 
@@ -58,8 +71,6 @@ Habla mucho de derechos de las mujeres, y lo agradezco, pero soy mujer Y mapuche
 
 ---
 
----
-
 ## 4. José Antonio Kast
 
 Leo su programa con preocupación. Propone **Medida 129: Plan "Iluminar La Araucanía"** y **Medida 130: Entregar señal de Internet en cada rincón de La Araucanía**. ¿Y el reconocimiento de que esto es territorio mapuche? Habla de "La Araucanía" como problema de infraestructura, no como territorio de un pueblo.
@@ -75,8 +86,6 @@ En lo positivo, tiene medidas de pensión alimenticia en su sección social, per
 **Calificación Personal:** 2/10
 
 **¿Votaría por este candidato?** No - Su visión de La Araucanía es militarización y desarrollo extractivista sin reconocimiento. Representa exactamente lo que nos ha oprimido históricamente.
-
----
 
 ---
 
@@ -98,8 +107,6 @@ Su enfoque libertario probablemente significaría eliminar las pocas proteccione
 
 ---
 
----
-
 ## 6. Evelyn Matthei
 
 Leo su programa buscando señales. Propone **Medida 99: Fortalecer educación pública con autonomía en gestión pedagógica**. ¿Esa autonomía incluye educación intercultural decidida por comunidades mapuche? Porque "autonomía" a veces significa que cada director decide, y muchos directores ignoran lo intercultural.
@@ -115,8 +122,6 @@ Lo que sí me interesa es su **Medida 128: Fortalecimiento tribunal de familia**
 **Calificación Personal:** 4/10
 
 **¿Votaría por este candidato?** No - Palabras de reconocimiento sin contenido político real. Su visión de "orden" en la Macrozona Sur me preocupa. Nada concreto sobre plurinacionalidad.
-
----
 
 ---
 
@@ -137,8 +142,6 @@ Su enfoque es pragmático pero incremental. Quizás mejore la experiencia en el 
 **Calificación Personal:** 5/10
 
 **¿Votaría por este candidato?** Tal vez - Tiene medidas concretas en salud intercultural pero no hay visión transformadora. Mejoras administrativas sin reconocimiento político profundo.
-
----
 
 ---
 
@@ -178,4 +181,3 @@ Y necesito que alguien entienda que soy mujer Y mapuche Y madre Y trabajadora to
 
 Probablemente voy a votar por ella en primera vuelta, pero sin esperanza real de cambio profundo. Será otro gobierno que hablará bonito de reconocimiento y luego nos ofrecerá migajas administrativas. Mientras tanto, mis hijos seguirán perdiendo el mapudungun y yo seguiré viviendo allegada porque ningún subsidio reconoce que necesitamos espacios para ser familia mapuche en la ciudad.
 
----

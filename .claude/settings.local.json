@@ -1,26 +1,7 @@
 {
   "permissions": {
     "allow": [
-      "Bash(test:*)",
-      "Bash(npm install)",
-      "Bash(npm run build:*)",
-      "Bash(npm start)",
-      "Bash(git add:*)",
-      "Bash(git commit:*)",
-      "Bash(git push:*)",
-      "Bash(gh repo view:*)",
-      "Bash(git remote:*)",
-      "Bash(npx playwright:*)",
-      "Bash(node test-site.js:*)",
-      "Bash(npm install:*)",
-      "Read(//c/Users/Gabe/.claude/skills/playwright-skill/**)",
-      "Bash(powershell:*)",
-      "Skill(playwright-skill)",
-      "Bash(node -e:*)",
-      "Bash(node run.js:*)",
-      "Bash(node:*)",
-      "Bash(Select-String -Pattern \"Pedro Quintana\" -Context 15)",
-      "Bash(copy \"C:\\tmp\\playwright-test-persona-verification.js\" \"C:\\Users\\Gabe\\.claude\\skills\\playwright-skill\\test-verification.js\")"
+      "Bash(done)"
     ],
     "deny": [],
     "ask": []

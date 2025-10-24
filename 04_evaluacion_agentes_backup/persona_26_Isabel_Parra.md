@@ -1,16 +1,23 @@
 # Evaluación de Candidatos Presidenciales 2025
+## Persona 26: Isabel Parra - La Profe Militante
+
+**Perfil:**
+- **Edad**: 43 años
+- **Comuna**: San Miguel
+- **Ocupación**: Profesora de Historia en liceo municipal
+- **Ingreso mensual**: $1.800.000
+- **Militancia**: Activa del Colegio de Profesores, participante en movilizaciones desde 2006
+- **Preocupaciones**: Carrera docente, fin del CAE, educación pública gratuita y de calidad, condiciones laborales, reconocimiento social de la profesión
 
 ---
 
-## EVALUACIONES POR CANDIDATO
-
-## 1. Eduardo Artes
+## Eduardo Artés
 
 Como profesora que lleva años en el aula, me cuesta confiar en candidatos que solo hablan de principios abstractos sin propuestas concretas para la educación. Artés presenta una visión antiimperialista que comparto en parte, pero cuando busco medidas específicas sobre carrera docente, condiciones laborales o fin del CAE, no encuentro nada. Su programa está lleno de generalidades sobre "transformación social" pero no dice cómo vamos a pagar las cuentas este mes con mi sueldo de $1.800.000, ni cómo va a mejorar las condiciones en mi liceo municipal donde tenemos 40 alumnos por sala y baños sin papel higiénico.
 
 Habla de justicia social pero no menciona nada sobre el estatuto docente, sobre reconocimiento profesional, sobre dignificar la labor de quienes educamos en lo público. Me parece que es más discurso que propuesta real. Los profesores necesitamos medidas concretas, no solo retórica revolucionaria. Después de 17 años en movilizaciones, aprendí a distinguir entre quien tiene un plan y quien solo tiene un megáfono.
 
-**Calificación Personal:** 2/10
+**Calificación: 2/10**
 
 **Calificación Personal:** 2/10
 **¿Votaría por este candidato?** TBD - Mucha ideología, cero propuestas concretas para educación
@@ -18,9 +25,7 @@ Habla de justicia social pero no menciona nada sobre el estatuto docente, sobre 
 
 ---
 
----
-
-## 2. Marco Enríquez-Ominami
+## Marco Enríquez-Ominami
 
 Marco me genera sentimientos encontrados. Por un lado, propone "Fortalecimiento de educación pública mediante inyección presupuestaria permanente y mejora de infraestructura" [p.8], lo cual suena bien. También habla de "Abordar precarización laboral en educación" [p.8], que es exactamente mi realidad diaria. Pero cuando leo el detalle, me quedo con dudas: ¿cuánto presupuesto? ¿cómo se implementa? ¿en qué plazo?
 
@@ -30,7 +35,7 @@ Lo que me preocupa es que su programa parece escrito para quedar bien con todos.
 
 Tampoco veo nada sobre despolitización de la educación pública, sobre autonomía real de los establecimientos, sobre terminar con la precarización que significa tener contratos a plazo fijo y directores puestos a dedo por alcaldes. Como profe que ha visto pasar muchos gobiernos, me parece más de lo mismo: buenas intenciones, diagnóstico correcto, pero sin la radicalidad necesaria para cambiar el sistema.
 
-**Calificación Personal:** 4/10
+**Calificación: 4/10**
 
 **Calificación Personal:** 4/10
 **¿Votaría por este candidato?** TBD - Identifica problemas pero propuestas tibias
@@ -38,9 +43,7 @@ Tampoco veo nada sobre despolitización de la educación pública, sobre autonom
 
 ---
 
----
-
-## 3. Jeannette Jara
+## Jeannette Jara
 
 Jeannette es la candidata que más me representa en educación, sin duda. Desde el inicio propone medidas concretas que hemos peleado durante años en el Colegio de Profesores. Empezando por "Condonación total créditos CAE sin quita complementaria" [p.48] - esto es justicia pura y dura para la generación que fue estafada con ese sistema criminal.
 
@@ -56,7 +59,7 @@ En salud, que me preocupa porque trabajo en sector público, propone "Fortalecim
 
 Lo único que me genera dudas es la viabilidad: ¿de dónde sale el financiamiento para todo esto? Propone "Reforma tributaria progresiva con impuestos a grandes fortunas y patrimonio" [p.27], lo cual me parece correcto, pero ¿será suficiente? ¿será políticamente posible? Llevo suficientes años en esto para saber que las buenas ideas se estrellan contra el Congreso.
 
-**Calificación Personal:** 9/10
+**Calificación: 9/10**
 
 **Calificación Personal:** 9/10
 **¿Votaría por este candidato?** TBD - El programa que necesitamos, con dudas de viabilidad
@@ -64,9 +67,7 @@ Lo único que me genera dudas es la viabilidad: ¿de dónde sale el financiamien
 
 ---
 
----
-
-## 4. José Antonio Kast
+## José Antonio Kast
 
 Kast representa todo lo que hemos combatido en educación durante décadas. Propone "Eliminación de ideología de género y adoctrinamiento político en colegios" [p.12] - esto es un ataque directo a la libertad de cátedra y a la educación crítica que defendemos. Como profesora de Historia, mi trabajo es enseñar a pensar, a cuestionar, a analizar críticamente la realidad. Él quiere una educación domesticada que forme súbditos, no ciudadanos.
 
@@ -80,7 +81,7 @@ En educación superior propone "Eliminación de cuotas de género y promoción d
 
 En lo económico, propone rebajas tributarias que benefician a los ricos mientras nosotros seguimos con sueldos de miseria. Y en seguridad, su programa es represivo y militarista, sin abordar las causas sociales de la violencia.
 
-**Calificación Personal:** 1/10
+**Calificación: 1/10**
 
 **Calificación Personal:** 1/10
 **¿Votaría por este candidato?** TBD - Representa todo lo que hemos combatido
@@ -88,9 +89,7 @@ En lo económico, propone rebajas tributarias que benefician a los ricos mientra
 
 ---
 
----
-
-## 5. Johannes Kaiser
+## Johannes Kaiser
 
 Kaiser es aún peor que Kast, si eso es posible. Propone "Eliminar Ministerio de Educación y transferir competencias a gobiernos regionales" [p.9], lo que significa destruir cualquier posibilidad de una política educativa nacional coherente. La educación quedaría completamente a merced de los recursos de cada región, profundizando las desigualdades territoriales brutales que ya existen.
 
@@ -106,7 +105,7 @@ Además, propone "Congelar contratación de funcionarios públicos y reducir dot
 
 Su programa completo es un manifiesto ultraneoliberal y ultraconservador que destruiría todo lo que hemos construido en décadas de lucha social.
 
-**Calificación Personal:** 0/10
+**Calificación: 0/10**
 
 **Calificación Personal:** 0/10
 **¿Votaría por este candidato?** TBD - Peligro absoluto para educación pública
@@ -114,9 +113,7 @@ Su programa completo es un manifiesto ultraneoliberal y ultraconservador que des
 
 ---
 
----
-
-## 6. Evelyn Matthei
+## Evelyn Matthei
 
 Matthei es la candidata del establishment, con todas las contradicciones que eso implica. Por un lado, tiene experiencia de gestión y su programa es más técnico que ideológico. Propone "Aumento de subvención escolar preferencial (SEP) para estudiantes vulnerables" [p.16], lo cual es positivo pero insuficiente. La SEP existe hace años y no ha resuelto las desigualdades estructurales.
 
@@ -134,7 +131,7 @@ Su programa en salud mantiene las Isapres, lo que me parece inaceptable. Propone
 
 Matthei es continuismo. No va a destruir todo como Kaiser o Kast, pero tampoco va a transformar el sistema estructuralmente. Es administración eficiente de la desigualdad.
 
-**Calificación Personal:** 4/10
+**Calificación: 4/10**
 
 **Calificación Personal:** 4/10
 **¿Votaría por este candidato?** TBD - Gestión sin transformación
@@ -142,9 +139,7 @@ Matthei es continuismo. No va a destruir todo como Kaiser o Kast, pero tampoco v
 
 ---
 
----
-
-## 7. Harold Mayne-Nicholls
+## Harold Mayne-Nicholls
 
 Mayne-Nicholls tiene un programa técnico y bien intencionado, pero que no entiende las demandas históricas del movimiento docente. Propone crear el "Instituto Nacional para la Mejora Educativa (INME), organismo público autónomo" [p.21], lo cual puede ser útil para evaluación técnica, pero no resuelve los problemas de fondo: precarización, bajos sueldos, agobio laboral.
 
@@ -160,7 +155,7 @@ En aspectos positivos, menciona "Garantizar cobertura universal de sala cuna des
 
 Su programa tiene buena voluntad y visión modernizadora, pero le falta comprensión profunda de las demandas sociales en educación. Es tecnocracia sin transformación.
 
-**Calificación Personal:** 5/10
+**Calificación: 5/10**
 
 **Calificación Personal:** 5/10
 **¿Votaría por este candidato?** TBD - Buenas intenciones, falta de radicalidad
@@ -168,9 +163,7 @@ Su programa tiene buena voluntad y visión modernizadora, pero le falta comprens
 
 ---
 
----
-
-## 8. Franco Parisi
+## Franco Parisi
 
 Parisi es el candidato del espectáculo político, y su programa en educación lo confirma. Propone transformar la educación técnico-profesional en "hub de emprendimiento" [p.35] y enfoca todo hacia formar emprendedores. Esto me parece profundamente problemático: no todos los estudiantes quieren o pueden ser emprendedores. La educación debe formar ciudadanos integrales, no solo fuerza laboral precarizada disfrazada de "emprendedores".
 
@@ -188,7 +181,7 @@ Su propuesta de "Modificación de sueldos de alta dirección pública con topes 
 
 Parisi es puro marketing político. Su programa está lleno de buzzwords ("innovación", "emprendimiento", "IA") pero vacío de compromiso con la educación pública como derecho. Es la versión millennial del neoliberalismo.
 
-**Calificación Personal:** 3/10
+**Calificación: 3/10**
 
 **Calificación Personal:** 3/10
 **¿Votaría por este candidato?** TBD - Marketing sin contenido transformador
@@ -196,4 +189,24 @@ Parisi es puro marketing político. Su programa está lleno de buzzwords ("innov
 
 ---
 
+## Conclusión Personal
+
+Después de 17 años en educación pública, participando en cada movilización desde 2006, leyendo estos programas con la experiencia de quien vive día a día la precarización del sistema, mi conclusión es clara: **Jeannette Jara es la única candidata que representa nuestras demandas históricas**.
+
+Los candidatos de derecha (Kast, Kaiser, Matthei) proponen profundizar el modelo que nos tiene así: mercantilización, precarización, responsabilización individual. Los candidatos de centro (MEO, Mayne-Nicholls) reconocen problemas pero proponen soluciones tibias que no transforman nada estructural. Parisi es puro show. Artés tiene ideología pero no propuestas concretas.
+
+Jara propone lo que llevamos décadas exigiendo: educación pública universal y gratuita, fin del CAE, mejoras salariales reales para docentes, estabilidad laboral, fin del lucro en educación. Su programa no es perfecto y tiene dudas de viabilidad política, pero es el único que plantea un cambio de paradigma real.
+
+Como profesora de Historia, sé que los cambios profundos nunca han sido fáciles ni rápidos. Pero también sé que sin voluntad política de transformación, seguiremos administrando la desigualdad generación tras generación.
+
+Por eso voy a votar por Jara. Y si no gana, seguiré en las calles, como siempre, porque esta lucha no se termina en una elección. La educación pública se defiende en el aula y en la calle, con o sin gobierno amigo.
+
+**Candidata preferida:** Jeannette Jara (9/10)
+**Segunda opción:** Harold Mayne-Nicholls (5/10) - Solo como mal menor
+**Candidatos inaceptables:** Kaiser, Kast, Matthei, Parisi
+
 ---
+
+*Isabel Parra - Profesora de Historia, Liceo Municipal de San Miguel*
+*Militante del Colegio de Profesores*
+*"La educación pública no se vende, se defiende"*

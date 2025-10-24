@@ -31,11 +31,9 @@
 
 ---
 
----
-
 ## EVALUACIONES POR CANDIDATO
 
-## 1. Eduardo Artes
+### EDUARDO ARTES - UNION PATRIOTICA
 
 Artes habla de revolucion, de cambio de sistema, de nacionalizar todo. Mire, yo trabajo EN el sistema publico, lo vivo todos los dias. El problema no es que exista el sector privado, el problema es que nos tienen abandonados aca adentro. Sus 11 medidas de salud son puro discurso: "fortalecimiento integral", "sistema unico", "enfoque preventivo". Ya, pero COMO? Con que plata? Con que gente?
 
@@ -52,9 +50,7 @@ Puntaje: 3/10. Entiende la rabia, pero no entiende el hospital.
 
 ---
 
----
-
-## 2. Marco Enríquez-Ominami
+### MARCO ENRIQUEZ-OMINAMI - PARTIDO PROGRESISTA
 
 MEO me suena a mas de lo mismo, pero con mejor marketing. Habla lindo de "fortalecer salud publica" (Medida 118) y "mejorar condiciones laborales personal sanitario" (Medida 120), pero son frases genericas que he escuchado en cada gobierno de los ultimos 20 anos.
 
@@ -73,9 +69,7 @@ Puntaje: 4/10. Habla bonito pero no resuelve mi vida.
 
 ---
 
----
-
-## 3. Jeannette Jara
+### JEANNETTE JARA - FRENTE AMPLIO
 
 Jara es la que mejor entiende el colapso del sistema publico. Su diagnostico es certero: "tiempos de espera inadmisibles", "condiciones laborales precarias", "agresiones a funcionarios". Me siento vista cuando leo su programa.
 
@@ -96,9 +90,7 @@ Puntaje: 8/10. Me habla directo a mi realidad.
 
 ---
 
----
-
-## 4. José Antonio Kast
+### JOSE ANTONIO KAST - PARTIDO REPUBLICANO
 
 Kast habla de "libertad de eleccion" y "subsidio portabilidad" (Medida 205). O sea, mas plata para que la gente se vaya al sector privado y nos deje a nosotros en el publico con menos recursos y mas colapso. Gracias, pero no.
 
@@ -119,9 +111,7 @@ Puntaje: 2/10. No cree en lo que yo hago.
 
 ---
 
----
-
-## 5. Johannes Kaiser
+### JOHANNES KAISER - PARTIDO SOCIAL CRISTIANO
 
 Kaiser tiene un programa gigante con 467 medidas pero busco en salud y encuentro mas tecnocracia que humanidad. Habla de "transformacion digital", "telemedicina", "inteligencia artificial en hospitales" (Medidas 163-168). Mire, yo no necesito mas computadores, necesito mas manos, mas enfermeras, mejores sueldos.
 
@@ -142,9 +132,7 @@ Puntaje: 5/10. Tiene algunas ideas buenas entre mucha tecnocracia.
 
 ---
 
----
-
-## 6. Evelyn Matthei
+### EVELYN MATTHEI - RENOVACION NACIONAL / CHILE VAMOS
 
 Matthei es pragmatica, eso se nota. No promete revoluciones, promete mejoras graduales. Su propuesta de "plan choque reduccion listas espera" (Medida 148) con "compra servicios sector privado cuando sea necesario" (Medida 149) es realista, aunque me duele admitir que a veces necesitamos al privado para descomprimir.
 
@@ -167,9 +155,7 @@ Puntaje: 6/10. Realista pero insuficiente.
 
 ---
 
----
-
-## 7. Harold Mayne-Nicholls
+### HAROLD MAYNE-NICHOLLS - INDEPENDIENTE
 
 Mayne-Nicholls tiene un programa largo (419 medidas) pero cuando busco salud encuentro generalidades. "Enfrentar tiempos de espera, aumentar capacidad resolutiva y mejorar experiencia del usuario" (Medida 132). Ya, pero COMO?
 
@@ -192,9 +178,7 @@ Puntaje: 4/10. Mucho papel, poco contenido para mi realidad.
 
 ---
 
----
-
-## 8. Franco Parisi
+### FRANCO PARISI - PARTIDO DE LA GENTE
 
 Parisi es el candidato tecnocrata por excelencia. Su programa tiene 468 medidas llenas de numeros, porcentajes, acronimos. En salud propone cosas interesantes pero complejas.
 
@@ -214,50 +198,6 @@ Puntaje: 3/10. Quiere gestionarnos como empresa, no cuidarnos como trabajadores.
 
 **Calificación Personal:** 3/10
 **¿Votaría por este candidato?** No - Pura tecnocracia: evaluación por desempeño, despidos, alianzas público-privadas. Nada sobre protección, sueldos, turnos o cuidadores.
-
----
-
-## RANKING FINAL
-
-1. **JEANNETTE JARA - 8/10**: Es la unica que me habla directo. Entiende el colapso, propone soluciones concretas para mis problemas especificos. Quiere reducir turnos de 24 horas, protegerme legalmente contra agresiones, aumentar presupuesto real, contratar mas personal. Propone Sistema Nacional de Cuidados que me ayudaria con mi mama. Es la unica que dice "los veo, los escucho, los voy a cuidar".
-
-2. **EVELYN MATTHEI - 6/10**: No me emociona pero es realista. Reconoce que nos pagan mal, que nos agreden, que el sistema esta colapsado. Sus soluciones son graduales, tal vez insuficientes, pero al menos no suena a fantasia. Propone proteccion real contra agresiones con consecuencias legales. Falta mas ambicion en transformacion, pero al menos no promete lo imposible.
-
-3. **JOHANNES KAISER - 5/10**: Tiene algunas propuestas buenas (reduccion turnos extensos, programa bienestar emocional, sistema de cuidadores) pero todo mezclado con mucha tecnocracia y gestion empresarial. Me preocupa su enfasis en "incentivos por desempeno". Necesito ver mas detalles de sus propuestas sociales y menos enfasis en digitalizacion.
-
-4. **MARCO ENRIQUEZ-OMINAMI - 4/10 / HAROLD MAYNE-NICHOLLS - 4/10**: Empate. Ambos tienen diagnostico correcto pero propuestas vagas. MEO habla bonito de "dignificacion" y "fortalecimiento" pero sin concreciones. Mayne-Nicholls tiene 419 medidas pero cuando llegas a salud encuentras generalidades. Ambos mencionan sistema de cuidados pero sin detalles. No me convencen.
-
-5. **EDUARDO ARTES - 3/10 / FRANCO PARISI - 3/10**: Otro empate, pero por razones opuestas. Artes quiere revolucion pero no entiende el hospital. Parisi quiere eficiencia pero no nos ve como personas. Artes puro discurso, Parisi pura tecnocracia. Ninguno resuelve mi vida concreta.
-
-6. **JOSE ANTONIO KAST - 2/10**: El unico que me da la sensacion de que quiere minimizar el sector publico, no fortalecerlo. Enfasis en derivar al privado, en "gestion eficiente", en hacer mas con menos. No habla de reajustes, no habla de proteccion, no habla de cuidadores. Para el, el sector publico parece ser un problema, no una solucion.
-
----
-
-## REFLEXION FINAL
-
-Despues de leer ocho programas, me queda claro que pocos candidatos entienden realmente lo que es trabajar en el sistema publico de salud hoy. La mayoria habla de "fortalecimiento", "modernizacion", "eficiencia", pero pocos hablan de nosotros, de los que sostenemos el sistema con nuestros cuerpos y nuestra salud mental.
-
-Necesito un candidato que entienda que:
-- Los turnos de 24 horas nos estan matando
-- Las agresiones son reales y frecuentes, necesitamos proteccion legal
-- Sin reajuste real hace 4 anos, nuestros sueldos se derriten
-- Cuidar a un familiar dependiente mientras trabajamos es insostenible sin apoyo estatal
-- El burnout no se soluciona con un psicologo, se soluciona con mejores condiciones laborales
-
-Jeannette Jara es la unica que responde a estas necesidades concretas. Matthei al menos las reconoce aunque sus soluciones sean timidas. El resto o no nos ve o nos quiere gestionar como si fueramos una empresa.
-
-Yo no pido revolucion. Pido dignidad. Pido que me paguen lo justo, que me protejan cuando me agreden, que reconozcan que cuidar enfermos 24 horas seguidas te destroza, que me ayuden a cuidar a mi mama sin tener que renunciar a mi trabajo.
-
-Somos heroes cuando conviene, pero nos pagan como villanos. Ya basta.
-
----
-
-**DOCUMENTO:** Evaluacion Persona 07 - Daniela Soto
-**FECHA:** 23 de Octubre de 2025
-**FORMATO:** Evaluacion comprehensiva 8 candidatos presidenciales Chile 2025
-**ESTANDAR:** persona_evaluation_standard.md v1.0
-**TOTAL PALABRAS:** ~4.200 palabras (promedio 525 palabras por candidato)
-**VOZ:** Primera persona, enfermera hospital publico, burnout diagnosticado, cuidadora no remunerada
 
 ---
 

@@ -29,13 +29,11 @@
 
 ---
 
----
-
 ## EVALUACIONES POR CANDIDATO
 
-## 1. Eduardo Artes
+### EDUARDO ARTÉS - UNIÓN PATRIÓTICA
 
-**Calificación Personal:** 1.5/10
+**Calificación: 1.5/10**
 
 **Calificación Personal:** 1.5/10
 **¿Votaría por este candidato?** TBD
@@ -48,11 +46,9 @@ No menciona absolutamente nada sobre tecnología, digitalización o innovación.
 
 ---
 
----
+### MARCO ENRÍQUEZ-OMINAMI - PROGRESISTA
 
-## 2. Marco Enríquez-Ominami
-
-**Calificación Personal:** 3.5/10
+**Calificación: 3.5/10**
 
 **Calificación Personal:** 3.5/10
 **¿Votaría por este candidato?** TBD
@@ -67,11 +63,9 @@ Lo positivo es que al menos reconoce la importancia de la economía digital. Per
 
 ---
 
----
+### JEANNETTE JARA - FRENTE AMPLIO
 
-## 3. Jeannette Jara
-
-**Calificación Personal:** 2.0/10
+**Calificación: 2.0/10**
 
 **Calificación Personal:** 2.0/10
 **¿Votaría por este candidato?** TBD
@@ -86,11 +80,9 @@ Para un empresario que ya está pagando 48% en impuestos, Jara representa más d
 
 ---
 
----
+### JOSÉ ANTONIO KAST - REPUBLICANO
 
-## 4. José Antonio Kast
-
-**Calificación Personal:** 6.5/10
+**Calificación: 6.5/10**
 
 **Calificación Personal:** 6.5/10
 **¿Votaría por este candidato?** TBD
@@ -105,11 +97,9 @@ Propone "modernización digital del Estado" pero sin el nivel de detalle técnic
 
 ---
 
----
+### JOHANNES KAISER - PARTIDO SOCIAL CRISTIANO
 
-## 5. Johannes Kaiser
-
-**Calificación Personal:** 4.0/10
+**Calificación: 4.0/10**
 
 **Calificación Personal:** 4.0/10
 **¿Votaría por este candidato?** TBD
@@ -124,11 +114,9 @@ Para alguien que necesita certeza jurídica y reglas claras, Kaiser representa d
 
 ---
 
----
+### EVELYN MATTHEI - CENTRODERECHA
 
-## 6. Evelyn Matthei
-
-**Calificación Personal:** 7.5/10
+**Calificación: 7.5/10**
 
 **Calificación Personal:** 7.5/10
 **¿Votaría por este candidato?** TBD
@@ -143,11 +131,9 @@ Sin embargo, le falta audacia en temas de innovación. No propone una ley fintec
 
 ---
 
----
+### HAROLD MAYNE-NICHOLLS - INDEPENDIENTE
 
-## 7. Harold Mayne-Nicholls
-
-**Calificación Personal:** 6.0/10
+**Calificación: 6.0/10**
 
 **Calificación Personal:** 6.0/10
 **¿Votaría por este candidato?** TBD
@@ -162,11 +148,9 @@ El problema es que su programa es fuerte en gestión pública pero débil en vis
 
 ---
 
----
+### FRANCO PARISI - PARTIDO DE LA GENTE
 
-## 8. Franco Parisi
-
-**Calificación Personal:** 8.5/10
+**Calificación: 8.5/10**
 
 **Calificación Personal:** 8.5/10
 **¿Votaría por este candidato?** TBD
@@ -182,38 +166,6 @@ En innovación, su propuesta de "Sandboxes Regulatorios para Minería" (Medida 1
 Mi única reserva es su ausencia física de Chile y dudas sobre capacidad de ejecutar desde el terreno. Pero en términos de diagnóstico y propuestas, es el candidato que mejor entiende los desafíos del emprendimiento innovador en Chile.
 
 **Veredicto:** Altamente favorable. Si ejecuta aunque sea 60% de lo que propone, me quedaría en Chile.
-
----
-
-## RANKING FINAL
-
-1. **Franco Parisi** - 8.5/10: Único candidato con visión tech-económica moderna
-2. **Evelyn Matthei** - 7.5/10: Competente y confiable, le falta audacia
-3. **José Antonio Kast** - 6.5/10: Pro-empresa pero sin sofisticación tech
-4. **Harold Mayne-Nicholls** - 6.0/10: Buen gestor público, débil en sector privado
-5. **Johannes Kaiser** - 4.0/10: Discurso anti-sistema sin plan ejecutable
-6. **Marco Enríquez-Ominami** - 3.5/10: Buenas intenciones, mala ejecución
-7. **Jeannette Jara** - 2.0/10: Enfoque redistributivo que espanta inversión
-8. **Eduardo Artés** - 1.5/10: Incompatible con cualquier actividad empresarial
-
----
-
-## REFLEXIÓN FINAL
-
-Después de revisar los ocho programas, mi evaluación sobre quedarme en Chile depende directamente de quién gane. Con Parisi, veo posibilidad real de que Chile se convierta en un hub fintech competitivo - me quedaría y duplicaría mi inversión. Con Matthei o Kast, mantendría operaciones pero no expandiría significativamente. Con cualquiera de los otros, aceleraría planes de emigración.
-
-Lo que necesito es simple: reglas claras, impuestos competitivos con la región, regulación moderna que permita innovar, y un Estado que entienda que su rol es facilitar, no obstruir. Solo Parisi articula esto con la especificidad técnica que requiero para tomar mi decisión de inversión.
-
-Chile me está expulsando con 48% de impuestos, regulación obsoleta y competencia desleal de grandes jugadores. Necesito un presidente que entienda que empresarios como yo no somos el enemigo - somos quienes creamos los 25 empleos, pagamos las cotizaciones, innovamos y ponemos a Chile en el mapa tech internacional.
-
-La pregunta no es si Chile castiga el emprendimiento exitoso - eso ya es un hecho. La pregunta es si el próximo presidente va a cambiar eso o no.
-
----
-
-**Evaluación realizada:** 23 de Octubre de 2025
-**Metodología:** Análisis detallado de 8 extractos comprehensivos según estándar persona_evaluation_standard.md v1.0
-**Palabras:** ~2,800 (promedio 350 por candidato)
-**Perspectiva:** Primera persona como Francisco Valdés, empresario fintech evaluando futuro en Chile
 
 ---
 
