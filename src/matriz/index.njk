@@ -26,7 +26,9 @@ description: Matriz interactiva con 224 evaluaciones de 28 personas sobre 8 cand
   <table class="matriz-table" id="matrizTable">
     <thead>
       <tr>
-        <th class="sticky-col">Persona</th>
+        <th class="sticky-col persona-header">
+          <a href="/personas/" class="persona-column-title">Personas</a>
+        </th>
         <th class="candidato-header">
           <select class="candidato-selector" data-column="0">
             <option value="Jeannette Jara" selected>Jeannette Jara</option>
@@ -59,29 +61,61 @@ description: Matriz interactiva con 224 evaluaciones de 28 personas sobre 8 cand
             {% endfor %}
           </select>
         </th>
-        <th>Prom.</th>
       </tr>
     </thead>
     <tbody>
+      {# Average row at the top #}
+      <tr class="average-row">
+        <td class="persona-cell sticky-col average-label">
+          <div class="average-header-cell">
+            <div class="average-name">📊 Promedio General</div>
+          </div>
+        </td>
+        <td class="rating-cell average-cell" data-column="0"></td>
+        <td class="rating-cell average-cell" data-column="1"></td>
+        <td class="rating-cell average-cell" data-column="2"></td>
+        <td class="rating-cell average-cell" data-column="3"></td>
+      </tr>
+
+      {# Individual persona rows #}
       {% for evaluacion in matriz.evaluaciones %}
       <tr data-evaluacion='{{ evaluacion.evaluaciones | dump | safe }}'>
         <td class="persona-cell sticky-col">
-          <a href="/personas/{{ evaluacion.numero | personaId }}-{{ evaluacion.nombre | slug }}/" class="persona-link">
-            <div class="persona-name">{{ evaluacion.nombre }}</div>
+          <div class="persona-header-cell">
+            <a href="/personas/{{ evaluacion.numero | personaId }}-{{ evaluacion.nombre | slug }}/" class="persona-link">
+              <div class="persona-name">{{ evaluacion.numero }}. {{ evaluacion.nombre }}</div>
+            </a>
             {% set persona = personas | find(evaluacion.numero) %}
             {% if persona %}
-            <div class="persona-meta">
-              <span class="age">{{ persona.edad }}</span>
-              <span class="income">{{ persona.ingreso }}</span>
-            </div>
+            <details class="persona-details">
+              <summary><span class="plus-button">+</span></summary>
+              <div class="persona-expanded">
+                <div class="persona-demographics-expanded">
+                  {% if persona.edad %}<div>🎂 {{ persona.edad }}</div>{% endif %}
+                  {% if persona.ingreso %}<div>💰 {{ persona.ingreso }}</div>{% endif %}
+                  {% if persona.ocupacion %}<div>💼 {{ persona.ocupacion }}</div>{% endif %}
+                  {% if persona.ubicacion %}<div>📍 {{ persona.ubicacion }}</div>{% endif %}
+                  {% if persona.situacion %}<div>👥 {{ persona.situacion }}</div>{% endif %}
+                </div>
+                {% if persona.contexto and persona.contexto.length > 0 %}
+                <div class="persona-context-expanded">
+                  <div class="context-title">📋 Contexto</div>
+                  <ul>
+                    {% for item in persona.contexto %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                  </ul>
+                </div>
+                {% endif %}
+              </div>
+            </details>
             {% endif %}
-          </a>
+          </div>
         </td>
         <td class="rating-cell" data-column="0"></td>
         <td class="rating-cell" data-column="1"></td>
         <td class="rating-cell" data-column="2"></td>
         <td class="rating-cell" data-column="3"></td>
-        <td class="promedio-cell">{{ evaluacion.promedio | formatNumber }}</td>
       </tr>
       {% endfor %}
     </tbody>
@@ -89,27 +123,68 @@ description: Matriz interactiva con 224 evaluaciones de 28 personas sobre 8 cand
 </div>
 
 <script>
+function calculateColumnAverage(columnIndex, selectedCandidato) {
+  const table = document.getElementById('matrizTable');
+  const rows = table.querySelectorAll('tbody tr:not(.average-row)');
+
+  let sum = 0;
+  let count = 0;
+
+  rows.forEach(row => {
+    const evaluaciones = JSON.parse(row.getAttribute('data-evaluacion'));
+    const rating = evaluaciones[selectedCandidato];
+
+    if (rating !== null && rating !== undefined) {
+      sum += rating;
+      count++;
+    }
+  });
+
+  return count > 0 ? sum / count : null;
+}
+
 function updateMatrizColumn(columnIndex, selectedCandidato) {
   const table = document.getElementById('matrizTable');
   const rows = table.querySelectorAll('tbody tr');
 
   rows.forEach(row => {
-    const evaluaciones = JSON.parse(row.getAttribute('data-evaluacion'));
-    const cell = row.querySelector(`td[data-column="${columnIndex}"]`);
-    const rating = evaluaciones[selectedCandidato];
+    if (row.classList.contains('average-row')) {
+      // Calculate and display average
+      const average = calculateColumnAverage(columnIndex, selectedCandidato);
+      const cell = row.querySelector(`td.average-cell[data-column="${columnIndex}"]`);
 
-    if (rating !== null && rating !== undefined) {
-      let ratingClass = '';
-      if (rating >= 7) ratingClass = 'high';
-      else if (rating >= 5) ratingClass = 'medium';
-      else if (rating >= 3) ratingClass = 'low';
-      else ratingClass = 'poor';
+      if (average !== null) {
+        let ratingClass = '';
+        if (average >= 7) ratingClass = 'high';
+        else if (average >= 5) ratingClass = 'medium';
+        else if (average >= 3) ratingClass = 'low';
+        else ratingClass = 'poor';
 
-      cell.className = `rating-cell ${ratingClass}`;
-      cell.textContent = rating.toFixed(2);
+        cell.className = `rating-cell average-cell ${ratingClass}`;
+        cell.textContent = average.toFixed(2);
+      } else {
+        cell.className = 'rating-cell average-cell na';
+        cell.textContent = 'N/A';
+      }
     } else {
-      cell.className = 'rating-cell na';
-      cell.textContent = 'N/A';
+      // Regular persona row
+      const evaluaciones = JSON.parse(row.getAttribute('data-evaluacion'));
+      const cell = row.querySelector(`td[data-column="${columnIndex}"]`);
+      const rating = evaluaciones[selectedCandidato];
+
+      if (rating !== null && rating !== undefined) {
+        let ratingClass = '';
+        if (rating >= 7) ratingClass = 'high';
+        else if (rating >= 5) ratingClass = 'medium';
+        else if (rating >= 3) ratingClass = 'low';
+        else ratingClass = 'poor';
+
+        cell.className = `rating-cell ${ratingClass}`;
+        cell.textContent = rating.toFixed(2);
+      } else {
+        cell.className = 'rating-cell na';
+        cell.textContent = 'N/A';
+      }
     }
   });
 }
@@ -196,6 +271,10 @@ document.addEventListener('DOMContentLoaded', function() {
 .color-box.low { background-color: var(--color-rating-low); }
 .color-box.poor { background-color: var(--color-rating-poor); }
 
+.persona-header {
+  padding: var(--spacing-xs);
+}
+
 .candidato-header {
   padding: var(--spacing-xs);
 }
@@ -225,49 +304,151 @@ document.addEventListener('DOMContentLoaded', function() {
   left: 0;
   background-color: var(--color-surface);
   z-index: 5;
+  text-align: left;
 }
 
-.persona-meta {
-  font-size: 0.75rem;
+.persona-cell {
+  text-align: left !important;
 }
 
-.persona-situacion {
-  font-size: 0.7rem;
-  color: var(--color-text-secondary);
-  font-style: italic;
-  margin-top: 0.25rem;
-}
-
-.persona-details {
-  font-size: 0.7rem;
-  margin-top: 0.5rem;
-  cursor: pointer;
-}
-
-.persona-details summary {
+.persona-column-title {
+  color: var(--color-text);
+  text-decoration: none;
   font-weight: 600;
-  color: var(--color-primary);
-  cursor: pointer;
-  user-select: none;
-  padding: 0.25rem 0;
 }
 
-.persona-details summary:hover {
+.persona-column-title:hover {
+  color: var(--color-primary);
   text-decoration: underline;
 }
 
-.persona-details[open] summary {
-  margin-bottom: 0.5rem;
+.persona-header-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  text-align: left;
 }
 
-.persona-list {
-  margin: 0.5rem 0;
-  padding-left: 1.5rem;
-  line-height: 1.4;
+.persona-link {
+  text-decoration: none;
+  color: inherit;
 }
 
-.persona-list li {
+.persona-name {
+  font-weight: 500;
+}
+
+.persona-details {
+  font-size: 0.75rem;
+  margin-top: 0.1rem;
+}
+
+.persona-details summary {
+  cursor: pointer;
+  user-select: none;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+.persona-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.plus-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1;
+  transition: all 0.2s;
+}
+
+.persona-details[open] .plus-button {
+  transform: rotate(45deg);
+  background-color: var(--color-text-secondary);
+}
+
+.persona-details summary:hover .plus-button {
+  background-color: var(--color-text);
+  transform: scale(1.1);
+}
+
+.persona-details[open] summary:hover .plus-button {
+  background-color: var(--color-text);
+  transform: rotate(45deg) scale(1.1);
+}
+
+.persona-expanded {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background: var(--color-bg);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+}
+
+.persona-demographics-expanded {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.7rem;
+  color: var(--color-text-secondary);
+}
+
+.persona-context-expanded {
+  margin-top: 0.75rem;
+  font-size: 0.7rem;
+}
+
+.context-title {
+  font-weight: 600;
+  color: var(--color-text);
   margin-bottom: 0.25rem;
+}
+
+.persona-context-expanded ul {
+  margin: 0.25rem 0 0 0;
+  padding-left: 1.25rem;
+  line-height: 1.5;
+}
+
+.persona-context-expanded li {
+  margin-bottom: 0.25rem;
+  color: var(--color-text-secondary);
+}
+
+/* Average row styling */
+.average-row {
+  background-color: #f0f4f8;
+  font-weight: 700;
+  border-bottom: 3px solid var(--color-border);
+}
+
+.average-label {
+  font-weight: 700;
+}
+
+.average-header-cell {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.average-name {
+  font-weight: 700;
+  color: var(--color-text);
+  font-size: 0.95rem;
+}
+
+.average-cell {
+  font-weight: 700;
+  font-size: 1.05rem;
 }
 
 .promedio-row {
