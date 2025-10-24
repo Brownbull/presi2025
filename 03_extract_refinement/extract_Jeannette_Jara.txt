@@ -4,7 +4,7 @@
 
 ---
 
-## VISION_AND_PRINCIPLES
+## VISIÓN Y PRINCIPIOS
 
 ### Visión General
 **Reconectar la política con la vida cotidiana [p.3]**
@@ -27,7 +27,7 @@
 
 ---
 
-## ECONOMY_AND_EMPLOYMENT
+## ECONOMÍA Y EMPLEO
 
 ### Impulso a la Inversión Pública y Privada
 
@@ -258,7 +258,7 @@
 
 ---
 
-## SECURITY_AND_PUBLIC_ORDER
+## SEGURIDAD Y ORDEN PÚBLICO
 
 ### Fortalecimiento Institucional para la Seguridad
 
@@ -453,7 +453,7 @@
 
 ---
 
-## HEALTH
+## SALUD
 
 ### De Tiempos de Espera a Tiempos de Certeza
 
@@ -595,7 +595,7 @@
 
 ---
 
-## HOUSING
+## VIVIENDA
 
 ### Nuevo Impulso a Proyectos Habitacionales
 
@@ -668,7 +668,7 @@
 
 ---
 
-## EDUCATION
+## EDUCACIÓN
 
 ### Escuelas que Cuidan
 
@@ -762,7 +762,7 @@
 
 ---
 
-## SOCIAL_POLICIES
+## POLÍTICAS SOCIALES
 
 ### Sistema Nacional de Cuidados
 - Fortalecer Sistema Nacional de Cuidados [p.22]
@@ -785,7 +785,7 @@
 
 ---
 
-## STATE_MODERNIZATION
+## MODERNIZACIÓN DEL ESTADO
 
 ### Modernización de Servicios Públicos
 - Agencia Nacional de Empleo unificando SENCE, ChileValora y oficinas laborales [p.21]
@@ -806,7 +806,7 @@
 
 ---
 
-## INFRASTRUCTURE
+## INFRAESTRUCTURA
 
 ### Infraestructura de Transporte
 - Completar red 5G cubriendo zonas rurales [p.11]
@@ -834,7 +834,7 @@
 
 ---
 
-## ENVIRONMENT
+## MEDIO AMBIENTE
 
 ### Transición Energética
 - Alcanzar 6 GW almacenamiento al 2028 [p.12]
@@ -856,7 +856,7 @@
 
 ---
 
-## FOREIGN_POLICY
+## POLÍTICA EXTERIOR
 
 ### Comercio Internacional
 - Posicionamiento marca "Visit South America" con países de la región [p.16]
@@ -874,7 +874,7 @@
 
 ---
 
-## INSTITUTIONAL_REFORMS
+## REFORMAS INSTITUCIONALES
 
 ### Sistema Judicial y de Seguridad
 - Agencia Nacional de Control de Armas reemplazando DGMN [p.25]
@@ -904,7 +904,7 @@
 
 ---
 
-## QUANTIFIED_COMMITMENTS
+## COMPROMISOS CUANTIFICADOS
 
 ### Metas Económicas
 - Inversión: acercar al 30% del PIB [p.9]

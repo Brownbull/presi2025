@@ -5,7 +5,7 @@
 
 ---
 
-## VISION_AND_PRINCIPLES
+## VISIÓN Y PRINCIPIOS
 
 ---
 
@@ -15,7 +15,7 @@ El Estado debe posicionarse como stakeholder estratégico, siendo participante, 
 
 ---
 
-## INSTITUTIONAL_REFORMS
+## REFORMAS INSTITUCIONALES
 
 ---
 
@@ -84,7 +84,7 @@ El Estado debe posicionarse como stakeholder estratégico, siendo participante, 
 
 ---
 
-## FOREIGN_POLICY
+## POLÍTICA EXTERIOR
 
 ---
 
@@ -138,7 +138,7 @@ El Estado debe posicionarse como stakeholder estratégico, siendo participante, 
 
 ---
 
-## ECONOMY_AND_EMPLOYMENT
+## ECONOMÍA Y EMPLEO
 
 ---
 
@@ -310,7 +310,7 @@ El Estado debe posicionarse como stakeholder estratégico, siendo participante, 
 
 ---
 
-## SCIENCE_AND_TECHNOLOGY
+## CIENCIA Y TECNOLOGÍA
 
 ---
 
@@ -366,7 +366,7 @@ El Estado debe posicionarse como stakeholder estratégico, siendo participante, 
 
 ---
 
-## SECURITY_AND_PUBLIC_ORDER
+## SEGURIDAD Y ORDEN PÚBLICO
 
 ---
 
@@ -592,7 +592,7 @@ El Estado debe posicionarse como stakeholder estratégico, siendo participante, 
 
 ---
 
-## HEALTH
+## SALUD
 
 ---
 
@@ -804,7 +804,7 @@ El Estado debe posicionarse como stakeholder estratégico, siendo participante, 
 
 ---
 
-## EDUCATION
+## EDUCACIÓN
 
 ---
 
@@ -875,7 +875,7 @@ El Estado debe posicionarse como stakeholder estratégico, siendo participante, 
 
 ---
 
-## HOUSING
+## VIVIENDA
 
 ---
 
@@ -956,7 +956,7 @@ El Estado debe posicionarse como stakeholder estratégico, siendo participante, 
 
 ---
 
-## SOCIAL_POLICIES
+## POLÍTICAS SOCIALES
 
 ---
 
@@ -1067,7 +1067,7 @@ El Estado debe posicionarse como stakeholder estratégico, siendo participante, 
 
 ---
 
-## STATE_MODERNIZATION
+## MODERNIZACIÓN DEL ESTADO
 
 ---
 
@@ -1083,7 +1083,7 @@ El Estado debe posicionarse como stakeholder estratégico, siendo participante, 
 
 ---
 
-## INFRASTRUCTURE
+## INFRAESTRUCTURA
 
 ---
 
@@ -1141,7 +1141,7 @@ El Estado debe posicionarse como stakeholder estratégico, siendo participante, 
 
 ---
 
-## ENVIRONMENT
+## MEDIO AMBIENTE
 
 ---
 
@@ -1261,7 +1261,7 @@ El Estado debe posicionarse como stakeholder estratégico, siendo participante, 
 
 ---
 
-## QUANTIFIED_COMMITMENTS
+## COMPROMISOS CUANTIFICADOS
 
 ---
 

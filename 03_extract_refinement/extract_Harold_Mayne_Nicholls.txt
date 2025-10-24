@@ -5,7 +5,7 @@
 
 ---
 
-## VISION_AND_PRINCIPLES
+## VISIÓN Y PRINCIPIOS
 
 ---
 
@@ -33,7 +33,7 @@
 
 ---
 
-## INSTITUTIONAL_REFORMS
+## REFORMAS INSTITUCIONALES
 
 ---
 
@@ -95,7 +95,7 @@
 
 ---
 
-## FOREIGN_POLICY
+## POLÍTICA EXTERIOR
 
 ---
 
@@ -115,7 +115,7 @@
 
 ---
 
-## ECONOMY_AND_EMPLOYMENT
+## ECONOMÍA Y EMPLEO
 
 ---
 
@@ -221,7 +221,7 @@
 
 ---
 
-## SECURITY_AND_PUBLIC_ORDER
+## SEGURIDAD Y ORDEN PÚBLICO
 
 ---
 
@@ -297,7 +297,7 @@
 
 ---
 
-## HEALTH
+## SALUD
 
 ---
 
@@ -367,7 +367,7 @@
 
 ---
 
-## EDUCATION
+## EDUCACIÓN
 
 ---
 
@@ -439,7 +439,7 @@
 
 ---
 
-## HOUSING
+## VIVIENDA
 
 ---
 
@@ -475,7 +475,7 @@
 
 ---
 
-## SOCIAL_POLICIES
+## POLÍTICAS SOCIALES
 
 ---
 
@@ -541,7 +541,7 @@
 
 ---
 
-## STATE_MODERNIZATION
+## MODERNIZACIÓN DEL ESTADO
 
 ---
 
@@ -635,7 +635,7 @@
 
 ---
 
-## INFRASTRUCTURE
+## INFRAESTRUCTURA
 
 ---
 
@@ -685,7 +685,7 @@
 
 ---
 
-## ENVIRONMENT
+## MEDIO AMBIENTE
 
 ---
 
@@ -763,7 +763,7 @@
 
 ---
 
-## SCIENCE_AND_TECHNOLOGY
+## CIENCIA Y TECNOLOGÍA
 
 ---
 
@@ -927,7 +927,7 @@
 
 ---
 
-## QUANTIFIED_COMMITMENTS
+## COMPROMISOS CUANTIFICADOS
 
 ---
 

@@ -28,6 +28,9 @@ eleventyComputed:
       {% if persona.ubicacion %}
       <span class="ubicacion">📍 {{ persona.ubicacion }}</span>
       {% endif %}
+      {% if persona.situacion %}
+      <span class="situacion">👥 {{ persona.situacion }}</span>
+      {% endif %}
     </div>
   </div>
 </div>
@@ -38,21 +41,75 @@ eleventyComputed:
 </blockquote>
 {% endif %}
 
-<section class="evaluaciones-section">
-  <h2>Evaluaciones de Programas</h2>
+{% if persona.contexto and persona.contexto.length > 0 %}
+<section class="persona-section">
+  <h2>📋 Contexto</h2>
+  <ul class="context-list">
+    {% for item in persona.contexto %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
 
-  {% if persona.evaluacionFile %}
-    {% set evalPath = "04_evaluacion_agentes/" + persona.evaluacionFile %}
-    {% set evalContent = collections.all | getFileContent(evalPath) %}
-    {% if evalContent %}
-      <div class="evaluacion-content">
-        {{ evalContent | safe }}
-      </div>
-    {% else %}
-      <p class="no-content">Las evaluaciones de esta persona están en proceso.</p>
-    {% endif %}
+{% if persona.prioridades and persona.prioridades.length > 0 %}
+<section class="persona-section">
+  <h2>🎯 Prioridades Electorales</h2>
+  <ol class="priorities-list">
+    {% for item in persona.prioridades %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </ol>
+</section>
+{% endif %}
+
+{% if persona.voteIntention and persona.voteIntention.length > 0 %}
+<section class="vote-intention-section">
+  <h2>💡 Intención de Voto</h2>
+  <p class="section-intro">Candidatos con mayor afinidad según las evaluaciones de {{ persona.nombre }}:</p>
+
+  <div class="vote-cards">
+    {% for vote in persona.voteIntention %}
+    <div class="vote-card rank-{{ loop.index }}">
+      <div class="rank">#{{ loop.index }}</div>
+      <div class="candidato-name">{{ vote.candidato }}</div>
+      <div class="rating-large">{{ vote.rating }}/10</div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<section class="evaluaciones-section">
+  <h2>📋 Evaluaciones de Programas</h2>
+
+  {% if persona.evaluaciones and persona.evaluaciones.length > 0 %}
+    <p class="section-intro">Análisis detallado de {{ persona.nombre }} sobre cada programa presidencial:</p>
+
+    <div class="evaluaciones-list">
+      {% for eval in persona.evaluaciones %}
+      <article class="evaluacion-card">
+        <div class="evaluacion-header">
+          <h3>{{ eval.candidato }}</h3>
+          <div class="rating-badge
+            {% if eval.rating >= 7 %}high{% elif eval.rating >= 5 %}medium{% elif eval.rating >= 3 %}low{% else %}poor{% endif %}">
+            {{ eval.rating }}/10
+          </div>
+        </div>
+        <div class="evaluacion-resumen">
+          {{ eval.resumen }}
+        </div>
+        <details class="evaluacion-detalles">
+          <summary>Ver evaluación completa</summary>
+          <div class="evaluacion-contenido">
+            {{ eval.contenidoCompleto | markdown | safe }}
+          </div>
+        </details>
+      </article>
+      {% endfor %}
+    </div>
   {% else %}
-    <p class="no-content">Las evaluaciones de esta persona están en proceso.</p>
+    <p class="no-content">Las evaluaciones detalladas están en proceso. Ver <a href="/matriz/">Matriz de Evaluación</a>.</p>
   {% endif %}
 </section>
 
@@ -70,6 +127,174 @@ eleventyComputed:
 
 .breadcrumb a {
   color: var(--color-primary);
+}
+
+.section-intro {
+  font-size: 1.05rem;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-lg);
+}
+
+/* Vote Intention Section */
+.vote-intention-section {
+  margin: var(--spacing-xl) 0;
+  padding: var(--spacing-lg);
+  background: linear-gradient(135deg, #E3F2FD 0%, #F3E5F5 100%);
+  border-radius: var(--radius-lg);
+  border: 2px solid var(--color-primary);
+}
+
+.vote-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-md);
+}
+
+.vote-card {
+  background: white;
+  border-radius: var(--radius-md);
+  padding: var(--spacing-lg);
+  text-align: center;
+  box-shadow: var(--shadow-md);
+  transition: transform 0.2s;
+}
+
+.vote-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.vote-card.rank-1 {
+  border: 3px solid #FFD700;
+  background: linear-gradient(135deg, #FFFEF7 0%, #FFFACD 100%);
+}
+
+.vote-card.rank-2 {
+  border: 2px solid #C0C0C0;
+}
+
+.vote-card.rank-3 {
+  border: 2px solid #CD7F32;
+}
+
+.vote-card .rank {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.vote-card .candidato-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text);
+}
+
+.vote-card .rating-large {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-rating-high);
+}
+
+/* Evaluaciones List */
+.evaluaciones-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.evaluacion-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.evaluacion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 2px solid var(--color-border);
+}
+
+.evaluacion-header h3 {
+  margin: 0;
+  color: var(--color-primary);
+}
+
+.rating-badge {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: var(--radius-md);
+}
+
+.rating-badge.high {
+  background: var(--color-rating-high);
+  color: white;
+}
+
+.rating-badge.medium {
+  background: var(--color-rating-medium);
+  color: #333;
+}
+
+.rating-badge.low {
+  background: var(--color-rating-low);
+  color: white;
+}
+
+.rating-badge.poor {
+  background: var(--color-rating-poor);
+  color: white;
+}
+
+.evaluacion-resumen {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-md);
+}
+
+.evaluacion-detalles {
+  margin-top: var(--spacing-md);
+}
+
+.evaluacion-detalles summary {
+  cursor: pointer;
+  color: var(--color-primary);
+  font-weight: 600;
+  padding: var(--spacing-sm);
+  background: var(--color-bg);
+  border-radius: var(--radius-sm);
+  transition: background 0.2s;
+}
+
+.evaluacion-detalles summary:hover {
+  background: var(--color-border);
+}
+
+.evaluacion-contenido {
+  padding: var(--spacing-md);
+  margin-top: var(--spacing-sm);
+  background: var(--color-bg);
+  border-radius: var(--radius-sm);
+  line-height: 1.7;
+}
+
+.evaluacion-contenido h2,
+.evaluacion-contenido h3 {
+  color: var(--color-accent);
+  margin-top: var(--spacing-md);
+}
+
+.evaluacion-contenido p {
+  margin-bottom: var(--spacing-sm);
 }
 
 .persona-header {
@@ -185,6 +410,41 @@ eleventyComputed:
 
 .matriz-link:hover {
   background-color: #00695C;
+}
+
+/* Persona Sections (Contexto, Prioridades) */
+.persona-section {
+  margin: var(--spacing-xl) 0;
+  padding: var(--spacing-lg);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.persona-section h2 {
+  margin-top: 0;
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-md);
+}
+
+.context-list,
+.priorities-list {
+  margin: 0;
+  padding-left: var(--spacing-xl);
+  line-height: 1.8;
+}
+
+.context-list li,
+.priorities-list li {
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text);
+}
+
+.persona-demographics .situacion {
+  color: var(--color-text-secondary);
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {

@@ -5,7 +5,7 @@
 
 ---
 
-## VISION_AND_PRINCIPLES
+## VISIÓN Y PRINCIPIOS
 
 **Medida 1: Consolidación de un gobierno patriótico y popular para avanzar en la construcción del socialismo [p.50]**
 - Terminar con el dominio de los imperialistas, monopolios y oligarquía terrateniente [p.237]
@@ -27,7 +27,7 @@
 
 ---
 
-## INSTITUTIONAL_REFORMS
+## REFORMAS INSTITUCIONALES
 
 **Medida 5: Convocar asamblea constituyente sobre hoja en blanco [p.751]**
 - Conformada por organizaciones sociales representativas del país [pp.760-774]
@@ -75,7 +75,7 @@
 
 ---
 
-## FOREIGN_POLICY
+## POLÍTICA EXTERIOR
 
 **Medida 15: Política exterior soberana e independiente de intereses imperialistas [pp.798-801]**
 - Estrictamente orientada a intereses nacionales [pp.798-801]
@@ -104,7 +104,7 @@
 
 ---
 
-## ECONOMY_AND_EMPLOYMENT
+## ECONOMÍA Y EMPLEO
 
 **Medida 23: Expropiar empresas en manos de capital imperialista de interés estratégico [pp.917-921]**
 - Ponerlas bajo directo control del Estado [pp.917-921]
@@ -126,7 +126,7 @@
 
 ---
 
-## INDUSTRIALIZATION
+## INDUSTRIALIZACIÓN
 
 **Medida 28: Proceso de industrialización sobre base de planes quinquenales [pp.1261-1264]**
 - Proceso paulatino, gradual, escalonado y progresivo [pp.1263-1264]
@@ -153,7 +153,7 @@
 
 ---
 
-## ENERGY
+## ENERGÍA
 
 **Medida 33: Rol prioritario del Estado en energía [pp.1375-1379]**
 - Al servicio de sociedad y proceso de industrialización [pp.1375-1379]
@@ -177,7 +177,7 @@
 
 ---
 
-## AGRICULTURE_AND_FOOD_SECURITY
+## AGRICULTURA Y SEGURIDAD ALIMENTARIA
 
 **Medida 40: Mayor parte de propiedad de tierra en Chile transferida al Estado [pp.1521-1522]**
 - Derechos de pequeños y medianos agricultores y cooperativas plenamente garantizados [pp.1522-1529]
@@ -198,7 +198,7 @@
 
 ---
 
-## MONETARY_AND_FINANCIAL_SYSTEM
+## SISTEMA MONETARIO Y FINANCIERO
 
 **Medida 45: Banca privada nacional pasará al Estado [pp.1684-1686]**
 - Bancos extranjeros en Chile serán estatizados o nacionalizados [pp.1688-1690]
@@ -223,7 +223,7 @@
 
 ---
 
-## TAX_REFORM
+## REFORMA TRIBUTARIA
 
 **Medida 51: Nuevo sistema general tributario inherentemente progresivo [pp.1884-1896]**
 - Impuestos sobre gran fortuna y patrimonio [p.1891]
@@ -247,7 +247,7 @@
 
 ---
 
-## PLANNING_SYSTEMS
+## SISTEMAS DE PLANIFICACIÓN
 
 **Medida 56: Primer Sistema Nacional de Planificación Quinquenal retomará proyecto Synco [pp.1932-1939]**
 - Sistema de control centralizado de economía nacional mediante ordenadores en tiempo real [pp.1935-1937]
@@ -258,7 +258,7 @@
 
 ---
 
-## STATE_MODERNIZATION
+## MODERNIZACIÓN DEL ESTADO
 
 **Medida 58: Supresión de sueldos que superen cuatro sueldos mínimos [pp.1948-1960]**
 - Tope máximo para todo trabajador del Estado: cuatro sueldos mínimos [pp.1956-1960]
@@ -288,7 +288,7 @@
 
 ---
 
-## LABOR_RIGHTS
+## DERECHOS LABORALES
 
 **Medida 67: Garantizar constitucionalmente derecho al trabajo y deber de trabajar [pp.2117-2133]**
 - Quienes no estudien ni trabajen elegirán entre servicio militar o servicios sociales [pp.2131-2133]
@@ -315,7 +315,7 @@
 
 ---
 
-## SECURITY_AND_PUBLIC_ORDER
+## SEGURIDAD Y ORDEN PÚBLICO
 
 **Medida 76: Introducción del escalafón único en fuerzas armadas [pp.2429-2431]**
 - Rango unificado [pp.2429-2431]
@@ -353,7 +353,7 @@
 
 ---
 
-## HEALTH
+## SALUD
 
 **Medida 88: Derecho a salud garantizado en nueva constitución [pp.2460-2461]**
 
@@ -385,7 +385,7 @@
 
 ---
 
-## HOUSING
+## VIVIENDA
 
 **Medida 98: Derecho a Vivienda como derecho constitucional [p.2634]**
 
@@ -410,7 +410,7 @@
 
 ---
 
-## EDUCATION
+## EDUCACIÓN
 
 **Medida 105: Garantizar derecho a educación laica, de calidad [pp.2753-2756]**
 - Orientada a acompañar proceso de industrialización [pp.2753-2756]
@@ -429,7 +429,7 @@
 
 ---
 
-## SOCIAL_POLICIES
+## POLÍTICAS SOCIALES
 
 **Medida 111: Derecho a pensión digna como derecho fundamental [pp.3014-3018]**
 
@@ -478,7 +478,7 @@
 
 ---
 
-## INFRASTRUCTURE
+## INFRAESTRUCTURA
 
 **Medida 128: Grandes líneas de transporte urbano pasarán al Estado [pp.2911-2913]**
 - Bajo responsabilidad directa del Ministerio del Transporte [pp.2911-2913]
@@ -501,7 +501,7 @@
 
 ---
 
-## ENVIRONMENT
+## MEDIO AMBIENTE
 
 **Medida 135: Entre industrializar y remediar problema ecológico, optar por primera opción [pp.3358-3363]**
 - Explotación intensiva de tierra legítima si sirve al bien común [pp.3363-3370]
@@ -526,7 +526,7 @@
 
 ---
 
-## IMMIGRATION
+## INMIGRACIÓN
 
 **Medida 143: Inmigración estrictamente controlada [pp.3274-3279]**
 - Especialmente concerniente a crimen organizado y grupos subversivos de derecha [pp.3274-3279]
@@ -537,7 +537,7 @@
 
 ---
 
-## QUANTIFIED_COMMITMENTS
+## COMPROMISOS CUANTIFICADOS
 
 ### Metas Económicas
 **Medida 145: 27% de recursos de cobre controlados por CODELCO actualmente [pp.70-73]**

@@ -42,10 +42,26 @@ module.exports = function(eleventyConfig) {
       .replace(/(^-|-$)/g, "");
   });
 
-  eleventyConfig.addFilter("personaId", (nombre) => {
-    // Extract number from "01. Nombre Apellido" format
-    const match = nombre.match(/^(\d+)\./);
-    return match ? match[1] : "00";
+  eleventyConfig.addFilter("personaId", (numero) => {
+    // Return the numero with leading zero if needed (01, 02, etc.)
+    // If numero is already a 2-digit string, return as-is
+    // If it's a single digit number or string, pad with zero
+    const numStr = numero.toString();
+    return numStr.length === 1 ? `0${numStr}` : numStr;
+  });
+
+  eleventyConfig.addFilter("find", (personas, numero) => {
+    // Find persona by numero in personas array
+    if (!personas || !Array.isArray(personas)) return null;
+    // Convert both to integers for comparison to handle "01" vs "1"
+    const numInt = parseInt(numero, 10);
+    return personas.find(p => parseInt(p.numero, 10) === numInt);
+  });
+
+  // Add markdown filter to convert markdown to HTML
+  eleventyConfig.addFilter("markdown", (content) => {
+    if (!content) return '';
+    return markdownLibrary.render(content);
   });
 
   // Watch targets

@@ -5,7 +5,7 @@
 
 ---
 
-## VISION_AND_PRINCIPLES
+## VISIÓN Y PRINCIPIOS
 
 **Medida 1: Cinco ejes estratégicos principales del programa de gobierno [pp.12-50]**
 - Combate contra el crimen organizado [p.12]
@@ -16,7 +16,7 @@
 
 ---
 
-## SECURITY_AND_PUBLIC_ORDER
+## SEGURIDAD Y ORDEN PÚBLICO
 
 **Medida 2: Inversión histórica de US$2.500 millones para proteger a los chilenos [pp.13, 9]**
 
@@ -206,7 +206,7 @@
 
 ---
 
-## ECONOMY_AND_EMPLOYMENT
+## ECONOMÍA Y EMPLEO
 
 **Medida 80: Meta de crecimiento del PIB al 4% anual para el cuarto año de gobierno [p.20]**
 
@@ -431,7 +431,7 @@
 
 ---
 
-## SCIENCE_AND_TECHNOLOGY
+## CIENCIA Y TECNOLOGÍA
 
 **Medida 180: Creación de Estrategia Nacional de Desarrollo Científico y Tecnológico [p.25]**
 
@@ -493,7 +493,7 @@
 
 ---
 
-## SOCIAL_POLICIES
+## POLÍTICAS SOCIALES
 
 **Medida 206: Red de Protección para mujeres víctimas de violencia y sus hijos [p.29]**
 - Con acompañamiento jurídico, apoyo en salud mental, reubicación de vivienda, educación y empleo [p.29]
@@ -657,7 +657,7 @@
 
 ---
 
-## HEALTH
+## SALUD
 
 **Medida 278: Implementación del programa "APS te asiste" [p.29]**
 - Organizando y diversificando canales de atención (presencial, remota o a domicilio) [p.29]
@@ -738,7 +738,7 @@
 
 ---
 
-## EDUCATION
+## EDUCACIÓN
 
 **Medida 309: Ampliación de cobertura de jardín infantil con participación de privados [p.32]**
 - Para construir, implementar y gestionar salas cuna y jardines infantiles gratuitos [p.32]
@@ -827,7 +827,7 @@
 
 ---
 
-## HOUSING
+## VIVIENDA
 
 **Medida 346: 400.000 nuevos accesos a viviendas [p.34]**
 
@@ -901,7 +901,7 @@
 
 ---
 
-## INFRASTRUCTURE
+## INFRAESTRUCTURA
 
 **Medida 378: Reducción de congestión con sistemas inteligentes de control de tránsito [p.36]**
 - En todas las capitales regionales [p.36]
@@ -1011,7 +1011,7 @@
 
 ---
 
-## ENVIRONMENT
+## MEDIO AMBIENTE
 
 **Medida 427: Recuperación ambiental y social de zonas industriales en 10 años [p.41]**
 
@@ -1067,7 +1067,7 @@
 
 ---
 
-## REGIONAL_DEVELOPMENT
+## DESARROLLO REGIONAL
 
 **Medida 451: Implementación de plan de acción para resolver necesidades territoriales rurales [p.42]**
 - Con énfasis en Sistemas Sanitarios Rurales (ex APR), conectividad digital y vial, y educación rural [p.42]
@@ -1084,7 +1084,7 @@
 
 ---
 
-## INSTITUTIONAL_REFORMS
+## REFORMAS INSTITUCIONALES
 
 **Medida 456: Creación de Consejo de los Pueblos Indígenas [p.43]**
 - Como espacio real de representación y coordinación [p.43]
@@ -1139,7 +1139,7 @@
 
 ---
 
-## STATE_MODERNIZATION
+## MODERNIZACIÓN DEL ESTADO
 
 **Medida 479: Fortalecimiento de instituciones fiscalizadoras con más presupuesto a Contraloría General [p.46]**
 
@@ -1221,7 +1221,7 @@
 
 ---
 
-## FOREIGN_POLICY
+## POLÍTICA EXTERIOR
 
 **Medida 513: Política exterior antepondrá intereses del país [p.51]**
 - Sustentándose en principios del derecho internacional [p.51]
@@ -1272,7 +1272,7 @@
 
 ---
 
-## QUANTIFIED_COMMITMENTS
+## COMPROMISOS CUANTIFICADOS
 
 ### Metas de Inversión
 **Medida 535: Inversión de US$2.500 millones en seguridad [pp.13, 9]**

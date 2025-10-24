@@ -23,22 +23,51 @@ description: Matriz interactiva con 224 evaluaciones de 28 personas sobre 8 cand
 </div>
 
 <div class="matriz-wrapper">
-  <table class="matriz-table">
+  <table class="matriz-table" id="matrizTable">
     <thead>
       <tr>
         <th class="sticky-col">Persona</th>
-        {% for candidato in matriz.candidatos %}
-        <th>{{ candidato }}</th>
-        {% endfor %}
+        <th class="candidato-header">
+          <select class="candidato-selector" data-column="0">
+            <option value="Jeannette Jara" selected>Jeannette Jara</option>
+            {% for candidato in matriz.candidatos %}
+            <option value="{{ candidato }}">{{ candidato }}</option>
+            {% endfor %}
+          </select>
+        </th>
+        <th class="candidato-header">
+          <select class="candidato-selector" data-column="1">
+            <option value="José Antonio Kast" selected>José Antonio Kast</option>
+            {% for candidato in matriz.candidatos %}
+            <option value="{{ candidato }}">{{ candidato }}</option>
+            {% endfor %}
+          </select>
+        </th>
+        <th class="candidato-header">
+          <select class="candidato-selector" data-column="2">
+            <option value="Evelyn Matthei" selected>Evelyn Matthei</option>
+            {% for candidato in matriz.candidatos %}
+            <option value="{{ candidato }}">{{ candidato }}</option>
+            {% endfor %}
+          </select>
+        </th>
+        <th class="candidato-header">
+          <select class="candidato-selector" data-column="3">
+            <option value="Johannes Kaiser" selected>Johannes Kaiser</option>
+            {% for candidato in matriz.candidatos %}
+            <option value="{{ candidato }}">{{ candidato }}</option>
+            {% endfor %}
+          </select>
+        </th>
         <th>Prom.</th>
       </tr>
     </thead>
     <tbody>
       {% for evaluacion in matriz.evaluaciones %}
-      <tr>
+      <tr data-evaluacion='{{ evaluacion.evaluaciones | dump | safe }}'>
         <td class="persona-cell sticky-col">
           <a href="/personas/{{ evaluacion.numero | personaId }}-{{ evaluacion.nombre | slug }}/" class="persona-link">
-            <div class="persona-name">{{ evaluacion.numero }}. {{ evaluacion.nombre }}</div>
+            <div class="persona-name">{{ evaluacion.nombre }}</div>
             {% set persona = personas | find(evaluacion.numero) %}
             {% if persona %}
             <div class="persona-meta">
@@ -48,42 +77,57 @@ description: Matriz interactiva con 224 evaluaciones de 28 personas sobre 8 cand
             {% endif %}
           </a>
         </td>
-        {% for candidato in matriz.candidatos %}
-          {% set rating = evaluacion.evaluaciones[candidato] %}
-          {% if rating %}
-            {% set ratingClass = "" %}
-            {% if rating >= 7 %}{% set ratingClass = "high" %}
-            {% elif rating >= 5 %}{% set ratingClass = "medium" %}
-            {% elif rating >= 3 %}{% set ratingClass = "low" %}
-            {% else %}{% set ratingClass = "poor" %}{% endif %}
-            <td class="rating-cell {{ ratingClass }}">{{ rating | formatNumber }}</td>
-          {% else %}
-            <td class="rating-cell na">N/A</td>
-          {% endif %}
-        {% endfor %}
+        <td class="rating-cell" data-column="0"></td>
+        <td class="rating-cell" data-column="1"></td>
+        <td class="rating-cell" data-column="2"></td>
+        <td class="rating-cell" data-column="3"></td>
         <td class="promedio-cell">{{ evaluacion.promedio | formatNumber }}</td>
       </tr>
       {% endfor %}
-      <tr class="promedio-row">
-        <td class="sticky-col"><strong>PROMEDIO</strong></td>
-        {% for candidato in matriz.candidatos %}
-          {% set promedio = matriz.promedios[candidato] %}
-          {% if promedio %}
-            {% set ratingClass = "" %}
-            {% if promedio >= 7 %}{% set ratingClass = "high" %}
-            {% elif promedio >= 5 %}{% set ratingClass = "medium" %}
-            {% elif promedio >= 3 %}{% set ratingClass = "low" %}
-            {% else %}{% set ratingClass = "poor" %}{% endif %}
-            <td class="rating-cell {{ ratingClass }}"><strong>{{ promedio | formatNumber }}</strong></td>
-          {% else %}
-            <td class="rating-cell na"><strong>N/A</strong></td>
-          {% endif %}
-        {% endfor %}
-        <td class="promedio-cell"><strong>-</strong></td>
-      </tr>
     </tbody>
   </table>
 </div>
+
+<script>
+function updateMatrizColumn(columnIndex, selectedCandidato) {
+  const table = document.getElementById('matrizTable');
+  const rows = table.querySelectorAll('tbody tr');
+
+  rows.forEach(row => {
+    const evaluaciones = JSON.parse(row.getAttribute('data-evaluacion'));
+    const cell = row.querySelector(`td[data-column="${columnIndex}"]`);
+    const rating = evaluaciones[selectedCandidato];
+
+    if (rating !== null && rating !== undefined) {
+      let ratingClass = '';
+      if (rating >= 7) ratingClass = 'high';
+      else if (rating >= 5) ratingClass = 'medium';
+      else if (rating >= 3) ratingClass = 'low';
+      else ratingClass = 'poor';
+
+      cell.className = `rating-cell ${ratingClass}`;
+      cell.textContent = rating.toFixed(2);
+    } else {
+      cell.className = 'rating-cell na';
+      cell.textContent = 'N/A';
+    }
+  });
+}
+
+// Initialize table with default candidates
+document.addEventListener('DOMContentLoaded', function() {
+  const selectors = document.querySelectorAll('.candidato-selector');
+
+  selectors.forEach(selector => {
+    const columnIndex = parseInt(selector.getAttribute('data-column'));
+    updateMatrizColumn(columnIndex, selector.value);
+
+    selector.addEventListener('change', function() {
+      updateMatrizColumn(columnIndex, this.value);
+    });
+  });
+});
+</script>
 
 <section class="rankings-section">
   <h2>Rankings por Candidato</h2>
@@ -152,11 +196,78 @@ description: Matriz interactiva con 224 evaluaciones de 28 personas sobre 8 cand
 .color-box.low { background-color: var(--color-rating-low); }
 .color-box.poor { background-color: var(--color-rating-poor); }
 
+.candidato-header {
+  padding: var(--spacing-xs);
+}
+
+.candidato-selector {
+  width: 100%;
+  padding: var(--spacing-xs);
+  font-size: 0.9rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background-color: var(--color-surface);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.candidato-selector:hover {
+  background-color: var(--color-bg);
+}
+
+.candidato-selector:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 1px;
+}
+
 .sticky-col {
   position: sticky;
   left: 0;
   background-color: var(--color-surface);
   z-index: 5;
+}
+
+.persona-meta {
+  font-size: 0.75rem;
+}
+
+.persona-situacion {
+  font-size: 0.7rem;
+  color: var(--color-text-secondary);
+  font-style: italic;
+  margin-top: 0.25rem;
+}
+
+.persona-details {
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.persona-details summary {
+  font-weight: 600;
+  color: var(--color-primary);
+  cursor: pointer;
+  user-select: none;
+  padding: 0.25rem 0;
+}
+
+.persona-details summary:hover {
+  text-decoration: underline;
+}
+
+.persona-details[open] summary {
+  margin-bottom: 0.5rem;
+}
+
+.persona-list {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+  line-height: 1.4;
+}
+
+.persona-list li {
+  margin-bottom: 0.25rem;
 }
 
 .promedio-row {

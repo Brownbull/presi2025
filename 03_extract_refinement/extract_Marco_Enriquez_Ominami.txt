@@ -5,7 +5,7 @@
 
 ---
 
-## VISION_AND_PRINCIPLES
+## VISIÓN Y PRINCIPIOS
 
 **Medida 1: Nuevo pacto político, económico y social para retomar la senda del crecimiento económico [p.4]**
 - Superar la crisis política, económica y social mediante transformaciones profundas y rearticulación del tejido social [p.2]
@@ -25,7 +25,7 @@
 
 ---
 
-## INSTITUTIONAL_REFORMS
+## REFORMAS INSTITUCIONALES
 
 **Medida 5: Creación de Oficina Nacional de Inversión Productiva (ONIP) [pp.8-9]**
 - Establecer bajo dependencia técnica del Ministerio de Hacienda o de Economía [p.8]
@@ -53,7 +53,7 @@
 
 ---
 
-## FOREIGN_POLICY
+## POLÍTICA EXTERIOR
 
 **Medida 11: Coordinación internacional para control fronterizo [p.18]**
 - Implementar coordinación internacional en infraestructura de control de fronteras [p.18]
@@ -67,7 +67,7 @@
 
 ---
 
-## ECONOMY_AND_EMPLOYMENT
+## ECONOMÍA Y EMPLEO
 
 ### Pilar 1: Agenda Pro-Crecimiento e Inversión 2026-2030
 
@@ -149,7 +149,7 @@
 
 ---
 
-## SECURITY_AND_PUBLIC_ORDER
+## SEGURIDAD Y ORDEN PÚBLICO
 
 ### Sistema Nacional de Inteligencia Criminal
 
@@ -230,7 +230,7 @@
 
 ---
 
-## HEALTH
+## SALUD
 
 ### Medicamentos
 
@@ -295,7 +295,7 @@
 
 ---
 
-## EDUCATION
+## EDUCACIÓN
 
 ### Educación Técnico-Profesional
 
@@ -322,7 +322,7 @@
 
 ---
 
-## HOUSING
+## VIVIENDA
 
 **Medida 56: Plan Nacional de Inversiones Estratégicas con eje en vivienda y urbanismo [p.7]**
 - Incluir vivienda y urbanismo como eje prioritario del Plan Nacional de Inversiones [p.7]
@@ -332,7 +332,7 @@
 
 ---
 
-## SOCIAL_POLICIES
+## POLÍTICAS SOCIALES
 
 **Medida 58: Servicios sociales en barrios vulnerables [p.20]**
 - Focalizar inversión estatal en servicios sociales en 400 barrios prioritarios [p.20]
@@ -342,7 +342,7 @@
 
 ---
 
-## STATE_MODERNIZATION
+## MODERNIZACIÓN DEL ESTADO
 
 **Medida 60: Digitalización del Estado como eje del Plan Nacional de Inversiones [p.7]**
 - Incluir digitalización del Estado como eje prioritario del Plan Nacional de Inversiones [p.7]
@@ -358,7 +358,7 @@
 
 ---
 
-## INFRASTRUCTURE
+## INFRAESTRUCTURA
 
 **Medida 64: Conectividad como eje del Plan Nacional de Inversiones [p.7]**
 - Incluir conectividad como eje prioritario del Plan Nacional de Inversiones [p.7]
@@ -371,7 +371,7 @@
 
 ---
 
-## ENVIRONMENT
+## MEDIO AMBIENTE
 
 ### Protección de Ecosistemas
 
@@ -412,19 +412,19 @@
 
 ---
 
-## FOREIGN_POLICY
+## POLÍTICA EXTERIOR
 
 (Ver sección previa - medidas 11, 12, 13)
 
 ---
 
-## INSTITUTIONAL_REFORMS
+## REFORMAS INSTITUCIONALES
 
 (Ver sección previa - medidas 5-10)
 
 ---
 
-## QUANTIFIED_COMMITMENTS
+## COMPROMISOS CUANTIFICADOS
 
 ### Metas Económicas
 

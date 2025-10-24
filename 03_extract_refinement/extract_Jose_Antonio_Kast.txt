@@ -5,7 +5,7 @@
 
 ---
 
-## VISION_AND_PRINCIPLES
+## VISIÓN Y PRINCIPIOS
 
 ### Ejes Fundamentales del Gobierno
 Medida 1: Tres pilares sólidos de gobierno: recuperar el orden y la autoridad; reimpulsar el progreso económico y el trabajo; y restaurar la libertad, dignidad y justicia para todos los chilenos [pp.98-102]
@@ -25,7 +25,7 @@ Medida 7: Creencia en la iniciativa privada que innova, crea y genera empleo y e
 
 ---
 
-## INSTITUTIONAL_REFORMS
+## REFORMAS INSTITUCIONALES
 
 ### Sistema de Inteligencia
 Medida 8: Renovar y fortalecer el Sistema de Inteligencia del Estado, a través del desarrollo de capacidades para construir una inteligencia moderna y robusta [pp.860-862]
@@ -56,7 +56,7 @@ Medida 19: Recorrer cada rincón del país entre el 18 de agosto y el 18 de octu
 
 ---
 
-## FOREIGN_POLICY
+## POLÍTICA EXTERIOR
 
 Medida 20: Estrategia de multilateralismo soberano y pragmático que permite explotar las ventajas comparativas respecto de otros países [pp.1002-1005]
 
@@ -66,7 +66,7 @@ Medida 22: Promover la búsqueda activa de nuevos mercados [p.1006]
 
 ---
 
-## ECONOMY_AND_EMPLOYMENT
+## ECONOMÍA Y EMPLEO
 
 ### Facilitación Regulatoria
 Medida 23: Promover la facilitación regulatoria eliminando regulaciones anacrónicas y obsoletas que traban el emprendimiento y la inversión [pp.1084-1086]
@@ -199,7 +199,7 @@ Medida 83: Permitir tener un acceso público, fácil y efectivo a información r
 
 ---
 
-## SECURITY_AND_PUBLIC_ORDER
+## SEGURIDAD Y ORDEN PÚBLICO
 
 ### Plan de Recuperación Territorial
 Medida 84: Implementar un Plan de Recuperación Territorial para enfrentar al crimen organizado, el narcotráfico, el terrorismo y la violencia, que considerará diversas etapas y mecanismos de implementación [pp.808-812]
@@ -339,7 +339,7 @@ Medida 146: Iniciar acciones legales contra los grupos o personas que organizan,
 
 ---
 
-## HEALTH
+## SALUD
 
 ### Emergencia Sanitaria por Listas de Espera
 Medida 147: Declarar emergencia sanitaria nacional por listas de espera en salud [pp.1429-1430]
@@ -428,7 +428,7 @@ Medida 187: Desarrollar una estrategia de acompañamiento en salud mental para p
 
 ---
 
-## EDUCATION
+## EDUCACIÓN
 
 ### Diversidad y Autonomía
 Medida 188: Promover la diversidad de proyectos educativos, para que se puedan ampliar o crear nuevos establecimientos subvencionados [pp.1495-1497]
@@ -503,7 +503,7 @@ Medida 221: Fomentar programas educativos del mayor estándar pedagógico [pp.15
 
 ---
 
-## HOUSING
+## VIVIENDA
 
 Medida 222: Ampliar los subsidios habitacionales fortaleciendo los programas para la clase media [pp.1596-1597]
 
@@ -527,7 +527,7 @@ Medida 231: Agilizar la aprobación de permisos y recepciones [pp.1612-1614]
 
 ---
 
-## SOCIAL_POLICIES
+## POLÍTICAS SOCIALES
 
 ### Familia y Corresponsabilidad
 Medida 232: Promover la corresponsabilidad, la protección social y la equidad en las familias [pp.1558-1560]
@@ -613,7 +613,7 @@ Medida 270: Impulsar parques urbanos de estándares mundiales, trayendo a las ci
 
 ---
 
-## STATE_MODERNIZATION
+## MODERNIZACIÓN DEL ESTADO
 
 Medida 271: Mejorar el empleo público fundando el ingreso, permanencia y promoción de la carrera funcionaria en el mérito [pp.1152-1154]
 
@@ -639,7 +639,7 @@ Medida 281: Implementar programas de capacitación continua dirigidos a autorida
 
 ---
 
-## INFRASTRUCTURE
+## INFRAESTRUCTURA
 
 Medida 282: Desarrollar un nuevo Plan de Concesiones de Obras Públicas en obras de desalación y reúso de agua, cárceles y establecimientos de salud, entre otros [pp.1224-1226]
 
@@ -676,7 +676,7 @@ Medida 297: Eliminar la burocracia en autorizaciones, permisos y factibilidades 
 
 ---
 
-## ENVIRONMENT
+## MEDIO AMBIENTE
 
 Medida 298: Impulsar un progreso económico y social compatible con los ecosistemas [pp.1284-1286]
 
@@ -686,7 +686,7 @@ Medida 300: Adoptar nuevas formas de producción más sostenibles, especialmente
 
 ---
 
-## REGIONAL_DEVELOPMENT
+## DESARROLLO REGIONAL
 
 ### Norte de Chile
 Medida 301: Enfrentar el aumento del crimen en la Región de Arica y Parinacota [pp.612-614]
@@ -738,7 +738,7 @@ Medida 322: Enfrentar las condiciones climáticas extremas en localidades como P
 
 ---
 
-## QUANTIFIED_COMMITMENTS
+## COMPROMISOS CUANTIFICADOS
 
 ### Seguridad Pública
 - Reducir drásticamente los homicidios durante la administración [pp.753-754]
