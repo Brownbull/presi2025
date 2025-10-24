@@ -33,7 +33,9 @@ description: Matriz interactiva con 224 evaluaciones de 28 personas sobre 8 cand
           <select class="candidato-selector" data-column="0">
             <option value="Jeannette Jara" selected>Jeannette Jara</option>
             {% for candidato in matriz.candidatos %}
+            {% if candidato != "Jeannette Jara" %}
             <option value="{{ candidato }}">{{ candidato }}</option>
+            {% endif %}
             {% endfor %}
           </select>
         </th>
@@ -41,7 +43,9 @@ description: Matriz interactiva con 224 evaluaciones de 28 personas sobre 8 cand
           <select class="candidato-selector" data-column="1">
             <option value="José Antonio Kast" selected>José Antonio Kast</option>
             {% for candidato in matriz.candidatos %}
+            {% if candidato != "José Antonio Kast" %}
             <option value="{{ candidato }}">{{ candidato }}</option>
+            {% endif %}
             {% endfor %}
           </select>
         </th>
@@ -49,7 +53,9 @@ description: Matriz interactiva con 224 evaluaciones de 28 personas sobre 8 cand
           <select class="candidato-selector" data-column="2">
             <option value="Evelyn Matthei" selected>Evelyn Matthei</option>
             {% for candidato in matriz.candidatos %}
+            {% if candidato != "Evelyn Matthei" %}
             <option value="{{ candidato }}">{{ candidato }}</option>
+            {% endif %}
             {% endfor %}
           </select>
         </th>
@@ -57,7 +63,9 @@ description: Matriz interactiva con 224 evaluaciones de 28 personas sobre 8 cand
           <select class="candidato-selector" data-column="3">
             <option value="Johannes Kaiser" selected>Johannes Kaiser</option>
             {% for candidato in matriz.candidatos %}
+            {% if candidato != "Johannes Kaiser" %}
             <option value="{{ candidato }}">{{ candidato }}</option>
+            {% endif %}
             {% endfor %}
           </select>
         </th>
@@ -67,7 +75,7 @@ description: Matriz interactiva con 224 evaluaciones de 28 personas sobre 8 cand
       {# Average row at the top #}
       <tr class="average-row">
         <td class="persona-cell sticky-col average-label">
-          <div class="average-header-cell">
+            <div class="average-header-cell">
             <div class="average-name">📊 Promedio General</div>
           </div>
         </td>
@@ -97,12 +105,7 @@ description: Matriz interactiva con 224 evaluaciones de 28 personas sobre 8 cand
               <summary><span class="plus-button">+</span></summary>
               <div class="persona-expanded">
                 <div class="persona-demographics-expanded">
-                  {% if persona.edad %}<div>🎂 {{ persona.edad }}</div>{% endif %}
-                  {% if persona.ingreso %}<div>💰 {{ persona.ingreso }}</div>{% endif %}
-                  {% if persona.ocupacion %}<div>💼 {{ persona.ocupacion }}</div>{% endif %}
-                  {% if persona.ubicacion %}<div>📍 {{ persona.ubicacion }}</div>{% endif %}
-                  {% if persona.situacion %}<div>👥 {{ persona.situacion }}</div>{% endif %}
-                </div>
+            </div>
                 {% if persona.contexto and persona.contexto.length > 0 %}
                 <div class="persona-context-expanded">
                   <div class="context-title">📋 Contexto</div>
@@ -112,7 +115,7 @@ description: Matriz interactiva con 224 evaluaciones de 28 personas sobre 8 cand
                     {% endfor %}
                   </ul>
                 </div>
-                {% endif %}
+            {% endif %}
               </div>
             </details>
             {% endif %}
@@ -260,7 +263,7 @@ document.addEventListener('DOMContentLoaded', function() {
       {% if ranking.promedio >= 7 %}{% set ratingClass = "high" %}
       {% elif ranking.promedio >= 5 %}{% set ratingClass = "medium" %}
       {% elif ranking.promedio >= 3 %}{% set ratingClass = "low" %}
-      {% else %}{% set ratingClass = "poor" %}{% endif %}
+            {% endif %}
       <span class="rating rating-cell {{ ratingClass }}">{{ ranking.promedio | formatNumber }}/10</span>
     </li>
     {% endfor %}
