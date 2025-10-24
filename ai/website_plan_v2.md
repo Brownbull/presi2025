@@ -568,7 +568,7 @@ Para información oficial y completa, consulte los programas originales en los s
 
 Si este proyecto te resulta útil, considera apoyarnos:
 
-[☕ Buy me a coffee](https://buymeacoffee.com/brownbull)
+[☕ Buy me a coffee](https://buymeacoffee.com/khujtaaig)
 
 Tu apoyo ayuda a mantener este y futuros proyectos de información ciudadana.
 

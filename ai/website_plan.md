@@ -140,7 +140,7 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 ```
 
 **Texto:** "☕ Apóyanos"
-**Link:** https://buymeacoffee.com/brownbull
+**Link:** https://buymeacoffee.com/khujtaaig
 **Comportamiento:** Siempre visible, sticky
 
 ---
@@ -695,7 +695,7 @@ function showTooltip(cell) {
 **HTML:**
 ```html
 <a
-  href="https://buymeacoffee.com/brownbull"
+  href="https://buymeacoffee.com/khujtaaig"
   target="_blank"
   rel="noopener noreferrer"
   class="donate-button"

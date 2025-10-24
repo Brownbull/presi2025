@@ -26,7 +26,7 @@ description: Matriz interactiva con 224 evaluaciones de 28 personas sobre 8 cand
   <table class="matriz-table" id="matrizTable">
     <thead>
       <tr>
-        <th class="sticky-col persona-header">
+        <th class="sticky-col candidato-header personas-header-special">
           <a href="/personas/" class="persona-column-title">Personas</a>
         </th>
         <th class="candidato-header">
@@ -79,12 +79,18 @@ description: Matriz interactiva con 224 evaluaciones de 28 personas sobre 8 cand
 
       {# Individual persona rows #}
       {% for evaluacion in matriz.evaluaciones %}
-      <tr data-evaluacion='{{ evaluacion.evaluaciones | dump | safe }}'>
+      <tr data-evaluacion='{{ evaluacion.evaluaciones | dump | safe }}' data-included="true">
         <td class="persona-cell sticky-col">
           <div class="persona-header-cell">
-            <a href="/personas/{{ evaluacion.numero | personaId }}-{{ evaluacion.nombre | slug }}/" class="persona-link">
-              <div class="persona-name">{{ evaluacion.numero }}. {{ evaluacion.nombre }}</div>
-            </a>
+            <div class="persona-name-row">
+              <a href="/personas/{{ evaluacion.numero | personaId }}-{{ evaluacion.nombre | slug }}/" class="persona-link">
+                <div class="persona-name">{{ evaluacion.numero }}. {{ evaluacion.nombre }}</div>
+              </a>
+              <button class="toggle-include-btn" onclick="togglePersonaInclusion(this)" title="Excluir de promedio">
+                <span class="exclude-icon">−</span>
+                <span class="include-icon" style="display: none;">+</span>
+              </button>
+            </div>
             {% set persona = personas | find(evaluacion.numero) %}
             {% if persona %}
             <details class="persona-details">
@@ -131,6 +137,10 @@ function calculateColumnAverage(columnIndex, selectedCandidato) {
   let count = 0;
 
   rows.forEach(row => {
+    // Only include rows that are marked as included
+    const isIncluded = row.getAttribute('data-included') === 'true';
+    if (!isIncluded) return;
+
     const evaluaciones = JSON.parse(row.getAttribute('data-evaluacion'));
     const rating = evaluaciones[selectedCandidato];
 
@@ -141,6 +151,39 @@ function calculateColumnAverage(columnIndex, selectedCandidato) {
   });
 
   return count > 0 ? sum / count : null;
+}
+
+function togglePersonaInclusion(button) {
+  const row = button.closest('tr');
+  const isIncluded = row.getAttribute('data-included') === 'true';
+
+  // Toggle the included state
+  row.setAttribute('data-included', !isIncluded);
+
+  // Toggle button icons
+  const excludeIcon = button.querySelector('.exclude-icon');
+  const includeIcon = button.querySelector('.include-icon');
+
+  if (isIncluded) {
+    // Excluding the row
+    row.classList.add('excluded');
+    excludeIcon.style.display = 'none';
+    includeIcon.style.display = 'inline';
+    button.title = 'Incluir en promedio';
+  } else {
+    // Including the row
+    row.classList.remove('excluded');
+    excludeIcon.style.display = 'inline';
+    includeIcon.style.display = 'none';
+    button.title = 'Excluir de promedio';
+  }
+
+  // Recalculate all averages
+  const selectors = document.querySelectorAll('.candidato-selector');
+  selectors.forEach(selector => {
+    const columnIndex = parseInt(selector.getAttribute('data-column'));
+    updateMatrizColumn(columnIndex, selector.value);
+  });
 }
 
 function updateMatrizColumn(columnIndex, selectedCandidato) {
@@ -317,8 +360,18 @@ document.addEventListener('DOMContentLoaded', function() {
   font-weight: 600;
 }
 
-.persona-column-title:hover {
-  color: var(--color-primary);
+.persona-column-title:hover {  color: var(--color-primary);  text-decoration: underline;}.personas-header-special {  background-color: #1565C0 !important;}
+.personas-header-special .persona-column-title {
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.personas-header-special .persona-column-title:hover {
+  color: #E3F2FD;
+  text-decoration: none;
+}
   text-decoration: underline;
 }
 
@@ -334,8 +387,65 @@ document.addEventListener('DOMContentLoaded', function() {
   color: inherit;
 }
 
+.persona-name-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+
 .persona-name {
   font-weight: 500;
+}
+
+.toggle-include-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.toggle-include-btn:hover {
+  background-color: var(--color-text);
+  transform: scale(1.1);
+}
+
+.toggle-include-btn .exclude-icon,
+.toggle-include-btn .include-icon {
+  display: inline;
+}
+
+/* Excluded row styling */
+tr.excluded {
+  opacity: 0.5;
+}
+
+tr.excluded .persona-name,
+tr.excluded .rating-cell {
+  color: #999 !important;
+}
+
+tr.excluded .rating-cell {
+  background-color: #f5f5f5 !important;
+}
+
+tr.excluded .toggle-include-btn {
+  background-color: #999;
+}
+
+tr.excluded .toggle-include-btn:hover {
+  background-color: var(--color-primary);
 }
 
 .persona-details {
@@ -362,8 +472,9 @@ document.addEventListener('DOMContentLoaded', function() {
   width: 1.25rem;
   height: 1.25rem;
   border-radius: 50%;
-  background-color: var(--color-primary);
-  color: white;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
   font-weight: 700;
   font-size: 1rem;
   line-height: 1;
@@ -372,16 +483,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
 .persona-details[open] .plus-button {
   transform: rotate(45deg);
-  background-color: var(--color-text-secondary);
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }
 
 .persona-details summary:hover .plus-button {
-  background-color: var(--color-text);
+  background-color: #f0f0f0;
   transform: scale(1.1);
 }
 
 .persona-details[open] summary:hover .plus-button {
-  background-color: var(--color-text);
+  background-color: #f0f0f0;
   transform: rotate(45deg) scale(1.1);
 }
 

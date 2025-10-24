@@ -102,7 +102,7 @@ Ver más detalles en [/metodologia/](src/metodologia/index.njk)
 Creado por **Gabe C**
 
 - LinkedIn: [gabriel-carcamo](https://www.linkedin.com/in/gabriel-carcamo/)
-- Buy Me a Coffee: [brownbull](https://buymeacoffee.com/brownbull)
+- Buy Me a Coffee: [khujtaaig](https://buymeacoffee.com/khujtaaig)
 
 ## Licencia
 
