@@ -114,11 +114,6 @@ description: Responde 7 preguntas y descubre qué candidato presidencial respond
         <div id="matched-personas" class="matched-personas"></div>
       </div>
 
-      <div class="results-section">
-        <h3>Candidatos recomendados según tu perfil:</h3>
-        <div id="recommended-candidates" class="recommended-candidates"></div>
-      </div>
-
       <div class="results-actions">
         <a href="{{ '/matriz/' | url }}" class="btn btn-primary">Ver matriz completa</a>
         <button id="restart-quiz" class="btn btn-secondary">Repetir quiz</button>
@@ -221,13 +216,9 @@ description: Responde 7 preguntas y descubre qué candidato presidencial respond
 
     // Calculate matches
     const matchedPersonas = calculatePersonaMatches();
-    const recommendedCandidates = calculateCandidateRecommendations(matchedPersonas);
 
     // Display matched personas
     displayMatchedPersonas(matchedPersonas);
-
-    // Display recommended candidates
-    displayRecommendedCandidates(recommendedCandidates);
 
     // Update progress to 100%
     document.getElementById('progress-fill').style.width = '100%';
@@ -247,16 +238,6 @@ description: Responde 7 preguntas y descubre qué candidato presidencial respond
     // Add more sophisticated matching based on other answers
     // For now, return top 3 matches
     return matches.slice(0, 3);
-  }
-
-  function calculateCandidateRecommendations(matchedPersonas) {
-    // This would ideally pull from actual evaluation data
-    // For demonstration, returning general recommendations
-    return [
-      { name: 'Jeannette Jara', rating: 7.2, reason: 'Enfoque fuerte en protección social' },
-      { name: 'Evelyn Matthei', rating: 6.8, reason: 'Propuestas económicas amplias' },
-      { name: 'Marco Enríquez-Ominami', rating: 6.5, reason: 'Balance entre social y desarrollo' }
-    ];
   }
 
   function displayMatchedPersonas(personas) {
@@ -285,21 +266,6 @@ description: Responde 7 preguntas y descubre qué candidato presidencial respond
       <div class="persona-card">
         <h4>${personaNames[slug] || slug}</h4>
         <a href="{{ '/personas/' | url }}${slug}/" class="btn-link">Ver evaluaciones completas →</a>
-      </div>
-    `).join('');
-  }
-
-  function displayRecommendedCandidates(candidates) {
-    const container = document.getElementById('recommended-candidates');
-
-    container.innerHTML = candidates.map((candidate, index) => `
-      <div class="candidate-card">
-        <div class="candidate-rank">#${index + 1}</div>
-        <div class="candidate-info">
-          <h4>${candidate.name}</h4>
-          <p class="candidate-rating">Afinidad: <strong>${candidate.rating}/10</strong></p>
-          <p class="candidate-reason">${candidate.reason}</p>
-        </div>
       </div>
     `).join('');
   }
@@ -442,57 +408,16 @@ description: Responde 7 preguntas y descubre qué candidato presidencial respond
   color: var(--color-text);
 }
 
-.matched-personas,
-.recommended-candidates {
+.matched-personas {
   display: grid;
   gap: var(--spacing-md);
 }
 
-.persona-card,
-.candidate-card {
+.persona-card {
   background: white;
   padding: var(--spacing-md);
   border-radius: var(--radius-md);
   border: 1px solid var(--color-border);
-}
-
-.candidate-card {
-  display: flex;
-  gap: var(--spacing-md);
-  align-items: center;
-}
-
-.candidate-rank {
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--color-primary);
-  min-width: 60px;
-  text-align: center;
-}
-
-.candidate-info {
-  flex: 1;
-}
-
-.candidate-info h4 {
-  margin: 0 0 var(--spacing-sm) 0;
-}
-
-.candidate-rating {
-  color: var(--color-text-secondary);
-  margin: var(--spacing-xs) 0;
-}
-
-.candidate-rating strong {
-  color: var(--color-primary);
-  font-size: 1.1rem;
-}
-
-.candidate-reason {
-  font-style: italic;
-  color: var(--color-text-secondary);
-  font-size: 0.9rem;
-  margin: 0;
 }
 
 .btn-link {
