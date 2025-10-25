@@ -7,10 +7,19 @@ description: Matriz interactiva con 224 evaluaciones de 28 personas artificiales
 <h1>📊 Matriz de Evaluación</h1>
 
 <p class="intro">
-  Matriz interactiva con <strong>224 evaluaciones</strong> (28 personas × 8 candidatos).
-  Cada celda muestra la calificación que una persona electoral otorga al programa de un candidato,
-  en escala de 0-10.
+  Matriz interactiva con <strong>224 evaluaciones</strong> (28 personas ficticias × 8 candidatos).
+  Cada celda muestra la calificación que una <strong>persona ficticia</strong> (creada para este estudio)
+  otorga al programa de un candidato, en escala de 0-10.
 </p>
+
+<div class="interaction-guide">
+  <h3>Controles interactivos:</h3>
+  <ul>
+    <li><strong>Menús desplegables:</strong> Cambia los candidatos mostrados en cada columna</li>
+    <li><strong>Botón −:</strong> Excluye una persona del cálculo de promedio</li>
+    <li><strong>Botón +:</strong> Muestra más detalles sobre la persona (edad, ingresos, contexto)</li>
+  </ul>
+</div>
 
 <div class="matriz-legend">
   <h3>Escala de Colores</h3>
@@ -257,7 +266,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <section class="rankings-section">
   <h2>Rankings por Candidato</h2>
-  <p>Promedio general de las 28 personas electorales:</p>
+  <p>Promedio general de las 28 personas electorales (ficticias):</p>
 
   <ol class="ranking-list">
     {% for ranking in matriz.rankings %}
@@ -273,14 +282,58 @@ document.addEventListener('DOMContentLoaded', function() {
     </li>
     {% endfor %}
   </ol>
+
+  <div class="matriz-disclaimer">
+    <h3>⚠️ Importante</h3>
+    <p>
+      Esta matriz es un <strong>ejercicio informativo con fines educativos</strong>. Las evaluaciones son generadas
+      por IA usando <strong>28 personas ficticias</strong> (no personas reales). Los puntajes reflejan análisis de texto
+      de los programas desde perspectivas artificiales predefinidas.
+    </p>
+    <p>
+      <strong>Esto NO constituye recomendación electoral ni encuesta de opinión.</strong>
+      Consulta múltiples fuentes y lee los programas completos antes de votar.
+    </p>
+  </div>
 </section>
 
 <style>
 .intro {
   font-size: 1.1rem;
   color: var(--color-text-secondary);
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
   max-width: 800px;
+}
+
+.interaction-guide {
+  background: #E3F2FD;
+  border-left: 4px solid var(--color-primary);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+  max-width: 800px;
+}
+
+.interaction-guide h3 {
+  margin: 0 0 var(--spacing-xs) 0;
+  font-size: 1rem;
+  color: var(--color-primary);
+}
+
+.interaction-guide ul {
+  margin: 0;
+  padding-left: var(--spacing-lg);
+  list-style: disc;
+}
+
+.interaction-guide li {
+  margin-bottom: var(--spacing-xs);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.interaction-guide li:last-child {
+  margin-bottom: 0;
 }
 
 .matriz-legend {
@@ -626,5 +679,28 @@ tr.excluded .toggle-include-btn:hover {
 .ranking-item .rating {
   font-weight: 700;
   font-size: 1.2rem;
+}
+
+.matriz-disclaimer {
+  margin-top: var(--spacing-lg);
+  padding: var(--spacing-md);
+  background: #FFF9E6;
+  border-left: 4px solid #FF9800;
+  border-radius: var(--radius-sm);
+}
+
+.matriz-disclaimer h3 {
+  margin-top: 0;
+  color: #E65100;
+  font-size: 1.1rem;
+}
+
+.matriz-disclaimer p {
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.6;
+}
+
+.matriz-disclaimer p:last-child {
+  margin-bottom: 0;
 }
 </style>

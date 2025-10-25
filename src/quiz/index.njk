@@ -1,0 +1,572 @@
+---
+layout: layouts/base.njk
+title: Encuentra Tu Candidato
+description: Responde 7 preguntas y descubre qué candidato presidencial responde mejor a tu realidad
+---
+
+<div class="quiz-container">
+  <div class="quiz-header">
+    <h1>🎯 Encuentra Tu Candidato</h1>
+    <p class="quiz-intro">
+      Responde <strong>7 preguntas</strong> sobre tu situación y prioridades.
+      Te mostraremos qué <strong>personas electorales ficticias</strong> (perfiles creados para este estudio)
+      son más similares a ti y qué candidatos responden mejor a esas necesidades según el análisis de sus programas.
+    </p>
+    <p class="quiz-disclaimer-top">
+      ℹ️ Este es un ejercicio informativo con fines educativos, NO constituye recomendación electoral.
+    </p>
+  </div>
+
+  <div id="quiz-content">
+    <!-- Question 1: Age -->
+    <div class="quiz-question active" data-question="1">
+      <h2>1. ¿En qué rango de edad estás?</h2>
+      <div class="quiz-options">
+        <button class="quiz-option" data-value="18-25">18-25 años</button>
+        <button class="quiz-option" data-value="26-35">26-35 años</button>
+        <button class="quiz-option" data-value="36-50">36-50 años</button>
+        <button class="quiz-option" data-value="51+">51+ años</button>
+      </div>
+    </div>
+
+    <!-- Question 2: Main Concern -->
+    <div class="quiz-question" data-question="2">
+      <h2>2. ¿Cuál es tu principal preocupación?</h2>
+      <div class="quiz-options">
+        <button class="quiz-option" data-value="salud">Salud</button>
+        <button class="quiz-option" data-value="educacion">Educación</button>
+        <button class="quiz-option" data-value="seguridad">Seguridad</button>
+        <button class="quiz-option" data-value="economia">Economía y Empleo</button>
+        <button class="quiz-option" data-value="vivienda">Vivienda</button>
+        <button class="quiz-option" data-value="pensiones">Pensiones</button>
+      </div>
+    </div>
+
+    <!-- Question 3: Work Situation -->
+    <div class="quiz-question" data-question="3">
+      <h2>3. ¿Cuál es tu situación laboral?</h2>
+      <div class="quiz-options">
+        <button class="quiz-option" data-value="dependiente">Trabajador dependiente</button>
+        <button class="quiz-option" data-value="independiente">Trabajador independiente / Emprendedor</button>
+        <button class="quiz-option" data-value="profesional">Profesional (universidad)</button>
+        <button class="quiz-option" data-value="estudiante">Estudiante</button>
+        <button class="quiz-option" data-value="jubilado">Jubilado/a</button>
+        <button class="quiz-option" data-value="duena-casa">Dueña de casa</button>
+      </div>
+    </div>
+
+    <!-- Question 4: Income Level -->
+    <div class="quiz-question" data-question="4">
+      <h2>4. ¿En qué rango está tu ingreso familiar mensual?</h2>
+      <div class="quiz-options">
+        <button class="quiz-option" data-value="bajo">Menos de $500.000</button>
+        <button class="quiz-option" data-value="medio-bajo">$500.000 - $1.000.000</button>
+        <button class="quiz-option" data-value="medio">$1.000.000 - $2.000.000</button>
+        <button class="quiz-option" data-value="medio-alto">$2.000.000 - $3.500.000</button>
+        <button class="quiz-option" data-value="alto">Más de $3.500.000</button>
+      </div>
+    </div>
+
+    <!-- Question 5: Location -->
+    <div class="quiz-question" data-question="5">
+      <h2>5. ¿Dónde vives?</h2>
+      <div class="quiz-options">
+        <button class="quiz-option" data-value="santiago-oriente">Santiago (sector oriente)</button>
+        <button class="quiz-option" data-value="santiago-sur">Santiago (sector sur)</button>
+        <button class="quiz-option" data-value="santiago-otro">Santiago (otras comunas)</button>
+        <button class="quiz-option" data-value="region-urbano">Región (ciudad)</button>
+        <button class="quiz-option" data-value="region-rural">Región (zona rural)</button>
+      </div>
+    </div>
+
+    <!-- Question 6: Family Situation -->
+    <div class="quiz-question" data-question="6">
+      <h2>6. ¿Cuál es tu situación familiar?</h2>
+      <div class="quiz-options">
+        <button class="quiz-option" data-value="solo">Vivo solo/a</button>
+        <button class="quiz-option" data-value="pareja">En pareja sin hijos</button>
+        <button class="quiz-option" data-value="familia-joven">Familia con hijos pequeños</button>
+        <button class="quiz-option" data-value="familia-escolar">Familia con hijos en edad escolar</button>
+        <button class="quiz-option" data-value="familia-adulta">Hijos adultos / Adulto mayor</button>
+      </div>
+    </div>
+
+    <!-- Question 7: Top Priority -->
+    <div class="quiz-question" data-question="7">
+      <h2>7. Si pudieras cambiar UNA cosa en Chile, ¿cuál sería?</h2>
+      <div class="quiz-options">
+        <button class="quiz-option" data-value="delincuencia">Reducir la delincuencia</button>
+        <button class="quiz-option" data-value="costo-vida">Bajar el costo de vida</button>
+        <button class="quiz-option" data-value="salud-publica">Mejorar salud pública</button>
+        <button class="quiz-option" data-value="educacion-calidad">Mejorar calidad educación</button>
+        <button class="quiz-option" data-value="pensiones-dignas">Pensiones dignas</button>
+        <button class="quiz-option" data-value="medio-ambiente">Proteger medio ambiente</button>
+        <button class="quiz-option" data-value="oportunidades">Más oportunidades laborales</button>
+      </div>
+    </div>
+
+    <!-- Results Section -->
+    <div id="quiz-results" class="quiz-results" style="display: none;">
+      <h2>✨ Tus Resultados</h2>
+
+      <div class="results-section">
+        <h3>Personas que se parecen a ti:</h3>
+        <div id="matched-personas" class="matched-personas"></div>
+      </div>
+
+      <div class="results-section">
+        <h3>Candidatos recomendados según tu perfil:</h3>
+        <div id="recommended-candidates" class="recommended-candidates"></div>
+      </div>
+
+      <div class="results-actions">
+        <a href="{{ '/matriz/' | url }}" class="btn btn-primary">Ver matriz completa</a>
+        <button id="restart-quiz" class="btn btn-secondary">Repetir quiz</button>
+      </div>
+
+      <p class="results-disclaimer">
+        ⚠️ <strong>Este es un ejercicio informativo con fines educativos.</strong>
+        Los resultados muestran coincidencias entre tu perfil y personas ficticias creadas para este estudio.
+        Este contenido NO constituye recomendación electoral ni debe ser la única fuente para decisiones de voto.
+        Te invitamos a leer los programas completos y consultar múltiples fuentes antes de votar.
+      </p>
+    </div>
+  </div>
+
+  <div class="quiz-progress">
+    <div class="progress-bar">
+      <div id="progress-fill" class="progress-fill" style="width: 0%"></div>
+    </div>
+    <p class="progress-text">Pregunta <span id="current-question">0</span> de 7</p>
+  </div>
+</div>
+
+<script>
+  // Quiz State
+  let answers = {
+    age: null,
+    concern: null,
+    work: null,
+    income: null,
+    location: null,
+    family: null,
+    priority: null
+  };
+
+  let currentQuestion = 0;
+  const totalQuestions = 7;
+
+  // Mapping of answers to personas (simplified matching logic)
+  const personaMatching = {
+    // This would ideally be populated from actual persona data
+    // For now, we'll use a simplified version
+    '18-25': ['24-bryan-flores', '25-dr-sebastian-herrera'],
+    '26-35': ['01-maria-jose-contreras', '07-daniela-soto', '09-alejandra-martinez'],
+    '36-50': ['02-juan-carlos-munoz', '04-catalina-rojas', '11-carla-espinoza'],
+    '51+': ['05-rosa-perez', '06-pedro-quintana', '26-isabel-parra']
+  };
+
+  // Event listeners for quiz options
+  document.querySelectorAll('.quiz-option').forEach(button => {
+    button.addEventListener('click', function() {
+      const questionDiv = this.closest('.quiz-question');
+      const questionNum = questionDiv.dataset.question;
+      const value = this.dataset.value;
+
+      // Store answer
+      const questionKeys = ['age', 'concern', 'work', 'income', 'location', 'family', 'priority'];
+      answers[questionKeys[questionNum - 1]] = value;
+
+      // Visual feedback
+      questionDiv.querySelectorAll('.quiz-option').forEach(opt => opt.classList.remove('selected'));
+      this.classList.add('selected');
+
+      // Move to next question
+      setTimeout(() => {
+        if (questionNum < totalQuestions) {
+          showQuestion(parseInt(questionNum) + 1);
+        } else {
+          showResults();
+        }
+      }, 300);
+    });
+  });
+
+  function showQuestion(num) {
+    currentQuestion = num;
+
+    // Hide all questions
+    document.querySelectorAll('.quiz-question').forEach(q => q.classList.remove('active'));
+
+    // Show current question
+    const currentQ = document.querySelector(`[data-question="${num}"]`);
+    if (currentQ) {
+      currentQ.classList.add('active');
+      currentQ.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // Update progress
+    const progress = (num / totalQuestions) * 100;
+    document.getElementById('progress-fill').style.width = progress + '%';
+    document.getElementById('current-question').textContent = num;
+  }
+
+  function showResults() {
+    // Hide questions
+    document.querySelectorAll('.quiz-question').forEach(q => q.style.display = 'none');
+
+    // Show results
+    document.getElementById('quiz-results').style.display = 'block';
+    document.getElementById('quiz-results').scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    // Calculate matches
+    const matchedPersonas = calculatePersonaMatches();
+    const recommendedCandidates = calculateCandidateRecommendations(matchedPersonas);
+
+    // Display matched personas
+    displayMatchedPersonas(matchedPersonas);
+
+    // Display recommended candidates
+    displayRecommendedCandidates(recommendedCandidates);
+
+    // Update progress to 100%
+    document.getElementById('progress-fill').style.width = '100%';
+    document.getElementById('current-question').textContent = '7';
+  }
+
+  function calculatePersonaMatches() {
+    // Simplified matching based on age and main concern
+    // In a real implementation, this would use actual persona data
+    const matches = [];
+
+    // Age-based matching
+    if (personaMatching[answers.age]) {
+      matches.push(...personaMatching[answers.age]);
+    }
+
+    // Add more sophisticated matching based on other answers
+    // For now, return top 3 matches
+    return matches.slice(0, 3);
+  }
+
+  function calculateCandidateRecommendations(matchedPersonas) {
+    // This would ideally pull from actual evaluation data
+    // For demonstration, returning general recommendations
+    return [
+      { name: 'Jeannette Jara', rating: 7.2, reason: 'Enfoque fuerte en protección social' },
+      { name: 'Evelyn Matthei', rating: 6.8, reason: 'Propuestas económicas amplias' },
+      { name: 'Marco Enríquez-Ominami', rating: 6.5, reason: 'Balance entre social y desarrollo' }
+    ];
+  }
+
+  function displayMatchedPersonas(personas) {
+    const container = document.getElementById('matched-personas');
+
+    if (personas.length === 0) {
+      container.innerHTML = '<p>No se encontraron coincidencias exactas. Te recomendamos explorar todas las personas en el sitio.</p>';
+      return;
+    }
+
+    const personaNames = {
+      '01-maria-jose-contreras': 'María José Contreras - Profesional agobiada',
+      '02-juan-carlos-munoz': 'Juan Carlos Muñoz - Comerciante en crisis',
+      '04-catalina-rojas': 'Catalina Rojas - Madre de clase media',
+      '05-rosa-perez': 'Rosa Pérez - Jubilada precarizada',
+      '06-pedro-quintana': 'Pedro Quintana - Pensionado',
+      '07-daniela-soto': 'Daniela Soto - Profesora agotada',
+      '09-alejandra-martinez': 'Alejandra Martínez - Emprendedora',
+      '11-carla-espinoza': 'Carla Espinoza - Dueña de casa',
+      '24-bryan-flores': 'Bryan Flores - Estudiante endeudado',
+      '25-dr-sebastian-herrera': 'Dr. Sebastián Herrera - Médico público',
+      '26-isabel-parra': 'Isabel Parra - Adulta mayor vulnerable'
+    };
+
+    container.innerHTML = personas.map(slug => `
+      <div class="persona-card">
+        <h4>${personaNames[slug] || slug}</h4>
+        <a href="{{ '/personas/' | url }}${slug}/" class="btn-link">Ver evaluaciones completas →</a>
+      </div>
+    `).join('');
+  }
+
+  function displayRecommendedCandidates(candidates) {
+    const container = document.getElementById('recommended-candidates');
+
+    container.innerHTML = candidates.map((candidate, index) => `
+      <div class="candidate-card">
+        <div class="candidate-rank">#${index + 1}</div>
+        <div class="candidate-info">
+          <h4>${candidate.name}</h4>
+          <p class="candidate-rating">Afinidad: <strong>${candidate.rating}/10</strong></p>
+          <p class="candidate-reason">${candidate.reason}</p>
+        </div>
+      </div>
+    `).join('');
+  }
+
+  // Restart quiz
+  document.addEventListener('click', function(e) {
+    if (e.target && e.target.id === 'restart-quiz') {
+      location.reload();
+    }
+  });
+
+  // Initialize
+  showQuestion(1);
+</script>
+
+<style>
+.quiz-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quiz-header {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.quiz-header h1 {
+  margin-bottom: var(--spacing-md);
+}
+
+.quiz-intro {
+  font-size: 1.1rem;
+  color: var(--color-text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.quiz-disclaimer-top {
+  max-width: 600px;
+  margin: var(--spacing-md) auto 0;
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: #FFF9E6;
+  border-left: 4px solid #FF9800;
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.quiz-question {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  margin-bottom: var(--spacing-xl);
+}
+
+.quiz-question.active {
+  display: block;
+  opacity: 1;
+}
+
+.quiz-question h2 {
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-lg);
+  color: var(--color-text);
+}
+
+.quiz-options {
+  display: grid;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-xl);
+}
+
+.quiz-option {
+  padding: var(--spacing-md);
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.quiz-option:hover {
+  border-color: var(--color-primary);
+  background: #E3F2FD;
+}
+
+.quiz-option.selected {
+  border-color: var(--color-primary);
+  background: var(--color-primary);
+  color: white;
+  font-weight: 500;
+}
+
+.quiz-progress {
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--color-border);
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: var(--spacing-sm);
+}
+
+.progress-fill {
+  height: 100%;
+  background: var(--color-primary);
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  text-align: center;
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
+
+.quiz-results {
+  padding: var(--spacing-xl);
+  background: linear-gradient(135deg, #E3F2FD 0%, #FFF9C4 100%);
+  border-radius: var(--radius-lg);
+}
+
+.quiz-results h2 {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.results-section {
+  margin: var(--spacing-xl) 0;
+}
+
+.results-section h3 {
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text);
+}
+
+.matched-personas,
+.recommended-candidates {
+  display: grid;
+  gap: var(--spacing-md);
+}
+
+.persona-card,
+.candidate-card {
+  background: white;
+  padding: var(--spacing-md);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+}
+
+.candidate-card {
+  display: flex;
+  gap: var(--spacing-md);
+  align-items: center;
+}
+
+.candidate-rank {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  min-width: 60px;
+  text-align: center;
+}
+
+.candidate-info {
+  flex: 1;
+}
+
+.candidate-info h4 {
+  margin: 0 0 var(--spacing-sm) 0;
+}
+
+.candidate-rating {
+  color: var(--color-text-secondary);
+  margin: var(--spacing-xs) 0;
+}
+
+.candidate-rating strong {
+  color: var(--color-primary);
+  font-size: 1.1rem;
+}
+
+.candidate-reason {
+  font-style: italic;
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.btn-link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+.results-actions {
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
+  margin: var(--spacing-xl) 0;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--radius-md);
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #0D47A1;
+}
+
+.btn-secondary {
+  background: var(--color-border);
+  color: var(--color-text);
+}
+
+.btn-secondary:hover {
+  background: #ccc;
+}
+
+.results-disclaimer {
+  background: white;
+  padding: var(--spacing-md);
+  border-left: 4px solid var(--color-secondary);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  margin-top: var(--spacing-lg);
+}
+
+@media (max-width: 768px) {
+  .quiz-option {
+    padding: var(--spacing-sm);
+  }
+
+  .candidate-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .results-actions {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+</style>

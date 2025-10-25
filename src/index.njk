@@ -4,11 +4,67 @@ title: Inicio
 ---
 
 <div class="hero">
-  <h1>🤖 Análisis con IA sobre Programas Presidenciales Chile 2025</h1>
-  <p class="lead">
-    Evaluación de 8 candidatos presidenciales desde la perspectiva de 28 personas electorales,
-    generada con <strong>Claude Sonnet 4.5</strong> de Anthropic.
-  </p>
+  <div class="value-proposition">
+    <h2 class="value-heading">¿Para qué sirve este análisis?</h2>
+    <p class="value-text">
+      <strong>Encuentra tu candidato en 5 minutos</strong> sin leer cientos de páginas de programas.
+      Este sitio traduce la retórica política en datos concretos, mostrándote qué candidato responde mejor
+      a <strong>tu realidad específica</strong>: desde profesionales agobiados hasta jubilados precarizados,
+      emprendedores rurales o estudiantes endeudados.
+    </p>
+
+    <div class="quiz-cta">
+      <a href="{{ '/quiz/' | url }}" class="quiz-button">
+        🎯 Encuentra Tu Candidato en 2 Minutos
+      </a>
+      <p class="quiz-subtitle">Responde 7 preguntas y descubre qué programa responde mejor a tu realidad</p>
+    </div>
+
+    <div class="value-benefits">
+      <div class="benefit">
+        <span class="benefit-icon">📊</span>
+        <div class="benefit-text">
+          <strong>1,547 medidas analizadas</strong>
+          <span class="benefit-description">con citas precisas de cada programa</span>
+        </div>
+      </div>
+      <div class="benefit">
+        <span class="benefit-icon">🎯</span>
+        <div class="benefit-text">
+          <strong>224 evaluaciones personalizadas</strong>
+          <span class="benefit-description">que te ayudan a encontrar afinidad</span>
+        </div>
+      </div>
+      <div class="benefit">
+        <span class="benefit-icon">🔍</span>
+        <div class="benefit-text">
+          <strong>Metodología transparente</strong>
+          <span class="benefit-description">y datos verificables, no opiniones</span>
+        </div>
+      </div>
+      <div class="benefit">
+        <span class="benefit-icon">⚡</span>
+        <div class="benefit-text">
+          <strong>Análisis independiente</strong>
+          <span class="benefit-description">sin sesgos partidistas ni financiamiento político</span>
+        </div>
+      </div>
+      <div class="benefit">
+        <span class="benefit-icon">🎭</span>
+        <div class="benefit-text">
+          <strong>Simulación de perspectivas</strong>
+          <span class="benefit-description">28 personas ficticias leyendo todos los programas y sacando conclusiones lógicas según su contexto</span>
+        </div>
+      </div>
+      <div class="benefit">
+        <span class="benefit-icon">📖</span>
+        <div class="benefit-text">
+          <strong>Acceso a datos resumidos</strong>
+          <span class="benefit-description">en vez de leer programas de hasta 200 páginas, aunque siempre debes consultar los originales</span>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <section class="intro-section">
@@ -25,10 +81,10 @@ title: Inicio
     </div>
 
     <div class="card">
-      <h3>👥 28 Personas Electorales</h3>
+      <h3>👥 28 Personas Electorales (Ficticias)</h3>
       <p>
-        Perfiles detallados de 28 personas que representan diferentes grupos de interés electoral en Chile,
-        desde profesionales agobiados hasta jubilados precarizados.
+        Perfiles ficticios diseñados para este estudio que representan diferentes grupos de interés electoral en Chile,
+        desde profesionales agobiados hasta jubilados precarizados. <strong>No son personas reales.</strong>
       </p>
       <p><a href="{{ '/personas/' | url }}">Ver personas →</a></p>
     </div>
@@ -81,8 +137,10 @@ title: Inicio
       <li><strong>Transparencia total:</strong> Todas las evaluaciones citan medidas específicas y explican su razonamiento.</li>
     </ul>
     <p class="disclaimer">
-      ⚠️ <strong>Importante:</strong> Este contenido es informativo y no constituye recomendación electoral.
-      Está diseñado para facilitar el acceso a información programática desde múltiples perspectivas ciudadanas.
+      ⚠️ <strong>Importante:</strong> Este es un ejercicio académico e informativo con fines educativos.
+      <strong>NO constituye recomendación electoral ni asesoría para el voto.</strong>
+      Las evaluaciones son generadas por IA usando personas ficticias, no reflejan opiniones de votantes reales.
+      Consulta múltiples fuentes y lee los programas completos antes de votar.
     </p>
   </div>
 </section>
@@ -105,6 +163,119 @@ title: Inicio
   color: var(--color-text-secondary);
   max-width: 800px;
   margin: 0 auto;
+}
+
+.value-proposition {
+  margin-top: var(--spacing-xl);
+  padding: var(--spacing-lg);
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: var(--radius-md);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.value-heading {
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text);
+}
+
+.value-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: var(--spacing-lg);
+  color: var(--color-text);
+  text-align: left;
+}
+
+.quiz-cta {
+  text-align: center;
+  margin: var(--spacing-xl) 0;
+  padding: var(--spacing-lg);
+  background: white;
+  border-radius: var(--radius-md);
+  border: 2px solid var(--color-primary);
+}
+
+.quiz-button {
+  display: inline-block;
+  padding: var(--spacing-md) var(--spacing-xl);
+  background: linear-gradient(135deg, var(--color-primary) 0%, #00ACC1 100%);
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: var(--radius-lg);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(25, 118, 210, 0.3);
+}
+
+.quiz-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(25, 118, 210, 0.4);
+  text-decoration: none;
+}
+
+.quiz-subtitle {
+  margin-top: var(--spacing-sm);
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+}
+
+.value-benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-lg);
+}
+
+.benefit {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-sm);
+  text-align: left;
+  padding: var(--spacing-sm);
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.benefit-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.benefit-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.benefit-text strong {
+  color: var(--color-text);
+  font-size: 0.95rem;
+  line-height: 1.3;
+}
+
+.benefit-description {
+  color: var(--color-text-secondary);
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .value-benefits {
+    grid-template-columns: 1fr;
+  }
+
+  .value-heading {
+    font-size: 1.3rem;
+  }
+
+  .value-text {
+    font-size: 1rem;
+  }
 }
 
 .intro-section,

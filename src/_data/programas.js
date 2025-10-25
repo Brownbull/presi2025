@@ -11,56 +11,64 @@ module.exports = function() {
       nombre: 'Eduardo Artés',
       archivo: 'extract_Eduardo_Artes.txt',
       partido: 'Partido Comunista (Acción Proletaria)',
-      color: '#C62828'
+      color: '#C62828',
+      pdfUrl: 'https://www.servel.cl/wp-content/uploads/2025/09/EDUARDO-ANTONIO-ARTES-BRICHETTI.pdf'
     },
     {
       slug: 'evelyn-matthei',
       nombre: 'Evelyn Matthei',
       archivo: 'extract_Evelyn_Matthei.txt',
       partido: 'Unión Demócrata Independiente (UDI)',
-      color: '#1565C0'
+      color: '#1565C0',
+      pdfUrl: 'https://www.servel.cl/wp-content/uploads/2025/09/EVELYN-MATTHEI-FORNET.pdf'
     },
     {
       slug: 'franco-parisi',
       nombre: 'Franco Parisi',
       archivo: 'extract_Franco_Parisi.txt',
       partido: 'Partido de la Gente (PDG)',
-      color: '#F57C00'
+      color: '#F57C00',
+      pdfUrl: 'https://www.servel.cl/wp-content/uploads/2025/09/FRANCO-PARISI-FERNANDEZ.pdf'
     },
     {
       slug: 'harold-mayne-nicholls',
       nombre: 'Harold Mayne-Nicholls',
       archivo: 'extract_Harold_Mayne_Nicholls.txt',
       partido: 'Partido Social Cristiano',
-      color: '#7B1FA2'
+      color: '#7B1FA2',
+      pdfUrl: 'https://www.servel.cl/wp-content/uploads/2025/09/HAROLD-MAYNE-NICHOLLS-SECUL.pdf'
     },
     {
       slug: 'jeannette-jara',
       nombre: 'Jeannette Jara',
       archivo: 'extract_Jeannette_Jara.txt',
       partido: 'Partido Comunista de Chile (PCCh)',
-      color: '#C62828'
+      color: '#C62828',
+      pdfUrl: 'https://www.servel.cl/wp-content/uploads/2025/09/JEANNETTE-JARA-ROMAN.pdf'
     },
     {
       slug: 'johannes-kaiser',
       nombre: 'Johannes Kaiser',
       archivo: 'extract_Johannes_Kaiser.txt',
       partido: 'Partido Republicano',
-      color: '#1B5E20'
+      color: '#1B5E20',
+      pdfUrl: 'https://www.servel.cl/wp-content/uploads/2025/09/JOHANNES-KAISER-BARENTS-VON-HOHENHAGEN.pdf'
     },
     {
       slug: 'jose-antonio-kast',
       nombre: 'José Antonio Kast',
       archivo: 'extract_Jose_Antonio_Kast.txt',
       partido: 'Partido Republicano',
-      color: '#1B5E20'
+      color: '#1B5E20',
+      pdfUrl: 'https://www.servel.cl/wp-content/uploads/2025/09/JOSE-ANTONIO-KAST-RIST.pdf'
     },
     {
       slug: 'marco-enriquez-ominami',
       nombre: 'Marco Enríquez-Ominami',
       archivo: 'extract_Marco_Enriquez_Ominami.txt',
       partido: 'Partido Progresista',
-      color: '#00897B'
+      color: '#00897B',
+      pdfUrl: 'https://www.servel.cl/wp-content/uploads/2025/09/MARCO-ANTONIO-ENRIQUEZ-OMINAMI-GUMUCIO.pdf'
     }
   ];
 
@@ -95,6 +103,7 @@ module.exports = function() {
         partido: candidato.partido,
         color: candidato.color,
         archivo: candidato.archivo,
+        pdfUrl: candidato.pdfUrl,
         numMedidas: numMedidas,
         secciones: secciones.length,
         contenido: contenido
