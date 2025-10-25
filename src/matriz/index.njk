@@ -264,38 +264,18 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-<section class="rankings-section">
-  <h2>Rankings por Candidato</h2>
-  <p>Promedio general de las 28 personas electorales (ficticias):</p>
-
-  <ol class="ranking-list">
-    {% for ranking in matriz.rankings %}
-    <li class="ranking-item">
-      <span class="posicion">#{{ ranking.posicion }}</span>
-      <span class="nombre">{{ ranking.candidato }}</span>
-      {% set ratingClass = "" %}
-      {% if ranking.promedio >= 7 %}{% set ratingClass = "high" %}
-      {% elif ranking.promedio >= 5 %}{% set ratingClass = "medium" %}
-      {% elif ranking.promedio >= 3 %}{% set ratingClass = "low" %}
-            {% endif %}
-      <span class="rating rating-cell {{ ratingClass }}">{{ ranking.promedio | formatNumber }}/10</span>
-    </li>
-    {% endfor %}
-  </ol>
-
-  <div class="matriz-disclaimer">
-    <h3>⚠️ Importante</h3>
-    <p>
-      Esta matriz es un <strong>ejercicio informativo con fines educativos</strong>. Las evaluaciones son generadas
-      por IA usando <strong>28 personas ficticias</strong> (no personas reales). Los puntajes reflejan análisis de texto
-      de los programas desde perspectivas artificiales predefinidas.
-    </p>
-    <p>
-      <strong>Esto NO constituye recomendación electoral ni encuesta de opinión.</strong>
-      Consulta múltiples fuentes y lee los programas completos antes de votar.
-    </p>
-  </div>
-</section>
+<div class="matriz-disclaimer">
+  <h3>⚠️ Importante</h3>
+  <p>
+    Esta matriz es un <strong>ejercicio informativo con fines educativos</strong>. Las evaluaciones son generadas
+    por IA usando <strong>28 personas ficticias</strong> (no personas reales). Los puntajes reflejan análisis de texto
+    de los programas desde perspectivas artificiales predefinidas.
+  </p>
+  <p>
+    <strong>Esto NO constituye recomendación electoral ni encuesta de opinión.</strong>
+    Consulta múltiples fuentes y lee los programas completos antes de votar.
+  </p>
+</div>
 
 <style>
 .intro {
@@ -635,50 +615,6 @@ tr.excluded .toggle-include-btn:hover {
   text-align: center;
   font-weight: 600;
   background-color: var(--color-bg);
-}
-
-.rankings-section {
-  margin-top: var(--spacing-xl);
-  padding: var(--spacing-lg);
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-}
-
-.ranking-list {
-  list-style: none;
-  padding: 0;
-  margin-top: var(--spacing-md);
-}
-
-.ranking-item {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-sm);
-  padding: var(--spacing-sm);
-  border-bottom: 1px solid var(--color-border);
-}
-
-.ranking-item:last-child {
-  border-bottom: none;
-}
-
-.ranking-item .posicion {
-  font-weight: 700;
-  color: var(--color-text-secondary);
-  min-width: 3rem;
-  font-size: 1.1rem;
-}
-
-.ranking-item .nombre {
-  flex: 1;
-  font-weight: 500;
-  font-size: 1.1rem;
-}
-
-.ranking-item .rating {
-  font-weight: 700;
-  font-size: 1.2rem;
 }
 
 .matriz-disclaimer {
