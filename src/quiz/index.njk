@@ -137,6 +137,10 @@ description: Responde 7 preguntas y descubre qué personas ficticias son similar
 </div>
 
 <script>
+  // Inject personas data from Eleventy
+  const personasData = {{ personas | dump | safe }};
+  const matrizData = {{ matriz | dump | safe }};
+
   // Quiz State
   let answers = {
     age: null,
@@ -298,6 +302,13 @@ description: Responde 7 preguntas y descubre qué personas ficticias son similar
     return scores.slice(0, 3);
   }
 
+  function getRatingClass(rating) {
+    if (rating >= 7.0) return 'high';
+    if (rating >= 5.0) return 'medium';
+    if (rating >= 3.0) return 'low';
+    return 'poor';
+  }
+
   function displayMatchedPersonas(personaMatches) {
     const container = document.getElementById('matched-personas');
 
@@ -337,12 +348,21 @@ description: Responde 7 preguntas y descubre qué personas ficticias son similar
       '28-camila-oyarzun': 'Camila Oyarzún - La Activista Climática'
     };
 
-    container.innerHTML = personaMatches.map(({ slug, score, matches }) => `
-      <div class="persona-card">
+    container.innerHTML = personaMatches.map(({ slug, score, matches }) => {
+      // Find persona data (slug is stored as 'id' in personas data)
+      const personaData = personasData.find(p => p.id === slug);
+      if (!personaData) return '';
+
+      // Get top 3 voting intentions
+      const topVotes = personaData.voteIntention.slice(0, 3);
+
+      return `
+      <div class="persona-card-detailed">
         <div class="persona-header">
           <h4>${personaNames[slug] || slug}</h4>
           <span class="match-score">${score} pts</span>
         </div>
+
         <div class="match-criteria">
           <p class="match-label">Coincidencias:</p>
           <div class="match-badges">
@@ -353,9 +373,43 @@ description: Responde 7 preguntas y descubre qué personas ficticias son similar
             `).join('')}
           </div>
         </div>
-        <a href="{{ '/personas/' | url }}${slug}/" class="btn-link">Ver evaluaciones completas →</a>
+
+        <div class="persona-demographics-quiz">
+          ${personaData.edad ? `<span class="demo-item">🎂 ${personaData.edad}</span>` : ''}
+          ${personaData.ingreso ? `<span class="demo-item">💰 ${personaData.ingreso}</span>` : ''}
+          ${personaData.ocupacion ? `<span class="demo-item">💼 ${personaData.ocupacion}</span>` : ''}
+          ${personaData.ubicacion ? `<span class="demo-item">📍 ${personaData.ubicacion}</span>` : ''}
+          ${personaData.situacion ? `<span class="demo-item">👥 ${personaData.situacion}</span>` : ''}
+        </div>
+
+        ${personaData.contexto && personaData.contexto.length > 0 ? `
+        <div class="persona-context-quiz">
+          <h5>📋 Contexto:</h5>
+          <ul class="context-list-compact">
+            ${personaData.contexto.map(item => `<li>${item}</li>`).join('')}
+          </ul>
+        </div>
+        ` : ''}
+
+        ${topVotes.length > 0 ? `
+        <div class="vote-intention-compact">
+          <h5>💡 Top 3 Intención de Voto:</h5>
+          <div class="vote-boxes-compact">
+            ${topVotes.map((vote, idx) => `
+              <div class="vote-box-compact">
+                <div class="vote-box-rank">#${idx + 1}</div>
+                <div class="vote-box-candidate">${vote.candidato}</div>
+                <div class="vote-box-rating rating-${getRatingClass(vote.rating)}">${vote.rating.toFixed(1)}</div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+        ` : ''}
+
+        <a href="{{ '/personas/' | url }}${slug}/" class="btn-link-detailed">Ver perfil completo →</a>
       </div>
-    `).join('');
+      `;
+    }).join('');
   }
 
   // Restart quiz
@@ -647,6 +701,162 @@ description: Responde 7 preguntas y descubre qué personas ficticias son similar
   border-radius: var(--radius-sm);
   font-size: 0.9rem;
   margin-top: var(--spacing-lg);
+}
+
+/* Detailed persona card styles */
+.persona-card-detailed {
+  background: white;
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-md);
+  border: 2px solid var(--color-border);
+  margin-bottom: var(--spacing-lg);
+}
+
+/* Persona demographics in quiz results */
+.persona-demographics-quiz {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: var(--spacing-sm);
+  padding: var(--spacing-sm);
+  background: var(--color-surface);
+  border-radius: var(--radius-sm);
+}
+
+.demo-item {
+  font-size: 0.85rem;
+  color: var(--color-text);
+  padding: 0.25rem 0;
+}
+
+/* Persona context in quiz */
+.persona-context-quiz {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--color-border);
+}
+
+.persona-context-quiz h5 {
+  font-size: 0.95rem;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.context-list-compact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.context-list-compact li {
+  padding-left: 1.2rem;
+  position: relative;
+  margin-bottom: 0.25rem;
+}
+
+.context-list-compact li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+/* Compact vote intention (1 line, 3 boxes) */
+.vote-intention-compact {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--color-border);
+}
+
+.vote-intention-compact h5 {
+  font-size: 0.95rem;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.vote-boxes-compact {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.vote-box-compact {
+  flex: 1;
+  min-width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.75rem 0.5rem;
+  background: var(--color-surface);
+  border-radius: var(--radius-sm);
+  border: 2px solid var(--color-border);
+  transition: all 0.2s ease;
+}
+
+.vote-box-compact:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.vote-box-rank {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-text-secondary);
+  margin-bottom: 0.25rem;
+}
+
+.vote-box-candidate {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.vote-box-rating {
+  font-weight: 700;
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius-sm);
+  font-size: 1rem;
+}
+
+/* Rating colors - matching matriz */
+.rating-high {
+  background: #C8E6C9;
+  color: #2E7D32;
+}
+
+.rating-medium {
+  background: #FFF9C4;
+  color: #F57F17;
+}
+
+.rating-low {
+  background: #FFCCBC;
+  color: #D84315;
+}
+
+.rating-poor {
+  background: #FFCDD2;
+  color: #C62828;
+}
+
+.btn-link-detailed {
+  display: inline-block;
+  margin-top: var(--spacing-md);
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.btn-link-detailed:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
