@@ -1,0 +1,890 @@
+---
+layout: layouts/base.njk
+title: Encuentra Personas que Piensan Como Tú
+description: Descubre qué personas ficticias comparten tus valores y prioridades
+---
+
+<div class="quiz-container">
+  <div class="quiz-header">
+    <h1>💭 Encuentra Personas que Piensan Como Tú</h1>
+    <p class="quiz-intro">
+      Responde <strong>5 preguntas</strong> sobre tus valores, preocupaciones y prioridades.
+      Te mostraremos qué <strong>personas electorales ficticias</strong> (perfiles creados para este estudio)
+      comparten tu forma de pensar y cómo evaluaron los programas presidenciales.
+    </p>
+    <p class="quiz-disclaimer-top">
+      ℹ️ Este es un ejercicio informativo con fines educativos. Las personas son ficticias y esto NO constituye recomendación electoral.
+    </p>
+  </div>
+
+  <div id="quiz-content">
+    <!-- Question 1: Age -->
+    <div class="quiz-question active" data-question="1">
+      <h2>1. ¿En qué rango de edad estás?</h2>
+      <div class="quiz-options">
+        <button class="quiz-option" data-value="18-25">18-25 años</button>
+        <button class="quiz-option" data-value="26-35">26-35 años</button>
+        <button class="quiz-option" data-value="36-50">36-50 años</button>
+        <button class="quiz-option" data-value="51+">51+ años</button>
+      </div>
+    </div>
+
+    <!-- Question 2: Work Situation -->
+    <div class="quiz-question" data-question="2">
+      <h2>2. ¿Cuál es tu situación laboral?</h2>
+      <div class="quiz-options">
+        <button class="quiz-option" data-value="dependiente">Trabajador dependiente</button>
+        <button class="quiz-option" data-value="independiente">Trabajador independiente / Emprendedor</button>
+        <button class="quiz-option" data-value="profesional">Profesional (universidad)</button>
+        <button class="quiz-option" data-value="estudiante">Estudiante</button>
+        <button class="quiz-option" data-value="jubilado">Jubilado/a</button>
+        <button class="quiz-option" data-value="duena-casa">Dueña de casa</button>
+      </div>
+    </div>
+
+    <!-- Question 3: Income Level -->
+    <div class="quiz-question" data-question="3">
+      <h2>3. ¿En qué rango está tu ingreso familiar mensual?</h2>
+      <div class="quiz-options">
+        <button class="quiz-option" data-value="bajo">Menos de $500.000</button>
+        <button class="quiz-option" data-value="medio-bajo">$500.000 - $1.000.000</button>
+        <button class="quiz-option" data-value="medio">$1.000.000 - $2.000.000</button>
+        <button class="quiz-option" data-value="medio-alto">$2.000.000 - $3.500.000</button>
+        <button class="quiz-option" data-value="alto">Más de $3.500.000</button>
+      </div>
+    </div>
+
+    <!-- Question 4: Location -->
+    <div class="quiz-question" data-question="4">
+      <h2>4. ¿Dónde vives?</h2>
+      <div class="quiz-options">
+        <button class="quiz-option" data-value="santiago-oriente">Santiago (sector oriente)</button>
+        <button class="quiz-option" data-value="santiago-sur">Santiago (sector sur)</button>
+        <button class="quiz-option" data-value="santiago-otro">Santiago (otras comunas)</button>
+        <button class="quiz-option" data-value="region-urbano">Región (ciudad)</button>
+        <button class="quiz-option" data-value="region-rural">Región (zona rural)</button>
+      </div>
+    </div>
+
+    <!-- Question 5: Family Situation -->
+    <div class="quiz-question" data-question="5">
+      <h2>5. ¿Cuál es tu situación familiar?</h2>
+      <div class="quiz-options">
+        <button class="quiz-option" data-value="solo">Vivo solo/a</button>
+        <button class="quiz-option" data-value="pareja">En pareja sin hijos</button>
+        <button class="quiz-option" data-value="familia-joven">Familia con hijos pequeños</button>
+        <button class="quiz-option" data-value="familia-escolar">Familia con hijos en edad escolar</button>
+        <button class="quiz-option" data-value="familia-adulta">Hijos adultos / Adulto mayor</button>
+      </div>
+    </div>
+
+    <!-- Question 6: Education Level -->
+    <div class="quiz-question" data-question="6">
+      <h2>6. ¿Cuál es tu nivel educacional?</h2>
+      <div class="quiz-options">
+        <button class="quiz-option" data-value="basica-media">Básica / Media</button>
+        <button class="quiz-option" data-value="tecnica">Técnica / CFT</button>
+        <button class="quiz-option" data-value="universitaria-incompleta">Universitaria incompleta</button>
+        <button class="quiz-option" data-value="universitaria">Universitaria completa</button>
+        <button class="quiz-option" data-value="postgrado">Postgrado / Magíster / Doctorado</button>
+      </div>
+    </div>
+
+    <!-- Results Section -->
+    <div id="quiz-results" class="quiz-results" style="display: none;">
+      <h2>✨ Tus Resultados</h2>
+
+      <div class="results-section">
+        <h3>Personas con perfil similar al tuyo:</h3>
+        <div id="matched-personas" class="matched-personas"></div>
+      </div>
+
+      <div class="results-actions">
+        <a href="{{ '/matriz/' | url }}" class="btn btn-primary">Ver matriz completa</a>
+        <button id="restart-quiz" class="btn btn-secondary">Repetir quiz</button>
+      </div>
+
+      <p class="results-disclaimer">
+        ⚠️ <strong>Este es un ejercicio informativo con fines educativos.</strong>
+        Los resultados muestran coincidencias demográficas entre tu perfil y personas ficticias creadas para este estudio.
+        Este contenido NO constituye recomendación electoral ni debe ser la única fuente para decisiones de voto.
+        Te invitamos a leer los programas completos y consultar múltiples fuentes antes de votar.
+      </p>
+    </div>
+  </div>
+
+  <div class="quiz-progress">
+    <div class="progress-bar">
+      <div id="progress-fill" class="progress-fill" style="width: 0%"></div>
+    </div>
+    <p class="progress-text">Pregunta <span id="current-question">0</span> de 6</p>
+  </div>
+</div>
+
+<script>
+  // Inject personas data from Eleventy
+  const personasData = {{ personas | dump | safe }};
+  const matrizData = {{ matriz | dump | safe }};
+
+  // Quiz State
+  let answers = {
+    age: null,
+    work: null,
+    income: null,
+    location: null,
+    family: null,
+    education: null
+  };
+
+  let currentQuestion = 0;
+  const totalQuestions = 6;
+
+  // Expanded personas database with demographic profiles
+  const personasDB = {
+    '01-maria-jose-contreras': { age: '26-35', work: 'profesional', income: 'medio-alto', location: 'santiago-oriente', family: 'familia-joven', education: 'universitaria' },
+    '02-juan-carlos-munoz': { age: '51+', work: 'jubilado', income: 'bajo', location: 'santiago-otro', family: 'familia-adulta', education: 'basica-media' },
+    '03-luis-hernandez': { age: '36-50', work: 'independiente', income: 'medio-bajo', location: 'santiago-sur', family: 'familia-joven', education: 'basica-media' },
+    '04-catalina-rojas': { age: '18-25', work: 'estudiante', income: 'medio-bajo', location: 'santiago-otro', family: 'solo', education: 'universitaria-incompleta' },
+    '05-rosa-perez': { age: '51+', work: 'independiente', income: 'medio-bajo', location: 'region-urbano', family: 'familia-joven', education: 'basica-media' },
+    '06-pedro-quintana': { age: '36-50', work: 'dependiente', income: 'medio', location: 'region-urbano', family: 'familia-escolar', education: 'tecnica' },
+    '07-daniela-soto': { age: '26-35', work: 'profesional', income: 'medio', location: 'santiago-otro', family: 'familia-joven', education: 'universitaria' },
+    '08-jose-miguel-valdes': { age: '51+', work: 'independiente', income: 'medio', location: 'region-rural', family: 'familia-adulta', education: 'basica-media' },
+    '09-alejandra-martinez': { age: '26-35', work: 'profesional', income: 'medio-alto', location: 'santiago-oriente', family: 'familia-joven', education: 'universitaria' },
+    '10-carmen-huaiquilaf': { age: '36-50', work: 'duena-casa', income: 'bajo', location: 'santiago-sur', family: 'familia-escolar', education: 'basica-media' },
+    '11-carla-espinoza': { age: '36-50', work: 'dependiente', income: 'medio-bajo', location: 'santiago-otro', family: 'solo', education: 'tecnica' },
+    '12-roberto-gonzalez': { age: '36-50', work: 'profesional', income: 'alto', location: 'santiago-oriente', family: 'familia-joven', education: 'universitaria' },
+    '13-carlos-barria': { age: '51+', work: 'independiente', income: 'medio-bajo', location: 'region-rural', family: 'familia-adulta', education: 'basica-media' },
+    '14-yohana-rodriguez': { age: '26-35', work: 'dependiente', income: 'medio-bajo', location: 'santiago-sur', family: 'familia-joven', education: 'tecnica' },
+    '15-miguel-angel-castro': { age: '51+', work: 'dependiente', income: 'bajo', location: 'santiago-sur', family: 'familia-adulta', education: 'basica-media' },
+    '16-francisco-valdes': { age: '36-50', work: 'independiente', income: 'medio-alto', location: 'santiago-oriente', family: 'familia-escolar', education: 'universitaria' },
+    '17-javiera-mella': { age: '26-35', work: 'independiente', income: 'bajo', location: 'santiago-otro', family: 'solo', education: 'universitaria' },
+    '18-patricia-morales': { age: '36-50', work: 'dependiente', income: 'medio', location: 'santiago-sur', family: 'familia-escolar', education: 'tecnica' },
+    '19-matias-contreras': { age: '18-25', work: 'estudiante', income: 'medio-bajo', location: 'santiago-otro', family: 'solo', education: 'universitaria-incompleta' },
+    '20-hector-silva': { age: '36-50', work: 'dependiente', income: 'bajo', location: 'region-rural', family: 'familia-escolar', education: 'basica-media' },
+    '21-andrea-fuentes': { age: '36-50', work: 'duena-casa', income: 'medio-bajo', location: 'santiago-sur', family: 'familia-adulta', education: 'basica-media' },
+    '22-diego-ramirez': { age: '18-25', work: 'estudiante', income: 'medio', location: 'santiago-otro', family: 'solo', education: 'universitaria-incompleta' },
+    '23-gonzalo-larrain': { age: '36-50', work: 'profesional', income: 'alto', location: 'santiago-oriente', family: 'pareja', education: 'postgrado' },
+    '24-bryan-flores': { age: '18-25', work: 'estudiante', income: 'bajo', location: 'santiago-sur', family: 'familia-adulta', education: 'basica-media' },
+    '25-dr-sebastian-herrera': { age: '26-35', work: 'profesional', income: 'medio-alto', location: 'santiago-oriente', family: 'pareja', education: 'postgrado' },
+    '26-isabel-parra': { age: '51+', work: 'profesional', income: 'medio', location: 'region-urbano', family: 'familia-adulta', education: 'universitaria' },
+    '27-manuel-gutierrez': { age: '36-50', work: 'dependiente', income: 'medio-bajo', location: 'santiago-sur', family: 'familia-adulta', education: 'basica-media' },
+    '28-camila-oyarzun': { age: '26-35', work: 'profesional', income: 'medio-bajo', location: 'santiago-otro', family: 'solo', education: 'universitaria' }
+  };
+
+  // Event listeners for quiz options
+  document.querySelectorAll('.quiz-option').forEach(button => {
+    button.addEventListener('click', function() {
+      const questionDiv = this.closest('.quiz-question');
+      const questionNum = questionDiv.dataset.question;
+      const value = this.dataset.value;
+
+      // Store answer
+      const questionKeys = ['age', 'work', 'income', 'location', 'family', 'education'];
+      answers[questionKeys[questionNum - 1]] = value;
+
+      // Visual feedback
+      questionDiv.querySelectorAll('.quiz-option').forEach(opt => opt.classList.remove('selected'));
+      this.classList.add('selected');
+
+      // Move to next question
+      setTimeout(() => {
+        if (questionNum < totalQuestions) {
+          showQuestion(parseInt(questionNum) + 1);
+        } else {
+          showResults();
+        }
+      }, 300);
+    });
+  });
+
+  function showQuestion(num) {
+    currentQuestion = num;
+
+    // Hide all questions
+    document.querySelectorAll('.quiz-question').forEach(q => q.classList.remove('active'));
+
+    // Show current question
+    const currentQ = document.querySelector(`[data-question="${num}"]`);
+    if (currentQ) {
+      currentQ.classList.add('active');
+      currentQ.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // Update progress
+    const progress = (num / totalQuestions) * 100;
+    document.getElementById('progress-fill').style.width = progress + '%';
+    document.getElementById('current-question').textContent = num;
+  }
+
+  function showResults() {
+    // Hide questions
+    document.querySelectorAll('.quiz-question').forEach(q => q.style.display = 'none');
+
+    // Show results
+    document.getElementById('quiz-results').style.display = 'block';
+    document.getElementById('quiz-results').scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    // Calculate matches
+    const matchedPersonas = calculatePersonaMatches();
+
+    // Display matched personas
+    displayMatchedPersonas(matchedPersonas);
+
+    // Update progress to 100%
+    document.getElementById('progress-fill').style.width = '100%';
+    document.getElementById('current-question').textContent = '6';
+  }
+
+  function calculatePersonaMatches() {
+    // Score each persona based on demographic answer matches
+    const scores = [];
+
+    for (const [slug, persona] of Object.entries(personasDB)) {
+      let score = 0;
+      const matches = [];
+
+      // Age - important demographic
+      if (answers.age === persona.age) {
+        score += 8;
+        matches.push({ type: 'age', label: 'Rango de edad', weight: 8 });
+      }
+
+      // Income level - very important for life situation
+      if (answers.income === persona.income) {
+        score += 9;
+        matches.push({ type: 'income', label: 'Nivel de ingreso', weight: 9 });
+      }
+
+      // Work situation - defines daily reality
+      if (answers.work === persona.work) {
+        score += 10;
+        matches.push({ type: 'work', label: 'Situación laboral', weight: 10 });
+      }
+
+      // Family situation - affects priorities and needs
+      if (answers.family === persona.family) {
+        score += 7;
+        matches.push({ type: 'family', label: 'Situación familiar', weight: 7 });
+      }
+
+      // Location - regional/urban differences
+      if (answers.location === persona.location) {
+        score += 5;
+        matches.push({ type: 'location', label: 'Ubicación', weight: 5 });
+      }
+
+      // Education level
+      if (answers.education === persona.education) {
+        score += 6;
+        matches.push({ type: 'education', label: 'Nivel educacional', weight: 6 });
+      }
+
+      // Only include personas with some match
+      if (score > 0) {
+        scores.push({ slug, score, matches });
+      }
+    }
+
+    // Sort by score descending
+    scores.sort((a, b) => b.score - a.score);
+
+    // Return top 5 matches with their match details
+    return scores.slice(0, 5);
+  }
+
+  function getRatingClass(rating) {
+    if (rating >= 7.0) return 'high';
+    if (rating >= 5.0) return 'medium';
+    if (rating >= 3.0) return 'low';
+    return 'poor';
+  }
+
+  function displayMatchedPersonas(personaMatches) {
+    const container = document.getElementById('matched-personas');
+
+    if (personaMatches.length === 0) {
+      container.innerHTML = '<p>No se encontraron coincidencias exactas. Te recomendamos explorar todas las personas en el sitio.</p>';
+      return;
+    }
+
+    const personaNames = {
+      '01-maria-jose-contreras': 'María José Contreras - La Profesional Agobiada',
+      '02-juan-carlos-munoz': 'Juan Carlos Muñoz - El Jubilado Precarizado',
+      '03-luis-hernandez': 'Luis Hernández - El Emprendedor de Subsistencia',
+      '04-catalina-rojas': 'Catalina Rojas - La Universitaria Endeudada',
+      '05-rosa-perez': 'Rosa Pérez - La Microempresaria Ahogada',
+      '06-pedro-quintana': 'Pedro Quintana - El Obrero del Norte',
+      '07-daniela-soto': 'Daniela Soto - La Funcionaria Pública Quemada',
+      '08-jose-miguel-valdes': 'José Miguel Valdés - El Agricultor Amenazado',
+      '09-alejandra-martinez': 'Alejandra Martínez - La Teletrabajadora Atrapada',
+      '10-carmen-huaiquilaf': 'Carmen Huaiquilaf - La Madre Mapuche Urbana',
+      '11-carla-espinoza': 'Carla Espinoza - La Vendedora Retail Precaria',
+      '12-roberto-gonzalez': 'Roberto González - El Santiaguino Hastiado',
+      '13-carlos-barria': 'Carlos Barría - El Pescador Artesanal Olvidado',
+      '14-yohana-rodriguez': 'Yohana Rodríguez - La Migrante Integrada',
+      '15-miguel-angel-castro': 'Miguel Ángel Castro - El Poblador Histórico',
+      '16-francisco-valdes': 'Francisco Valdés - El Empresario PYME Sofisticado',
+      '17-javiera-mella': 'Javiera Mella - La Artista Precarizada',
+      '18-patricia-morales': 'Patricia Morales - La Deudora Habitacional',
+      '19-matias-contreras': 'Matías Contreras - El Joven LGBTQ+',
+      '20-hector-silva': 'Héctor Silva - El Temporal Agrícola',
+      '21-andrea-fuentes': 'Andrea Fuentes - La Cuidadora Invisible',
+      '22-diego-ramirez': 'Diego Ramírez - El Gamer Semi-Pro',
+      '23-gonzalo-larrain': 'Gonzalo Larraín - El Gerente Desencantado',
+      '24-bryan-flores': 'Bryan Flores - El Nini Atrapado',
+      '25-dr-sebastian-herrera': 'Dr. Sebastián Herrera - El Médico Agotado',
+      '26-isabel-parra': 'Isabel Parra - La Profe Militante',
+      '27-manuel-gutierrez': 'Manuel Gutiérrez - El Chofer de Micro',
+      '28-camila-oyarzun': 'Camila Oyarzún - La Activista Climática'
+    };
+
+    container.innerHTML = personaMatches.map(({ slug, score, matches }) => {
+      // Find persona data (slug is stored as 'id' in personas data)
+      const personaData = personasData.find(p => p.id === slug);
+      if (!personaData) return '';
+
+      // Get top 3 voting intentions
+      const topVotes = personaData.voteIntention.slice(0, 3);
+
+      return `
+      <div class="persona-card-detailed">
+        <div class="persona-header">
+          <h4>${personaNames[slug] || slug}</h4>
+          <span class="match-score">${score} pts</span>
+        </div>
+
+        <div class="match-criteria">
+          <p class="match-label">Coincidencias demográficas:</p>
+          <div class="match-badges">
+            ${matches.map(match => `
+              <span class="match-badge match-badge-${match.type}" title="${match.label}">
+                ✓ ${match.label}
+              </span>
+            `).join('')}
+          </div>
+        </div>
+
+        ${personaData.fraseTipica ? `
+        <div class="persona-phrase-quiz">
+          <em>"${personaData.fraseTipica}"</em>
+        </div>
+        ` : ''}
+
+        <div class="persona-demographics-quiz">
+          ${personaData.edad ? `<span class="demo-item">🎂 ${personaData.edad}</span>` : ''}
+          ${personaData.ingreso ? `<span class="demo-item">💰 ${personaData.ingreso}</span>` : ''}
+          ${personaData.ocupacion ? `<span class="demo-item">💼 ${personaData.ocupacion}</span>` : ''}
+          ${personaData.ubicacion ? `<span class="demo-item">📍 ${personaData.ubicacion}</span>` : ''}
+          ${personaData.situacion ? `<span class="demo-item">👥 ${personaData.situacion}</span>` : ''}
+        </div>
+
+        ${personaData.contexto && personaData.contexto.length > 0 ? `
+        <div class="persona-context-quiz">
+          <h5>📋 Contexto:</h5>
+          <ul class="context-list-compact">
+            ${personaData.contexto.map(item => `<li>${item}</li>`).join('')}
+          </ul>
+        </div>
+        ` : ''}
+
+        ${topVotes.length > 0 ? `
+        <div class="vote-intention-compact">
+          <div class="vote-boxes-compact">
+            ${topVotes.map((vote, idx) => `
+              <div class="vote-box-compact">
+                <div class="vote-box-rank">#${idx + 1}</div>
+                <div class="vote-box-candidate">${vote.candidato}</div>
+                <div class="vote-box-rating rating-${getRatingClass(vote.rating)}">${vote.rating.toFixed(1)}</div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+        ` : ''}
+
+        <a href="{{ '/personas/' | url }}${slug}/" class="btn-link-detailed">Ver perfil completo →</a>
+      </div>
+      `;
+    }).join('');
+  }
+
+  // Restart quiz
+  document.addEventListener('click', function(e) {
+    if (e.target && e.target.id === 'restart-quiz') {
+      location.reload();
+    }
+  });
+
+  // Initialize quiz
+  showQuestion(1);
+</script>
+
+<style>
+.quiz-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quiz-header {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.quiz-header h1 {
+  margin-bottom: var(--spacing-md);
+}
+
+.quiz-intro {
+  font-size: 1.1rem;
+  color: var(--color-text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.quiz-disclaimer-top {
+  max-width: 600px;
+  margin: var(--spacing-md) auto 0;
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: #FFF9E6;
+  border-left: 4px solid #FF9800;
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.quiz-question {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  margin-bottom: var(--spacing-xl);
+}
+
+.quiz-question.active {
+  display: block;
+  opacity: 1;
+}
+
+.quiz-question h2 {
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-lg);
+  color: var(--color-text);
+}
+
+.quiz-options {
+  display: grid;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-xl);
+}
+
+.quiz-option {
+  padding: var(--spacing-md);
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.quiz-option:hover {
+  border-color: var(--color-primary);
+  background: #E3F2FD;
+}
+
+.quiz-option.selected {
+  border-color: var(--color-primary);
+  background: var(--color-primary);
+  color: white;
+  font-weight: 500;
+}
+
+.quiz-progress {
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--color-border);
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: var(--spacing-sm);
+}
+
+.progress-fill {
+  height: 100%;
+  background: var(--color-primary);
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  text-align: center;
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
+
+.quiz-results {
+  padding: var(--spacing-xl);
+  background: linear-gradient(135deg, #E3F2FD 0%, #FFF9C4 100%);
+  border-radius: var(--radius-lg);
+}
+
+.quiz-results h2 {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.results-section {
+  margin: var(--spacing-xl) 0;
+}
+
+.results-section h3 {
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text);
+}
+
+.matched-personas {
+  display: grid;
+  gap: var(--spacing-md);
+}
+
+.persona-card {
+  background: white;
+  padding: var(--spacing-md);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+}
+
+.persona-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--spacing-sm);
+  gap: var(--spacing-sm);
+}
+
+.persona-header h4 {
+  margin: 0;
+  flex: 1;
+}
+
+.match-score {
+  background: var(--color-primary);
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.match-criteria {
+  margin: var(--spacing-sm) 0;
+  padding: var(--spacing-sm) 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.match-label {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.match-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.match-badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 500;
+  background: #E3F2FD;
+  color: #1565C0;
+  border: 1px solid #90CAF9;
+}
+
+.match-badge-priority {
+  background: #E8F5E9;
+  color: #2E7D32;
+  border-color: #81C784;
+}
+
+.match-badge-concern {
+  background: #FFF3E0;
+  color: #E65100;
+  border-color: #FFB74D;
+}
+
+.match-badge-governmentRole, .match-badge-urgency, .match-badge-economicView {
+  background: #E1F5FE;
+  color: #01579B;
+  border-color: #81D4FA;
+}
+
+.match-badge-age {
+  background: #F3E5F5;
+  color: #6A1B9A;
+  border-color: #BA68C8;
+}
+
+.match-badge-work {
+  background: #E0F2F1;
+  color: #00695C;
+  border-color: #4DB6AC;
+}
+
+.match-badge-income, .match-badge-location, .match-badge-family, .match-badge-education {
+  background: #FFF9C4;
+  color: #F57F17;
+  border-color: #FDD835;
+}
+
+.btn-link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: var(--spacing-sm);
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+.results-actions {
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
+  margin: var(--spacing-xl) 0;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--radius-md);
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #0D47A1;
+}
+
+.btn-secondary {
+  background: var(--color-border);
+  color: var(--color-text);
+}
+
+.btn-secondary:hover {
+  background: #ccc;
+}
+
+.results-disclaimer {
+  background: white;
+  padding: var(--spacing-md);
+  border-left: 4px solid var(--color-secondary);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  margin-top: var(--spacing-lg);
+}
+
+/* Detailed persona card styles */
+.persona-card-detailed {
+  background: white;
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-md);
+  border: 2px solid var(--color-border);
+  margin-bottom: var(--spacing-lg);
+}
+
+/* Persona phrase in quiz results */
+.persona-phrase-quiz {
+  margin-top: var(--spacing-md);
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--color-surface);
+  border-left: 3px solid var(--color-primary);
+  border-radius: var(--radius-sm);
+}
+
+.persona-phrase-quiz em {
+  font-size: 0.95rem;
+  color: var(--color-text);
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* Persona demographics in quiz results */
+.persona-demographics-quiz {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: var(--spacing-sm);
+  padding: var(--spacing-sm);
+  background: var(--color-surface);
+  border-radius: var(--radius-sm);
+}
+
+.demo-item {
+  font-size: 0.85rem;
+  color: var(--color-text);
+  padding: 0.25rem 0;
+}
+
+/* Persona context in quiz */
+.persona-context-quiz {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--color-border);
+}
+
+.persona-context-quiz h5 {
+  font-size: 0.95rem;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.context-list-compact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.context-list-compact li {
+  padding-left: 1.2rem;
+  position: relative;
+  margin-bottom: 0.25rem;
+}
+
+.context-list-compact li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+/* Compact vote intention (1 line, 3 boxes) */
+.vote-intention-compact {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--color-border);
+}
+
+.vote-boxes-compact {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.vote-box-compact {
+  flex: 1;
+  min-width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 0.4rem;
+  background: var(--color-surface);
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--color-border);
+  transition: all 0.2s ease;
+}
+
+.vote-box-compact:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.vote-box-rank {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--color-text-secondary);
+  margin-bottom: 0.2rem;
+}
+
+.vote-box-candidate {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.35rem;
+  line-height: 1.2;
+}
+
+.vote-box-rating {
+  font-weight: 700;
+  padding: 0.25rem 0.6rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+}
+
+/* Rating colors - matching matriz */
+.rating-high {
+  background: #C8E6C9;
+  color: #2E7D32;
+}
+
+.rating-medium {
+  background: #FFF9C4;
+  color: #F57F17;
+}
+
+.rating-low {
+  background: #FFCCBC;
+  color: #D84315;
+}
+
+.rating-poor {
+  background: #FFCDD2;
+  color: #C62828;
+}
+
+.btn-link-detailed {
+  display: inline-block;
+  margin-top: var(--spacing-md);
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.btn-link-detailed:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .quiz-option {
+    padding: var(--spacing-sm);
+  }
+
+  .candidate-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .results-actions {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+</style>

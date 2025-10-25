@@ -5,22 +5,44 @@ title: Inicio
 
 <div class="hero">
   <div class="value-proposition">
-    <h2 class="value-heading">¿Para qué sirve este análisis?</h2>
+    <h2 class="value-heading">¿Por quién votaría la IA si fuera un chileno?</h2>
     <p class="value-text">
-      <strong>Encuentra personas ficticias parecidas a ti en 5 minutos</strong> sin leer cientos de páginas de programas.
-      Este sitio traduce la retórica política en datos concretos, mostrándote qué personas ficticias se parecen más
-      a <strong>tu realidad específica</strong>: desde profesionales agobiados hasta jubilados precarizados,
-      emprendedores rurales o estudiantes endeudados, y cómo evaluaron los programas presidenciales.
+      <strong>Depende de tu contexto, situación y prioridades.</strong> Aquí se simularon 28 perfiles diversos que ya leyeron todos los programas:
+      encuentra en 5 minutos los que se parecen a ti y mira cómo evaluaron cada candidato según su realidad específica.
     </p>
 
     <div class="quiz-cta">
-      <a href="{{ '/quiz/' | url }}" class="quiz-button">
-        🎯 Encuentra Personas Parecidas a Ti
-      </a>
-      <p class="quiz-subtitle">Responde 7 preguntas y descubre qué personas ficticias son similares a tu perfil</p>
+      <h3 style="text-align: center; margin-bottom: 1.5rem; color: var(--color-text);">Quiz según</h3>
+      <div class="quiz-options-grid">
+        <div class="quiz-option-card">
+          <a href="{{ '/quiz/' | url }}" class="quiz-button">
+            🎯 Todo
+          </a>
+          <p class="quiz-subtitle">7 preguntas sobre situación y prioridades</p>
+        </div>
+        <div class="quiz-option-card">
+          <a href="{{ '/quiz-ideology/' | url }}" class="quiz-button quiz-button-secondary">
+            💭 Prioridades
+          </a>
+          <p class="quiz-subtitle">5 preguntas sobre cómo piensas</p>
+        </div>
+        <div class="quiz-option-card">
+          <a href="{{ '/quiz-demographics/' | url }}" class="quiz-button quiz-button-tertiary">
+            👥 Contexto
+          </a>
+          <p class="quiz-subtitle">6 preguntas sobre tu perfil</p>
+        </div>
+      </div>
     </div>
 
     <div class="value-benefits">
+      <div class="benefit">
+        <span class="benefit-icon">🎭</span>
+        <div class="benefit-text">
+          <strong>28 perfiles chilenos diversos</strong>
+          <span class="benefit-description">desde profesionales agobiados hasta jubilados precarizados</span>
+        </div>
+      </div>
       <div class="benefit">
         <span class="benefit-icon">📊</span>
         <div class="benefit-text">
@@ -32,35 +54,14 @@ title: Inicio
         <span class="benefit-icon">🎯</span>
         <div class="benefit-text">
           <strong>224 evaluaciones personalizadas</strong>
-          <span class="benefit-description">que te ayudan a encontrar afinidad</span>
-        </div>
-      </div>
-      <div class="benefit">
-        <span class="benefit-icon">🔍</span>
-        <div class="benefit-text">
-          <strong>Metodología transparente</strong>
-          <span class="benefit-description">y datos verificables, no opiniones</span>
+          <span class="benefit-description">desde la perspectiva de cada perfil</span>
         </div>
       </div>
       <div class="benefit">
         <span class="benefit-icon">⚡</span>
         <div class="benefit-text">
-          <strong>Análisis independiente</strong>
-          <span class="benefit-description">sin sesgos partidistas ni financiamiento político</span>
-        </div>
-      </div>
-      <div class="benefit">
-        <span class="benefit-icon">🎭</span>
-        <div class="benefit-text">
-          <strong>Simulación de perspectivas</strong>
-          <span class="benefit-description">28 personas ficticias leyendo todos los programas y sacando conclusiones lógicas según su contexto</span>
-        </div>
-      </div>
-      <div class="benefit">
-        <span class="benefit-icon">📖</span>
-        <div class="benefit-text">
-          <strong>Acceso a datos resumidos</strong>
-          <span class="benefit-description">en vez de leer programas de hasta 200 páginas, aunque siempre debes consultar los originales</span>
+          <strong>5 minutos para orientarte</strong>
+          <span class="benefit-description">en vez de leer hasta 200 páginas por programa</span>
         </div>
       </div>
     </div>
@@ -68,34 +69,34 @@ title: Inicio
 </div>
 
 <section class="intro-section">
-  <h2>¿Qué encontrarás aquí?</h2>
+  <h2>¿Cómo funciona?</h2>
 
   <div class="card-grid">
     <div class="card">
-      <h3>📋 Programas de Candidatos</h3>
+      <h3>1️⃣ Haz el Quiz</h3>
       <p>
-        Extractos comprehensivos de los programas de gobierno de los 8 candidatos presidenciales,
-        con <strong>{{ programas | length }}</strong> programas analizados y cientos de medidas específicas catalogadas.
+        Responde 5-7 preguntas sobre tu perfil demográfico, valores políticos o ambos.
+        Elige el quiz que prefieras según lo que más te importe.
       </p>
-      <p><a href="{{ '/programas/' | url }}">Ver programas →</a></p>
+      <p><a href="#quiz-cta">Ir a los quizzes ↑</a></p>
     </div>
 
     <div class="card">
-      <h3>👥 28 Personas Electorales (Ficticias)</h3>
+      <h3>2️⃣ Encuentra tus Perfiles</h3>
       <p>
-        Perfiles ficticios diseñados para este estudio que representan diferentes grupos de interés electoral en Chile,
-        desde profesionales agobiados hasta jubilados precarizados. <strong>No son personas reales.</strong>
+        Descubre qué personas ficticias piensan o viven como tú.
+        28 perfiles diversos: desde estudiantes hasta jubilados, emprendedores hasta profesionales.
       </p>
-      <p><a href="{{ '/personas/' | url }}">Ver personas →</a></p>
+      <p><a href="{{ '/personas/' | url }}">Ver los 28 perfiles →</a></p>
     </div>
 
     <div class="card">
-      <h3>📊 Matriz de Evaluación</h3>
+      <h3>3️⃣ Mira sus Conclusiones</h3>
       <p>
-        Tabla interactiva con 224 evaluaciones (28 personas × 8 candidatos) que muestra
-        qué tan bien cada programa responde a las necesidades de cada persona electoral.
+        Cada perfil ya leyó los 8 programas presidenciales y evaluó qué tan bien responden a sus necesidades.
+        224 evaluaciones basadas en 1,547 medidas concretas.
       </p>
-      <p><a href="{{ '/matriz/' | url }}">Ver matriz →</a></p>
+      <p><a href="{{ '/matriz/' | url }}">Ver todas las evaluaciones →</a></p>
     </div>
 
   </div>
@@ -105,19 +106,19 @@ title: Inicio
   <h2>Sobre este proyecto</h2>
   <div class="about-content">
     <p>
-      Este sitio utiliza <strong>Claude Sonnet 4.5</strong> de Anthropic para realizar un análisis comprehensivo
-      de los programas presidenciales de Chile 2025. El análisis se basa en:
+      Este sitio simula <strong>¿cómo votaría la IA siendo un chileno en diferentes situaciones?</strong>
+      Usando inteligencia artificial para analizar los programas presidenciales de Chile 2025 desde múltiples perspectivas:
     </p>
     <ul>
-      <li><strong>Extracción rigurosa:</strong> Cada programa fue procesado según estándares específicos, extrayendo medidas concretas con citas precisas.</li>
-      <li><strong>Evaluación personalizada:</strong> 28 personas electorales evalúan cada programa desde sus prioridades y contexto específico.</li>
-      <li><strong>Perspectiva auténtica:</strong> Las evaluaciones mantienen la voz en primera persona de cada persona, con escepticismo realista.</li>
-      <li><strong>Transparencia total:</strong> Todas las evaluaciones citan medidas específicas y explican su razonamiento.</li>
+      <li><strong>28 perfiles diversos:</strong> Desde profesionales agobiados hasta jubilados precarizados, cada uno con necesidades y prioridades distintas.</li>
+      <li><strong>Análisis riguroso:</strong> 1,547 medidas concretas extraídas de los programas con citas precisas.</li>
+      <li><strong>Evaluaciones realistas:</strong> Cada perfil evalúa cómo le afectarían las propuestas, con escepticismo y pragmatismo.</li>
+      <li><strong>Total transparencia:</strong> Todas las evaluaciones citan medidas específicas y explican su razonamiento.</li>
     </ul>
     <p class="disclaimer">
       ⚠️ <strong>Importante:</strong> Este es un ejercicio académico e informativo con fines educativos.
       <strong>NO constituye recomendación electoral ni asesoría para el voto.</strong>
-      Las evaluaciones son generadas por IA usando personas ficticias, no reflejan opiniones de votantes reales.
+      Las evaluaciones son generadas por IA usando perfiles ficticios, no reflejan opiniones de votantes reales.
       Consulta múltiples fuentes y lee los programas completos antes de votar.
     </p>
   </div>
@@ -243,16 +244,78 @@ title: Inicio
 }
 
 @media (max-width: 768px) {
+  /* Reduce hero padding on mobile */
+  .hero {
+    padding: 0.5rem 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .value-proposition {
+    padding: 0.5rem;
+    margin-top: 0;
+  }
+
+  /* Make heading more compact */
+  .value-heading {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+  }
+
+  /* Make value text more compact */
+  .value-text {
+    font-size: 0.85rem;
+    line-height: 1.3;
+    margin-bottom: 0.75rem;
+  }
+
+  /* Reduce quiz CTA padding */
+  .quiz-cta {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+  }
+
+  .quiz-cta h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem !important;
+  }
+
+  /* Make quiz buttons smaller on mobile */
+  .quiz-button {
+    font-size: 1rem;
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+
+  .quiz-subtitle {
+    font-size: 0.85rem;
+  }
+
+  /* Show only 2 benefit boxes on mobile */
   .value-benefits {
     grid-template-columns: 1fr;
+    gap: var(--spacing-sm);
   }
 
-  .value-heading {
-    font-size: 1.3rem;
+  .benefit {
+    padding: var(--spacing-xs);
   }
 
-  .value-text {
-    font-size: 1rem;
+  /* Hide last 2 benefits on mobile to save space */
+  .benefit:nth-child(3),
+  .benefit:nth-child(4) {
+    display: none;
+  }
+
+  .benefit-icon {
+    font-size: 1.2rem;
+  }
+
+  .benefit-text strong {
+    font-size: 0.85rem;
+  }
+
+  .benefit-description {
+    font-size: 0.75rem;
   }
 }
 

@@ -18,16 +18,21 @@
 </head>
 <body>
 
-  {% include "components/ai-disclaimer.njk" %}
-
   <header class="site-header">
     <div class="container">
       <h1 class="site-title">
-        <a href="{{ '/' | url }}">Análisis Presidencial Chile 2025 con IA<br><span>Evaluación de 8 candidatos presidenciales desde la perspectiva de 28 personas electorales ficticias, generada con Claude Sonnet 4.5 de Anthropic.</span></a>
+        <a href="{{ '/' | url }}">Análisis Presidencial Chile 2025 con IA<br></a>
       </h1>
       <nav class="main-nav">
         <a href="{{ '/' | url }}">Inicio</a>
-        <a href="{{ '/quiz/' | url }}" class="nav-quiz">🎯 Encuentra tu perfil</a>
+        <div class="nav-dropdown">
+          <span class="nav-quiz">🎯 Quiz</span>
+          <div class="nav-dropdown-content">
+            <a href="{{ '/quiz/' | url }}">Todo</a>
+            <a href="{{ '/quiz-ideology/' | url }}">Prioridades</a>
+            <a href="{{ '/quiz-demographics/' | url }}">Contexto</a>
+          </div>
+        </div>
         <a href="{{ '/programas/' | url }}">Programas</a>
         <a href="{{ '/personas/' | url }}">Personas</a>
         <a href="{{ '/matriz/' | url }}">Evaluación</a>
