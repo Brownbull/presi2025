@@ -151,14 +151,36 @@ description: Responde 7 preguntas y descubre qué personas ficticias son similar
   let currentQuestion = 0;
   const totalQuestions = 7;
 
-  // Mapping of answers to personas (simplified matching logic)
-  const personaMatching = {
-    // This would ideally be populated from actual persona data
-    // For now, we'll use a simplified version
-    '18-25': ['24-bryan-flores', '25-dr-sebastian-herrera'],
-    '26-35': ['01-maria-jose-contreras', '07-daniela-soto', '09-alejandra-martinez'],
-    '36-50': ['02-juan-carlos-munoz', '04-catalina-rojas', '11-carla-espinoza'],
-    '51+': ['05-rosa-perez', '06-pedro-quintana', '26-isabel-parra']
+  // Comprehensive persona database with matching criteria
+  const personasDB = {
+    '01-maria-jose-contreras': { age: '26-35', concern: 'salud', work: 'profesional', income: 'medio-alto', priority: 'salud-publica' },
+    '02-juan-carlos-munoz': { age: '51+', concern: 'pensiones', work: 'jubilado', income: 'bajo', priority: 'pensiones-dignas' },
+    '03-luis-hernandez': { age: '36-50', concern: 'seguridad', work: 'independiente', income: 'medio-bajo', priority: 'delincuencia' },
+    '04-catalina-rojas': { age: '18-25', concern: 'educacion', work: 'estudiante', income: 'medio-bajo', priority: 'educacion-calidad' },
+    '05-rosa-perez': { age: '51+', concern: 'seguridad', work: 'independiente', income: 'medio-bajo', priority: 'delincuencia' },
+    '06-pedro-quintana': { age: '36-50', concern: 'economia', work: 'dependiente', income: 'medio', priority: 'oportunidades' },
+    '07-daniela-soto': { age: '26-35', concern: 'salud', work: 'profesional', income: 'medio', priority: 'salud-publica' },
+    '08-jose-miguel-valdes': { age: '51+', concern: 'seguridad', work: 'independiente', income: 'medio', priority: 'delincuencia' },
+    '09-alejandra-martinez': { age: '26-35', concern: 'economia', work: 'profesional', income: 'medio-alto', priority: 'oportunidades' },
+    '10-carmen-huaiquilaf': { age: '36-50', concern: 'educacion', work: 'duena-casa', income: 'bajo', priority: 'educacion-calidad' },
+    '11-carla-espinoza': { age: '36-50', concern: 'economia', work: 'dependiente', income: 'medio-bajo', priority: 'costo-vida' },
+    '12-roberto-gonzalez': { age: '36-50', concern: 'seguridad', work: 'profesional', income: 'alto', priority: 'delincuencia' },
+    '13-carlos-barria': { age: '51+', concern: 'economia', work: 'independiente', income: 'medio-bajo', priority: 'oportunidades' },
+    '14-yohana-rodriguez': { age: '26-35', concern: 'economia', work: 'dependiente', income: 'medio-bajo', priority: 'oportunidades' },
+    '15-miguel-angel-castro': { age: '51+', concern: 'vivienda', work: 'dependiente', income: 'bajo', priority: 'costo-vida' },
+    '16-francisco-valdes': { age: '36-50', concern: 'economia', work: 'independiente', income: 'medio-alto', priority: 'oportunidades' },
+    '17-javiera-mella': { age: '26-35', concern: 'economia', work: 'independiente', income: 'bajo', priority: 'costo-vida' },
+    '18-patricia-morales': { age: '36-50', concern: 'vivienda', work: 'dependiente', income: 'medio', priority: 'costo-vida' },
+    '19-matias-contreras': { age: '18-25', concern: 'salud', work: 'estudiante', income: 'medio-bajo', priority: 'salud-publica' },
+    '20-hector-silva': { age: '36-50', concern: 'economia', work: 'dependiente', income: 'bajo', priority: 'oportunidades' },
+    '21-andrea-fuentes': { age: '36-50', concern: 'salud', work: 'duena-casa', income: 'medio-bajo', priority: 'salud-publica' },
+    '22-diego-ramirez': { age: '18-25', concern: 'economia', work: 'estudiante', income: 'medio', priority: 'oportunidades' },
+    '23-gonzalo-larrain': { age: '36-50', concern: 'economia', work: 'profesional', income: 'alto', priority: 'oportunidades' },
+    '24-bryan-flores': { age: '18-25', concern: 'educacion', work: 'estudiante', income: 'bajo', priority: 'oportunidades' },
+    '25-dr-sebastian-herrera': { age: '26-35', concern: 'salud', work: 'profesional', income: 'medio-alto', priority: 'salud-publica' },
+    '26-isabel-parra': { age: '51+', concern: 'educacion', work: 'profesional', income: 'medio', priority: 'educacion-calidad' },
+    '27-manuel-gutierrez': { age: '36-50', concern: 'seguridad', work: 'dependiente', income: 'medio-bajo', priority: 'delincuencia' },
+    '28-camila-oyarzun': { age: '26-35', concern: 'economia', work: 'profesional', income: 'medio-bajo', priority: 'medio-ambiente' }
   };
 
   // Event listeners for quiz options
@@ -226,45 +248,111 @@ description: Responde 7 preguntas y descubre qué personas ficticias son similar
   }
 
   function calculatePersonaMatches() {
-    // Simplified matching based on age and main concern
-    // In a real implementation, this would use actual persona data
-    const matches = [];
+    // Score each persona based on answer matches
+    const scores = [];
 
-    // Age-based matching
-    if (personaMatching[answers.age]) {
-      matches.push(...personaMatching[answers.age]);
+    for (const [slug, persona] of Object.entries(personasDB)) {
+      let score = 0;
+      const matches = [];
+
+      // Priority question (question 7) - highest weight
+      if (answers.priority === persona.priority) {
+        score += 10;
+        matches.push({ type: 'priority', label: 'Prioridad principal', weight: 10 });
+      }
+
+      // Main concern (question 2) - second highest weight
+      if (answers.concern === persona.concern) {
+        score += 8;
+        matches.push({ type: 'concern', label: 'Preocupación principal', weight: 8 });
+      }
+
+      // Age (question 1) - important demographic
+      if (answers.age === persona.age) {
+        score += 6;
+        matches.push({ type: 'age', label: 'Rango de edad', weight: 6 });
+      }
+
+      // Work situation (question 3)
+      if (answers.work === persona.work) {
+        score += 5;
+        matches.push({ type: 'work', label: 'Situación laboral', weight: 5 });
+      }
+
+      // Income level (question 4)
+      if (answers.income === persona.income) {
+        score += 4;
+        matches.push({ type: 'income', label: 'Nivel de ingreso', weight: 4 });
+      }
+
+      // Only include personas with some match
+      if (score > 0) {
+        scores.push({ slug, score, matches });
+      }
     }
 
-    // Add more sophisticated matching based on other answers
-    // For now, return top 3 matches
-    return matches.slice(0, 3);
+    // Sort by score descending
+    scores.sort((a, b) => b.score - a.score);
+
+    // Return top 3 matches with their match details
+    return scores.slice(0, 3);
   }
 
-  function displayMatchedPersonas(personas) {
+  function displayMatchedPersonas(personaMatches) {
     const container = document.getElementById('matched-personas');
 
-    if (personas.length === 0) {
+    if (personaMatches.length === 0) {
       container.innerHTML = '<p>No se encontraron coincidencias exactas. Te recomendamos explorar todas las personas en el sitio.</p>';
       return;
     }
 
     const personaNames = {
-      '01-maria-jose-contreras': 'María José Contreras - Profesional agobiada',
-      '02-juan-carlos-munoz': 'Juan Carlos Muñoz - Comerciante en crisis',
-      '04-catalina-rojas': 'Catalina Rojas - Madre de clase media',
-      '05-rosa-perez': 'Rosa Pérez - Jubilada precarizada',
-      '06-pedro-quintana': 'Pedro Quintana - Pensionado',
-      '07-daniela-soto': 'Daniela Soto - Profesora agotada',
-      '09-alejandra-martinez': 'Alejandra Martínez - Emprendedora',
-      '11-carla-espinoza': 'Carla Espinoza - Dueña de casa',
-      '24-bryan-flores': 'Bryan Flores - Estudiante endeudado',
-      '25-dr-sebastian-herrera': 'Dr. Sebastián Herrera - Médico público',
-      '26-isabel-parra': 'Isabel Parra - Adulta mayor vulnerable'
+      '01-maria-jose-contreras': 'María José Contreras - La Profesional Agobiada',
+      '02-juan-carlos-munoz': 'Juan Carlos Muñoz - El Jubilado Precarizado',
+      '03-luis-hernandez': 'Luis Hernández - El Emprendedor de Subsistencia',
+      '04-catalina-rojas': 'Catalina Rojas - La Universitaria Endeudada',
+      '05-rosa-perez': 'Rosa Pérez - La Microempresaria Ahogada',
+      '06-pedro-quintana': 'Pedro Quintana - El Obrero del Norte',
+      '07-daniela-soto': 'Daniela Soto - La Funcionaria Pública Quemada',
+      '08-jose-miguel-valdes': 'José Miguel Valdés - El Agricultor Amenazado',
+      '09-alejandra-martinez': 'Alejandra Martínez - La Teletrabajadora Atrapada',
+      '10-carmen-huaiquilaf': 'Carmen Huaiquilaf - La Madre Mapuche Urbana',
+      '11-carla-espinoza': 'Carla Espinoza - La Vendedora Retail Precaria',
+      '12-roberto-gonzalez': 'Roberto González - El Santiaguino Hastiado',
+      '13-carlos-barria': 'Carlos Barría - El Pescador Artesanal Olvidado',
+      '14-yohana-rodriguez': 'Yohana Rodríguez - La Migrante Integrada',
+      '15-miguel-angel-castro': 'Miguel Ángel Castro - El Poblador Histórico',
+      '16-francisco-valdes': 'Francisco Valdés - El Empresario PYME Sofisticado',
+      '17-javiera-mella': 'Javiera Mella - La Artista Precarizada',
+      '18-patricia-morales': 'Patricia Morales - La Deudora Habitacional',
+      '19-matias-contreras': 'Matías Contreras - El Joven LGBTQ+',
+      '20-hector-silva': 'Héctor Silva - El Temporal Agrícola',
+      '21-andrea-fuentes': 'Andrea Fuentes - La Cuidadora Invisible',
+      '22-diego-ramirez': 'Diego Ramírez - El Gamer Semi-Pro',
+      '23-gonzalo-larrain': 'Gonzalo Larraín - El Gerente Desencantado',
+      '24-bryan-flores': 'Bryan Flores - El Nini Atrapado',
+      '25-dr-sebastian-herrera': 'Dr. Sebastián Herrera - El Médico Agotado',
+      '26-isabel-parra': 'Isabel Parra - La Profe Militante',
+      '27-manuel-gutierrez': 'Manuel Gutiérrez - El Chofer de Micro',
+      '28-camila-oyarzun': 'Camila Oyarzún - La Activista Climática'
     };
 
-    container.innerHTML = personas.map(slug => `
+    container.innerHTML = personaMatches.map(({ slug, score, matches }) => `
       <div class="persona-card">
-        <h4>${personaNames[slug] || slug}</h4>
+        <div class="persona-header">
+          <h4>${personaNames[slug] || slug}</h4>
+          <span class="match-score">${score} pts</span>
+        </div>
+        <div class="match-criteria">
+          <p class="match-label">Coincidencias:</p>
+          <div class="match-badges">
+            ${matches.map(match => `
+              <span class="match-badge match-badge-${match.type}" title="${match.label}">
+                ✓ ${match.label}
+              </span>
+            `).join('')}
+          </div>
+        </div>
         <a href="{{ '/personas/' | url }}${slug}/" class="btn-link">Ver evaluaciones completas →</a>
       </div>
     `).join('');
@@ -420,10 +508,95 @@ description: Responde 7 preguntas y descubre qué personas ficticias son similar
   border: 1px solid var(--color-border);
 }
 
+.persona-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--spacing-sm);
+  gap: var(--spacing-sm);
+}
+
+.persona-header h4 {
+  margin: 0;
+  flex: 1;
+}
+
+.match-score {
+  background: var(--color-primary);
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.match-criteria {
+  margin: var(--spacing-sm) 0;
+  padding: var(--spacing-sm) 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.match-label {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.match-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.match-badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 500;
+  background: #E3F2FD;
+  color: #1565C0;
+  border: 1px solid #90CAF9;
+}
+
+.match-badge-priority {
+  background: #E8F5E9;
+  color: #2E7D32;
+  border-color: #81C784;
+}
+
+.match-badge-concern {
+  background: #FFF3E0;
+  color: #E65100;
+  border-color: #FFB74D;
+}
+
+.match-badge-age {
+  background: #F3E5F5;
+  color: #6A1B9A;
+  border-color: #BA68C8;
+}
+
+.match-badge-work {
+  background: #E0F2F1;
+  color: #00695C;
+  border-color: #4DB6AC;
+}
+
+.match-badge-income {
+  background: #FFF9C4;
+  color: #F57F17;
+  border-color: #FDD835;
+}
+
 .btn-link {
   color: var(--color-primary);
   text-decoration: none;
   font-weight: 500;
+  display: inline-block;
+  margin-top: var(--spacing-sm);
 }
 
 .btn-link:hover {
