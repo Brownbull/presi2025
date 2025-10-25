@@ -1,7 +1,21 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git checkout:*)"
+      "Bash(git checkout:*)",
+      "Bash(git pull:*)",
+      "Bash(git stash:*)",
+      "Bash(npm start)",
+      "Skill(playwright-skill)",
+      "Bash(node -e:*)",
+      "Read(//c/Users/Gabe/.claude/skills/playwright-skill/**)",
+      "Bash(node run.js:*)",
+      "Bash(node /tmp/playwright-test-spacing.js:*)",
+      "Bash(node test-site.js:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)",
+      "Bash(node test-github-pages.js:*)",
+      "Bash(node:*)"
     ],
     "deny": [],
     "ask": []
