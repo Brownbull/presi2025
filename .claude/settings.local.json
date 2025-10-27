@@ -26,7 +26,8 @@
       "Bash(mkdir:*)",
       "Bash(for file in c:/Projects/presidential/04_evaluacion_agentes/persona_*.md)",
       "Bash(head:*)",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(cat:*)"
     ],
     "deny": [],
     "ask": []
