@@ -15,7 +15,18 @@
       "Bash(git commit:*)",
       "Bash(git push)",
       "Bash(node test-github-pages.js:*)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Skill(marketing-skill)",
+      "Bash(npx @11ty/eleventy:*)",
+      "Bash(timeout 5 bash:*)",
+      "Bash(git restore:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Bash(mkdir:*)",
+      "Bash(for file in c:/Projects/presidential/04_evaluacion_agentes/persona_*.md)",
+      "Bash(head:*)",
+      "Bash(done)"
     ],
     "deny": [],
     "ask": []

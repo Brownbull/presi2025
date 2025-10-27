@@ -78,7 +78,7 @@ module.exports = function(eleventyConfig) {
   });
 
   return {
-    pathPrefix: "/presi2025/",
+    pathPrefix: "/",
     dir: {
       input: "src",
       output: "_site",

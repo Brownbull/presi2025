@@ -1,0 +1,871 @@
+---
+layout: layouts/base.njk
+title: Encuentra Personas que Piensan Como Tú
+description: Descubre qué personas ficticias comparten tus valores y prioridades
+---
+
+<div class="quiz-container">
+  <div class="quiz-header">
+    <h1>💭 Encuentra Personas que Piensan Como Tú</h1>
+    <p class="quiz-intro">
+      Responde <strong>5 preguntas</strong> sobre tus valores, preocupaciones y prioridades.
+      Te mostraremos qué <strong>personas electorales ficticias</strong> (perfiles creados para este estudio)
+      comparten tu forma de pensar y cómo evaluaron los programas presidenciales.
+    </p>
+    <p class="quiz-disclaimer-top">
+      ℹ️ Este es un ejercicio informativo con fines educativos. Las personas son ficticias y esto NO constituye recomendación electoral.
+    </p>
+  </div>
+
+  <div id="quiz-content">
+    <!-- Question 1: Main Concern -->
+    <div class="quiz-question active" data-question="1">
+      <h2>1. ¿Cuál es tu principal preocupación actualmente?</h2>
+      <div class="quiz-options">
+        <button class="quiz-option" data-value="salud">Salud</button>
+        <button class="quiz-option" data-value="educacion">Educación</button>
+        <button class="quiz-option" data-value="seguridad">Seguridad</button>
+        <button class="quiz-option" data-value="economia">Economía y Empleo</button>
+        <button class="quiz-option" data-value="vivienda">Vivienda</button>
+        <button class="quiz-option" data-value="pensiones">Pensiones</button>
+      </div>
+    </div>
+
+    <!-- Question 2: Top Priority -->
+    <div class="quiz-question" data-question="2">
+      <h2>2. Si pudieras cambiar UNA cosa en Chile, ¿cuál sería?</h2>
+      <div class="quiz-options">
+        <button class="quiz-option" data-value="delincuencia">Reducir la delincuencia</button>
+        <button class="quiz-option" data-value="costo-vida">Bajar el costo de vida</button>
+        <button class="quiz-option" data-value="salud-publica">Mejorar salud pública</button>
+        <button class="quiz-option" data-value="educacion-calidad">Mejorar calidad educación</button>
+        <button class="quiz-option" data-value="pensiones-dignas">Pensiones dignas</button>
+        <button class="quiz-option" data-value="medio-ambiente">Proteger medio ambiente</button>
+        <button class="quiz-option" data-value="oportunidades">Más oportunidades laborales</button>
+      </div>
+    </div>
+
+    <!-- Question 3: Government Role -->
+    <div class="quiz-question" data-question="3">
+      <h2>3. ¿Qué rol debería tener el Estado?</h2>
+      <div class="quiz-options">
+        <button class="quiz-option" data-value="muy-activo">Muy activo - Debe garantizar servicios básicos gratuitos para todos</button>
+        <button class="quiz-option" data-value="activo">Activo - Debe regular y apoyar donde el mercado falla</button>
+        <button class="quiz-option" data-value="equilibrado">Equilibrado - Balance entre mercado y Estado</button>
+        <button class="quiz-option" data-value="limitado">Limitado - Solo garantizar seguridad y orden</button>
+      </div>
+    </div>
+
+    <!-- Question 4: Economic View -->
+    <div class="quiz-question" data-question="4">
+      <h2>4. ¿Qué crees que es más importante para mejorar Chile?</h2>
+      <div class="quiz-options">
+        <button class="quiz-option" data-value="redistribucion">Redistribuir mejor la riqueza existente</button>
+        <button class="quiz-option" data-value="crecimiento">Generar crecimiento económico primero</button>
+        <button class="quiz-option" data-value="ambos">Ambos en paralelo</button>
+        <button class="quiz-option" data-value="transformacion">Transformar el modelo económico completo</button>
+      </div>
+    </div>
+
+    <!-- Question 5: Political Urgency -->
+    <div class="quiz-question" data-question="5">
+      <h2>5. ¿Qué necesita Chile con más urgencia?</h2>
+      <div class="quiz-options">
+        <button class="quiz-option" data-value="orden-seguridad">Orden y seguridad</button>
+        <button class="quiz-option" data-value="justicia-social">Justicia social y equidad</button>
+        <button class="quiz-option" data-value="innovacion-progreso">Innovación y progreso</button>
+        <button class="quiz-option" data-value="estabilidad">Estabilidad y consensos</button>
+      </div>
+    </div>
+
+    <!-- Results Section -->
+    <div id="quiz-results" class="quiz-results" style="display: none;">
+      <h2>✨ Tus Resultados</h2>
+
+      <div class="results-section">
+        <h3>Personas que piensan como tú:</h3>
+        <div id="matched-personas" class="matched-personas"></div>
+      </div>
+
+      <div class="results-actions">
+        <a href="{{ '/matriz/' | url }}" class="btn btn-primary">Ver matriz completa</a>
+        <button id="restart-quiz" class="btn btn-secondary">Repetir quiz</button>
+      </div>
+
+      <p class="results-disclaimer">
+        ⚠️ <strong>Este es un ejercicio informativo con fines educativos.</strong>
+        Los resultados muestran coincidencias entre tu perfil ideológico y personas ficticias creadas para este estudio.
+        Este contenido NO constituye recomendación electoral ni debe ser la única fuente para decisiones de voto.
+        Te invitamos a leer los programas completos y consultar múltiples fuentes antes de votar.
+      </p>
+    </div>
+  </div>
+
+  <div class="quiz-progress">
+    <div class="progress-bar">
+      <div id="progress-fill" class="progress-fill" style="width: 0%"></div>
+    </div>
+    <p class="progress-text">Pregunta <span id="current-question">0</span> de 5</p>
+  </div>
+</div>
+
+<script>
+  // Inject personas data from Eleventy
+  const personasData = {{ personas | dump | safe }};
+  const matrizData = {{ matriz | dump | safe }};
+
+  // Quiz State
+  let answers = {
+    concern: null,
+    priority: null,
+    governmentRole: null,
+    economicView: null,
+    urgency: null
+  };
+
+  let currentQuestion = 0;
+  const totalQuestions = 5;
+
+  // Expanded personas database with ideological profiles
+  const personasDB = {
+    '01-maria-jose-contreras': { concern: 'salud', priority: 'salud-publica', governmentRole: 'activo', economicView: 'ambos', urgency: 'estabilidad' },
+    '02-juan-carlos-munoz': { concern: 'pensiones', priority: 'pensiones-dignas', governmentRole: 'muy-activo', economicView: 'redistribucion', urgency: 'justicia-social' },
+    '03-luis-hernandez': { concern: 'seguridad', priority: 'delincuencia', governmentRole: 'equilibrado', economicView: 'crecimiento', urgency: 'orden-seguridad' },
+    '04-catalina-rojas': { concern: 'educacion', priority: 'educacion-calidad', governmentRole: 'muy-activo', economicView: 'transformacion', urgency: 'justicia-social' },
+    '05-rosa-perez': { concern: 'seguridad', priority: 'delincuencia', governmentRole: 'equilibrado', economicView: 'crecimiento', urgency: 'orden-seguridad' },
+    '06-pedro-quintana': { concern: 'economia', priority: 'oportunidades', governmentRole: 'activo', economicView: 'crecimiento', urgency: 'estabilidad' },
+    '07-daniela-soto': { concern: 'salud', priority: 'salud-publica', governmentRole: 'activo', economicView: 'redistribucion', urgency: 'justicia-social' },
+    '08-jose-miguel-valdes': { concern: 'seguridad', priority: 'delincuencia', governmentRole: 'limitado', economicView: 'crecimiento', urgency: 'orden-seguridad' },
+    '09-alejandra-martinez': { concern: 'economia', priority: 'oportunidades', governmentRole: 'equilibrado', economicView: 'ambos', urgency: 'estabilidad' },
+    '10-carmen-huaiquilaf': { concern: 'educacion', priority: 'educacion-calidad', governmentRole: 'muy-activo', economicView: 'redistribucion', urgency: 'justicia-social' },
+    '11-carla-espinoza': { concern: 'economia', priority: 'costo-vida', governmentRole: 'activo', economicView: 'redistribucion', urgency: 'justicia-social' },
+    '12-roberto-gonzalez': { concern: 'seguridad', priority: 'delincuencia', governmentRole: 'limitado', economicView: 'crecimiento', urgency: 'orden-seguridad' },
+    '13-carlos-barria': { concern: 'economia', priority: 'oportunidades', governmentRole: 'activo', economicView: 'redistribucion', urgency: 'justicia-social' },
+    '14-yohana-rodriguez': { concern: 'economia', priority: 'oportunidades', governmentRole: 'equilibrado', economicView: 'crecimiento', urgency: 'estabilidad' },
+    '15-miguel-angel-castro': { concern: 'vivienda', priority: 'costo-vida', governmentRole: 'muy-activo', economicView: 'redistribucion', urgency: 'justicia-social' },
+    '16-francisco-valdes': { concern: 'economia', priority: 'oportunidades', governmentRole: 'equilibrado', economicView: 'crecimiento', urgency: 'innovacion-progreso' },
+    '17-javiera-mella': { concern: 'economia', priority: 'costo-vida', governmentRole: 'muy-activo', economicView: 'transformacion', urgency: 'justicia-social' },
+    '18-patricia-morales': { concern: 'vivienda', priority: 'costo-vida', governmentRole: 'activo', economicView: 'redistribucion', urgency: 'justicia-social' },
+    '19-matias-contreras': { concern: 'salud', priority: 'salud-publica', governmentRole: 'muy-activo', economicView: 'transformacion', urgency: 'justicia-social' },
+    '20-hector-silva': { concern: 'economia', priority: 'oportunidades', governmentRole: 'activo', economicView: 'crecimiento', urgency: 'estabilidad' },
+    '21-andrea-fuentes': { concern: 'salud', priority: 'salud-publica', governmentRole: 'muy-activo', economicView: 'redistribucion', urgency: 'justicia-social' },
+    '22-diego-ramirez': { concern: 'economia', priority: 'oportunidades', governmentRole: 'equilibrado', economicView: 'ambos', urgency: 'innovacion-progreso' },
+    '23-gonzalo-larrain': { concern: 'economia', priority: 'oportunidades', governmentRole: 'equilibrado', economicView: 'crecimiento', urgency: 'innovacion-progreso' },
+    '24-bryan-flores': { concern: 'educacion', priority: 'oportunidades', governmentRole: 'activo', economicView: 'redistribucion', urgency: 'justicia-social' },
+    '25-dr-sebastian-herrera': { concern: 'salud', priority: 'salud-publica', governmentRole: 'activo', economicView: 'ambos', urgency: 'estabilidad' },
+    '26-isabel-parra': { concern: 'educacion', priority: 'educacion-calidad', governmentRole: 'muy-activo', economicView: 'transformacion', urgency: 'justicia-social' },
+    '27-manuel-gutierrez': { concern: 'seguridad', priority: 'delincuencia', governmentRole: 'activo', economicView: 'redistribucion', urgency: 'orden-seguridad' },
+    '28-camila-oyarzun': { concern: 'economia', priority: 'medio-ambiente', governmentRole: 'muy-activo', economicView: 'transformacion', urgency: 'innovacion-progreso' }
+  };
+
+  // Event listeners for quiz options
+  document.querySelectorAll('.quiz-option').forEach(button => {
+    button.addEventListener('click', function() {
+      const questionDiv = this.closest('.quiz-question');
+      const questionNum = questionDiv.dataset.question;
+      const value = this.dataset.value;
+
+      // Store answer
+      const questionKeys = ['concern', 'priority', 'governmentRole', 'economicView', 'urgency'];
+      answers[questionKeys[questionNum - 1]] = value;
+
+      // Visual feedback
+      questionDiv.querySelectorAll('.quiz-option').forEach(opt => opt.classList.remove('selected'));
+      this.classList.add('selected');
+
+      // Move to next question
+      setTimeout(() => {
+        if (questionNum < totalQuestions) {
+          showQuestion(parseInt(questionNum) + 1);
+        } else {
+          showResults();
+        }
+      }, 300);
+    });
+  });
+
+  function showQuestion(num) {
+    currentQuestion = num;
+
+    // Hide all questions
+    document.querySelectorAll('.quiz-question').forEach(q => q.classList.remove('active'));
+
+    // Show current question
+    const currentQ = document.querySelector(`[data-question="${num}"]`);
+    if (currentQ) {
+      currentQ.classList.add('active');
+      currentQ.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // Update progress
+    const progress = (num / totalQuestions) * 100;
+    document.getElementById('progress-fill').style.width = progress + '%';
+    document.getElementById('current-question').textContent = num;
+  }
+
+  function showResults() {
+    // Hide questions
+    document.querySelectorAll('.quiz-question').forEach(q => q.style.display = 'none');
+
+    // Show results
+    document.getElementById('quiz-results').style.display = 'block';
+    document.getElementById('quiz-results').scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    // Calculate matches
+    const matchedPersonas = calculatePersonaMatches();
+
+    // Display matched personas
+    displayMatchedPersonas(matchedPersonas);
+
+    // Update progress to 100%
+    document.getElementById('progress-fill').style.width = '100%';
+    document.getElementById('current-question').textContent = '5';
+  }
+
+  function calculatePersonaMatches() {
+    // Score each persona based on ideological answer matches
+    const scores = [];
+
+    for (const [slug, persona] of Object.entries(personasDB)) {
+      let score = 0;
+      const matches = [];
+
+      // Priority question - highest weight (core value)
+      if (answers.priority === persona.priority) {
+        score += 10;
+        matches.push({ type: 'priority', label: 'Prioridad principal', weight: 10 });
+      }
+
+      // Main concern - second highest weight
+      if (answers.concern === persona.concern) {
+        score += 9;
+        matches.push({ type: 'concern', label: 'Preocupación principal', weight: 9 });
+      }
+
+      // Government role - important ideological marker
+      if (answers.governmentRole === persona.governmentRole) {
+        score += 7;
+        matches.push({ type: 'governmentRole', label: 'Rol del Estado', weight: 7 });
+      }
+
+      // Urgency - political orientation
+      if (answers.urgency === persona.urgency) {
+        score += 6;
+        matches.push({ type: 'urgency', label: 'Urgencia política', weight: 6 });
+      }
+
+      // Economic view
+      if (answers.economicView === persona.economicView) {
+        score += 5;
+        matches.push({ type: 'economicView', label: 'Visión económica', weight: 5 });
+      }
+
+      // Only include personas with some match
+      if (score > 0) {
+        scores.push({ slug, score, matches });
+      }
+    }
+
+    // Sort by score descending
+    scores.sort((a, b) => b.score - a.score);
+
+    // Return top 5 matches with their match details
+    return scores.slice(0, 5);
+  }
+
+  function getRatingClass(rating) {
+    if (rating >= 7.0) return 'high';
+    if (rating >= 5.0) return 'medium';
+    if (rating >= 3.0) return 'low';
+    return 'poor';
+  }
+
+  function displayMatchedPersonas(personaMatches) {
+    const container = document.getElementById('matched-personas');
+
+    if (personaMatches.length === 0) {
+      container.innerHTML = '<p>No se encontraron coincidencias exactas. Te recomendamos explorar todas las personas en el sitio.</p>';
+      return;
+    }
+
+    const personaNames = {
+      '01-maria-jose-contreras': 'María José Contreras - La Profesional Agobiada',
+      '02-juan-carlos-munoz': 'Juan Carlos Muñoz - El Jubilado Precarizado',
+      '03-luis-hernandez': 'Luis Hernández - El Emprendedor de Subsistencia',
+      '04-catalina-rojas': 'Catalina Rojas - La Universitaria Endeudada',
+      '05-rosa-perez': 'Rosa Pérez - La Microempresaria Ahogada',
+      '06-pedro-quintana': 'Pedro Quintana - El Obrero del Norte',
+      '07-daniela-soto': 'Daniela Soto - La Funcionaria Pública Quemada',
+      '08-jose-miguel-valdes': 'José Miguel Valdés - El Agricultor Amenazado',
+      '09-alejandra-martinez': 'Alejandra Martínez - La Teletrabajadora Atrapada',
+      '10-carmen-huaiquilaf': 'Carmen Huaiquilaf - La Madre Mapuche Urbana',
+      '11-carla-espinoza': 'Carla Espinoza - La Vendedora Retail Precaria',
+      '12-roberto-gonzalez': 'Roberto González - El Santiaguino Hastiado',
+      '13-carlos-barria': 'Carlos Barría - El Pescador Artesanal Olvidado',
+      '14-yohana-rodriguez': 'Yohana Rodríguez - La Migrante Integrada',
+      '15-miguel-angel-castro': 'Miguel Ángel Castro - El Poblador Histórico',
+      '16-francisco-valdes': 'Francisco Valdés - El Empresario PYME Sofisticado',
+      '17-javiera-mella': 'Javiera Mella - La Artista Precarizada',
+      '18-patricia-morales': 'Patricia Morales - La Deudora Habitacional',
+      '19-matias-contreras': 'Matías Contreras - El Joven LGBTQ+',
+      '20-hector-silva': 'Héctor Silva - El Temporal Agrícola',
+      '21-andrea-fuentes': 'Andrea Fuentes - La Cuidadora Invisible',
+      '22-diego-ramirez': 'Diego Ramírez - El Gamer Semi-Pro',
+      '23-gonzalo-larrain': 'Gonzalo Larraín - El Gerente Desencantado',
+      '24-bryan-flores': 'Bryan Flores - El Nini Atrapado',
+      '25-dr-sebastian-herrera': 'Dr. Sebastián Herrera - El Médico Agotado',
+      '26-isabel-parra': 'Isabel Parra - La Profe Militante',
+      '27-manuel-gutierrez': 'Manuel Gutiérrez - El Chofer de Micro',
+      '28-camila-oyarzun': 'Camila Oyarzún - La Activista Climática'
+    };
+
+    container.innerHTML = personaMatches.map(({ slug, score, matches }) => {
+      // Find persona data (slug is stored as 'id' in personas data)
+      const personaData = personasData.find(p => p.id === slug);
+      if (!personaData) return '';
+
+      // Get top 3 voting intentions
+      const topVotes = personaData.voteIntention.slice(0, 3);
+
+      return `
+      <div class="persona-card-detailed">
+        <div class="persona-header">
+          <h4>${personaNames[slug] || slug}</h4>
+          <span class="match-score">${score} pts</span>
+        </div>
+
+        <div class="match-criteria">
+          <p class="match-label">Coincidencias ideológicas:</p>
+          <div class="match-badges">
+            ${matches.map(match => `
+              <span class="match-badge match-badge-${match.type}" title="${match.label}">
+                ✓ ${match.label}
+              </span>
+            `).join('')}
+          </div>
+        </div>
+
+        ${personaData.fraseTipica ? `
+        <div class="persona-phrase-quiz">
+          <em>"${personaData.fraseTipica}"</em>
+        </div>
+        ` : ''}
+
+        <div class="persona-demographics-quiz">
+          ${personaData.edad ? `<span class="demo-item">🎂 ${personaData.edad}</span>` : ''}
+          ${personaData.ingreso ? `<span class="demo-item">💰 ${personaData.ingreso}</span>` : ''}
+          ${personaData.ocupacion ? `<span class="demo-item">💼 ${personaData.ocupacion}</span>` : ''}
+          ${personaData.ubicacion ? `<span class="demo-item">📍 ${personaData.ubicacion}</span>` : ''}
+          ${personaData.situacion ? `<span class="demo-item">👥 ${personaData.situacion}</span>` : ''}
+        </div>
+
+        ${personaData.contexto && personaData.contexto.length > 0 ? `
+        <div class="persona-context-quiz">
+          <h5>📋 Contexto:</h5>
+          <ul class="context-list-compact">
+            ${personaData.contexto.map(item => `<li>${item}</li>`).join('')}
+          </ul>
+        </div>
+        ` : ''}
+
+        ${topVotes.length > 0 ? `
+        <div class="vote-intention-compact">
+          <div class="vote-boxes-compact">
+            ${topVotes.map((vote, idx) => `
+              <div class="vote-box-compact">
+                <div class="vote-box-rank">#${idx + 1}</div>
+                <div class="vote-box-candidate">${vote.candidato}</div>
+                <div class="vote-box-rating rating-${getRatingClass(vote.rating)}">${vote.rating.toFixed(1)}</div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+        ` : ''}
+
+        <a href="{{ '/personas/' | url }}${slug}/" class="btn-link-detailed">Ver perfil completo →</a>
+      </div>
+      `;
+    }).join('');
+  }
+
+  // Restart quiz
+  document.addEventListener('click', function(e) {
+    if (e.target && e.target.id === 'restart-quiz') {
+      location.reload();
+    }
+  });
+
+  // Initialize quiz
+  showQuestion(1);
+</script>
+
+<style>
+.quiz-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quiz-header {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.quiz-header h1 {
+  margin-bottom: var(--spacing-md);
+}
+
+.quiz-intro {
+  font-size: 1.1rem;
+  color: var(--color-text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.quiz-disclaimer-top {
+  max-width: 600px;
+  margin: var(--spacing-md) auto 0;
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: #FFF9E6;
+  border-left: 4px solid #FF9800;
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.quiz-question {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  margin-bottom: var(--spacing-xl);
+}
+
+.quiz-question.active {
+  display: block;
+  opacity: 1;
+}
+
+.quiz-question h2 {
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-lg);
+  color: var(--color-text);
+}
+
+.quiz-options {
+  display: grid;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-xl);
+}
+
+.quiz-option {
+  padding: var(--spacing-md);
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.quiz-option:hover {
+  border-color: var(--color-primary);
+  background: #E3F2FD;
+}
+
+.quiz-option.selected {
+  border-color: var(--color-primary);
+  background: var(--color-primary);
+  color: white;
+  font-weight: 500;
+}
+
+.quiz-progress {
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--color-border);
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: var(--color-border);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: var(--spacing-sm);
+}
+
+.progress-fill {
+  height: 100%;
+  background: var(--color-primary);
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  text-align: center;
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
+
+.quiz-results {
+  padding: var(--spacing-xl);
+  background: linear-gradient(135deg, #E3F2FD 0%, #FFF9C4 100%);
+  border-radius: var(--radius-lg);
+}
+
+.quiz-results h2 {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.results-section {
+  margin: var(--spacing-xl) 0;
+}
+
+.results-section h3 {
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text);
+}
+
+.matched-personas {
+  display: grid;
+  gap: var(--spacing-md);
+}
+
+.persona-card {
+  background: white;
+  padding: var(--spacing-md);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+}
+
+.persona-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--spacing-sm);
+  gap: var(--spacing-sm);
+}
+
+.persona-header h4 {
+  margin: 0;
+  flex: 1;
+}
+
+.match-score {
+  background: var(--color-primary);
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.match-criteria {
+  margin: var(--spacing-sm) 0;
+  padding: var(--spacing-sm) 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.match-label {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.match-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.match-badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 500;
+  background: #E3F2FD;
+  color: #1565C0;
+  border: 1px solid #90CAF9;
+}
+
+.match-badge-priority {
+  background: #E8F5E9;
+  color: #2E7D32;
+  border-color: #81C784;
+}
+
+.match-badge-concern {
+  background: #FFF3E0;
+  color: #E65100;
+  border-color: #FFB74D;
+}
+
+.match-badge-governmentRole, .match-badge-urgency, .match-badge-economicView {
+  background: #E1F5FE;
+  color: #01579B;
+  border-color: #81D4FA;
+}
+
+.match-badge-age {
+  background: #F3E5F5;
+  color: #6A1B9A;
+  border-color: #BA68C8;
+}
+
+.match-badge-work {
+  background: #E0F2F1;
+  color: #00695C;
+  border-color: #4DB6AC;
+}
+
+.match-badge-income, .match-badge-location, .match-badge-family, .match-badge-education {
+  background: #FFF9C4;
+  color: #F57F17;
+  border-color: #FDD835;
+}
+
+.btn-link {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  margin-top: var(--spacing-sm);
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+.results-actions {
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
+  margin: var(--spacing-xl) 0;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--radius-md);
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #0D47A1;
+}
+
+.btn-secondary {
+  background: var(--color-border);
+  color: var(--color-text);
+}
+
+.btn-secondary:hover {
+  background: #ccc;
+}
+
+.results-disclaimer {
+  background: white;
+  padding: var(--spacing-md);
+  border-left: 4px solid var(--color-secondary);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  margin-top: var(--spacing-lg);
+}
+
+/* Detailed persona card styles */
+.persona-card-detailed {
+  background: white;
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-md);
+  border: 2px solid var(--color-border);
+  margin-bottom: var(--spacing-lg);
+}
+
+/* Persona phrase in quiz results */
+.persona-phrase-quiz {
+  margin-top: var(--spacing-md);
+  padding: var(--spacing-sm) var(--spacing-md);
+  background: var(--color-surface);
+  border-left: 3px solid var(--color-primary);
+  border-radius: var(--radius-sm);
+}
+
+.persona-phrase-quiz em {
+  font-size: 0.95rem;
+  color: var(--color-text);
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* Persona demographics in quiz results */
+.persona-demographics-quiz {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: var(--spacing-sm);
+  padding: var(--spacing-sm);
+  background: var(--color-surface);
+  border-radius: var(--radius-sm);
+}
+
+.demo-item {
+  font-size: 0.85rem;
+  color: var(--color-text);
+  padding: 0.25rem 0;
+}
+
+/* Persona context in quiz */
+.persona-context-quiz {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--color-border);
+}
+
+.persona-context-quiz h5 {
+  font-size: 0.95rem;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.context-list-compact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.context-list-compact li {
+  padding-left: 1.2rem;
+  position: relative;
+  margin-bottom: 0.25rem;
+}
+
+.context-list-compact li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+/* Compact vote intention (1 line, 3 boxes) */
+.vote-intention-compact {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--color-border);
+}
+
+.vote-boxes-compact {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.vote-box-compact {
+  flex: 1;
+  min-width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 0.4rem;
+  background: var(--color-surface);
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--color-border);
+  transition: all 0.2s ease;
+}
+
+.vote-box-compact:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.vote-box-rank {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--color-text-secondary);
+  margin-bottom: 0.2rem;
+}
+
+.vote-box-candidate {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.35rem;
+  line-height: 1.2;
+}
+
+.vote-box-rating {
+  font-weight: 700;
+  padding: 0.25rem 0.6rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+}
+
+/* Rating colors - matching matriz */
+.rating-high {
+  background: #C8E6C9;
+  color: #2E7D32;
+}
+
+.rating-medium {
+  background: #FFF9C4;
+  color: #F57F17;
+}
+
+.rating-low {
+  background: #FFCCBC;
+  color: #D84315;
+}
+
+.rating-poor {
+  background: #FFCDD2;
+  color: #C62828;
+}
+
+.btn-link-detailed {
+  display: inline-block;
+  margin-top: var(--spacing-md);
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.btn-link-detailed:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .quiz-option {
+    padding: var(--spacing-sm);
+  }
+
+  .candidate-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .results-actions {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+</style>
