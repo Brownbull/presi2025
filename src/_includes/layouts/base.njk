@@ -1,8 +1,17 @@
 <!DOCTYPE html>
-<html lang="es" data-theme="light">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Set theme immediately to prevent flash -->
+  <script>
+    (function() {
+      const savedTheme = localStorage.getItem('theme') || 'light';
+      document.documentElement.setAttribute('data-theme', savedTheme);
+    })();
+  </script>
+
   <title>{% if title %}{{ title }} | {% endif %}Khujta AI - Análisis Presidencial 2025</title>
   <meta name="description" content="{{ description or 'Análisis generado con Claude Sonnet 4.5 sobre programas presidenciales de Chile 2025. Evaluación de 28 personas electorales sobre 8 candidatos.' }}">
   <meta name="author" content="Khujta AI">
