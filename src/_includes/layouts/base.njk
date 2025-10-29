@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,6 +46,12 @@
       {{ content | safe }}
     </div>
   </main>
+
+  <!-- Theme Toggle Button -->
+  <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Cambiar tema">
+    <span class="icon-light">☀️</span>
+    <span class="icon-dark">🌙</span>
+  </button>
 
   <footer class="site-footer">
     <div class="container">

@@ -25,12 +25,32 @@
   --color-disclaimer-border: #F57F17;
   --color-disclaimer-text: #424242;
 
-  /* Grises */
+  /* Grises - Light Mode */
   --color-bg: #FAFAFA;
   --color-surface: #FFFFFF;
   --color-border: #E0E0E0;
   --color-text: #212121;
   --color-text-secondary: #757575;
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+  /* Colores principales - ajustados para dark mode */
+  --color-primary: #42A5F5;
+  --color-secondary: #FFB74D;
+  --color-accent: #4DB6AC;
+
+  /* AI Disclaimer dark */
+  --color-disclaimer-bg: #332800;
+  --color-disclaimer-border: #FFA726;
+  --color-disclaimer-text: #FFE082;
+
+  /* Grises - Dark Mode */
+  --color-bg: #121212;
+  --color-surface: #1E1E1E;
+  --color-border: #333333;
+  --color-text: #E0E0E0;
+  --color-text-secondary: #B0B0B0;
 
   /* Espaciado */
   --spacing-xs: 0.4rem;
@@ -677,4 +697,75 @@ p {
   margin-top: var(--spacing-sm);
   color: var(--color-text-secondary);
   font-size: 0.9rem;
+}
+
+/* =========================================
+   THEME TOGGLE
+   ========================================= */
+
+.theme-toggle {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 999;
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: var(--shadow-lg);
+  transition: all 0.3s ease;
+  font-size: 1.5rem;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+  border-color: var(--color-primary);
+}
+
+.theme-toggle:active {
+  transform: scale(0.95);
+}
+
+/* Icon transitions */
+.theme-toggle .icon-light,
+.theme-toggle .icon-dark {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+[data-theme="light"] .theme-toggle .icon-light {
+  opacity: 1;
+  transform: rotate(0deg);
+}
+
+[data-theme="light"] .theme-toggle .icon-dark {
+  opacity: 0;
+  transform: rotate(180deg);
+  position: absolute;
+}
+
+[data-theme="dark"] .theme-toggle .icon-light {
+  opacity: 0;
+  transform: rotate(-180deg);
+  position: absolute;
+}
+
+[data-theme="dark"] .theme-toggle .icon-dark {
+  opacity: 1;
+  transform: rotate(0deg);
+}
+
+@media (max-width: 768px) {
+  .theme-toggle {
+    bottom: 1rem;
+    right: 1rem;
+    width: 48px;
+    height: 48px;
+    font-size: 1.25rem;
+  }
 }
