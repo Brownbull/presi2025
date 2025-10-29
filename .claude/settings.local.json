@@ -1,33 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git checkout:*)",
-      "Bash(git pull:*)",
-      "Bash(git stash:*)",
-      "Bash(npm start)",
-      "Skill(playwright-skill)",
-      "Bash(node -e:*)",
-      "Read(//c/Users/Gabe/.claude/skills/playwright-skill/**)",
-      "Bash(node run.js:*)",
-      "Bash(node /tmp/playwright-test-spacing.js:*)",
-      "Bash(node test-site.js:*)",
-      "Bash(git add:*)",
-      "Bash(git commit:*)",
-      "Bash(git push)",
-      "Bash(node test-github-pages.js:*)",
-      "Bash(node:*)",
-      "Skill(marketing-skill)",
-      "Bash(npx @11ty/eleventy:*)",
-      "Bash(timeout 5 bash:*)",
-      "Bash(git restore:*)",
-      "Bash(netstat:*)",
-      "Bash(findstr:*)",
-      "Bash(taskkill:*)",
-      "Bash(mkdir:*)",
-      "Bash(for file in c:/Projects/presidential/04_evaluacion_agentes/persona_*.md)",
-      "Bash(head:*)",
-      "Bash(done)",
-      "Bash(cat:*)"
+      "Bash(gh run list:*)",
+      "Bash(gh run view:*)",
+      "Bash(timeout 60 bash:*)",
+      "Bash(git reset:*)"
     ],
     "deny": [],
     "ask": []
