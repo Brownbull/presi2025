@@ -112,6 +112,23 @@
   background: #00796B;
 }
 
+/* Dark Mode - Quiz Options */
+[data-theme="dark"] .quiz-option {
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+
+[data-theme="dark"] .quiz-option:hover {
+  background-color: #2A2A2A;
+  border-color: var(--color-primary);
+}
+
+[data-theme="dark"] .quiz-option.selected {
+  background-color: var(--color-primary);
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;

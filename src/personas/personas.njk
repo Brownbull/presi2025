@@ -458,4 +458,33 @@ eleventyComputed:
     font-size: 4rem;
   }
 }
+
+/* Dark Mode Overrides */
+[data-theme="dark"] .vote-intention-section {
+  background: linear-gradient(135deg, #1A237E 0%, #4A148C 100%);
+  border-color: var(--color-primary);
+}
+
+[data-theme="dark"] .vote-card {
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+[data-theme="dark"] .vote-card.rank-1 {
+  background: linear-gradient(135deg, #2A2A2A 0%, #3A3A00 100%);
+  border-color: #FFD700;
+}
+
+[data-theme="dark"] select,
+[data-theme="dark"] .candidato-selector {
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  border-color: var(--color-border);
+}
+
+[data-theme="dark"] select option,
+[data-theme="dark"] .candidato-selector option {
+  background-color: var(--color-surface);
+  color: var(--color-text);
+}
 </style>
