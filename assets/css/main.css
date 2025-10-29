@@ -31,26 +31,6 @@
   --color-border: #E0E0E0;
   --color-text: #212121;
   --color-text-secondary: #757575;
-}
-
-/* Dark Mode */
-[data-theme="dark"] {
-  /* Colores principales - ajustados para dark mode */
-  --color-primary: #42A5F5;
-  --color-secondary: #FFB74D;
-  --color-accent: #4DB6AC;
-
-  /* AI Disclaimer dark */
-  --color-disclaimer-bg: #332800;
-  --color-disclaimer-border: #FFA726;
-  --color-disclaimer-text: #FFE082;
-
-  /* Grises - Dark Mode */
-  --color-bg: #121212;
-  --color-surface: #1E1E1E;
-  --color-border: #333333;
-  --color-text: #E0E0E0;
-  --color-text-secondary: #B0B0B0;
 
   /* Espaciado */
   --spacing-xs: 0.4rem;
@@ -72,6 +52,64 @@
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);
   --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
   --shadow-lg: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+  /* Colores principales - ajustados para dark mode */
+  --color-primary: #42A5F5;
+  --color-secondary: #FFB74D;
+  --color-accent: #4DB6AC;
+
+  /* AI Disclaimer dark */
+  --color-disclaimer-bg: #332800;
+  --color-disclaimer-border: #FFA726;
+  --color-disclaimer-text: #FFE082;
+
+  /* Grises - Dark Mode */
+  --color-bg: #121212;
+  --color-surface: #1E1E1E;
+  --color-border: #333333;
+  --color-text: #E0E0E0;
+  --color-text-secondary: #B0B0B0;
+
+  /* Sombras ajustadas para dark mode */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.3);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.4);
+  --shadow-lg: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+/* Dark Mode - Specific Element Overrides */
+[data-theme="dark"] .main-nav .nav-donate:hover {
+  background-color: #FFA726;
+}
+
+[data-theme="dark"] .donate-button:hover {
+  background-color: #FFA726;
+}
+
+[data-theme="dark"] .quiz-button {
+  background: #1976D2;
+}
+
+[data-theme="dark"] .quiz-button:hover {
+  background: #1565C0;
+}
+
+[data-theme="dark"] .quiz-button-secondary {
+  background: #8E24AA;
+}
+
+[data-theme="dark"] .quiz-button-secondary:hover {
+  background: #7B1FA2;
+}
+
+[data-theme="dark"] .quiz-button-tertiary {
+  background: #00897B;
+}
+
+[data-theme="dark"] .quiz-button-tertiary:hover {
+  background: #00796B;
 }
 
 * {
