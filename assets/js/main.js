@@ -23,9 +23,10 @@ function initThemeToggle() {
   const themeToggle = document.getElementById('theme-toggle');
   const html = document.documentElement;
 
-  // Check for saved theme preference or default to light
-  const savedTheme = localStorage.getItem('theme') || 'light';
-  html.setAttribute('data-theme', savedTheme);
+  // Always start with light theme, but allow user to toggle within session
+  // Don't restore from localStorage - always default to light
+  const currentTheme = html.getAttribute('data-theme') || 'light';
+  html.setAttribute('data-theme', 'light');
 
   if (themeToggle) {
     themeToggle.addEventListener('click', function() {
@@ -33,7 +34,7 @@ function initThemeToggle() {
       const newTheme = currentTheme === 'light' ? 'dark' : 'light';
 
       html.setAttribute('data-theme', newTheme);
-      localStorage.setItem('theme', newTheme);
+      // Don't save to localStorage - let it reset on page reload
 
       // Optional: Add a small animation feedback
       themeToggle.style.transform = 'rotate(360deg)';
