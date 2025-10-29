@@ -9,6 +9,18 @@ module.exports = function() {
 
   const personas = [];
 
+  // Map candidate short names to full names for file matching
+  const candidateFileMap = {
+    'Jeannette Jara': ['Jara', 'Jeannette_Jara'],
+    'José Antonio Kast': ['Kast', 'Jose_Antonio_Kast'],
+    'Evelyn Matthei': ['Matthei', 'Evelyn_Matthei'],
+    'Johannes Kaiser': ['Kaiser', 'Johannes_Kaiser'],
+    'Marco Enríquez-Ominami': ['MEO', 'Marco_Enriquez_Ominami'],
+    'Eduardo Artés': ['Artes', 'Eduardo_Artes'],
+    'Franco Parisi': ['Parisi', 'Franco_Parisi'],
+    'Harold Mayne-Nicholls': ['Mayne', 'Harold_Mayne_Nicholls']
+  };
+
   personasFiles.forEach(({ id, file }) => {
     const filePath = path.join(__dirname, '../../docs', file);
 
@@ -87,186 +99,93 @@ module.exports = function() {
           .replace(/[^a-z0-9]+/g, "-")
           .replace(/(^-|-$)/g, "")}`;
 
-        // Find and parse evaluation file
-        const evalDir = path.join(__dirname, '../../04_evaluacion_agentes');
-        let evalFile = null;
+        // Look for improved evaluations in re_evaluaciones folder
+        const reEvalDir = path.join(__dirname, '../../05_mejora_evaluaciones/re_evaluaciones');
         let evaluaciones = [];
         let voteIntention = [];
 
-        if (fs.existsSync(evalDir)) {
-          const evalFiles = fs.readdirSync(evalDir);
-          evalFile = evalFiles.find(f => f.includes(`persona_${numero.padStart(2, '0')}_`) || f.includes(`persona_${numero}_`));
+        if (fs.existsSync(reEvalDir)) {
+          // Find persona folder - try different naming patterns
+          const reEvalFolders = fs.readdirSync(reEvalDir);
+          const personaFolder = reEvalFolders.find(f => {
+            const match = f.match(/persona_(\d+)_/);
+            return match && parseInt(match[1]) === parseInt(numero);
+          });
 
-          if (evalFile) {
-            const evalPath = path.join(evalDir, evalFile);
-            const evalContent = fs.readFileSync(evalPath, 'utf-8');
+          if (personaFolder) {
+            const personaEvalDir = path.join(reEvalDir, personaFolder);
+            const evalFiles = fs.readdirSync(personaEvalDir).filter(f => f.endsWith('.md') && !f.includes('VERIFICACION'));
 
-            // Parse candidate evaluations
-            // Handle multiple formats:
-            // Format 1: "## 1. Candidate Name" (with number, ##)
-            // Format 2: "## CANDIDATE NAME" (no number, all caps, ##)
-            // Format 3: "### 1. CANDIDATE NAME" (with number, ###)
-            // Format 4: "## CANDIDATE NAME (Party)" (with party info)
-            // Format 5: "## Candidate Name" (Title Case with accents)
-            // Format 6: "### CANDIDATE NAME - PARTY" (three hashes, all caps, with party/dash)
-
-            // Try Format 1: ## 1. Candidate
-            let candidateSections = evalContent.split(/(?=^## \d+\.)/gm).filter(s => s.trim() && s.match(/^## \d+\./m));
-
-            // Try Format 3: ### 1. CANDIDATE (three hashes with number)
-            if (candidateSections.length === 0) {
-              candidateSections = evalContent.split(/(?=^### \d+\.)/gm).filter(s => s.trim() && s.match(/^### \d+\./m));
-            }
-
-            // Try Format 6: ### CANDIDATE NAME - PARTY (three hashes, all caps, no number)
-            if (candidateSections.length === 0) {
-              candidateSections = evalContent.split(/(?=^### [A-ZÑÁÉÍÓÚ])/gm).filter(s => {
-                const firstLine = s.trim().split('\n')[0];
-                // Must start with ###, contain mostly uppercase letters, and not be metadata sections
-                return firstLine &&
-                       firstLine.match(/^### [A-ZÑÁÉÍÓÚ]/) &&
-                       !firstLine.includes('Enfermera') &&
-                       !firstLine.includes('Octubre') &&
-                       !firstLine.includes('PERFIL') &&
-                       !firstLine.includes('CONCLUSIÓN') &&
-                       !firstLine.includes('RESUMEN') &&
-                       !firstLine.includes('RANKING') &&
-                       !firstLine.includes('EVALUACIONES');
+            // Process each evaluation file
+            Object.entries(candidateFileMap).forEach(([candidatoFull, patterns]) => {
+              // Find matching file for this candidate
+              const evalFile = evalFiles.find(f => {
+                return patterns.some(pattern => f.includes(pattern));
               });
-            }
 
-            // Try Format 2/4: ## CANDIDATE (all caps, may have party)
-            if (candidateSections.length === 0) {
-              candidateSections = evalContent.split(/(?=^## [A-ZÑÁÉÍÓÚ])/gm).filter(s => {
-                const firstLine = s.trim().split('\n')[0];
-                // Must start with ##, contain mostly uppercase letters, and not be metadata sections
-                return firstLine &&
-                       firstLine.match(/^## [A-ZÑÁÉÍÓÚ]/) &&
-                       !firstLine.includes('Persona') &&
-                       !firstLine.includes('PERFIL') &&
-                       !firstLine.includes('CONTEXTO') &&
-                       !firstLine.includes('CONCLUSIÓN') &&
-                       !firstLine.includes('RESUMEN') &&
-                       !firstLine.includes('RANKING') &&
-                       !firstLine.includes('ANÁLISIS') &&
-                       !firstLine.includes('EVALUACIONES') &&
-                       !firstLine.includes('Perspectiva');
-              });
-            }
+              if (evalFile) {
+                const evalPath = path.join(personaEvalDir, evalFile);
+                const evalContent = fs.readFileSync(evalPath, 'utf-8');
 
-            // Try Format 5: ## Candidate Name (Title Case, e.g., "Eduardo Artés", "Marco Enríquez-Ominami")
-            if (candidateSections.length === 0) {
-              candidateSections = evalContent.split(/(?=^## [A-ZÑÁÉÍÓÚÜ][a-zñáéíóúü])/gm).filter(s => {
-                const firstLine = s.trim().split('\n')[0];
-                // Must start with ##, capital letter followed by lowercase, and not be metadata sections
-                return firstLine &&
-                       firstLine.match(/^## [A-ZÑÁÉÍÓÚÜ][a-zñáéíóúü]/) &&
-                       !firstLine.includes('Perfil') &&
-                       !firstLine.includes('Perspectiva') &&
-                       !firstLine.includes('Reflexión') &&
-                       !firstLine.includes('Conclusión');
-              });
-            }
+                // Extract rating - use flexible pattern
+                const ratingMatch = evalContent.match(/Calificaci.n.*?(\d+(?:\.\d+)?)\s*\/\s*10/i);
+                const rating = ratingMatch ? parseFloat(ratingMatch[1]) : null;
 
-            // Debug logging for Daniela
-            if (numero === '7') {
-              console.log(`\n[DEBUG] Daniela Soto: Found ${candidateSections.length} sections`);
-              candidateSections.forEach((s, i) => {
-                const firstLine = s.split('\n')[0];
-                console.log(`  Section ${i+1}: ${firstLine}`);
-              });
-            }
+                if (rating !== null) {
+                  // Extract a summary - take first paragraph after "## SÍNTESIS"
+                  let resumen = '';
+                  const sintesisMatch = evalContent.match(/## SÍNTESIS\s*\n\n(.+?)(?:\n\n##|$)/s);
+                  if (sintesisMatch) {
+                    // Take first paragraph from síntesis, clean it up
+                    const firstPara = sintesisMatch[1].split('\n\n')[0].trim();
+                    resumen = firstPara.substring(0, 300) + (firstPara.length > 300 ? '...' : '');
+                  } else {
+                    // Fallback: extract from CALIFICACIÓN Y VOTO - Razón principal
+                    const razonMatch = evalContent.match(/\*\*Raz.n principal:\*\*\s*(.+?)(?:\n\n|---)/s);
+                    if (razonMatch) {
+                      const text = razonMatch[1].trim();
+                      resumen = text.substring(0, 300) + (text.length > 300 ? '...' : '');
+                    } else {
+                      // Last fallback: take text after a key section
+                      const contentMatch = evalContent.match(/\*\*Lo que valoro positivamente:\*\*\s*\n\n(.+?)(?:\n\n\*\*|$)/s);
+                      if (contentMatch) {
+                        const text = contentMatch[1].split('\n\n')[0].replace(/\*\*/g, '').trim();
+                        resumen = text.substring(0, 300) + (text.length > 300 ? '...' : '');
+                      }
+                    }
+                  }
 
-            candidateSections.forEach(candSection => {
-              // Extract candidate name from any format
-              let candidato = null;
-
-              // Try "## 1. Name" or "### 1. NAME"
-              const numberedMatch = candSection.match(/^##+ \d+\.\s+(.+?)$/m);
-              if (numberedMatch) {
-                candidato = numberedMatch[1].trim();
-                // Remove party info if present (e.g., "CANDIDATE - Party")
-                candidato = candidato.split(/\s*[-–]\s*/)[0].trim();
-              }
-
-              // Try "## CANDIDATE NAME" (all caps) or "## CANDIDATE (Party)"
-              if (!candidato) {
-                const capsMatch = candSection.match(/^## ([A-ZÑÁÉÍÓÚ][A-Z\s\-ÑÁÉÍÓÚ]+?)(?:\s*\([^)]+\))?$/m);
-                if (capsMatch) {
-                  candidato = capsMatch[1].trim();
+                  evaluaciones.push({
+                    candidato: candidatoFull,
+                    rating: rating,
+                    resumen: resumen,
+                    contenidoCompleto: evalContent
+                  });
                 }
-              }
-
-              // Try "### CANDIDATE NAME" or "### CANDIDATE - PARTY" (three hashes, all caps)
-              if (!candidato) {
-                const caps3Match = candSection.match(/^### ([A-ZÑÁÉÍÓÚ][A-Z\s\-ÑÁÉÍÓÚ]+?)(?:\s*[-–]\s*.+)?$/m);
-                if (caps3Match) {
-                  candidato = caps3Match[1].trim();
-                  // Remove party info after dash
-                  candidato = candidato.split(/\s*[-–]\s*/)[0].trim();
-                }
-              }
-
-              // Try "## Candidate Name" (Title Case, e.g., "Eduardo Artés", "Marco Enríquez-Ominami")
-              if (!candidato) {
-                const titleMatch = candSection.match(/^## ([A-ZÑÁÉÍÓÚÜ][a-zñáéíóúü]+(?:[\s-][A-ZÑÁÉÍÓÚÜ][a-zñáéíóúü-]+)*)$/m);
-                if (titleMatch) {
-                  candidato = titleMatch[1].trim();
-                }
-              }
-
-              if (!candidato) return;
-
-              // Debug logging for Daniela
-              if (numero === '7') {
-                console.log(`[DEBUG] Daniela - Candidate extracted: "${candidato}"`);
-              }
-
-              // Skip if it's a metadata section (RANKING, CONCLUSION, etc.)
-              if (candidato.includes('RANKING') || candidato.includes('CONCLUS') || candidato.includes('RESUMEN')) {
-                if (numero === '7') console.log(`[DEBUG] Daniela - FILTERED OUT: ${candidato}`);
-                return;
-              }
-
-              // Extract rating - look for "**Calificación Personal:**", "**VEREDICTO:**", or "**Evaluación:**" followed by rating
-              let rating = null;
-              const ratingMatch1 = candSection.match(/\*\*Calificación Personal:\*\*\s+(\d+(?:\.\d+)?)\/10/);
-              const ratingMatch2 = candSection.match(/\*\*VEREDICTO:\*\*.+?(\d+(?:\.\d+)?)\/10/);
-              const ratingMatch3 = candSection.match(/\*\*Evaluación\*\*:\s+(\d+(?:\.\d+)?)\/10/);
-              rating = ratingMatch1 ? parseFloat(ratingMatch1[1]) : (ratingMatch2 ? parseFloat(ratingMatch2[1]) : (ratingMatch3 ? parseFloat(ratingMatch3[1]) : null));
-
-              // Debug logging for Daniela
-              if (numero === '7') {
-                console.log(`[DEBUG] Daniela - ${candidato}: rating = ${rating !== null ? rating + '/10' : 'NOT FOUND'}`);
-              }
-
-              // Extract first paragraph as summary
-              const paragraphs = candSection.split('\n\n').filter(p => p.trim() && !p.startsWith('#') && !p.includes('**Calificación') && !p.includes('**¿Votaría'));
-              const resumen = paragraphs[0] ? paragraphs[0].replace(/\n/g, ' ').trim() : '';
-
-              if (rating !== null) {
-                evaluaciones.push({
-                  candidato,
-                  rating,
-                  resumen,
-                  contenidoCompleto: candSection
-                });
               }
             });
 
-            // Sort by rating and get top 3 for vote intention
-            voteIntention = evaluaciones
-              .sort((a, b) => b.rating - a.rating)
-              .slice(0, 3)
-              .map(e => ({ candidato: e.candidato, rating: e.rating }));
+            // Sort evaluaciones by rating descending for vote intention
+            const sortedEvals = [...evaluaciones].sort((a, b) => b.rating - a.rating);
+            voteIntention = sortedEvals.slice(0, 3).map(e => ({
+              candidato: e.candidato,
+              rating: e.rating
+            }));
+
+            // Sort evaluaciones by candidate name for display consistency
+            evaluaciones.sort((a, b) => a.candidato.localeCompare(b.candidato));
           }
         }
 
         personas.push({
           numero: numero,
-          id: slug,
-          emoji: emoji,
+          id: `${numero.padStart(2, '0')}-${nombre.toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^a-z0-9]+/g, "-")
+            .replace(/(^-|-$)/g, "")}`,
           nombre: nombre,
+          emoji: emoji,
           descripcion: descripcion,
           edad: edad,
           ingreso: ingreso,
@@ -276,7 +195,6 @@ module.exports = function() {
           contexto: contexto,
           prioridades: prioridades,
           fraseTipica: fraseTipica,
-          evaluacionFile: evalFile || null,
           evaluaciones: evaluaciones,
           voteIntention: voteIntention
         });
@@ -284,5 +202,6 @@ module.exports = function() {
     }
   });
 
-  return personas.sort((a, b) => parseInt(a.numero) - parseInt(b.numero));
+  console.log(`Loaded ${personas.length} personas with improved evaluations from re_evaluaciones`);
+  return personas;
 };
