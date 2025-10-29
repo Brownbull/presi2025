@@ -399,7 +399,11 @@ description: Descubre qué personas ficticias comparten tu perfil demográfico
             `).join('')}
           </div>
         </div>
-        ` : ''}
+        ` : `
+        <div class="vote-intention-pending">
+          <p class="pending-message">⏳ Evaluaciones en proceso</p>
+        </div>
+        `}
 
         <a href="{{ '/personas/' | url }}${slug}/" class="btn-link-detailed">Ver perfil completo →</a>
       </div>
@@ -833,6 +837,25 @@ description: Descubre qué personas ficticias comparten tu perfil demográfico
   padding: 0.25rem 0.6rem;
   border-radius: var(--radius-sm);
   font-size: 0.85rem;
+}
+
+/* Vote intention pending message */
+.vote-intention-pending {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--color-border);
+}
+
+.pending-message {
+  text-align: center;
+  padding: var(--spacing-md);
+  background: #FFF3CD;
+  border: 1.5px dashed #FFC107;
+  border-radius: var(--radius-sm);
+  color: #856404;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 0;
 }
 
 /* Rating colors - matching matriz */
