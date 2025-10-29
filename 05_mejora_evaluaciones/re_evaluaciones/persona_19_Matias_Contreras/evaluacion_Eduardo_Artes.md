@@ -1,0 +1,49 @@
+# Evaluación: Eduardo Artés - Matías Contreras
+
+**Persona:** Matías Contreras, 42 años, Profesor de Historia, Liceo Público, Temuco
+**Candidato:** Eduardo Artés (Unión Patriótica)
+**Fecha:** 28 de octubre de 2025
+
+---
+
+## Evaluación General
+
+Como profesor de Historia en un liceo público de Temuco con alta vulnerabilidad, evalúo el programa de Eduardo Artés desde mi experiencia diaria enfrentando las crisis de la educación pública: violencia escolar, narcotráfico en el entorno, deserción, precariedad de infraestructura y condiciones laborales difíciles. Su propuesta de transformación radical del sistema educativo conecta con mi frustración ante décadas de parches insuficientes.
+
+La **Medida 120** sobre **educación pública, gratuita y de calidad como derecho fundamental** [p.34] resuena con mi vocación docente. He trabajado 18 años en educación pública y he visto cómo la falta de recursos profundiza desigualdades. La **Medida 121** de **fin al lucro en educación y desmercantilización** [p.34] responde a mi indignación al ver cómo la educación se convirtió en negocio donde quienes pueden pagar acceden a calidad y quienes no, quedan en liceos precarizados como el mío.
+
+Sin embargo, mi experiencia me hace cauteloso. La **Medida 122** propone **fortalecimiento masivo de educación pública con inversión en infraestructura, profesores, materiales y tecnología** [p.34]. En principio, esto es exactamente lo que necesitamos: mi liceo tiene ventanas rotas, baños en mal estado, falta de tecnología y sobrecarga de estudiantes por sala. Pero el programa no específica montos, plazos ni mecanismos concretos. Después de años viendo promesas incumplidas, necesito ver números: ¿cuánto se invertirá? ¿En qué plazo? ¿Cómo se priorizarán los liceos?
+
+La **Medida 123** sobre **revitalización de formación docente con mejores condiciones laborales, salarios dignos y desarrollo profesional continuo** [p.34] me afecta directamente. Gano aproximadamente $1.200.000 líquido después de 18 años de servicio, trabajo en condiciones estresantes con estudiantes en situación de alta vulnerabilidad, y no tengo acceso real a capacitación pertinente. La promesa de "salarios dignos" es vaga: ¿cuánto? ¿Un aumento del 20%? ¿50%? ¿Duplicar el sueldo? Sin cifras concretas, es difícil evaluar.
+
+Un tema crítico para mí es la **seguridad en el entorno escolar**. Mi liceo está rodeado de narcotráfico abierto, he visto estudiantes reclutados por bandas y enfrentamos violencia cotidiana. El programa de Artés propone **combate al narcotráfico y crimen organizado** (Medidas sobre seguridad), pero desde una perspectiva de transformación social más que represión. Como docente, entiendo que la represión pura no funciona si no se abordan causas: pobreza, falta de oportunidades, desintegración familiar. Sin embargo, necesito también presencia policial efectiva inmediata para proteger a mis estudiantes HOY, mientras las transformaciones estructurales toman años.
+
+La **Medida 124** sobre **democratización de la educación con participación activa de comunidades educativas en decisiones** [p.34] tiene aspectos positivos y riesgos. Como docente, valoro ser escuchado en decisiones pedagógicas que me afectan. Pero también he visto cómo asambleas pueden ser capturadas por grupos políticos o derivar en parálisis decisional. ¿Cómo se balancea participación con eficiencia y expertise profesional?
+
+En lo laboral más amplio, las **Medidas 33-45** sobre **fortalecimiento sindical, negociación colectiva, fin a tercerizaciones y protección ante despidos** [p.27-28] responden a la precariedad que he vivido. Como profesor del sector público, teóricamente tengo estabilidad, pero muchos colegas trabajan con contratos a plazo fijo renovables año a año, lo que genera incertidumbre permanente. Sin embargo, la propuesta de Artés de transformación radical del modelo laboral me genera dudas sobre viabilidad política.
+
+El programa propone **Sistema Único de Salud** (Medida 147-152, p.35) eliminando ISAPRES. Como usuario de FONASA, he experimentado listas de espera interminables. Un sistema único bien gestionado podría ser mejor, pero ¿el Estado chileno actual tiene capacidad de gestión para administrar eficientemente un sistema universal? He visto la ineficiencia burocrática desde dentro del sector público.
+
+Las propuestas sobre **nacionalización de recursos naturales** (Medidas 1-3, p.23) para financiar servicios públicos tienen lógica redistributiva. Como docente de Historia, sé que Chile ha exportado riquezas sin que beneficien suficientemente al pueblo. Sin embargo, también conozco experiencias históricas de nacionalizaciones mal gestionadas que generaron crisis. ¿Cómo se garantiza gestión eficiente?
+
+La **eliminación del sistema de AFP** y creación de Sistema Nacional de Seguridad Social (Medidas 67-73, p.31) resuena con mi preocupación por el futuro: mi cotización en AFP no proyecta pensión decente. Un sistema solidario podría ser mejor. Pero la transición me genera incertidumbre: ¿qué pasa con lo cotizado? ¿Cómo se garantiza sostenibilidad?
+
+En **vivienda**, el programa promete acceso universal pero sin especificidad. Como padre de tres hijos que vive en casa propia pero pequeña y mal aislada en Temuco, donde los inviernos son duros, necesitaría programas de mejoramiento térmico y ampliación, no solo construcción de viviendas nuevas.
+
+Un tema que me preocupa profundamente es la **convivencia escolar y violencia**. Mi liceo enfrenta situaciones diarias de agresiones entre estudiantes, desafío a la autoridad docente y presencia de drogas. El programa de Artés enfatiza transformación social y atención de causas, pero es menos específico sobre protocolos concretos para enfrentar violencia HOY. Como docente, necesito herramientas prácticas: ¿cómo actúo cuando un estudiante agrede a otro? ¿Cómo protejo al resto cuando uno es disruptivo? La ley Aula Segura ha sido controvertida, pero al menos da algún marco. ¿El programa de Artés la mantiene, modifica o elimina?
+
+La propuesta de **recuperación del rol formativo integral de la educación** me interpela como profesor de Historia. Actualmente, la presión por resultados PSU/PAES ha reducido la educación a entrenamiento para pruebas estandarizadas. Como docente, quiero formar ciudadanos críticos, no solo preparar para exámenes. Sin embargo, ¿cómo se evalúa "formación integral"? ¿Cómo se mide el éxito?
+
+El programa plantea **lucha por poder constituyente popular** (Medida 101-104, p.32-33), lo que sugiere estrategia de movilización social más que institucional. Como ciudadano, valoro la participación popular. Pero como padre de familia con responsabilidades cotidianas, no tengo tiempo para estar permanentemente movilizado. Necesito un gobierno que gestione efectivamente, no solo que llame a movilizarse.
+
+Una gran debilidad del programa es la **ausencia de especificidad sobre cómo se implementan las transformaciones propuestas**. Propone cambios radicales en educación, salud, economía, sistema político, pero sin detallar: ¿Qué leyes se modifican? ¿En qué orden de prioridad? ¿Con qué mayorías parlamentarias? ¿En qué plazos? Como docente acostumbrado a planificar clases con objetivos, metodologías y evaluaciones claras, echo de menos esa estructura.
+
+Otro tema es la **sostenibilidad fiscal**. El programa propone aumentar masivamente gasto en educación, salud, vivienda, pensiones. El financiamiento vendría de nacionalización de recursos naturales, reforma tributaria progresiva y eliminación de exenciones. ¿Son suficientes estas fuentes? ¿Qué pasa si los ingresos proyectados no se materializan? Como padre de familia con presupuesto ajustado, sé que prometer sin tener cómo financiar solo genera frustración.
+
+En **política exterior**, el programa enfatiza solidaridad con movimientos progresistas latinoamericanos y distancia de Estados Unidos (contexto de Medidas de política exterior). Como profesor de Historia que ha estudiado relaciones internacionales de Chile, entiendo la aspiración de mayor autonomía. Sin embargo, Chile está integrado económicamente al mundo: ¿cómo se balancea principios con pragmatismo económico?
+
+El programa tiene un tono de **ruptura radical con el modelo actual**. Como docente que ha vivido la precariedad de la educación pública neoliberalizada, entiendo la tentación de "borrón y cuenta nueva". Pero también he aprendido que las transformaciones sostenibles requieren construir institucionalidad sólida, no solo destruir lo existente. ¿El programa de Artés propone construcción o solo destrucción?
+
+En resumen, el programa de Eduardo Artés conecta con mis frustraciones profundas como docente de liceo público precarizado: la mercantilización de la educación, los salarios indignos, la falta de inversión en infraestructura, la desigualdad estructural. Sus propuestas de educación pública fortalecida, fin al lucro, mejores condiciones laborales y sistema tributario progresivo responden a problemas reales. Sin embargo, como profesional pragmático y padre de familia responsable, tengo dudas críticas sobre: 1) viabilidad política de transformaciones tan radicales sin mayorías claras; 2) ausencia de especificidad en montos, plazos y mecanismos de implementación; 3) riesgo de que énfasis en movilización sobre gestión derive en inestabilidad sin mejoras concretas; 4) falta de propuestas inmediatas para problemas urgentes como violencia escolar y narcotráfico en entornos escolares. Valoro las aspiraciones transformadoras, pero necesitaría ver mayor realismo sobre cómo se transita del Chile actual al Chile soñado sin generar caos que, finalmente, afecta más a los sectores vulnerables que buscamos proteger.
+
+**Valoración:** Programa con diagnóstico acertado y aspiraciones legítimas de transformación del sistema educativo y modelo económico, pero con importantes debilidades en especificidad de implementación, viabilidad política y riesgo de inestabilidad sobre gestión efectiva.
