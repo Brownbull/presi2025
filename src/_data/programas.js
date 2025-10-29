@@ -2,14 +2,15 @@ const fs = require('fs');
 const path = require('path');
 
 module.exports = function() {
-  const programasDir = path.join(__dirname, '../../03_extract_refinement');
+  // Use improved master tables from 05_mejora_evaluaciones/analisis
+  const programasDir = path.join(__dirname, '../../05_mejora_evaluaciones/analisis');
   const programas = [];
 
   const candidatos = [
     {
       slug: 'eduardo-artes',
       nombre: 'Eduardo Artés',
-      archivo: 'extract_Eduardo_Artes.txt',
+      archivo: 'tabla_maestra_Eduardo_Artes.md',
       partido: 'Partido Comunista (Acción Proletaria)',
       color: '#C62828',
       pdfUrl: 'https://www.servel.cl/wp-content/uploads/2025/09/EDUARDO-ANTONIO-ARTES-BRICHETTI.pdf'
@@ -17,7 +18,7 @@ module.exports = function() {
     {
       slug: 'evelyn-matthei',
       nombre: 'Evelyn Matthei',
-      archivo: 'extract_Evelyn_Matthei.txt',
+      archivo: 'tabla_maestra_Evelyn_Matthei.md',
       partido: 'Unión Demócrata Independiente (UDI)',
       color: '#1565C0',
       pdfUrl: 'https://www.servel.cl/wp-content/uploads/2025/09/EVELYN-MATTHEI-FORNET.pdf'
@@ -25,7 +26,7 @@ module.exports = function() {
     {
       slug: 'franco-parisi',
       nombre: 'Franco Parisi',
-      archivo: 'extract_Franco_Parisi.txt',
+      archivo: 'tabla_maestra_Franco_Parisi.md',
       partido: 'Partido de la Gente (PDG)',
       color: '#F57C00',
       pdfUrl: 'https://www.servel.cl/wp-content/uploads/2025/09/FRANCO-PARISI-FERNANDEZ.pdf'
@@ -33,7 +34,7 @@ module.exports = function() {
     {
       slug: 'harold-mayne-nicholls',
       nombre: 'Harold Mayne-Nicholls',
-      archivo: 'extract_Harold_Mayne_Nicholls.txt',
+      archivo: 'tabla_maestra_Harold_Mayne_Nicholls.md',
       partido: 'Partido Social Cristiano',
       color: '#7B1FA2',
       pdfUrl: 'https://www.servel.cl/wp-content/uploads/2025/09/HAROLD-MAYNE-NICHOLLS-SECUL.pdf'
@@ -41,7 +42,7 @@ module.exports = function() {
     {
       slug: 'jeannette-jara',
       nombre: 'Jeannette Jara',
-      archivo: 'extract_Jeannette_Jara.txt',
+      archivo: 'tabla_maestra_Jeannette_Jara.md',
       partido: 'Partido Comunista de Chile (PCCh)',
       color: '#C62828',
       pdfUrl: 'https://www.servel.cl/wp-content/uploads/2025/09/JEANNETTE-JARA-ROMAN.pdf'
@@ -49,7 +50,7 @@ module.exports = function() {
     {
       slug: 'johannes-kaiser',
       nombre: 'Johannes Kaiser',
-      archivo: 'extract_Johannes_Kaiser.txt',
+      archivo: 'tabla_maestra_Johannes_Kaiser.md',
       partido: 'Partido Republicano',
       color: '#1B5E20',
       pdfUrl: 'https://www.servel.cl/wp-content/uploads/2025/09/JOHANNES-KAISER-BARENTS-VON-HOHENHAGEN.pdf'
@@ -57,7 +58,7 @@ module.exports = function() {
     {
       slug: 'jose-antonio-kast',
       nombre: 'José Antonio Kast',
-      archivo: 'extract_Jose_Antonio_Kast.txt',
+      archivo: 'tabla_maestra_Jose_Antonio_Kast.md',
       partido: 'Partido Republicano',
       color: '#1B5E20',
       pdfUrl: 'https://www.servel.cl/wp-content/uploads/2025/09/JOSE-ANTONIO-KAST-RIST.pdf'
@@ -65,7 +66,7 @@ module.exports = function() {
     {
       slug: 'marco-enriquez-ominami',
       nombre: 'Marco Enríquez-Ominami',
-      archivo: 'extract_Marco_Enriquez_Ominami.txt',
+      archivo: 'tabla_maestra_Marco_Enriquez_Ominami.md',
       partido: 'Partido Progresista',
       color: '#00897B',
       pdfUrl: 'https://www.servel.cl/wp-content/uploads/2025/09/MARCO-ANTONIO-ENRIQUEZ-OMINAMI-GUMUCIO.pdf'
@@ -78,21 +79,18 @@ module.exports = function() {
     if (fs.existsSync(filePath)) {
       const contenido = fs.readFileSync(filePath, 'utf-8');
 
-      // Extract title and date
-      const titleMatch = contenido.match(/# EXTRACTO COMPREHENSIVO: (.+)/);
-      const subtitleMatch = contenido.match(/## (.+)/);
+      // Extract total measures from master table header
+      // Format: **Total de medidas:** 179
+      const medidasMatch = contenido.match(/\*\*Total de medidas:\*\*\s*(\d+)/i);
+      const numMedidas = medidasMatch ? parseInt(medidasMatch[1]) : 0;
 
-      // Count measures - handle both **Medida and plain Medida formats
-      const medidasBold = contenido.match(/\*\*Medida \d+:/g) || [];
-      const medidasPlain = contenido.match(/^Medida \d+:/gm) || [];
-      const numMedidas = medidasBold.length > 0 ? medidasBold.length : medidasPlain.length;
-
-      // Extract sections
+      // Extract sections from ÍNDICE POR TEMA
+      // Format: 2. [ECONOMÍA Y EMPLEO](#economía-y-empleo) - Medidas 1-56 (56 medidas)
       const secciones = [];
-      const seccionRegex = /^## ([A-Z_]+)$/gm;
+      const seccionRegex = /^\d+\.\s+\[([^\]]+)\]/gm;
       let match;
       while ((match = seccionRegex.exec(contenido)) !== null) {
-        if (match[1] !== 'VISION_AND_PRINCIPLES') {
+        if (!match[1].includes('VISIÓN Y PRINCIPIOS')) {
           secciones.push(match[1]);
         }
       }
