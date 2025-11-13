@@ -30,7 +30,7 @@ workflow_path: "method-brownfield.yaml"
 
 workflow_status:
   # Prerequisite: Documentation
-  document-project: required  # agent: analyst
+  document-project: docs/index.md  # agent: analyst
 
   # Phase 0: Discovery
   brainstorm-project: optional  # agent: analyst
